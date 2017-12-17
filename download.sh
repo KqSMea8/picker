@@ -118,3 +118,6 @@ done
 rm -fR $tempdir/
 echo
 echo "$(date) - Finished"
+git add --all
+git commit -a -m "Crontab"
+git push
