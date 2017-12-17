@@ -117,7 +117,7 @@ done
 
 rm -fR $tempdir/
 echo
-./report.sh >./report.txt
+./report.sh >./report.html
 echo "$(date) - Finished"
 git add --all >/dev/null
 git commit -a -m "Crontab" >/dev/null
