@@ -1,0 +1,115 @@
+
+Country Specialists: Other
+================================
+
+url                                                       discount  charge
+http://www.hl.co.uk/shares/shares-search-results/B1VVFG9  -62.87    1.42
+
+Global Smaller Companies
+================================
+
+url                                                       discount  charge
+http://www.hl.co.uk/shares/shares-search-results/B3BTVQ9  -14.12    1.65
+
+Commodities & Natural Resources
+================================
+
+url                                                       discount  charge
+http://www.hl.co.uk/shares/shares-search-results/0577485  -12.7     1.1
+http://www.hl.co.uk/shares/shares-search-results/B0N8MF9  -3.5      1.39
+http://www.hl.co.uk/shares/shares-search-results/0035392  -18.68    1.74
+
+Property
+================================
+
+url                                                       discount  charge
+http://www.hl.co.uk/shares/shares-search-results/B06GJ37  -66.74    0.0
+http://www.hl.co.uk/shares/shares-search-results/B0P33N7  0.0       0.0
+http://www.hl.co.uk/shares/shares-search-results/B0ZL524  29.35     0.0
+http://www.hl.co.uk/shares/shares-search-results/0906409  -7.21     0.87
+http://www.hl.co.uk/shares/shares-search-results/B4ZPCJ0  -2.89     1.07
+http://www.hl.co.uk/shares/shares-search-results/B19Z2J5  -2.5      1.43
+
+Private Equity
+================================
+
+url                                                       discount  charge
+http://www.hl.co.uk/shares/shares-search-results/BYXP9G8  -48.03    0.21
+http://www.hl.co.uk/shares/shares-search-results/B4N1RV7  -45.99    0.28
+http://www.hl.co.uk/shares/shares-search-results/BR30MJ8  -17.16    0.34
+http://www.hl.co.uk/shares/shares-search-results/B12MHD2  -36.16    0.65
+http://www.hl.co.uk/shares/shares-search-results/B23DL39  -28.52    1.07
+http://www.hl.co.uk/shares/shares-search-results/0414850  -15.29    1.13
+http://www.hl.co.uk/shares/shares-search-results/BJVDZ94  2.6       1.21
+http://www.hl.co.uk/shares/shares-search-results/0329200  -13.27    1.28
+http://www.hl.co.uk/shares/shares-search-results/0392105  -2.76     1.66
+
+Hedge Funds
+================================
+
+url                                                       discount  charge
+http://www.hl.co.uk/shares/shares-search-results/B13YVW4  0.15      0.39
+
+Environmental
+================================
+
+url                                                       discount  charge
+http://www.hl.co.uk/shares/shares-search-results/BYWWMM7  -45.17    0.0
+http://www.hl.co.uk/shares/shares-search-results/3123249  -8.31     1.11
+http://www.hl.co.uk/shares/shares-search-results/BJ0JVY0  5.8       1.28
+http://www.hl.co.uk/shares/shares-search-results/BJL5FH8  9.06      1.46
+http://www.hl.co.uk/shares/shares-search-results/B120GL7  -4.22     1.57
+
+ETFs
+================================
+
+url                                                       sector_desc                                charge
+http://www.hl.co.uk/shares/shares-search-results/B4K6B02  Equity ETI by Area - Europe                0.05
+http://www.hl.co.uk/shares/shares-search-results/B540668  Equity ETI by Area - North America         0.05
+http://www.hl.co.uk/shares/shares-search-results/BNLPV45  Equity ETI by Area - Europe                0.05
+http://www.hl.co.uk/shares/shares-search-results/BNLPV90  Equity ETI by Area - North America         0.05
+http://www.hl.co.uk/shares/shares-search-results/B1CDG49  Equity ETI by Area - North America         0.07
+http://www.hl.co.uk/shares/shares-search-results/B42TW06  Equity ETI by Area - FTSE 100              0.07
+http://www.hl.co.uk/shares/shares-search-results/B518375  Equity ETI by Area - FTSE 100              0.07
+http://www.hl.co.uk/shares/shares-search-results/B521C87  Equity ETI by Area - North America         0.07
+http://www.hl.co.uk/shares/shares-search-results/B7NLLS3  Equity ETI by Area - North America         0.07
+http://www.hl.co.uk/shares/shares-search-results/BCZSZF2  Equity ETI by Area - Europe                0.07
+http://www.hl.co.uk/shares/shares-search-results/BCZSZH4  Equity ETI by Area - Europe                0.07
+http://www.hl.co.uk/shares/shares-search-results/BNGMZJ4  Equity ETI by Area - North America         0.07
+http://www.hl.co.uk/shares/shares-search-results/2840215  Equity ETI by Area - North America         0.09
+http://www.hl.co.uk/shares/shares-search-results/B2PDCG7  Equity ETI by Area - Europe                0.09
+http://www.hl.co.uk/shares/shares-search-results/B4STTG5  Equity ETI by Area - Europe                0.09
+http://www.hl.co.uk/shares/shares-search-results/B5KQNG9  Equity ETI by Area - North America         0.09
+http://www.hl.co.uk/shares/shares-search-results/B6YX5C3  Equity ETI by Area - North America         0.09
+http://www.hl.co.uk/shares/shares-search-results/B921DR1  Equity ETI by Area - FTSE 100              0.09
+http://www.hl.co.uk/shares/shares-search-results/B98DR24  Equity ETI by Area - Japan                 0.09
+http://www.hl.co.uk/shares/shares-search-results/BCBV5D3  Equity ETI by Area - Europe                0.09
+http://www.hl.co.uk/shares/shares-search-results/BYX5678  Equity ETI by Area - Europe                0.09
+http://www.hl.co.uk/shares/shares-search-results/B4Z7940  Equity ETI by Area - Europe                0.1
+http://www.hl.co.uk/shares/shares-search-results/B520ZV8  Equity ETI by Area - Europe                0.1
+http://www.hl.co.uk/shares/shares-search-results/BKXH1R1  Equity ETI by Area - North America         0.1
+http://www.hl.co.uk/shares/shares-search-results/B8Y8834  Equity ETI by Area - Europe                0.12
+http://www.hl.co.uk/shares/shares-search-results/BKXH1S2  Equity ETI by Area - Europe                0.12
+http://www.hl.co.uk/shares/shares-search-results/2605641  Equity ETI by Area - North America         0.15
+http://www.hl.co.uk/shares/shares-search-results/B1WK0B5  Equity ETI by Area - FTSE 250              0.15
+http://www.hl.co.uk/shares/shares-search-results/B3PS388  Equity ETI by Area - North America         0.15
+http://www.hl.co.uk/shares/shares-search-results/B456TR0  Equity ETI by Sector - Technology          0.15
+http://www.hl.co.uk/shares/shares-search-results/B4X9L53  Equity ETI by Area - World                 0.15
+http://www.hl.co.uk/shares/shares-search-results/B5BD198  Equity ETI by Area - World                 0.15
+http://www.hl.co.uk/shares/shares-search-results/B690381  Equity ETI by Area - North America         0.15
+http://www.hl.co.uk/shares/shares-search-results/B8FMT76  Equity ETI by Area - Europe                0.15
+http://www.hl.co.uk/shares/shares-search-results/BDDR9H8  Equity ETI by Area - FTSE 100              0.15
+http://www.hl.co.uk/shares/shares-search-results/BWBXM38  Equity ETI by Sector - Consumer goods      0.15
+http://www.hl.co.uk/shares/shares-search-results/BWBXM50  Equity ETI by Sector - Banks & Financials  0.15
+http://www.hl.co.uk/shares/shares-search-results/BWBXM72  Equity ETI by Sector - Industrials         0.15
+http://www.hl.co.uk/shares/shares-search-results/BWBXM94  Equity ETI by Sector - Technology          0.15
+http://www.hl.co.uk/shares/shares-search-results/7018910  Equity ETI by Area - Europe                0.16
+http://www.hl.co.uk/shares/shares-search-results/7078055  Equity ETI by Area - Europe                0.16
+http://www.hl.co.uk/shares/shares-search-results/2140863  Equity ETI by Area - North America         0.17
+http://www.hl.co.uk/shares/shares-search-results/2364038  Equity ETI by Sector - Banks & Financials  0.18
+http://www.hl.co.uk/shares/shares-search-results/2369389  Equity ETI by Sector - Consumer goods      0.18
+http://www.hl.co.uk/shares/shares-search-results/2369709  Equity ETI by Sector - Technology          0.18
+http://www.hl.co.uk/shares/shares-search-results/2371812  Equity ETI by Sector - Utilities           0.18
+http://www.hl.co.uk/shares/shares-search-results/2371823  Equity ETI by Sector - Health              0.18
+http://www.hl.co.uk/shares/shares-search-results/2402466  Equity ETI by Sector - Energy              0.18
+http://www.hl.co.uk/shares/shares-search-results/2424341  Equity ETI by Area - North America         0.18
