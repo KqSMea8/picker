@@ -1,64 +1,46 @@
-
-Country Specialists: Other
-================================
-
-url                                                       discount  charge
-http://www.hl.co.uk/shares/shares-search-results/B1VVFG9  -62.87    1.42
-
-Global Smaller Companies
-================================
-
-url                                                       discount  charge
-http://www.hl.co.uk/shares/shares-search-results/B3BTVQ9  -14.12    1.65
-
-Commodities & Natural Resources
-================================
-
-url                                                       discount  charge
-http://www.hl.co.uk/shares/shares-search-results/0577485  -12.7     1.1
-http://www.hl.co.uk/shares/shares-search-results/B0N8MF9  -3.5      1.39
-http://www.hl.co.uk/shares/shares-search-results/0035392  -18.68    1.74
-
-Property
-================================
-
-url                                                       discount  charge
-http://www.hl.co.uk/shares/shares-search-results/B06GJ37  -66.74    0.0
-http://www.hl.co.uk/shares/shares-search-results/B0P33N7  0.0       0.0
-http://www.hl.co.uk/shares/shares-search-results/B0ZL524  29.35     0.0
-http://www.hl.co.uk/shares/shares-search-results/0906409  -7.21     0.87
-http://www.hl.co.uk/shares/shares-search-results/B4ZPCJ0  -2.89     1.07
-http://www.hl.co.uk/shares/shares-search-results/B19Z2J5  -2.5      1.43
-
-Private Equity
-================================
-
-url                                                       discount  charge
-http://www.hl.co.uk/shares/shares-search-results/BYXP9G8  -48.03    0.21
-http://www.hl.co.uk/shares/shares-search-results/B4N1RV7  -45.99    0.28
-http://www.hl.co.uk/shares/shares-search-results/BR30MJ8  -17.16    0.34
-http://www.hl.co.uk/shares/shares-search-results/B12MHD2  -36.16    0.65
-http://www.hl.co.uk/shares/shares-search-results/B23DL39  -28.52    1.07
-http://www.hl.co.uk/shares/shares-search-results/0414850  -15.29    1.13
-http://www.hl.co.uk/shares/shares-search-results/BJVDZ94  2.6       1.21
-http://www.hl.co.uk/shares/shares-search-results/0329200  -13.27    1.28
-http://www.hl.co.uk/shares/shares-search-results/0392105  -2.76     1.66
-
-Hedge Funds
-================================
-
-url                                                       discount  charge
-http://www.hl.co.uk/shares/shares-search-results/B13YVW4  0.15      0.39
-
-Environmental
-================================
-
-url                                                       discount  charge
-http://www.hl.co.uk/shares/shares-search-results/BYWWMM7  -45.17    0.0
-http://www.hl.co.uk/shares/shares-search-results/3123249  -8.31     1.11
-http://www.hl.co.uk/shares/shares-search-results/BJ0JVY0  5.8       1.28
-http://www.hl.co.uk/shares/shares-search-results/BJL5FH8  9.06      1.46
-http://www.hl.co.uk/shares/shares-search-results/B120GL7  -4.22     1.57
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Country Specialists: Other</h1>
+url                                                                                       discount  charge
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B1VVFG9"">Link<//a><//p>"  -62.87    1.42
+<h1>Global Smaller Companies</h1>
+url                                                                                       discount  charge
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B3BTVQ9"">Link<//a><//p>"  -14.12    1.65
+<h1>Commodities & Natural Resources</h1>
+url                                                                                       discount  charge
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/0577485"">Link<//a><//p>"  -12.7     1.1
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B0N8MF9"">Link<//a><//p>"  -3.5      1.39
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/0035392"">Link<//a><//p>"  -18.68    1.74
+<h1>Property</h1>
+url                                                                                       discount  charge
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B06GJ37"">Link<//a><//p>"  -66.74    0.0
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B0P33N7"">Link<//a><//p>"  0.0       0.0
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B0ZL524"">Link<//a><//p>"  29.35     0.0
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/0906409"">Link<//a><//p>"  -7.21     0.87
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B4ZPCJ0"">Link<//a><//p>"  -2.89     1.07
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B19Z2J5"">Link<//a><//p>"  -2.5      1.43
+<h1>Private Equity</h1>
+url                                                                                       discount  charge
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/BYXP9G8"">Link<//a><//p>"  -48.03    0.21
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B4N1RV7"">Link<//a><//p>"  -45.99    0.28
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/BR30MJ8"">Link<//a><//p>"  -17.16    0.34
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B12MHD2"">Link<//a><//p>"  -36.16    0.65
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B23DL39"">Link<//a><//p>"  -28.52    1.07
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/0414850"">Link<//a><//p>"  -15.29    1.13
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/BJVDZ94"">Link<//a><//p>"  2.6       1.21
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/0329200"">Link<//a><//p>"  -13.27    1.28
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/0392105"">Link<//a><//p>"  -2.76     1.66
+<h1>Hedge Funds</h1>
+url                                                                                       discount  charge
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B13YVW4"">Link<//a><//p>"  0.15      0.39
+<h1>Environmental</h1>
+url                                                                                       discount  charge
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/BYWWMM7"">Link<//a><//p>"  -45.17    0.0
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/3123249"">Link<//a><//p>"  -8.31     1.11
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/BJ0JVY0"">Link<//a><//p>"  5.8       1.28
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/BJL5FH8"">Link<//a><//p>"  9.06      1.46
+"<p><a href=""http://www.hl.co.uk/shares/shares-search-results/B120GL7"">Link<//a><//p>"  -4.22     1.57
 
 ETFs
 ================================
@@ -113,3 +95,6 @@ http://www.hl.co.uk/shares/shares-search-results/2371812  Equity ETI by Sector -
 http://www.hl.co.uk/shares/shares-search-results/2371823  Equity ETI by Sector - Health              0.18
 http://www.hl.co.uk/shares/shares-search-results/2402466  Equity ETI by Sector - Energy              0.18
 http://www.hl.co.uk/shares/shares-search-results/2424341  Equity ETI by Area - North America         0.18
+</body>
+</html>
+
