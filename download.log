@@ -6,3 +6,10 @@ Sun 17 Dec 18:51:20 GMT 2017 - Downloading ETF Details
 Sun 17 Dec 18:59:56 GMT 2017 - Generating ./etf_details.csv
 
 Sun 17 Dec 18:59:59 GMT 2017 - Finished
+[master 2f962df] Crontab
+ 3 files changed, 352 insertions(+), 14 deletions(-)
+ rewrite download.log (98%)
+To github.com:grepster10/picker.git
+   5996ee5..2f962df  master -> master
+67.16user 43.10system 19:01.56elapsed 9%CPU (0avgtext+0avgdata 16564maxresident)k
+17704inputs+464outputs (109major+6083539minor)pagefaults 0swaps
