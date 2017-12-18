@@ -8,8 +8,6 @@
 | Investment Trust | Discount | Charge |
 | ---------------- | --------:| ------:|
 |[Dolphin Capital Investors Ltd (DCI) Common Shares EUR0.01 Share Price - DCI](http://www.hl.co.uk/shares/shares-search-results/B06GJ37 "Link")|-66.74|0.0|
-|[Kimberly Enterprises NV (KBE) Ord EUR0.01 Share Price - KBE](http://www.hl.co.uk/shares/shares-search-results/B0P33N7 "Link")|0.0|0.0|
-|[Trinity Capital plc (TRC) Ord GBP0.01 Share Price - TRC](http://www.hl.co.uk/shares/shares-search-results/B0ZL524 "Link")|29.35|0.0|
 |[TR Property Investment Trust plc (TRY) Ordinary 25p Share Price - TRY](http://www.hl.co.uk/shares/shares-search-results/0906409 "Link")|-7.21|0.87|
 |[F&C Commercial Property Trust Ltd (FCPT) Ord 1p Share Price - FCPT](http://www.hl.co.uk/shares/shares-search-results/B4ZPCJ0 "Link")|-2.89|1.07|
 |[UK Commercial Property Trust (UKCM) Ordinary 25p Shares Share Price - UKCM](http://www.hl.co.uk/shares/shares-search-results/B19Z2J5 "Link")|-2.5|1.43|
@@ -22,20 +20,16 @@
 |[LMS Capital plc (LMS) Ordinary 10p Share Price - LMS](http://www.hl.co.uk/shares/shares-search-results/B12MHD2 "Link")|-36.16|0.65|
 |[Oakley Capital Investments Ltd (OCI) Ordinary 1p Share Price - OCI](http://www.hl.co.uk/shares/shares-search-results/B23DL39 "Link")|-28.52|1.07|
 |[Pantheon International (PIN) 67p Ordinary Shares Share Price - PIN](http://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|-15.29|1.13|
-|[TwentyFour Select Monthly Income Fund Limited (SMIF) Ordinary 1p Share Price - SMIF](http://www.hl.co.uk/shares/shares-search-results/BJVDZ94 "Link")|2.6|1.21|
 |[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-13.27|1.28|
 |[HG Capital Trust plc (HGT) Ordinary 25p Share Price - HGT](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-2.76|1.66|
 # Hedge Funds
 | Investment Trust | Discount | Charge |
 | ---------------- | --------:| ------:|
-|[Highbridge Multi-Strategy Fund Limited (HMSF) Ordinary NPV GBP Share Price - HMSF](http://www.hl.co.uk/shares/shares-search-results/B13YVW4 "Link")|0.15|0.39|
 # Environmental
 | Investment Trust | Discount | Charge |
 | ---------------- | --------:| ------:|
 |[Leaf Clean Energy Co (LEAF) Ordinary GBP0.0001 (DI) Share Price - LEAF](http://www.hl.co.uk/shares/shares-search-results/BYWWMM7 "Link")|-45.17|0.0|
 |[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-8.31|1.11|
-|[NextEnergy Solar Fund Ltd (NESF) Ordinary NPV Share Price - NESF](http://www.hl.co.uk/shares/shares-search-results/BJ0JVY0 "Link")|5.8|1.28|
-|[John Laing Environmental Asset Group (JLEN) NPV Share Price - JLEN](http://www.hl.co.uk/shares/shares-search-results/BJL5FH8 "Link")|9.06|1.46|
 |[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-4.22|1.57|
 # Latin America
 | Investment Trust | Discount | Charge |
