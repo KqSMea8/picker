@@ -12,25 +12,27 @@
   group by isec.sector_desc order by us.avg" |head -7 |while read sector_desc
 do
     echo "# $sector_desc"
-    echo "| URL | Discount | Charge |"
-    echo "| --- | --------:| ------:|"
-    ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7),pd discount,charge from ./invtrust_details.csv id
+    echo "| Investment Trust | Discount | Charge |"
+    echo "| ---------------- | --------:| ------:|"
+    ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7) url,id.desc,pd discount,charge from ./invtrust_details.csv id
            join ./invtrust_sectors.csv isec on id.epic = isec.epic where isec.sector_desc = '$sector_desc' and charge < 2 order by charge,pd" |while read rec
        do
            link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
-           discount=$(echo $rec |cut -f2 -d',')
-           charge=$(echo $rec |cut -f3 -d',')
-           echo "|[Link](${link} \"Link\")|${discount}|${charge}|"
+           desc=$(echo $rec |cut -f2 -d',')
+           discount=$(echo $rec |cut -f3 -d',')
+           charge=$(echo $rec |cut -f4 -d',')
+           echo "|[Link](${link} \"${desc}\")|${discount}|${charge}|"
        done
 done
 
 echo "# ETFs"
-echo "| URL | Sector | Charge |"
+echo "| ETF | Sector | Charge |"
 echo "| --- | ------ | ------:|"
- ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, es.sector_desc, ed.charge from ./etf_details.csv ed join ./etf_sectors.csv es on (ed.epic = es .epic) order by charge" |while read rec
+ ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, ed.desc, es.sector_desc, ed.charge from ./etf_details.csv ed join ./etf_sectors.csv es on (ed.epic = es .epic) order by charge" |while read rec
 do
    link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
-   sector=$(echo $rec |cut -f2 -d',')
-   charge=$(echo $rec |cut -f3 -d',')
-  echo "|[Link](${link} \"Link\")|${sector}|${charge}|"
+   desc=$(echo $rec |cut -f2 -d',')
+   sector=$(echo $rec |cut -f3 -d',')
+   charge=$(echo $rec |cut -f4 -d',')
+  echo "|[Link](${link} \"${desc}\")|${sector}|${charge}|"
 done

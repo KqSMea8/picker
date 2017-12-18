@@ -1,5 +1,5 @@
 useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1 L_y_n_x/2.7"
-tempdir=/tmp/hldownload
+tempdir=/tmp/hldata
 cd $(dirname $0)
 
 if [ ! -f ./q ]
@@ -24,7 +24,7 @@ rm -fR $tempdir
 mkdir -p $tempdir
 
 echo "$(date) - Generating ./invtrust_sectors.csv"
-echo "epic,sector_desc" >>./invtrust_sectors.csv
+echo "epic,sector_desc" >./invtrust_sectors.csv
 lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/investment-trusts" |sed -n '/<select id="sectorid" name="sectorid"*/,/<\/select>/p' |grep 'option value' |grep -v '<option value="">Please select</option>' |grep -v VCT |while read rec
 do
     sector_id=$(echo $rec |cut -f2 -d'"')
@@ -36,11 +36,9 @@ do
 done
 
 echo "$(date) - Downloading Investment Trust Details"
-rm -fR ./invtrusts
-mkdir ./invtrusts
 ./q -H -d',' "select distinct epic from ./invtrust_sectors.csv order by epic" |while read epic
 do
-    lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/shares-search-results/$epic" |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$tempdir/${epic}.html 2>/dev/null &
+    lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/shares-search-results/$epic" >$tempdir/${epic}.html  #|sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$tempdir/${epic}.html 2>/dev/null &
     while [ $(pgrep -f lynx |wc -l) -gt 20 ]
     do
         sleep 1
@@ -52,15 +50,18 @@ do
 done
 
 echo "$(date) - Generating ./invtrust_details.csv"
-echo "epic,pd,pd12,charge" >./invtrust_details.csv
+echo "epic,desc,pd,pd12,charge" >./invtrust_details.csv
 ./q -H -d',' "select distinct epic from ./invtrust_sectors.csv order by epic" |while read rec
 do
     epic=$(echo "$rec" |cut -f1 -d',')
+    title=$(grep '<title>' $tempdir/${epic}.html |cut -f6 -d'>' |cut -f1 -d"<")
     file=$tempdir/${epic}.html
-    charge=$(grep -A1 -i 'ongoing charge' $file |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
-    pd=$(egrep -A1 -i '^premium'  $file |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
-    pd12=$(egrep -A1 -i '^12m average premium'  $file |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
-    echo "$epic,$pd,$pd12,$charge" >>./invtrust_details.csv
+    file_tidy=$tempdir/${epic}_tidy.html
+    cat $file |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$file_tidy 2>/dev/null
+    charge=$(grep -A1 -i 'ongoing charge' $file_tidy |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
+    pd=$(egrep -A1 -i '^premium'  $file_tidy |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
+    pd12=$(egrep -A1 -i '^12m average premium'  $file_tidy |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
+    echo "$epic,$title,$pd,$pd12,$charge" >>./invtrust_details.csv
 done
 
 echo "$(date) - Generating ./etf_sectors.csv"
@@ -92,7 +93,7 @@ cat $tempdir/etf_sectors.tmp |sort |uniq >>./etf_sectors.csv
 echo "$(date) - Downloading ETF Details"
 ./q -H -d',' "select substr('0000000'||epic, -7, 7) from ./etf_sectors.csv group by epic having count(*) = 1 order by substr('0000000'||epic, -7, 7)" |while read epic
 do
-    lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/shares-search-results/$epic" |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$tempdir/${epic}.html 2>/dev/null &
+    lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/shares-search-results/$epic" >$tempdir/${epic}.html #|sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$tempdir/${epic}.html 2>/dev/null &
     while [ $(pgrep -f lynx |wc -l) -gt 20 ]
     do
         sleep 1
@@ -104,16 +105,20 @@ do
 done
 
 echo "$(date) - Generating ./etf_details.csv"
-echo "epic,charge" >./etf_details.csv
+echo "epic,desc,charge" >./etf_details.csv
 ./q -H -d',' "select substr('0000000'||epic, -7, 7) from ./etf_sectors.csv group by epic having count(*) = 1 order by substr('0000000'||epic, -7, 7)" |while read epic
 do
     file=$tempdir/${epic}.html
-    charge=$(grep -A1 'Ongoing Charge (OCF/TER)' $file  |tail -1  |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
+    title=$(grep '<title>' $tempdir/${epic}.html |cut -f6 -d'>' |cut -f1 -d"<")
+    file_tidy=$tempdir/${epic}_tidy.html
+    cat $file |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$file_tidy 2>/dev/null
+    charge=$(grep -A1 'Ongoing Charge (OCF/TER)' $file_tidy  |tail -1  |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
     if [ -n "$charge" ]
     then
-        echo "$epic,$charge" >>./etf_details.csv
+        echo "$epic,$title,$charge" >>./etf_details.csv
     fi
 done
+#
 
 rm -fR $tempdir/
 echo

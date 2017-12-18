@@ -6,3 +6,7 @@ Mon 18 Dec 00:13:44 GMT 2017 - Downloading ETF Details
 Mon 18 Dec 00:22:48 GMT 2017 - Generating ./etf_details.csv
 
 Mon 18 Dec 00:22:55 GMT 2017 - Finished
+To github.com:grepster10/picker.git
+   26f553c..2943b5c  master -> master
+72.47user 49.30system 22:56.50elapsed 8%CPU (0avgtext+0avgdata 16492maxresident)k
+6800inputs+752outputs (29major+6859152minor)pagefaults 0swaps
