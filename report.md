@@ -1,12 +1,20 @@
 # Country Specialists: Other
+| URL | Discount | Charge |
+| --- | --------:| ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B1VVFG9 "Link")|-62.87|1.42|
 # Global Smaller Companies
+| URL | Discount | Charge |
+| --- | --------:| ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B3BTVQ9 "Link")|-14.12|1.65|
 # Commodities & Natural Resources
+| URL | Discount | Charge |
+| --- | --------:| ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|-12.7|1.1|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|-3.5|1.39|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|-18.68|1.74|
 # Property
+| URL | Discount | Charge |
+| --- | --------:| ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B06GJ37 "Link")|-66.74|0.0|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B0P33N7 "Link")|0.0|0.0|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B0ZL524 "Link")|29.35|0.0|
@@ -14,6 +22,8 @@
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B4ZPCJ0 "Link")|-2.89|1.07|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B19Z2J5 "Link")|-2.5|1.43|
 # Private Equity
+| URL | Discount | Charge |
+| --- | --------:| ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/BYXP9G8 "Link")|-48.03|0.21|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B4N1RV7 "Link")|-45.99|0.28|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/BR30MJ8 "Link")|-17.16|0.34|
@@ -24,14 +34,20 @@
 |[Link](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-13.27|1.28|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-2.76|1.66|
 # Hedge Funds
+| URL | Discount | Charge |
+| --- | --------:| ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B13YVW4 "Link")|0.15|0.39|
 # Environmental
+| URL | Discount | Charge |
+| --- | --------:| ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/BYWWMM7 "Link")|-45.17|0.0|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-8.31|1.11|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/BJ0JVY0 "Link")|5.8|1.28|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/BJL5FH8 "Link")|9.06|1.46|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-4.22|1.57|
 # ETFs
+| URL | Sector | Charge |
+| --- | ------ | ------:|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B4K6B02 "Link")|Equity ETI by Area - Europe|0.05|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/B540668 "Link")|Equity ETI by Area - North America|0.05|
 |[Link](http://www.hl.co.uk/shares/shares-search-results/BNLPV45 "Link")|Equity ETI by Area - Europe|0.05|

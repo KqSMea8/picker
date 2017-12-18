@@ -12,6 +12,8 @@
   group by isec.sector_desc order by us.avg" |head -7 |while read sector_desc
 do
     echo "# $sector_desc"
+    echo "| URL | Discount | Charge |"
+    echo "| --- | --------:| ------:|"
     ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7),pd discount,charge from ./invtrust_details.csv id
            join ./invtrust_sectors.csv isec on id.epic = isec.epic where isec.sector_desc = '$sector_desc' and charge < 2 order by charge,pd" |while read rec
        do
@@ -23,6 +25,8 @@ do
 done
 
 echo "# ETFs"
+echo "| URL | Sector | Charge |"
+echo "| --- | ------ | ------:|"
  ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, es.sector_desc, ed.charge from ./etf_details.csv ed join ./etf_sectors.csv es on (ed.epic = es .epic) order by charge" |while read rec
 do
    link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
