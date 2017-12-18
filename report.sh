@@ -32,7 +32,7 @@ echo "| --- | ------ | ------:|"
 do
    link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
    desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
-   sector=$(echo $rec |cut -f3 -d',')
+   sector=$(echo $rec |cut -f3 -d',' |cut -f2 -d'-')
    charge=$(echo $rec |cut -f4 -d',')
   echo "|[${desc}](${link} \"${desc}\")|${sector}|${charge}|"
 done
