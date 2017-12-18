@@ -11,19 +11,25 @@
   where id.charge < 2
   group by isec.sector_desc order by us.avg" |head -7 |while read sector_desc
 do
-    echo "# $sector_desc"
-    echo "| Investment Trust | Discount | Charge |"
-    echo "| ---------------- | --------:| ------:|"
-    ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7) url,id.desc,pd discount,charge from ./invtrust_details.csv id
+    num=$(./q -H -d',' "select count(*) from ./invtrust_details.csv id
            join ./invtrust_sectors.csv isec on id.epic = isec.epic \
-           where isec.sector_desc = '$sector_desc' and pd < 0 and charge < 2 order by charge,pd" |while read rec
-       do
-           link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
-           desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
-           discount=$(echo $rec |cut -f3 -d',')
-           charge=$(echo $rec |cut -f4 -d',')
-           echo "|[${desc}](${link} \"Link\")|${discount}|${charge}|"
-       done
+           where isec.sector_desc = '$sector_desc' and pd < 0 and charge < 2")
+    if [ $num -gt 0 ]
+    then
+        echo "# $sector_desc"
+        echo "| Investment Trust | Discount | Charge |"
+        echo "| ---------------- | --------:| ------:|"
+        ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7) url,id.desc,pd discount,charge from ./invtrust_details.csv id
+               join ./invtrust_sectors.csv isec on id.epic = isec.epic \
+               where isec.sector_desc = '$sector_desc' and pd < 0 and charge < 2 order by charge,pd" |while read rec
+           do
+               link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
+               desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
+               discount=$(echo $rec |cut -f3 -d',')
+               charge=$(echo $rec |cut -f4 -d',')
+               echo "|[${desc}](${link} \"Link\")|${discount}|${charge}|"
+           done
+     fi
 done
 
 echo "# ETFs"

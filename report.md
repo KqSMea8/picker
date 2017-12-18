@@ -22,9 +22,6 @@
 |[Pantheon International (PIN) 67p Ordinary Shares Share Price - PIN](http://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|-15.29|1.13|
 |[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-13.27|1.28|
 |[HG Capital Trust plc (HGT) Ordinary 25p Share Price - HGT](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-2.76|1.66|
-# Hedge Funds
-| Investment Trust | Discount | Charge |
-| ---------------- | --------:| ------:|
 # Environmental
 | Investment Trust | Discount | Charge |
 | ---------------- | --------:| ------:|
