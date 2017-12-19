@@ -120,10 +120,9 @@ do
 done
 #
 
-rm -fR $tempdir/
-echo
+#rm -fR $tempdir/
 ./report.sh >./report.md
 echo "$(date) - Finished"
-git add --all >/dev/null
-git commit -a -m "Crontab" >/dev/null
-git push >/dev/null
+git add --all >/dev/null 2>&1
+git commit -a -m "Crontab" >/dev/null 2>&1
+git push >/dev/null 2>&1

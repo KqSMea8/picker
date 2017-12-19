@@ -1,12 +1,7 @@
-Mon 18 Dec 00:00:01 GMT 2017 - Generating ./invtrust_sectors.csv
-Mon 18 Dec 00:03:38 GMT 2017 - Downloading Investment Trust Details
-Mon 18 Dec 00:07:18 GMT 2017 - Generating ./invtrust_details.csv
-Mon 18 Dec 00:07:22 GMT 2017 - Generating ./etf_sectors.csv
-Mon 18 Dec 00:13:44 GMT 2017 - Downloading ETF Details
-Mon 18 Dec 00:22:48 GMT 2017 - Generating ./etf_details.csv
-
-Mon 18 Dec 00:22:55 GMT 2017 - Finished
-To github.com:grepster10/picker.git
-   26f553c..2943b5c  master -> master
-72.47user 49.30system 22:56.50elapsed 8%CPU (0avgtext+0avgdata 16492maxresident)k
-6800inputs+752outputs (29major+6859152minor)pagefaults 0swaps
+Tue 19 Dec 00:00:01 GMT 2017 - Generating ./invtrust_sectors.csv
+Tue 19 Dec 00:03:29 GMT 2017 - Downloading Investment Trust Details
+Tue 19 Dec 00:35:25 GMT 2017 - Generating ./invtrust_details.csv
+Tue 19 Dec 00:35:37 GMT 2017 - Generating ./etf_sectors.csv
+Tue 19 Dec 00:40:37 GMT 2017 - Downloading ETF Details
+Tue 19 Dec 02:17:02 GMT 2017 - Generating ./etf_details.csv
+Tue 19 Dec 02:17:21 GMT 2017 - Finished
