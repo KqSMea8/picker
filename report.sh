@@ -19,9 +19,9 @@ do
         echo "# $sector_desc"
         echo "| Investment Trust | Discount | Charge | Spread |"
         echo "| ---------------- | --------:| ------:| ------:|"
-        ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7) url,id.desc,pd discount||'%',charge||'%', spread||'%' from ./invtrust_details.csv id
+        ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7) url,id.desc,pd||'%' discount,charge||'%', spread||'%' from ./invtrust_details.csv id
                join ./invtrust_sectors.csv isec on id.epic = isec.epic \
-               where isec.sector_desc = '$sector_desc' and pd < 0 and charge < 2 order by charge,pd" |while read rec
+               where isec.sector_desc = '$sector_desc' and pd < 0 and charge < 2 order by charge,pd,spread" |while read rec
            do
                link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
                desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
@@ -35,7 +35,7 @@ done
 echo "# ETFs"
 echo "| ETF | Sector | Charge | Spread |"
 echo "| --- | ------ | ------:| ------:|"
- ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, ed.desc, es.sector_desc, ed.charge||'%', ed.spread||'%' from ./etf_details.csv ed join ./etf_sectors.csv es on (ed.epic = es .epic) order by charge" |while read rec
+ ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, ed.desc, es.sector_desc, ed.charge||'%', ed.spread||'%' from ./etf_details.csv ed join ./etf_sectors.csv es on (ed.epic = es .epic) order by charge,spread" |while read rec
 do
    link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
    desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')

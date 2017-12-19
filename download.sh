@@ -54,12 +54,15 @@ echo "epic,desc,pd,pd12,charge,spread" >./invtrust_details.csv
 ./q -H -d',' "select distinct epic from ./invtrust_sectors.csv order by epic" |while read rec
 do
     epic=$(echo "$rec" |cut -f1 -d',')
-    title=$(grep '<title>' $tempdir/${epic}.html |cut -f6 -d'>' |cut -f1 -d"<")
-    sell=$(grep '<span class="price-label">Sell:</span>' /tmp/hldata/0611190.html |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
-    buy=$(grep '<span class="price-label">Buy:</span>' /tmp/hldata/0611190.html |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
-    spread=$(printf '%.3f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
     file=$tempdir/${epic}.html
     file_tidy=$tempdir/${epic}_tidy.html
+    title=$(grep '<title>' $file |cut -f6 -d'>' |cut -f1 -d"<")
+    sell=$(grep '<span class="price-label">Sell:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
+    buy=$(grep '<span class="price-label">Buy:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
+    if [ -n "$sell" -a -n "$buy" ]
+    then
+        spread=$(printf '%.3f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
+    fi
     cat $file |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$file_tidy 2>/dev/null
     charge=$(grep -A1 -i 'ongoing charge' $file_tidy |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
     pd=$(egrep -A1 -i '^premium'  $file_tidy |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
@@ -112,11 +115,14 @@ echo "epic,desc,charge,spread" >./etf_details.csv
 ./q -H -d',' "select substr('0000000'||epic, -7, 7) from ./etf_sectors.csv group by epic having count(*) = 1 order by substr('0000000'||epic, -7, 7)" |while read epic
 do
     file=$tempdir/${epic}.html
-    title=$(grep '<title>' $tempdir/${epic}.html |cut -f6 -d'>' |cut -f1 -d"<")
-    sell=$(grep '<span class="price-label">Sell:</span>' /tmp/hldata/0611190.html |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
-    buy=$(grep '<span class="price-label">Buy:</span>' /tmp/hldata/0611190.html |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
-    spread=$(printf '%.3f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
     file_tidy=$tempdir/${epic}_tidy.html
+    title=$(grep '<title>' $file |cut -f6 -d'>' |cut -f1 -d"<")
+    sell=$(grep '<span class="price-label">Sell:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
+    buy=$(grep '<span class="price-label">Buy:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
+    if [ -n "$sell" -a -n "$buy" ]
+    then
+        spread=$(printf '%.3f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
+    fi
     cat $file |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$file_tidy 2>/dev/null
     charge=$(grep -A1 'Ongoing Charge (OCF/TER)' $file_tidy  |tail -1  |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
     if [ -n "$charge" ]
@@ -124,7 +130,7 @@ do
         echo "$epic,$title,$charge,$spread" >>./etf_details.csv
     fi
 done
-#
+
 
 #rm -fR $tempdir/
 ./report.sh >./report.md
