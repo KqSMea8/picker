@@ -7,17 +7,13 @@
 # Property
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[Dolphin Capital Investors Ltd (DCI) Common Shares EUR0.01 Share Price - DCI](http://www.hl.co.uk/shares/shares-search-results/B06GJ37 "Link")|-66.99%|0.0%|10.34%|
 |[TR Property Investment Trust plc (TRY) Ordinary 25p Share Price - TRY](http://www.hl.co.uk/shares/shares-search-results/0906409 "Link")|-5.95%|0.87%|0.18%|
 |[F&C Commercial Property Trust Ltd (FCPT) Ord 1p Share Price - FCPT](http://www.hl.co.uk/shares/shares-search-results/B4ZPCJ0 "Link")|-2.89%|1.07%|0.15%|
 |[UK Commercial Property Trust (UKCM) Ordinary 25p Shares Share Price - UKCM](http://www.hl.co.uk/shares/shares-search-results/B19Z2J5 "Link")|-1.89%|1.43%|0.17%|
 # Private Equity
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[Better Capital PCC Ltd (BCAP) ORD GBP1.00 (POST RED 2009) Share Price - BCAP](http://www.hl.co.uk/shares/shares-search-results/BYXP9G8 "Link")|-48.03%|0.21%|14.06%|
-|[Better Capital PCC Ltd (BC12) Ordinary GBP1.00 (2012) Share Price - BC12](http://www.hl.co.uk/shares/shares-search-results/B4N1RV7 "Link")|-45.99%|0.28%|11.54%|
 |[Harbourvest Global Private Equity (HVPE) Ordinary Shares Share Price - HVPE](http://www.hl.co.uk/shares/shares-search-results/BR30MJ8 "Link")|-17.86%|0.34%|0.16%|
-|[LMS Capital plc (LMS) Ordinary 10p Share Price - LMS](http://www.hl.co.uk/shares/shares-search-results/B12MHD2 "Link")|-33.34%|0.65%|6.0%|
 |[Oakley Capital Investments Ltd (OCI) Ordinary 1p Share Price - OCI](http://www.hl.co.uk/shares/shares-search-results/B23DL39 "Link")|-28.52%|1.07%|1.82%|
 |[Pantheon International (PIN) 67p Ordinary Shares Share Price - PIN](http://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|-17.82%|1.13%|0.27%|
 |[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-13.17%|1.28%|1.25%|
@@ -25,7 +21,6 @@
 # Environmental
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[Leaf Clean Energy Co (LEAF) Ordinary GBP0.0001 (DI) Share Price - LEAF](http://www.hl.co.uk/shares/shares-search-results/BYWWMM7 "Link")|-45.61%|0.0%|6.45%|
 |[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-10.16%|1.11%|1.17%|
 |[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-4.99%|1.57%|1.6%|
 # Latin America
@@ -43,7 +38,6 @@
 |[Standard Life UK Smaller Companies Trust plc (SLS) Ordinary 25p Shares Share Price - SLS](http://www.hl.co.uk/shares/shares-search-results/0295958 "Link")|-1.18%|1.08%|0.71%|
 |[JPMorgan Smaller Companies Investment Trust (JMI) Ordinary 25p Shares Share Price - JMI](http://www.hl.co.uk/shares/shares-search-results/0741600 "Link")|-15.38%|1.12%|1.85%|
 |[Montanaro UK Smaller Cos Inv Tst plc (MTU) Ordinary 10p Share Price - MTU](http://www.hl.co.uk/shares/shares-search-results/0600756 "Link")|-16.46%|1.24%|1.7%|
-|[SVM UK Emerging Fund plc (SVM) Ordinary 5p Share Price - SVM](http://www.hl.co.uk/shares/shares-search-results/0068417 "Link")|-24.42%|1.26%|5.75%|
 |[Invesco Perpetual UK Smaller Cos Inv Tst (IPU) Ord 20p Share Price - IPU](http://www.hl.co.uk/shares/shares-search-results/B1FL3C7 "Link")|-5.98%|1.27%|0.39%|
 |[BlackRock Throgmorton Trust plc (THRG) Ordinary 5p Shares Share Price - THRG](http://www.hl.co.uk/shares/shares-search-results/0891055 "Link")|-16.36%|1.34%|0.76%|
 |[Miton UK Microcap Trust plc (MINI) Ordinary Shares 0.1p Share Price - MINI](http://www.hl.co.uk/shares/shares-search-results/BWFGQ08 "Link")|-1.9%|1.58%|2.67%|
