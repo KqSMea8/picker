@@ -37,7 +37,7 @@ echo "# ETFs"
 echo "| ETF | Sector | Charge | Spread |"
 echo "| --- | ------ | ------:| ------:|"
  ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, ed.desc, es.sector_desc, ed.charge||'%', ed.spread||'%' from ./etf_details.csv ed \
- join ./etf_sectors.csv es on (ed.epic = es .epic) order by charge,spread" |while read rec
+ join ./etf_sectors.csv es on (ed.epic = es .epic) where es.sector_desc not in ('Equity ETI by Area - Europe', 'Equity ETI by Area - North America') order by charge,spread" |while read rec
 do
    link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
    desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
