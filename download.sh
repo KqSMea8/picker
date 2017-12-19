@@ -61,7 +61,7 @@ do
     buy=$(grep '<span class="price-label">Buy:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
     if [ -n "$sell" -a -n "$buy" ]
     then
-        spread=$(printf '%.3f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
+        spread=$(printf '%.2f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
     fi
     cat $file |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$file_tidy 2>/dev/null
     charge=$(grep -A1 -i 'ongoing charge' $file_tidy |tail -1 |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
@@ -121,7 +121,7 @@ do
     buy=$(grep '<span class="price-label">Buy:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
     if [ -n "$sell" -a -n "$buy" ]
     then
-        spread=$(printf '%.3f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
+        spread=$(printf '%.2f\n' $(echo "(1 - (${sell}/${buy}))*100" | bc -l))
     fi
     cat $file |sed -n '/<table class="factsheet-table/,/<\/table>/p' |tidy >$file_tidy 2>/dev/null
     charge=$(grep -A1 'Ongoing Charge (OCF/TER)' $file_tidy  |tail -1  |cut -f2 -d'>' |cut -f1 -d'<' |sed 's/n\/a//g' |sed 's/%//g')
