@@ -27,7 +27,8 @@ do
                desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
                discount=$(echo $rec |cut -f3 -d',')
                charge=$(echo $rec |cut -f4 -d',')
-               echo "|[${desc}](${link} \"Link\")|${discount}|${charge}|"
+               spread=$(echo $rec |cut -f5 -d',')
+               echo "|[${desc}](${link} \"Link\")|${discount}|${charge}|${spread}|"
            done
      fi
 done
@@ -41,6 +42,6 @@ do
    desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
    sector=$(echo $rec |cut -f3 -d',' |cut -f2 -d'-')
    charge=$(echo $rec |cut -f4 -d',')
-   spread=$(echo $rec |cut -f4 -d',')
+   spread=$(echo $rec |cut -f5 -d',')
   echo "|[${desc}](${link} \"${desc}\")|${sector}|${charge}|${spread}|"
 done
