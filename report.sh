@@ -33,21 +33,16 @@ do
      fi
 done
 
-echo "<script>
-var tf = new TableFilter(document.querySelector('.my-table'), {base_path: ./'});
-tf.init();
-</script>"
-
-# echo "# ETFs"
-# echo "| ETF | Sector | Charge | Spread |"
-# echo "| --- | ------ | ------:| ------:|"
-#  ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, ed.desc, es.sector_desc, ed.charge||'%', ed.spread||'%' from ./etf_details.csv ed \
-#  join ./etf_sectors.csv es on (ed.epic = es .epic) order by charge,spread" |while read rec
-# do
-#    link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
-#    desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
-#    sector=$(echo $rec |cut -f3 -d',' |cut -f2 -d'-')
-#    charge=$(echo $rec |cut -f4 -d',')
-#    spread=$(echo $rec |cut -f5 -d',')
-#   echo "|[${desc}](${link} \"${desc}\")|${sector}|${charge}|${spread}|"
-# done
+echo "# ETFs"
+echo "| ETF | Sector | Charge | Spread |"
+echo "| --- | ------ | ------:| ------:|"
+ ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, ed.desc, es.sector_desc, ed.charge||'%', ed.spread||'%' from ./etf_details.csv ed \
+ join ./etf_sectors.csv es on (ed.epic = es .epic) order by es.sector_desc,charge,spread" |while read rec
+do
+   link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
+   desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')
+   sector=$(echo $rec |cut -f3 -d',' |cut -f2 -d'-')
+   charge=$(echo $rec |cut -f4 -d',')
+   spread=$(echo $rec |cut -f5 -d',')
+  echo "|[${desc}](${link} \"${desc}\")|${sector}|${charge}|${spread}|"
+done
