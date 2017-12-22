@@ -1,7 +1,7 @@
 useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1 L_y_n_x/2.7"
 tempdir=/tmp/hldata
 cd $(dirname $0)
-
+git pull
 if [ ! -f ./q ]
 then
     wget -q https://raw.githubusercontent.com/harelba/q/1.7.1/bin/q
