@@ -36,6 +36,7 @@ done
 echo "# ETFs"
 echo "| ETF | Sector | Charge | Spread |"
 echo "| --- | ------ | ------:| ------:|"
+echo "desc,sector,charge,spread" >./etfs.csv
  ./q -H -d',' "select substr('0000000'||ed.epic, -7, 7) url, ed.desc, es.sector_desc, ed.charge||'%', ed.spread||'%' from ./etf_details.csv ed \
  join ./etf_sectors.csv es on (ed.epic = es .epic) order by es.sector_desc,charge,spread" |while read rec
 do
@@ -45,4 +46,5 @@ do
    charge=$(echo $rec |cut -f4 -d',')
    spread=$(echo $rec |cut -f5 -d',')
   echo "|[${desc}](${link} \"${desc}\")|${sector}|${charge}|${spread}|"
+  echo "${desc},${sector},${charge},${spread}" >>./etfs.csv
 done
