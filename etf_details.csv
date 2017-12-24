@@ -4,7 +4,7 @@ epic,desc,charge,spread
 0847100,iShares II plc (EUE) Euro STOXX 50 UCITS ETF (Dist) Share Price | EUE,0.35,0.09
 2029100,SPDR Index Shares Funds DJ Euro Stoxx 50 Fund Share Price,0.29,2.70
 2140863,SPDR Dow Jones Industrial Average ETF Ser 1 Units Share Price,0.17,0.10
-2165305,iShares Trust Dow Jones Select Dividend Index Fund Share Price,0.40,6.17
+2165305,iShares Trust Dow Jones Select Dividend Index Fund Share Price,0.40,0.03
 2342164,iShares Trust iShares Core S&P Total US Stock Market (ITOT) Share Price,0.20,3.23
 2364038,Spdr Trust Amex Financial Select Index Share Price,0.18,0.18
 2369389,Spdr Trust Amex Consumer Staples Index Share Price,0.18,0.58
@@ -42,7 +42,7 @@ epic,desc,charge,spread
 2695705,iShares Trust Dow Jones U.S. Index Fund Share Price,0.20,1.06
 2713276,iShares Trust Russell 2000 Growth Index Fund Share Price,0.25,0.03
 2720953,iShares Trust Core S&P US Value ETF Share Price,0.25,0.05
-2724892,iShares Trust Nasdaq Biotechnology Index Fund Share Price,0.48,1.58
+2724892,iShares Trust Nasdaq Biotechnology Index Fund Share Price,0.48,0.05
 2726014,iShares Inc MSCI Brazil Index Fund Share Price,0.59,0.93
 2729552,iShares Trust S&P SmallCap 600 Value Index Fund Share Price,0.25,0.03
 2741170,iShares Trust Dow Jones U.S. Consumer Goods Sector Index Fund Share Price,0.47,1.26
@@ -53,7 +53,7 @@ epic,desc,charge,spread
 2801290,iShares Inc MSCI EAFE Index Fund Share Price,0.34,1.76
 2810058,iShares Inc Dow Jones U.S. Utilities Sector Index Fund Share Price,0.47,2.62
 2810069,iShares Trust Core S&P US Growth ETF Share Price,0.25,0.02
-2810252,iShares Trust PHLX SOX Semiconductor Sector Index Fund Share Price,0.48,0.21
+2810252,iShares Trust PHLX SOX Semiconductor Sector Index Fund Share Price,0.48,0.02
 2810478,iShares Trust Russell Midcap Growth Index Fund Share Price,0.25,2.29
 2810490,iShares Trust Russell MidCap Value Index Fund Share Price,0.25,1.21
 2812957,iShares Inc MSCI Pacific ex-Japan Index Fund Share Price,0.50,0.02
@@ -136,7 +136,7 @@ B1FGTB3,iShares Trust S&P Global Materials Sector Index Fund Share Price,0.48,0.
 B1FGVD9,iShares Trust S&P Global Industrials Index Fund Share Price,0.48,0.15
 B1FGVM8,iShares Trust S&P Global Consumer Staples Sector Index Fund Share Price,0.48,0.16
 B1FGVP1,iShares Trust S&P Global Utilities Sector Index Fund Share Price,0.48,0.16
-B1FLNF0,iShares Trust S&P U.S. Preferred Stock Index Fund Share Price,0.48,0.24
+B1FLNF0,iShares Trust S&P U.S. Preferred Stock Index Fund Share Price,0.48,0.03
 B1FR057,Lyxor International Asset Management UCITS ETF Ibex 35 (DR) Share Price,0.30,0.06
 B1G5179,Lyxor International Asset Management HSI Share Price,0.65,0.23
 B1G5328,iShares II plc (IASP) FTSE EPRA/NAREIT Asia Property Yield Fund Share Price | IASP,0.59,0.70
@@ -245,7 +245,7 @@ B39VCQ4,db X-trackers (XEUM) MSCI Europe Mid Cap Index UCITS ETF (DR) Share Pric
 B39VCS6,db X-trackers (XXSC) MSCI Europe Small Cap Index UCITS ETF (DR) Share Price | XXSC,0.30,0.21
 B39W795,Guggenheim ETFs Frontier Markets ETF Share Price,0.70,0.13
 B39YP97,Lyxor International Asset Management Leverage CAC 40 Share Price,0.40,0.05
-B3B8V99,iShares Trust S&P Global Clean Energy Index Fund Share Price,0.48,8.99
+B3B8V99,iShares Trust S&P Global Clean Energy Index Fund Share Price,0.48,0.11
 B3B9631,iShares Trust MSCI All Country Asia ex Japan Index Fund Share Price,0.67,0.01
 B3BXXT8,db X-trackers (XAXJ) MSCI AC Asia ex Japan Index UCITS ETF Share Price | XAXJ,0.65,0.17
 B3BXXW1,db X-trackers (XPXJ) MSCI Pacific ex Japan Index UCITS ETF (DR) Share Price | XPXJ,0.45,0.24
@@ -399,7 +399,7 @@ B5KQNG9,HSBC ETFs plc (HSPX) S&P 500 ETF USD Share Price | HSPX,0.09,0.09
 B5L01S8,HSBC ETFS plc (HPRO) FTSE EPRA/NAREIT Developed Share Price | HPRO,0.40,0.26
 B5L0GN8,ETFS Palladium Trust Shares of Beneficial Interest Share Price,0.49,7.51
 B5LP3W1,HSBC ETFS Plc (HMFE) MSCI Em Far East ETF GBP Share Price | HMFE,0.60,0.48
-B5LX1Z4,iShares Trust MSCI China Index Fund Share Price,0.58,5.65
+B5LX1Z4,iShares Trust MSCI China Index Fund Share Price,0.58,0.01
 B5M1WJ8,SSGA SPDR ETFs Europe I plc (EUDV) S&P Euro Dividend Aristocrats GBP Share Price | EUDV,0.30,0.14
 B5MJSV6,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Telecommunications Share Price,0.50,0.00
 B5N33Z6,db X-trackers (XCAD) MSCI Canada Index UCITS ETF (DR) Share Price | XCAD,0.35,0.34
@@ -468,7 +468,7 @@ B6YX5D4,SPDR ETFs Europe I plc (UDVD) S&P US Dividend Aristocrats USD Share Pric
 B739W06,UBS ETF SICAV (UB02) MSCI Japan Share Price | UB02,0.35,0.20
 B7452L4,SSGA SPDR ETFs Europe I plc (FTAL) FTSE UK All Share Share Price | FTAL,0.20,0.76
 B762DP4,Ossiam ETF (LMMV) Emerging Markets Minimum Variance Share Price | LMMV,0.75,0.64
-B7669N6,Global X Fds Social Media ETF Share Price,0.65,5.74
+B7669N6,Global X Fds Social Media ETF Share Price,0.65,0.21
 B76HL88,UBS ETF SICAV (UB32) MSCI Emerging Markets Share Price | UB32,0.45,0.33
 B79W2J8,UBS ETF SICAV (UB69) MSCI EMU Small Cap UCITS ETF A - Dis Share Price | UB69,0.33,0.60
 B7FQTX7,db X-trackers Spanish Equity UCITS ETF DR Share Price,0.30,0.21
