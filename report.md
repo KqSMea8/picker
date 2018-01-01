@@ -4,17 +4,17 @@
 |[BlackRock World Mining Trust (BRWM) Ordinary 5p Share Price - BRWM](http://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|-12.9%|1.1%|0.31%|
 |[BlackRock Commodities Income Investment Trust (BRCI) Ordinary 1p Share Price - BRCI](http://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|-7.17%|1.39%|1.95%|
 |[City Natural Resources High Yield Trust plc (CYN) Ordinary 25p Shares Share Price - CYN](http://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|-20.01%|1.74%|0.62%|
+# Latin America
+| Investment Trust | Discount | Charge | Spread |
+| ---------------- | --------:| ------:| ------:|
+|[BlackRock Latin American Investment Trust (BRLA) Ordinary Shares $0.10 Share Price - BRLA](http://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|-12.51%|1.19%|0.22%|
+|[JPMorgan Brazil Investment Trust (JPB) Ordinary 1p Share Price - JPB](http://www.hl.co.uk/shares/shares-search-results/B602HS4 "Link")|-14.64%|1.99%|1.47%|
 # Property
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
 |[TR Property Investment Trust plc (TRY) Ordinary 25p Share Price - TRY](http://www.hl.co.uk/shares/shares-search-results/0906409 "Link")|-2.65%|0.87%|0.08%|
 |[F&C Commercial Property Trust Ltd (FCPT) Ord 1p Share Price - FCPT](http://www.hl.co.uk/shares/shares-search-results/B4ZPCJ0 "Link")|-2.09%|1.07%|0.07%|
 |[UK Commercial Property Trust (UKCM) Ordinary 25p Shares Share Price - UKCM](http://www.hl.co.uk/shares/shares-search-results/B19Z2J5 "Link")|-0.88%|1.43%|0.23%|
-# Latin America
-| Investment Trust | Discount | Charge | Spread |
-| ---------------- | --------:| ------:| ------:|
-|[BlackRock Latin American Investment Trust (BRLA) Ordinary Shares $0.10 Share Price - BRLA](http://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|-12.51%|1.19%|0.22%|
-|[JPMorgan Brazil Investment Trust (JPB) Ordinary 1p Share Price - JPB](http://www.hl.co.uk/shares/shares-search-results/B602HS4 "Link")|-14.64%|1.99%|1.47%|
 # UK Smaller Companies
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
@@ -68,6 +68,7 @@
 |[JPMorgan Chinese Investment Trust plc (JMC) Ordinary 25p Share Price - JMC](http://www.hl.co.uk/shares/shares-search-results/0343501 "Link")|-11.51%|1.38%|0.98%|
 |[Aberdeen New Thai Investment Trust plc (ANW) Ordinary 25p Shares Share Price - ANW](http://www.hl.co.uk/shares/shares-search-results/0005997 "Link")|-14.64%|1.41%|0.45%|
 |[Aberdeen Asian Smaller Companies Investment Trust (AAS) Ordinary 25p Share Price - AAS](http://www.hl.co.uk/shares/shares-search-results/0010076 "Link")|-14.65%|1.69%|0.09%|
+|[India Capital Growth Fund Ltd (IGC) Ord GBp0.01 Share Price - IGC](http://www.hl.co.uk/shares/shares-search-results/B0P8RJ6 "Link")|-7.28%|1.79%|0.43%|
 |[Schroder Oriental Income Fund (SOI) Ordinary 1p Share Price - SOI](http://www.hl.co.uk/shares/shares-search-results/B0CRWN5 "Link")|-0.2%|1.95%|0.39%|
 # ETFs
 | ETF | Sector | Charge | Spread |
