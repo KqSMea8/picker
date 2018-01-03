@@ -447,8 +447,6 @@ B1TXHL6,Equity ETI by Area - North America
 B1TXK62,Equity ETI by Sector - Utilities
 B1TXLS1,Equity ETI by Sector - Property
 B1VFFN8,Equity ETI by Sector - Banks & Financials
-B1VS2W5,Commodity ETI - Industrial Metals
-B1VS300,Commodity ETI - Precious Metals
 B1VS333,Commodity ETI - Agriculture
 B1VS333,Commodity ETI - Composite
 B1VS333,Commodity ETI - Energy
@@ -833,6 +831,7 @@ B3ZJS08,Equity ETI by Area - Asia Pacific
 B3ZPVL8,Equity ETI by Sector - Industrials
 B3ZXF43,Equity ETI by Area - Europe
 B403Z56,Equity ETI by Sector - Banks & Financials
+B407MS0,Commodity ETI - Silver
 B409K04,Equity ETI by Sector - Telecoms
 B409MZ3,Equity ETI by Area - Asia Pacific
 B40BCN7,Equity ETI by Area - Asia Pacific
@@ -840,7 +839,6 @@ B40BG46,Equity ETI by Area - Asia Pacific
 B40K2X4,Commodity ETI - Precious Metals
 B40Y0X2,Equity ETI by Area - Asia Pacific
 B415N24,Equity ETI by Sector - Consumer goods
-B417C89,Commodity ETI - Precious Metals
 B41JFV9,Equity ETI by Area - Asia Pacific
 B41KQS6,Equity ETI by Sector - Energy
 B41NJ19,Equity ETI by Area - Europe
@@ -866,7 +864,6 @@ B456TR0,Equity ETI by Sector - Technology
 B45CJS9,Equity ETI by Sector - Energy
 B46N5P0,Equity ETI by Area - Europe
 B4885P3,Equity ETI by Area - Asia Pacific
-B4JV4D2,Commodity ETI - Precious Metals
 B4K6B02,Equity ETI by Area - Europe
 B4K91Q7,Equity ETI by Sector - Technology
 B4KK7T5,Equity ETI by Area - Africa & Middle East
@@ -878,7 +875,6 @@ B4L60K4,Equity ETI by Area - Europe
 B4L60Z9,Equity ETI by Area - World
 B4L6112,Equity ETI by Area - Emerging Market
 B4L61L2,Equity ETI by Area - Japan
-B4LV388,Commodity ETI - Industrial Metals
 B4LV9V3,Equity ETI by Area - Asia Pacific
 B4LVDS8,Equity ETI by Area - Europe
 B4LZ6C5,Equity ETI by Area - Asia Pacific
@@ -945,11 +941,10 @@ B4XQMC8,Equity ETI by Sector - Health
 B4YBJ21,Equity ETI by Area - North America
 B4Z6YS6,Equity ETI by Area - UK
 B4Z7940,Equity ETI by Area - Europe
+B4ZL5X3,Equity ETI by Area - North America
 B502KH7,Equity ETI by Area - Japan
 B50YWZ5,Equity ETI by Area - North America
 B5149Q4,Equity ETI by Area - Asia Pacific
-B516R22,Equity ETI by Area - Latin & South America
-B5175L0,Equity ETI by Area - North America
 B518375,Equity ETI by Area - FTSE 100
 B51PG22,Equity ETI by Area - Other
 B51WGY5,Equity ETI by Area - Europe
@@ -1006,7 +1001,6 @@ B5V8739,Equity ETI by Area - Russia
 B5V9TD6,Equity ETI by Sector - Consumer goods
 B5VJL30,Equity ETI by Area - Asia Pacific
 B5VX756,Equity ETI by Area - Japan
-B5VYVZ7,Commodity ETI - Precious Metals
 B5VZ097,Equity ETI by Sector - Technology
 B5W34K9,Equity ETI by Area - Latin & South America
 B5WFQ43,Equity ETI by Area - North America
@@ -1080,7 +1074,6 @@ B67JV08,Equity ETI by Sector - Energy
 B67SX10,Equity ETI by Sector - Basic Materials
 B686HN3,Equity ETI by Sector - Banks & Financials
 B6873M7,Commodity ETI - Composite
-B68FL05,Commodity ETI - Gold
 B68KHX5,Equity ETI by Sector - Utilities
 B68NXY7,Equity ETI by Sector - Technology
 B68PM13,Equity ETI by Sector - Banks & Financials
@@ -1247,6 +1240,7 @@ B8C0D37,Equity ETI by Sector - Utilities
 B8CJC04,Equity ETI by Area - Emerging Market
 B8DYP76,Equity ETI by Area - Asia Pacific
 B8FH960,Equity ETI by Area - Japan
+B8FHGS1,Equity ETI by Sector - Volatility Index
 B8FJBB5,Equity ETI by Area - Europe
 B8FMT76,Equity ETI by Area - Europe
 B8GG773,Equity ETI by Area - Europe

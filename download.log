@@ -1,8 +1,8 @@
 Already up-to-date.
-Tue  2 Jan 00:00:07 GMT 2018 - Generating ./invtrust_sectors.csv
-Tue  2 Jan 00:03:47 GMT 2018 - Downloading Investment Trust Details
-Tue  2 Jan 00:06:48 GMT 2018 - Generating ./invtrust_details.csv
-Tue  2 Jan 00:06:57 GMT 2018 - Generating ./etf_sectors.csv
-Tue  2 Jan 00:13:27 GMT 2018 - Downloading ETF Details
-Tue  2 Jan 00:18:19 GMT 2018 - Generating ./etf_details.csv
-Tue  2 Jan 00:18:37 GMT 2018 - Finished
+Wed  3 Jan 00:00:06 GMT 2018 - Generating ./invtrust_sectors.csv
+Wed  3 Jan 00:03:44 GMT 2018 - Downloading Investment Trust Details
+Wed  3 Jan 00:06:43 GMT 2018 - Generating ./invtrust_details.csv
+Wed  3 Jan 00:06:54 GMT 2018 - Generating ./etf_sectors.csv
+Wed  3 Jan 00:12:11 GMT 2018 - Downloading ETF Details
+Wed  3 Jan 00:17:40 GMT 2018 - Generating ./etf_details.csv
+Wed  3 Jan 00:17:57 GMT 2018 - Finished
