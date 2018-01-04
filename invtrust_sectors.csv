@@ -25,6 +25,7 @@ B7VSCF0,Asia Pacific
 BBM56V2,Asia Pacific
 0038551,Biotechnology & Healthcare
 0338530,Biotechnology & Healthcare
+0455934,Biotechnology & Healthcare
 B6832P1,Biotechnology & Healthcare
 B986V54,Biotechnology & Healthcare
 BDHXP96,Biotechnology & Healthcare
@@ -38,14 +39,13 @@ B6T0TM7,Commodities & Natural Resources
 BCKFVJ4,Commodities & Natural Resources
 BYW1DN2,Construction/Building
 BYXX8B0,Construction/Building
-BYW1DN2,Construction/Building
-BYXX8B0,Construction/Building
 B5KVCW3,Convertible Loan Stks
 B6YVTS1,Convertible Loan Stks
 B7ZMLM8,Convertible Loan Stks
 BNH7RK3,Convertible Loan Stks
 BP46PR0,Convertible Loan Stks
 B42XFD2,Country Specialists: Other
+B0HW536,Debt
 B6116N8,Debt
 B79WC10,Debt
 B8C23S8,Debt
@@ -53,6 +53,7 @@ B90J5Z9,Debt
 B96SW59,Debt
 B9MRHZ5,Debt
 3123249,Environmental
+B073G36,Environmental
 B120GL7,Environmental
 BJ0JVY0,Environmental
 BJL5FH8,Environmental
@@ -62,9 +63,11 @@ BZ0XWD0,Environmental
 0322566,Europe
 0329501,Europe
 0419929,Europe
+0454351,Europe
 0526885,Europe
 0906692,Europe
 3216473,Europe
+3227334,Europe
 B01RDH7,Europe
 B0BN1P9,Europe
 B17XWW4,Europe
@@ -110,6 +113,7 @@ B0DQY35,Global Emerging Markets
 B1W59J1,Global Emerging Markets
 B3SXM83,Global Emerging Markets
 B45L2K9,Global Emerging Markets
+B4L0PD4,Global Emerging Markets
 B5ZZY91,Global Emerging Markets
 BDR0575,Global Emerging Markets
 BLSNND1,Global Emerging Markets
@@ -123,13 +127,17 @@ B2PP3J3,Global Equity Income
 B3PHCS8,Global Equity Income
 0263104,Global Growth
 3197794,Global Growth
+B018CS4,Global Growth
 B05NYM3,Global High Income
 BF03YC3,Global High Income
 BYTRG23,Global Smaller Companies
 BZCNLL9,Health
 B13YVW4,Hedge Funds
+B1GJQ98,Hedge Funds
 B1NP514,Hedge Funds
 B1NPGV1,Hedge Funds
+B1YQ6R9,Hedge Funds
+B1YQ721,Hedge Funds
 B2QQPS8,Hedge Funds
 B2QQPT9,Hedge Funds
 BF0SCX5,Investment Trust
@@ -147,6 +155,7 @@ BZ3C3B9,Investment Trust
 0332855,Japan
 0392075,Japan
 0802284,Japan
+B61ND55,Japan
 BYSRMH1,Japan
 0505840,Latin America
 B44ZTP6,Latin America
@@ -161,12 +170,14 @@ BDGKMY2,Pharmaceuticals & Biotechnology
 0329200,Private Equity
 0392105,Private Equity
 0414850,Private Equity
+0577656,Private Equity
 0596286,Private Equity
 3047468,Private Equity
 B06CZD7,Private Equity
 B08N4M0,Private Equity
 B08S4K3,Private Equity
 B0XLRJ7,Private Equity
+B12MHD2,Private Equity
 B1YW440,Private Equity
 B23DL39,Private Equity
 BD0FRW6,Private Equity
@@ -201,6 +212,8 @@ B188SR5,Infrastructure
 B4ZWPH0,Infrastructure
 B6173J1,Infrastructure
 B6QWXM4,Infrastructure
+B8SC6K5,Infrastructure
+BB0RDB9,Infrastructure
 BBHX2H9,Infrastructure
 BD3QJR5,Infrastructure
 BYR8GK6,Infrastructure
@@ -238,6 +251,7 @@ BN56JF1,Technology Hardware & Equipment
 0791348,UK All Companies
 0853657,UK All Companies
 B1DPVL6,UK All Companies
+B1Z2SL4,UK All Companies
 BWXC7Y9,UK All Companies
 0806372,UK Equity & Bond Income
 0958057,UK Equity & Bond Income
@@ -281,6 +295,6 @@ B1N4H93,UK High Income
 B0BDCB2,UK Smaller Companies
 B1FL3C7,UK Smaller Companies
 B1GCL25,UK Smaller Companies
+BDG13K8,UK Smaller Companies
 BWFGQ08,UK Smaller Companies
-B99R1Q7,Unclassified
 B99R1Q7,Unclassified

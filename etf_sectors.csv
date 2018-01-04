@@ -426,7 +426,6 @@ B1CDJZ1,Equity ETI by Area - Asia Pacific
 B1CDK14,Equity ETI by Area - Asia Pacific
 B1DGRZ5,Commodity ETI - Composite
 B1DNM73,Equity ETI by Sector - Health
-B1FR057,Equity ETI by Area - Europe
 B1G5179,Equity ETI by Area - Asia Pacific
 B1G5328,Equity ETI by Sector - Property
 B1G5340,Equity ETI by Sector - Property
@@ -484,6 +483,7 @@ B1VS333,Equity ETI by Sector - Technology
 B1VS333,Equity ETI by Sector - Telecoms
 B1VS333,Equity ETI by Sector - Utilities
 B1VS333,Equity ETI by Sector - Volatility Index
+B1VS377,Commodity ETI - Gold
 B1VWLN1,Equity ETI by Area - Europe
 B1W5MJ2,Equity ETI by Area - Emerging Market
 B1W5NN3,Equity ETI by Area - Emerging Market
@@ -806,7 +806,6 @@ B3LJG20,Equity ETI by Sector - Health
 B3LT1Q9,Equity ETI by Sector - Health
 B3LVBF4,Equity ETI by Sector - Basic Materials
 B3M25V0,Equity ETI by Area - North America
-B3M9W87,Equity ETI by Area - Europe
 B3MM769,Equity ETI by Area - North America
 B3MZDT3,Equity ETI by Area - Asia Pacific
 B3N14D1,Equity ETI by Area - North America
@@ -965,7 +964,6 @@ B542V81,Equity ETI by Area - North America
 B5497R3,Equity ETI by Area - Europe
 B54DM92,Equity ETI by Sector - Consumer goods
 B54TDV9,Equity ETI by Area - Europe
-B552XD9,Equity ETI by Area - Asia Pacific
 B554N24,Equity ETI by Area - Europe
 B55LJY9,Equity ETI by Area - Russia
 B55Q955,Equity ETI by Area - North America
@@ -975,6 +973,7 @@ B57QMP4,Equity ETI by Area - Europe
 B57Y946,Commodity ETI - Silver
 B580X30,Equity ETI by Area - Asia Pacific
 B5840F3,Commodity ETI - Gold
+B588CD7,Commodity ETI - Gold
 B599TV6,Commodity ETI - Gold
 B5BD198,Equity ETI by Area - World
 B5BD5K7,Equity ETI by Area - Europe
@@ -1003,6 +1002,7 @@ B5VJL30,Equity ETI by Area - Asia Pacific
 B5VX756,Equity ETI by Area - Japan
 B5VZ097,Equity ETI by Sector - Technology
 B5W34K9,Equity ETI by Area - Latin & South America
+B5W4TY1,Equity ETI by Area - Asia Pacific
 B5WFQ43,Equity ETI by Area - North America
 B5WLZJ9,Equity ETI by Sector - Energy
 B5YSGM8,Equity ETI by Area - Asia Pacific
@@ -1102,7 +1102,6 @@ B7452L4,Equity ETI by Area - UK
 B762DP4,Equity ETI by Area - Emerging Market
 B76HL88,Equity ETI by Area - Emerging Market
 B79W2J8,Equity ETI by Area - Europe
-B7FQTX7,Equity ETI by Area - Europe
 B7HJBM7,Commodity ETI - Agriculture
 B7HJBM7,Commodity ETI - Composite
 B7HJBM7,Commodity ETI - Energy
