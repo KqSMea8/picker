@@ -1,525 +1,565 @@
 desc,sector,charge,spread
+iShares VI plc (COMM) Diversified Commodity Swap UCITS ETF USD Share Price - COMM, Composite,0.19%,0.13%
+iShares IV plc (ICOM) Diversified Commodity Swap UCIT USD Share Price - ICOM, Composite,0.19%,0.19%
 GO UCITS ETF Solutions plc (COMF) Dow Jones UBS Longer Dated All Commodities Share Price - COMF, Composite,0.3%,0.14%
 Source Markets plc (CMOD) Bloomberg Commodity UCITS A USD Share Price - CMOD, Composite,0.34%,0.11%
-Lyxor ETF Commodity CRB Fund Npv Share Price, Composite,0.35%,0.13%
+Lyxor ETF Commodity CRB Fund Npv Share Price, Composite,0.35%,0.2%
 WisdomTree Issuer plc (WCOB) Enhanced Commodity UCITS Share Price - WCOB, Composite,0.35%,0.25%
-UBS ETFs plc (UC15) CMCI Composite SF UCITS A Acc (USD) Share Price - UC15, Composite,0.37%,1.09%
+UBS ETFs plc (UC15) CMCI Composite SF UCITS A Acc (USD) Share Price - UC15, Composite,0.37%,0.33%
 iShares (BlackRock Asset Management Deutschland) Diversified Commodity Swap UCITS ETF (DE) Share Price, Composite,0.46%,0.0%
 DB X-trackers DBLCI - OY Balanced UCITS ETF (EUR) Share Price, Composite,0.55%,0.0%
-db X-trackers (XDBG) DBLCI - OY Balanced UCITS ETF (GBP) Share Price - XDBG, Composite,0.55%,0.12%
-Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.3%
+db X-trackers (XDBG) DBLCI - OY Balanced UCITS ETF (GBP) Share Price - XDBG, Composite,0.55%,0.08%
+Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.32%
 ETFS Metal Securities Ltd (SGBS) Physical Swiss Gold Share Price - SGBS, Gold,0.25%,0.03%
 db ETC plc (XGLD) Physical Gold ETC Share Price - XGLD, Gold,0.29%,0.03%
 Source Physical Markets (SGLD) Physical Gold P-ETC Certs Share Price - SGLD, Gold,0.29%,0.04%
 ETFS Metal Securities Ltd (PHAU) Physical Gold Share Price - PHAU, Gold,0.39%,0.03%
 Julius Baer ETF Physical Gold Fund USD A Share Price, Gold,0.41%,0.0%
-Source Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.35%
+Source Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.37%
 Source Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV, Silver,0.39%,0.06%
 iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN, Silver,0.4%,0.08%
 db ETC plc (XSIL) Physical Silver ETC Share Price - XSIL, Silver,0.45%,0.09%
-HSBC ETFs plc (HZAR) MSCI South Africa USD(GBP) Share Price - HZAR, Africa & Middle East,0.6%,0.67%
-iShares III plc (SRSA) MSCI South Africa (USD) GBX Share Price - SRSA, Africa & Middle East,0.65%,0.27%
+iShares IV plc (ISRL) TA 35 ISRAEL UCITS(GBP) Share Price - ISRL, Africa & Middle East,0.6%,0.27%
+HSBC ETFs plc (HZAR) MSCI South Africa USD(GBP) Share Price - HZAR, Africa & Middle East,0.6%,0.32%
 iShares III plc (IRSA) MSCI South Africa (USD) Share Price - IRSA, Africa & Middle East,0.65%,0.28%
-db X-trackers (XMAF) MSCI Africa TOP 50 Index UCITS ETF Share Price - XMAF, Africa & Middle East,0.65%,0.55%
-Lyxor International Asset Management Pan Africa UCITS ETF Share Price, Africa & Middle East,0.85%,1.41%
-iShares VII plc (CPJ1) Core MSCI Pacific ex-Japan UCITS ETF Share Price - CPJ1, Asia Pacific,0.2%,0.11%
-Amundi Investment Solutions MSCI EM Asia Share Price, Asia Pacific,0.2%,0.2%
-Vanguard Funds plc (VAPX) FTSE Developed Asia Pacific ex-Japan Share Price - VAPX, Asia Pacific,0.22%,0.24%
+iShares III plc (SRSA) MSCI South Africa (USD) GBX Share Price - SRSA, Africa & Middle East,0.65%,0.28%
+db X-trackers (XMAF) MSCI Africa TOP 50 Index UCITS ETF Share Price - XMAF, Africa & Middle East,0.65%,0.66%
+Lyxor International Asset Management Pan Africa UCITS ETF Share Price, Africa & Middle East,0.85%,1.32%
+iShares VII plc (CPJ1) Core MSCI Pacific ex-Japan UCITS ETF Share Price - CPJ1, Asia Pacific,0.2%,0.12%
+Vanguard Funds plc (VAPX) FTSE Developed Asia Pacific ex-Japan Share Price - VAPX, Asia Pacific,0.22%,0.14%
 UBS ETF SICAV (UB20) MSCI Pacific (ex Japan) Share Price - UB20, Asia Pacific,0.3%,0.17%
+iShares (BlackRock Asset Management Deutschland) Dow Jones Asia Pacific Select Dividend 30 Share Price, Asia Pacific,0.31%,0.0%
+HSBC ETFs Plc (HMXJ) MSCI Pacific Ex Japan Share Price - HMXJ, Asia Pacific,0.4%,0.19%
 Multi Units Luxembourg (LAUS) Lyxor ETF Australia S&P ASX200 B (USD)GBX Share Price - LAUS, Asia Pacific,0.4%,0.22%
-HSBC ETFs Plc (HMXJ) MSCI Pacific Ex Japan Share Price - HMXJ, Asia Pacific,0.4%,0.28%
-UBS ETF SICAV (UB45) MSCI Pacific Socially Responsible UCITS ETF A-dis Share Price - UB45, Asia Pacific,0.4%,0.35%
-Lyxor International Asset Management (CSIL) CSI 300 A SHARE C-USD Share Price - CSIL, Asia Pacific,0.4%,1.99%
-db X-trackers (XPXJ) MSCI Pacific ex Japan Index UCITS ETF (DR) Share Price - XPXJ, Asia Pacific,0.45%,0.15%
-db X-trackers (XPXD) MSCI Pacific ex Japan Index UCITS ETF (DR) Share Price - XPXD, Asia Pacific,0.45%,0.16%
-Lyxor Asset Management Thailand Set50 Net TR GBP Share Price, Asia Pacific,0.45%,1.31%
-UBS ETF SICAV MSCI Hong Kong UCITS ETF (HKD) A-Dis Share Price, Asia Pacific,0.45%,1.32%
+UBS ETF SICAV (UB45) MSCI Pacific Socially Responsible UCITS ETF A-dis Share Price - UB45, Asia Pacific,0.4%,0.39%
+Lyxor International Asset Management (CSIL) CSI 300 A SHARE C-USD Share Price - CSIL, Asia Pacific,0.4%,1.98%
+db X-trackers (XPXJ) MSCI Pacific ex Japan Index UCITS ETF (DR) Share Price - XPXJ, Asia Pacific,0.45%,0.13%
+db X-trackers (XPXD) MSCI Pacific ex Japan Index UCITS ETF (DR) Share Price - XPXD, Asia Pacific,0.45%,0.14%
+Lyxor Asset Management Thailand Set50 Net TR GBP Share Price, Asia Pacific,0.45%,1.17%
+UBS ETF SICAV MSCI Hong Kong UCITS ETF (HKD) A-Dis Share Price, Asia Pacific,0.45%,1.27%
 iShares III plc (SAUS) MSCI Australia (USD) GBX Share Price - SAUS, Asia Pacific,0.5%,0.11%
 db X-trackers (XAUS) S&P/ASX 200 UCITS ETF (DR) Share Price - XAUS, Asia Pacific,0.5%,0.13%
-db X-trackers (XCHA) CSI300 UCITS ETF Class 1C Share Price - XCHA, Asia Pacific,0.5%,0.32%
-db X-trackers (XCS3) MSCI Malaysia Index UCITS ETF (DR) Share Price - XCS3, Asia Pacific,0.5%,0.45%
-db X-trackers (XCS4) MSCI Thailand Index UCITS ETF (DR) Share Price - XCS4, Asia Pacific,0.5%,0.51%
-SSGA SPDR ETFs Europe I plc (PADV) S&P Pan Asia Dividend Aristocrats UCITS ETF Share Price - PADV, Asia Pacific,0.55%,0.36%
-iShares plc (IAPD) DJ Asia/Pacific Select Dividend 30 Share Price - IAPD, Asia Pacific,0.59%,0.26%
-Lyxor International Asset Management (AEJL) Lyxor MSCI Asia Pacific Ex Japan C EUR (GBP) Share Price - AEJL, Asia Pacific,0.6%,0.06%
+db X-trackers (XCHA) CSI300 UCITS ETF Class 1C Share Price - XCHA, Asia Pacific,0.5%,0.16%
+db X-trackers (XCS3) MSCI Malaysia Index UCITS ETF (DR) Share Price - XCS3, Asia Pacific,0.5%,0.53%
+db X-trackers (XCS4) MSCI Thailand Index UCITS ETF (DR) Share Price - XCS4, Asia Pacific,0.5%,0.54%
+SSGA SPDR ETFs Europe I plc (PADV) S&P Pan Asia Dividend Aristocrats UCITS ETF Share Price - PADV, Asia Pacific,0.55%,0.3%
+iShares plc (IAPD) DJ Asia/Pacific Select Dividend 30 Share Price - IAPD, Asia Pacific,0.59%,0.22%
+db x-trackers (XX25) FTSE China 50 UCITS ETF (DR) Share Price - XX25, Asia Pacific,0.6%,0.1%
 iShares III plc (IPXJ) MSCI Pacific ex-Japan (USD) Share Price - IPXJ, Asia Pacific,0.6%,0.11%
 iShares III plc (SPXJ) MSCI Pacific ex-Japan GBP Share Price - SPXJ, Asia Pacific,0.6%,0.11%
-HSBC ETFS Plc (HMFE) MSCI Em Far East ETF GBP Share Price - HMFE, Asia Pacific,0.6%,0.13%
+HSBC ETFs plc (HKOR) Korea UCITS ETF USD (GBP) Share Price - HKOR, Asia Pacific,0.6%,0.12%
 HSBC ETFs plc (HMCH) MSCI China ETF (GBP) Share Price - HMCH, Asia Pacific,0.6%,0.18%
-HSBC ETFs plc (HKOR) Korea UCITS ETF USD (GBP) Share Price - HKOR, Asia Pacific,0.6%,0.21%
-db x-trackers (XX25) FTSE China 50 UCITS ETF (DR) Share Price - XX25, Asia Pacific,0.6%,0.22%
+Lyxor International Asset Management (AEJL) Lyxor MSCI Asia Pacific Ex Japan C EUR (GBP) Share Price - AEJL, Asia Pacific,0.6%,0.18%
+HSBC ETFS Plc (HMFE) MSCI Em Far East ETF GBP Share Price - HMFE, Asia Pacific,0.6%,0.23%
 HSBC ETFS plc (HTWN) MSCI TAIWAN UCITS ETF GBP Share Price - HTWN, Asia Pacific,0.6%,0.24%
-HSBC ETFs plc (HMAF) MSCI AC Far East ex-Japan Share Price - HMAF, Asia Pacific,0.6%,0.24%
-HSBC ETFs plc (HMYR) MSCI Malaysia UCITS ETF GBP Share Price - HMYR, Asia Pacific,0.6%,0.47%
-HSBC ETFs plc (HIDR) MSCI Indonesia UCITS ETF GBP Share Price - HIDR, Asia Pacific,0.6%,0.55%
+HSBC ETFs plc (HMAF) MSCI AC Far East ex-Japan Share Price - HMAF, Asia Pacific,0.6%,0.27%
+HSBC ETFs plc (HMYR) MSCI Malaysia UCITS ETF GBP Share Price - HMYR, Asia Pacific,0.6%,0.33%
+HSBC ETFs plc (HIDR) MSCI Indonesia UCITS ETF GBP Share Price - HIDR, Asia Pacific,0.6%,0.72%
 iShares VII plc (CEA1) MSCI EM Asia UCITS ETF USD (Acc) Share Price - CEA1, Asia Pacific,0.65%,0.12%
-db X-trackers (XMAS) MSCI EM Asia Index UCITS ETF Share Price - XMAS, Asia Pacific,0.65%,0.15%
-Lyxor International Asset Management (ASIL) China Enterprise C EUR (GBP) Share Price - ASIL, Asia Pacific,0.65%,0.15%
+Lyxor International Asset Management HSI Share Price, Asia Pacific,0.65%,0.13%
+db X-trackers (XMAS) MSCI EM Asia Index UCITS ETF Share Price - XMAS, Asia Pacific,0.65%,0.17%
 db X-trackers (XAXJ) MSCI AC Asia ex Japan Index UCITS ETF Share Price - XAXJ, Asia Pacific,0.65%,0.17%
-db X-trackers (XMTW) MSCI Taiwan Index UCITS ETF (DR) Share Price - XMTW, Asia Pacific,0.65%,0.19%
-db X-trackers (XCX6) MSCI China Index UCITS ETF (DR) Share Price - XCX6, Asia Pacific,0.65%,0.2%
-Lyxor International Asset Management HSI Share Price, Asia Pacific,0.65%,0.22%
-db X-trackers (XKS2) MSCI Korea Index UCITS ETF (DR) Share Price - XKS2, Asia Pacific,0.65%,0.29%
-db X-trackers (RQFI) Harvest CSI300 Index UCITS ETF (DR) Share Price - RQFI, Asia Pacific,0.65%,0.29%
+db X-trackers (XCX6) MSCI China Index UCITS ETF (DR) Share Price - XCX6, Asia Pacific,0.65%,0.17%
+Lyxor International Asset Management (ASIL) China Enterprise C EUR (GBP) Share Price - ASIL, Asia Pacific,0.65%,0.23%
+db X-trackers (XKS2) MSCI Korea Index UCITS ETF (DR) Share Price - XKS2, Asia Pacific,0.65%,0.25%
+db X-trackers (XMTW) MSCI Taiwan Index UCITS ETF (DR) Share Price - XMTW, Asia Pacific,0.65%,0.26%
+db X-trackers (RQFI) Harvest CSI300 Index UCITS ETF (DR) Share Price - RQFI, Asia Pacific,0.65%,0.26%
+iShares IV plc (IASH) MSCI China A UCITS ETF Share Price - IASH, Asia Pacific,0.65%,0.35%
 db X-trackers (AH50) Harvest FTSE China A-H 50 Index UCITS ETF (DR) Share Price - AH50, Asia Pacific,0.65%,0.51%
+db X-trackers (XMID) MSCI Indonesia Index UCITS ETF Share Price - XMID, Asia Pacific,0.65%,0.52%
 db X-trackers (XPHG) MSCI Philippines IM Index UCITS ETF (DR) Share Price - XPHG, Asia Pacific,0.65%,0.56%
-db X-trackers (XMID) MSCI Indonesia Index UCITS ETF Share Price - XMID, Asia Pacific,0.65%,0.92%
-iShares plc (IDFF) MSCI AC Far East ex-Japan (USD) Share Price - IDFF, Asia Pacific,0.74%,0.11%
-iShares II plc (ISFE) MSCI AC Far East ex-Japan SmallCap Share Price - ISFE, Asia Pacific,0.74%,0.12%
-iShares plc (IFFF) MSCI AC Far East ex-Japan Share Price - IFFF, Asia Pacific,0.74%,0.13%
-iShares plc (IKOR) MSCI Korea UCITS ETF (Dist) Share Price - IKOR, Asia Pacific,0.74%,0.15%
-iShares plc (IDKO) MSCI Korea (USD) UCITS ETF (Dist) Share Price - IDKO, Asia Pacific,0.74%,0.19%
-iShares plc (FXC) Large Cap UCITS ETF Share Price - FXC, Asia Pacific,0.74%,0.21%
+iShares II plc (ISFE) MSCI AC Far East ex-Japan SmallCap Share Price - ISFE, Asia Pacific,0.74%,0.1%
+iShares plc (IDKO) MSCI Korea (USD) UCITS ETF (Dist) Share Price - IDKO, Asia Pacific,0.74%,0.12%
+iShares plc (FXC) Large Cap UCITS ETF Share Price - FXC, Asia Pacific,0.74%,0.14%
+iShares plc (IKOR) MSCI Korea UCITS ETF (Dist) Share Price - IKOR, Asia Pacific,0.74%,0.16%
+iShares plc (IFFF) MSCI AC Far East ex-Japan Share Price - IFFF, Asia Pacific,0.74%,0.16%
+iShares plc (IDFF) MSCI AC Far East ex-Japan (USD) Share Price - IDFF, Asia Pacific,0.74%,0.2%
 iShares plc (IDTW) MSCI Taiwan (USD) Share Price - IDTW, Asia Pacific,0.74%,0.22%
 iShares plc (ITWN) MSCI Taiwan Share Price - ITWN, Asia Pacific,0.74%,0.23%
-DB X-Trackers (XCX5) MSCI India Index UCITS ETF Share Price - XCX5, Asia Pacific,0.75%,0.29%
-ICBC CREDIT SUISSE UCITS ETF SICAV (CHIP) WisdomTree S&P China 500 B USD(GBP) Share Price - CHIP, Asia Pacific,0.75%,0.79%
+DB X-Trackers (XCX5) MSCI India Index UCITS ETF Share Price - XCX5, Asia Pacific,0.75%,0.21%
+ICBC CREDIT SUISSE UCITS ETF SICAV (CHIP) WisdomTree S&P China 500 B USD(GBP) Share Price - CHIP, Asia Pacific,0.75%,0.75%
+db X-trackers (XNIF) NIFTY 50 UCITS ETF Share Price - XNIF, Asia Pacific,0.85%,0.11%
 Lyxor International Asset Management MSCI India Share Price, Asia Pacific,0.85%,0.18%
-db X-trackers (XNIF) NIFTY 50 UCITS ETF Share Price - XNIF, Asia Pacific,0.85%,0.19%
-Lyxor International Asset Management (INRL) MSCI India B GBP Share Price - INRL, Asia Pacific,0.85%,0.23%
-Lyxor International Asset Management (INRU) UCITS MSCI India (Part USD) - Class C Share Price - INRU, Asia Pacific,0.85%,0.25%
-db X-trackers (XFVT) FTSE Vietnam UCITS ETF Share Price - XFVT, Asia Pacific,0.85%,0.69%
-db X-trackers (XBAN) MSCI Bangladesh IM Index UCITS ETF Share Price - XBAN, Asia Pacific,0.85%,0.81%
-GO UCITS ETF Solutions plc (CASE) MSCI China A Share Price - CASE, Asia Pacific,0.88%,1.36%
+Lyxor International Asset Management (INRU) UCITS MSCI India (Part USD) - Class C Share Price - INRU, Asia Pacific,0.85%,0.2%
+Lyxor International Asset Management (INRL) MSCI India B GBP Share Price - INRL, Asia Pacific,0.85%,0.27%
+db X-trackers (XFVT) FTSE Vietnam UCITS ETF Share Price - XFVT, Asia Pacific,0.85%,0.6%
+db X-trackers (XVTD) FTSE Vietnam UCITS ETF Share Price - XVTD, Asia Pacific,0.85%,0.66%
+db X-trackers (XBAN) MSCI Bangladesh IM Index UCITS ETF Share Price - XBAN, Asia Pacific,0.85%,0.82%
+GO UCITS ETF Solutions plc (CASE) MSCI China A Share Price - CASE, Asia Pacific,0.88%,1.16%
 Source CSOP Markets plc (CHNP) FTSE China A 50 ETF Share Price - CHNP, Asia Pacific,0.99%,0.54%
+iShares III plc (IWDG) Core MSCI World UCITS ETF GBP DIS H Share Price - IWDG, Developed Mkt,0.3%,0.04%
 iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP, Developed Mkt,0.59%,0.08%
-Amundi Investment Solutions MSCI Emerging Markets Share Price, Emerging Market,0.2%,0.0%
-iShares plc (EMIM) MSCI Emerging Markets IMI Share Price - EMIM, Emerging Market,0.25%,0.09%
-UBS ETF Sicav Factor MSCI EMU Prime Value UCITS ETF (EUR) Share Price, Emerging Market,0.28%,0.25%
-BMO UCITS ETF ICAV (ZIEM) MSCI Emerging Mkts Inc USD Dis Share Price - ZIEM, Emerging Market,0.38%,0.4%
+iShares plc (EMIM) MSCI Emerging Markets IMI Share Price - EMIM, Emerging Market,0.25%,0.11%
+UBS ETF Sicav Factor MSCI EMU Prime Value UCITS ETF (EUR) Share Price, Emerging Market,0.28%,0.27%
+iShares IV plc (SUES) Sustainable MSCI Em Mkt SRI UCT USD Share Price - SUES, Emerging Market,0.35%,0.29%
+BMO UCITS ETF ICAV (ZIEM) MSCI Emerging Mkts Inc USD Dis Share Price - ZIEM, Emerging Market,0.38%,0.44%
 iShares VI plc (EMMV) Edge MSCI EM Minimum Volatility UCITS ETF USD Share Price - EMMV, Emerging Market,0.4%,0.1%
+HSBC ETFs plc (HMEF) MSCI Emerging Markets UCITS ETF GBP Share Price - HMEF, Emerging Market,0.4%,0.14%
 iShares VI plc (EMV) Edge MSCI EM Minimum Volatility GBP Share Price - EMV, Emerging Market,0.4%,0.15%
-HSBC ETFs plc (HMEF) MSCI Emerging Markets UCITS ETF GBP Share Price - HMEF, Emerging Market,0.4%,0.17%
 SSGA SPDR ETFs Europe I plc (EMRG) SPDR MSCI Emerging Markets Share Price - EMRG, Emerging Market,0.42%,0.29%
-UBS ETF SICAV (UB32) MSCI Emerging Markets Share Price - UB32, Emerging Market,0.45%,0.27%
+UBS ETF SICAV (UB32) MSCI Emerging Markets Share Price - UB32, Emerging Market,0.45%,0.17%
 WisdomTree Issuer plc (DEM) Emerging Markets Equity Income UCITS ETF Share Price - DEM, Emerging Market,0.46%,0.4%
 db X-trackers (XMEM) MSCI Emerging Markets Index UCITS ETF Share Price - XMEM, Emerging Market,0.49%,0.08%
-Source Markets (MXFS) Source MSCI Emerging Markets UCITS ETF Share Price - MXFS, Emerging Market,0.54%,0.12%
-WisdomTree Issuer plc (DGSE) Emerging Markets SmallCap Dividend UCITS ETF Share Price - DGSE, Emerging Market,0.54%,0.72%
-Lyxor International Asset Management (LEML) Lyxor UCITS ETF MSCI Emerging Markets Index Share Price - LEML, Emerging Market,0.55%,0.13%
-SSGA SPDR ETFs Europe I plc (EMAS) SPDR MSCI Emerging Markets Asia Share Price - EMAS, Emerging Market,0.55%,0.17%
-SSGA SPDR ETFs Europe I plc (EMDV) S&P Emerging Markets Dividend GBP Share Price - EMDV, Emerging Market,0.55%,0.47%
+Source Markets (MXFS) Source MSCI Emerging Markets UCITS ETF Share Price - MXFS, Emerging Market,0.54%,0.14%
+WisdomTree Issuer plc (DGSE) Emerging Markets SmallCap Dividend UCITS ETF Share Price - DGSE, Emerging Market,0.54%,0.7%
+Lyxor International Asset Management (LEML) Lyxor UCITS ETF MSCI Emerging Markets Index Share Price - LEML, Emerging Market,0.55%,0.1%
+SSGA SPDR ETFs Europe I plc (EMAS) SPDR MSCI Emerging Markets Asia Share Price - EMAS, Emerging Market,0.55%,0.25%
+SSGA SPDR ETFs Europe I plc (EMDV) S&P Emerging Markets Dividend GBP Share Price - EMDV, Emerging Market,0.55%,0.39%
 iShares V plc (SSAC) MSCI ACWI UCITS ETF USD Acc (GBP) Share Price - SSAC, Emerging Market,0.6%,0.05%
-iShares V plc (SEDY) Dow Jones Emerging Markets Select Div GBP Share Price - SEDY, Emerging Market,0.65%,0.17%
+iShares V plc (SEDY) Dow Jones Emerging Markets Select Div GBP Share Price - SEDY, Emerging Market,0.65%,0.2%
 Powershares Global Funds Ireland (PSRM) FTSE Rafi Emerging Markets Fund Share Price - PSRM, Emerging Market,0.65%,0.25%
-db X-trackers (XMXD) MSCI EM EMEA Index UCITS ETF Share Price - XMXD, Emerging Market,0.65%,0.33%
+db X-trackers (XMXD) MSCI EM EMEA Index UCITS ETF Share Price - XMXD, Emerging Market,0.65%,0.72%
 db X-trackers (XGLF) MSCI GCC Select Index UCITS ETF Share Price - XGLF, Emerging Market,0.65%,0.88%
-Lyxor International Asset Management (MALL) MSCI Malaysia GBP Share Price - MALL, Emerging Market,0.65%,1.75%
-iShares III plc (SEMA) MSCI Emerging Markets (Acc) USD Share Price - SEMA, Emerging Market,0.68%,0.18%
+Lyxor International Asset Management (MALL) MSCI Malaysia GBP Share Price - MALL, Emerging Market,0.65%,1.6%
+iShares III plc (SEMA) MSCI Emerging Markets (Acc) USD Share Price - SEMA, Emerging Market,0.68%,0.25%
 WisdomTree Issuer plc (EPIE) India Quality UCITS USD ACC Share Price - EPIE, Emerging Market,0.73%,0.55%
-iShares II plc (BRIC) FTSE BRIC 50 Share Price - BRIC, Emerging Market,0.74%,0.1%
-iShares III plc (IEMS) MSCI Emerging Markets SmallCap (USD) Share Price - IEMS, Emerging Market,0.74%,0.2%
+iShares II plc (BRIC) FTSE BRIC 50 Share Price - BRIC, Emerging Market,0.74%,0.14%
+iShares III plc (IEMS) MSCI Emerging Markets SmallCap (USD) Share Price - IEMS, Emerging Market,0.74%,0.24%
 iShares plc (IDEM) MSCI Emerging Markets (USD) UCITS ETD (Dist) Share Price - IDEM, Emerging Market,0.75%,0.04%
-Ossiam ETF (LMMV) Emerging Markets Minimum Variance Share Price - LMMV, Emerging Market,0.75%,0.83%
-First Trust Global Funds plc (FEM) Emerging Markets AlphaDEX UCITS Share Price - FEM, Emerging Market,0.8%,0.65%
-db X-trackers (XBAK) MSCI Pakistan IM Index UCITS ETF Share Price - XBAK, Emerging Market,0.85%,1.01%
-db X-trackers (XSFR) S&P Select Frontier UCITS ETF Share Price - XSFR, Emerging Market,0.95%,0.92%
+Ossiam ETF (LMMV) Emerging Markets Minimum Variance Share Price - LMMV, Emerging Market,0.75%,0.76%
+First Trust Global Funds plc (FEM) Emerging Markets AlphaDEX UCITS Share Price - FEM, Emerging Market,0.8%,0.67%
+db X-trackers (XBAK) MSCI Pakistan IM Index UCITS ETF Share Price - XBAK, Emerging Market,0.85%,1.02%
+db X-trackers (XSFR) S&P Select Frontier UCITS ETF Share Price - XSFR, Emerging Market,0.95%,0.82%
 HSBC ETFs Plc (H50E) Euro Stoxx 50 UCITS Share Price - H50E, Europe,0.05%,0.05%
 Source Markets (SX5S) EURO STOXX 50 Share Price - SX5S, Europe,0.05%,0.21%
 Lyxor International Asset Management (MSED) EURO STOXX 50 Share Price - MSED, Europe,0.07%,0.22%
-Lyxor Asset Management Luxembourg (MEUD) MSCI Europe (DR) - UCITS ETF C-EUR Share Price - MEUD, Europe,0.07%,0.28%
-db X-trackers (XESC) Euro STOXX 50 UCITS ETC (DR)1C Share Price - XESC, Europe,0.09%,0.05%
+Lyxor Asset Management Luxembourg (MEUD) MSCI Europe (DR) - UCITS ETF C-EUR Share Price - MEUD, Europe,0.07%,0.31%
 db X-trackers (XESX) Euro STOXX® 50 UCITS ETF (DR) 1D Share Price - XESX, Europe,0.09%,0.06%
-db X-trackers (XDAX) DAX UCITS ETF (DR) 1C Share Price - XDAX, Europe,0.09%,0.1%
+db X-trackers (XESC) Euro STOXX 50 UCITS ETC (DR)1C Share Price - XESC, Europe,0.09%,0.06%
+db X-trackers (XDAX) DAX UCITS ETF (DR) 1C Share Price - XDAX, Europe,0.09%,0.09%
 db X-trackers (XDDX) DAX UCITS ETF (DR) - Income 1D Share Price - XDDX, Europe,0.09%,0.15%
 iShares VII plc (CSX5) Core EURO STOXX 50 Share Price - CSX5, Europe,0.1%,0.07%
-iShares VII plc (CS51) iShares Core EURO STOXX 50 B EUR Acc (GBP) Share Price - CS51, Europe,0.1%,0.07%
-Vanguard Funds plc (VERX) FTSE Developed Europe ex-UK UCITS ETF Share Price - VERX, Europe,0.12%,0.07%
-Vanguard Funds plc (VEUR) FTSE Developed Europe Share Price - VEUR, Europe,0.12%,0.11%
-db X-trackers (XD5E) MSCI EMU INDEX UCITS ETF DR 1D Share Price - XD5E, Europe,0.15%,0.08%
+iShares VII plc (CS51) iShares Core EURO STOXX 50 B EUR Acc (GBP) Share Price - CS51, Europe,0.1%,0.08%
+Vanguard Funds plc (VERX) FTSE Developed Europe ex-UK UCITS ETF Share Price - VERX, Europe,0.12%,0.11%
+Vanguard Funds plc (VEUR) FTSE Developed Europe Share Price - VEUR, Europe,0.12%,0.14%
+db X-trackers (XD5E) MSCI EMU INDEX UCITS ETF DR 1D Share Price - XD5E, Europe,0.15%,0.11%
 iShares (BlackRock Asset Management Deutschland) EURO STOXX 50 (DE) Share Price, Europe,0.16%,0.0%
 iShares (BlackRock Asset Management Deutschland) Core Dax UCITS ETF (DE) Share Price, Europe,0.16%,0.0%
-UBS ETF SICAV (UB06) MSCI EMU Share Price - UB06, Europe,0.18%,0.11%
+iShares II plc (EUE) Euro STOXX 50 UCITS ETF (Dist) Share Price - EUE, Europe,0.16%,0.09%
+UBS ETF SICAV (UB06) MSCI EMU Share Price - UB06, Europe,0.18%,0.14%
 SSGA SPDR ETFs Europe I plc (EMUE) MSCI EMU Share Price - EMUE, Europe,0.18%,0.18%
 Source Markets plc (S600) STOXX Europe 600 UCITS ETF Share Price - S600, Europe,0.19%,0.11%
 Lyxor International Asset Management DJ Euro Stoxx 50 Master Unit Share Price, Europe,0.2%,0.0%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Share Price, Europe,0.2%,0.0%
 db X-trackers (XSX6) Stoxx® Europe 600 UCITS ETF (DR) Share Price - XSX6, Europe,0.2%,0.08%
-HSBC ETFs Plc (HMEU) MSCI Europe Share Price - HMEU, Europe,0.2%,0.1%
 db X-trackers (XD5F) EURO STOXX 50 ex-Financials UCITS (DR) Share Price - XD5F, Europe,0.2%,0.11%
-Source Markets plc (MXEU) MSCI Europe UCITS ETF Share Price - MXEU, Europe,0.2%,0.11%
+HSBC ETFs Plc (HMEU) MSCI Europe Share Price - HMEU, Europe,0.2%,0.12%
+Source Markets plc (MXEU) MSCI Europe UCITS ETF Share Price - MXEU, Europe,0.2%,0.13%
+Lyxor International Asset Management (MSEX) Euro Stoxx 50 (DR) Daily Hedged C-GBP Share Price - MSEX, Europe,0.2%,0.21%
 Lyxor International Asset Management (MSEU) Euro Stoxx 50 Monthly Hedged C-USD UCITS Share Price - MSEU, Europe,0.2%,0.21%
-Lyxor International Asset Management (MSEX) Euro Stoxx 50 (DR) Daily Hedged C-GBP Share Price - MSEX, Europe,0.2%,0.22%
-UBS ETF SICAV (UB12) MSCI Europe Share Price - UB12, Europe,0.2%,0.39%
+UBS ETF SICAV (UB12) MSCI Europe Share Price - UB12, Europe,0.2%,0.7%
 db X-trackers MSCI Europe Value Factor UCITS ETF (DR) Share Price, Europe,0.25%,0.0%
-Lyxor International Asset Management CAC 40 Master Unit Share Price, Europe,0.25%,0.04%
-db X-trackers (XMEU) MSCI Europe Index UCITS ETF (DR) 1C Share Price - XMEU, Europe,0.25%,0.08%
-Lyxor International Asset Management (CACX) CAC 40 (GBP) Share Price - CACX, Europe,0.25%,0.09%
-Amundi ETF (CMU) MSCI EMU UCITS ETF DR Share Price - CMU, Europe,0.25%,0.11%
-iShares VI plc (IMV) Edge MSCI Europe Minimum Volatility GBP Share Price - IMV, Europe,0.25%,0.12%
+Lyxor International Asset Management CAC 40 Master Unit Share Price, Europe,0.25%,0.06%
+db X-trackers (XMEU) MSCI Europe Index UCITS ETF (DR) 1C Share Price - XMEU, Europe,0.25%,0.1%
+Lyxor International Asset Management (CACX) CAC 40 (GBP) Share Price - CACX, Europe,0.25%,0.1%
+iShares VI plc (IMV) Edge MSCI Europe Minimum Volatility GBP Share Price - IMV, Europe,0.25%,0.11%
+iShares IV plc (IFRE) MSCI France UCITS ETF EUR (Acc) Share Price - IFRE, Europe,0.25%,0.12%
+iShares Edge IV plc (IEFV) MSCI Europe Value Factor UCITS ETF Share Price - IEFV, Europe,0.25%,0.13%
 db X-trackers (XD5S) MSCI EMU INDEX UCITS ETF DR GBP Share Price - XD5S, Europe,0.25%,0.14%
-Amundi Investment Solutions (CG1) MSCI Germany UCITS ETF Share Price - CG1, Europe,0.25%,0.16%
-db X-trackers (XEUM) MSCI Europe Mid Cap Index UCITS ETF (DR) Share Price - XEUM, Europe,0.25%,0.18%
-Amundi Investment Solutions (CN1) MSCI Nordic EUR Share Price - CN1, Europe,0.25%,0.21%
-SSGA SPDR ETFs Europe II plc (ERO) MSCI Europe UCITS Share Price - ERO, Europe,0.25%,0.21%
-SSGA SPDR ETFs Europe II plc (EVAL) MSCI Europe Value Weighted UCITS Share Price - EVAL, Europe,0.25%,0.29%
-UBS ETF SICAV (UB17) MSCI EMU Value Share Price - UB17, Europe,0.25%,0.34%
-Amundi Investment Solutions (C8M) MSCI Europe Materials UCITS ETF Share Price - C8M, Europe,0.25%,0.35%
-Amundi Investment Solutions (CS1) MSCI Spain Share Price - CS1, Europe,0.25%,0.39%
-Amundi ETF (CI1) MSCI Italy UCITS ETF Share Price - CI1, Europe,0.25%,0.5%
-Amundi Investment Solutions MSCI Switzerland Share Price, Europe,0.25%,0.57%
-UBS ETF SICAV (UB0F) MSCI EMU UCITS ETF (Hedged to GBP) A-dis Share Price - UB0F, Europe,0.28%,0.11%
-UBS ETF SICAV (UC89) MSCI EMU 100% Hedged to USD UCITS ETF Share Price - UC89, Europe,0.28%,0.19%
+db X-trackers (XEUM) MSCI Europe Mid Cap Index UCITS ETF (DR) Share Price - XEUM, Europe,0.25%,0.19%
+iShares Edge IV plc (IEFM) MSCI Europe Momentum Factor UCITS ETF Share Price - IEFM, Europe,0.25%,0.19%
+iShares Edge IV plc (IEFQ) MSCI Europe Quality Factor UCITS ETF Share Price - IEFQ, Europe,0.25%,0.2%
+iShares Edge IV plc (IEFS) MSCI Europe Size Factor UCITS ETF Share Price - IEFS, Europe,0.25%,0.25%
+SSGA SPDR ETFs Europe II plc (EVAL) MSCI Europe Value Weighted UCITS Share Price - EVAL, Europe,0.25%,0.26%
+SSGA SPDR ETFs Europe II plc (ERO) MSCI Europe UCITS Share Price - ERO, Europe,0.25%,0.28%
+UBS ETF SICAV (UB17) MSCI EMU Value Share Price - UB17, Europe,0.25%,0.32%
+UBS ETF SICAV (UB0F) MSCI EMU UCITS ETF (Hedged to GBP) A-dis Share Price - UB0F, Europe,0.28%,0.13%
+UBS ETF SICAV (UC89) MSCI EMU 100% Hedged to USD UCITS ETF Share Price - UC89, Europe,0.28%,0.23%
 UBS ETF SICAV (UB0E) MSCI EMU UCITS ETF (Hedged to GBP) A-dis Share Price - UB0E, Europe,0.28%,0.41%
-WisdomTree Issuer plc (EEI) European Equity Income UCITS ETF Share Price - EEI, Europe,0.29%,0.23%
-Wisdomtree Issuer plc (EEIP) Europe Equity Income UCITS ETF GBP Share Price - EEIP, Europe,0.29%,0.24%
-iShares plc (IAEX) AEX Share Price - IAEX, Europe,0.3%,0.04%
-db X-trackers FTSE MIB UCITS ETF (DR) Share Price, Europe,0.3%,0.04%
+Wisdomtree Issuer plc (EEIP) Europe Equity Income UCITS ETF GBP Share Price - EEIP, Europe,0.29%,0.23%
+WisdomTree Issuer plc (EEI) European Equity Income UCITS ETF Share Price - EEI, Europe,0.29%,0.25%
+iShares plc (IAEX) AEX Share Price - IAEX, Europe,0.3%,0.06%
 db X-trackers (XD3E) Euro Stoxx Select Dividend 30 UCITS ETF (DR) Share Price - XD3E, Europe,0.3%,0.07%
-SSGA SPDR ETFs Europe I plc (EUDV) S&P Euro Dividend Aristocrats GBP Share Price - EUDV, Europe,0.3%,0.1%
+db X-trackers FTSE MIB UCITS ETF (DR) Share Price, Europe,0.3%,0.08%
+SSGA SPDR ETFs Europe I plc (EUDV) S&P Euro Dividend Aristocrats GBP Share Price - EUDV, Europe,0.3%,0.09%
 db X-trackers Swiss Large Cap UCITS ETF DR 1D Share Price, Europe,0.3%,0.12%
 GO UCITS ETF Solutions plc (CMFP) ETFS Longer Dated All Commodities GO UCITS ETF Share Price - CMFP, Europe,0.3%,0.14%
+db X-trackers (XXSC) MSCI Europe Small Cap Index UCITS ETF (DR) Share Price - XXSC, Europe,0.3%,0.17%
 BMO UCITS ETF ICAV (ZWEU) Enhanced Inc Euro Eqty UCITS ETF EU Share Price - ZWEU, Europe,0.3%,0.17%
-db X-trackers (XXSC) MSCI Europe Small Cap Index UCITS ETF (DR) Share Price - XXSC, Europe,0.3%,0.19%
-Amundi Investment Solutions (AEXK) MSCI Europe Ex UK EUR Share Price - AEXK, Europe,0.3%,0.21%
-db X-trackers (XDN0) MSCI Nordic Index UCITS ETF (DR) Share Price - XDN0, Europe,0.3%,0.24%
+iShares II plc (IESE) MSCI Europe SRI UCITS ETF Share Price - IESE, Europe,0.3%,0.19%
+db X-trackers (XDN0) MSCI Nordic Index UCITS ETF (DR) Share Price - XDN0, Europe,0.3%,0.19%
 SSGA SPDR ETFs Europe II plc (LOWE) Euro Stoxx Low Volatility Share Price - LOWE, Europe,0.3%,0.26%
-db X-trackers (XEOU) MSCI Europe Index UCITS ETF (DR) (USD) Share Price - XEOU, Europe,0.3%,0.3%
 SSGA SPDR ETFs Europe II plc (EUSC) MSCI Europe Small Cap UCITS Share Price - EUSC, Europe,0.3%,0.31%
 SSGA SPDR ETFs Europe II plc (CSTP) MSCI Europe Consumer Staples UCITS ETF Share Price - CSTP, Europe,0.3%,0.31%
 UBS ETF SICAV (UC94) MSCI Switzerland 20/35 Hedged To GBP UCITS A ETF Share Price - UC94, Europe,0.3%,0.31%
+db X-trackers (XEOU) MSCI Europe Index UCITS ETF (DR) (USD) Share Price - XEOU, Europe,0.3%,0.39%
 iShares (BlackRock Asset Management Deutschland) DivDAX UCITS (DE) Share Price, Europe,0.31%,0.0%
-iShares III plc (SMEA) MSCI Europe (Acc) EUR Share Price - SMEA, Europe,0.33%,0.08%
-iShares VII plc (CMB1) FTSE MIB UCITS ETF Share Price - CMB1, Europe,0.33%,0.12%
+iShares (BlackRock Asset Management Deutschland) EURO STOXX Select Dividend 30 (DE) Share Price, Europe,0.31%,0.0%
+iShares VII plc (CEU1) MSCI EMU UCITS ETF Share Price - CEU1, Europe,0.33%,0.08%
+iShares III plc (SMEA) MSCI Europe (Acc) EUR Share Price - SMEA, Europe,0.33%,0.09%
 db X-trackers (XDER) FTSE EPRA/NAREIT Developed Europe Real Estate (DR) Share Price - XDER, Europe,0.33%,0.2%
-UBS ETF SICAV (UB69) MSCI EMU Small Cap UCITS ETF A - Dis Share Price - UB69, Europe,0.33%,0.48%
-iShares II plc (EUN) STOXX Europe 50 Share Price - EUN, Europe,0.35%,0.07%
+iShares VII plc (CMB1) FTSE MIB UCITS ETF Share Price - CMB1, Europe,0.33%,0.28%
+UBS ETF SICAV (UB69) MSCI EMU Small Cap UCITS ETF A - Dis Share Price - UB69, Europe,0.33%,0.51%
+iShares VII plc FTSE Italia Mid-Small Cap UTS ETF EUR Share Price, Europe,0.33%,3.28%
 iShares II plc (IMEU) MSCI Europe UCITS ETF (Dist) Share Price - IMEU, Europe,0.35%,0.07%
-iShares II plc (EUE) Euro STOXX 50 UCITS ETF (Dist) Share Price - EUE, Europe,0.35%,0.08%
+iShares II plc (EUN) STOXX Europe 50 Share Price - EUN, Europe,0.35%,0.09%
 db X-trackers (XLDX) LevDAX Daily UCITS ETF Share Price - XLDX, Europe,0.35%,0.09%
-iShares II plc (IMIB) FTSE MIB UCITS ETF (Dist) Share Price - IMIB, Europe,0.35%,0.1%
-Lyxor International Asset Management ETF FTSE Mib Share Price, Europe,0.35%,0.1%
+iShares II plc (IMIB) FTSE MIB UCITS ETF (Dist) Share Price - IMIB, Europe,0.35%,0.11%
+Lyxor International Asset Management ETF FTSE Mib Share Price, Europe,0.35%,0.12%
 WisdomTree Issuer plc (DXGP) Germany Equity UCITS ETF GBP Hedged Share Price - DXGP, Europe,0.35%,0.16%
 CS ETF (CH) DIS NAV Share Price, Europe,0.35%,0.19%
-BMO ETF (ZILE) MSCI Europe ex-UK Income Leaders Index Share Price - ZILE, Europe,0.35%,0.37%
-Ossiam (S6EW) STOXX Europe 600 Equal Weight NR UCITS ETF 1C Share Price - S6EW, Europe,0.35%,0.38%
-WisdomTree Issuer plc (DFE) Europe SmallCap Dividend UCITS ETF Share Price - DFE, Europe,0.38%,0.4%
+BMO ETF (ZILE) MSCI Europe ex-UK Income Leaders Index Share Price - ZILE, Europe,0.35%,0.29%
+Ossiam (S6EW) STOXX Europe 600 Equal Weight NR UCITS ETF 1C Share Price - S6EW, Europe,0.35%,0.34%
+WisdomTree Issuer plc (DFE) Europe SmallCap Dividend UCITS ETF Share Price - DFE, Europe,0.38%,0.41%
 Wisdomtree Issue Plc (DFEP) EUROPE SMALLCAP DIV UCITS GBP ACC Share Price - DFEP, Europe,0.38%,0.41%
-Powershares Global Fund Ireland (PSRE) FTSE Rafi Europe Fd - Euro shs Share Price - PSRE, Europe,0.39%,0.19%
-iShares plc (IEUX) MSCI Europe ex-UK Share Price - IEUX, Europe,0.4%,0.05%
+Powershares Global Fund Ireland (PSRE) FTSE Rafi Europe Fd - Euro shs Share Price - PSRE, Europe,0.39%,0.18%
 Lyxor International Asset Management Leverage CAC 40 Share Price, Europe,0.4%,0.05%
-iShares plc (IDJG) EURO STOXX Total Market Growth Large Share Price - IDJG, Europe,0.4%,0.06%
-iShares plc (IEUR) FTSEurofirst 80 Share Price - IEUR, Europe,0.4%,0.07%
 iShares plc (IDVY) EURO STOXX Select Dividend 30 Share Price - IDVY, Europe,0.4%,0.07%
 Lyxor International Asset Management EURO STOXX 50 Daily Leverage Share Price, Europe,0.4%,0.07%
 db X-trackers (XSSX) Euro Stoxx 50® Short Daily UCITS ETF Share Price - XSSX, Europe,0.4%,0.07%
 iShares plc (IDJV) EURO STOXX Total Market Value Large Share Price - IDJV, Europe,0.4%,0.09%
+iShares plc (IEUX) MSCI Europe ex-UK Share Price - IEUX, Europe,0.4%,0.09%
 Lyxor Master Fund Lyxor ETF Leverage DAX Share Price, Europe,0.4%,0.1%
-iShares plc (DJSC) EURO STOXX Small Share Price - DJSC, Europe,0.4%,0.12%
+iShares plc (IDJG) EURO STOXX Total Market Growth Large Share Price - IDJG, Europe,0.4%,0.11%
+iShares plc (IEUR) FTSEurofirst 80 Share Price - IEUR, Europe,0.4%,0.13%
 iShares plc (DJMC) EURO STOXX Mid Share Price - DJMC, Europe,0.4%,0.13%
-iShares plc (IEUT) FTSEurofirst 100 Share Price - IEUT, Europe,0.4%,0.14%
-db X-trackers (XDGM) Mittelstand & MidCap Germany UCITS ETF (DR) Share Price - XDGM, Europe,0.4%,0.17%
-BMO ETF (ZIEG) MSCI Europe ex-UK Income Leaders GBP Hedge Share Price - ZIEG, Europe,0.4%,0.39%
-GO UCITS ETF Solutions plc (DL2P) DAX 2X Long Fund Shares Eur (GBP) Share Price - DL2P, Europe,0.4%,0.49%
-GO UCITS ETF Solutions plc (DEL2) DAX 2X Long Fund Share Price - DEL2, Europe,0.4%,0.54%
-Lyxor International Asset Management FTSE Italian Mid Cap Share Price, Europe,0.4%,0.93%
-iShares II plc (IESE) MSCI Europe SRI UCITS ETF Share Price - IESE, Europe,0.45%,0.17%
-Multi Units Luxembourg (SGQE) Lyxor UCITS ETF SG European Quality Income Share Price - SGQE, Europe,0.45%,0.42%
-Lyxor International Asset Management ETF FTSE Athex 20 Share Price, Europe,0.45%,0.97%
-Source Markets plc (REQR) RBIS Equal-Risk European Equity UCITS ETF Share Price - REQR, Europe,0.48%,0.39%
+iShares plc (DJSC) EURO STOXX Small Share Price - DJSC, Europe,0.4%,0.15%
+db X-trackers (XDGM) Mittelstand & MidCap Germany UCITS ETF (DR) Share Price - XDGM, Europe,0.4%,0.15%
+iShares plc (IEUT) FTSEurofirst 100 Share Price - IEUT, Europe,0.4%,0.16%
+iShares plc (EUXS) MSCI Europe ex-UK GBP Hedged UCITS ETF Share Price - EUXS, Europe,0.4%,0.23%
+GO UCITS ETF Solutions plc (DEL2) DAX 2X Long Fund Share Price - DEL2, Europe,0.4%,0.29%
+GO UCITS ETF Solutions plc (DL2P) DAX 2X Long Fund Shares Eur (GBP) Share Price - DL2P, Europe,0.4%,0.31%
+BMO ETF (ZIEG) MSCI Europe ex-UK Income Leaders GBP Hedge Share Price - ZIEG, Europe,0.4%,0.36%
+Lyxor International Asset Management FTSE Italian Mid Cap Share Price, Europe,0.4%,0.82%
+Lyxor International Asset Management ETF FTSE Athex 20 Share Price, Europe,0.45%,0.0%
+iShares Edge IV plc (FSEU) FactorSelect MSCI Europe Share Price - FSEU, Europe,0.45%,0.15%
+Credit Suisse Asset Management IShares SMIM R (CH) Share Price, Europe,0.45%,0.36%
+Multi Units Luxembourg (SGQE) Lyxor UCITS ETF SG European Quality Income Share Price - SGQE, Europe,0.45%,0.4%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Personal & Household Goods Share Price, Europe,0.46%,0.0%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Telecommunications Share Price, Europe,0.46%,0.0%
+Source Markets plc (REQR) RBIS Equal-Risk European Equity UCITS ETF Share Price - REQR, Europe,0.48%,0.34%
 WisdomTree Issuer plc (ISEQ) WisdomTree ISEQ 20 UCITS ETF Share Price - ISEQ, Europe,0.49%,0.5%
-iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Telecommunications Share Price, Europe,0.5%,0.0%
 Source Markets plc (EZXU) STOXX Eurozone Exporter UCITS ET US Share Price - EZXU, Europe,0.5%,0.12%
-Lyxor International Asset Management (CECL) Eastern Europe ETF Share Price - CECL, Europe,0.5%,0.9%
+Lyxor International Asset Management (CECL) Eastern Europe ETF Share Price - CECL, Europe,0.5%,0.7%
 iShares (BlackRock Asset Management Deutschland) MDAX (DE) Share Price, Europe,0.51%,0.0%
-Source Markets plc (EFIE) Goldman Sachs Equity Factor Index Europe UCITS Share Price - EFIE, Europe,0.55%,0.21%
-iShares plc (CES1) MSCI EMU Small Cap UCITS ETF Share Price - CES1, Europe,0.58%,0.15%
-WisdomTree Issuer plc (HEDJ) Europe Hedged Equity UCITS ETF Share Price - HEDJ, Europe,0.58%,0.22%
-db X-trackers (XSD2) ShortDAX X2 Daily UCITS ETF Share Price - XSD2, Europe,0.6%,0.13%
-Societe General Asset Management SA SGAM ETF XBEAR CAC40 Share Price, Europe,0.6%,0.22%
-GO UCITS ETF Solutions plc (DES2) DAX 2X Short Fund Share Price - DES2, Europe,0.6%,0.24%
-GO UCITS ETF Solutions plc (DS2P) DAX 2X Short Fund Shares EUR (GBP) Share Price - DS2P, Europe,0.6%,0.29%
-HSBC ETFs plc (HTRY) MSCI Turkey Share Price - HTRY, Europe,0.6%,0.4%
-First Trust Global Funds plc (FEUZ) Eurozone Alphadex UCITS EUR(GBP) Share Price - FEUZ, Europe,0.65%,0.27%
+Source Markets plc (EFIE) Goldman Sachs Equity Factor Index Europe UCITS Share Price - EFIE, Europe,0.55%,3.63%
+iShares plc (CES1) MSCI EMU Small Cap UCITS ETF Share Price - CES1, Europe,0.58%,0.12%
+WisdomTree Issuer plc (HEDJ) Europe Hedged Equity UCITS ETF Share Price - HEDJ, Europe,0.58%,0.17%
+Societe General Asset Management SA SGAM ETF XBEAR CAC40 Share Price, Europe,0.6%,0.0%
+db X-trackers (XSD2) ShortDAX X2 Daily UCITS ETF Share Price - XSD2, Europe,0.6%,0.05%
+GO UCITS ETF Solutions plc (DS2P) DAX 2X Short Fund Shares EUR (GBP) Share Price - DS2P, Europe,0.6%,0.34%
+HSBC ETFs plc (HTRY) MSCI Turkey Share Price - HTRY, Europe,0.6%,0.39%
+GO UCITS ETF Solutions plc (DES2) DAX 2X Short Fund Share Price - DES2, Europe,0.6%,0.47%
+First Trust Global Funds plc (FEUZ) Eurozone Alphadex UCITS EUR(GBP) Share Price - FEUZ, Europe,0.65%,0.3%
 Ossiam ETF (LCPE) Shiller Barclays Cape Europe Sector Value Share Price - LCPE, Europe,0.65%,0.4%
-Ossiam (EUMV) ISTOXX Europe Minimum Variance NR UCITS ETF 1C EUR Share Price - EUMV, Europe,0.65%,0.45%
-iShares II plc (ITKY) MSCI Turkey Share Price - ITKY, Europe,0.74%,0.15%
-iShares II plc (IDTK) MSCI Turkey (USD) Share Price - IDTK, Europe,0.74%,0.15%
-iShares V plc (IPOL) MSCi Poland UCITS ETF Share Price - IPOL, Europe,0.74%,0.16%
-iShares V plc (SPOL) MSCI Poland UCITS ETF USD Acc (GBP) Share Price - SPOL, Europe,0.74%,0.19%
-iShares plc (IEER) MSCI Eastern Europe 10/40 Share Price - IEER, Europe,0.74%,0.24%
-iShares plc (IDEE) MSCI Eastern Europe 10/40 Share Price - IDEE, Europe,0.74%,0.24%
-Powershares Global Funds Ireland (PSES) FTSE Rafi Dev Europe Mid-Small Fund Euro Share Price - PSES, Europe,0.75%,0.21%
-HSBC ETFs Plc (HUKX) FTSE 100 UCITS ETF Share Price - HUKX, FTSE 100,0.07%,0.09%
-iShares VII plc (CUKX) Core FTSE 100 (Acc) Share Price - CUKX, FTSE 100,0.07%,0.26%
-db X-trackers (XDUK) FTSE 100 UCITS ETF (DR) Share Price - XDUK, FTSE 100,0.09%,0.15%
-Multi Units Luxembourg Lyxor (L100) FTSE 100 UCITS C GBP ETF Share Price - L100, FTSE 100,0.15%,0.04%
+Ossiam (EUMV) ISTOXX Europe Minimum Variance NR UCITS ETF 1C EUR Share Price - EUMV, Europe,0.65%,0.44%
+iShares plc (IDEE) MSCI Eastern Europe 10/40 Share Price - IDEE, Europe,0.74%,0.19%
+iShares II plc (ITKY) MSCI Turkey Share Price - ITKY, Europe,0.74%,0.22%
+iShares II plc (IDTK) MSCI Turkey (USD) Share Price - IDTK, Europe,0.74%,0.22%
+iShares plc (IEER) MSCI Eastern Europe 10/40 Share Price - IEER, Europe,0.74%,0.23%
+iShares V plc (IPOL) MSCi Poland UCITS ETF Share Price - IPOL, Europe,0.74%,0.28%
+iShares V plc (SPOL) MSCI Poland UCITS ETF USD Acc (GBP) Share Price - SPOL, Europe,0.74%,0.33%
+Powershares Global Funds Ireland (PSES) FTSE Rafi Dev Europe Mid-Small Fund Euro Share Price - PSES, Europe,0.75%,0.2%
+HSBC ETFs Plc (HUKX) FTSE 100 UCITS ETF Share Price - HUKX, FTSE 100,0.07%,0.08%
+iShares VII plc (CUKX) Core FTSE 100 (Acc) Share Price - CUKX, FTSE 100,0.07%,0.21%
+db X-trackers (XDUK) FTSE 100 UCITS ETF (DR) Share Price - XDUK, FTSE 100,0.09%,0.08%
+Multi Units Luxembourg Lyxor (L100) FTSE 100 UCITS C GBP ETF Share Price - L100, FTSE 100,0.15%,0.08%
 Source Markets Plc (S100) FTSE 100 UCITS ETF Share Price - S100, FTSE 100,0.2%,0.17%
-UBS ETF SICAV (UB03) FTSE 100 UCITS ETF A Inc Share Price - UB03, FTSE 100,0.2%,0.29%
-db X-trackers (XUKS) FTSE 100 Short Daily UCITS ETF Share Price - XUKS, FTSE 100,0.5%,0.13%
-GO UCITS ETF Solutions plc (LUK2) FTSE 100 Leveraged (2X) Fund Share Price - LUK2, FTSE 100,0.5%,0.15%
-GO UCITS ETF Solutions plc (SUK2) FTSE 100 Super Short Strategy (2X) Fund Share Price - SUK2, FTSE 100,0.6%,0.06%
-db X-trackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.19%
+UBS ETF SICAV (UB03) FTSE 100 UCITS ETF A Inc Share Price - UB03, FTSE 100,0.2%,0.3%
+GO UCITS ETF Solutions plc (LUK2) FTSE 100 Leveraged (2X) Fund Share Price - LUK2, FTSE 100,0.5%,0.11%
+db X-trackers (XUKS) FTSE 100 Short Daily UCITS ETF Share Price - XUKS, FTSE 100,0.5%,0.18%
+GO UCITS ETF Solutions plc (SUK2) FTSE 100 Super Short Strategy (2X) Fund Share Price - SUK2, FTSE 100,0.6%,0.05%
+db X-trackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.21%
 Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.18%
-Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.26%
-db X-trackers (XDJP) Nikkei 225 UCITS ETF (DR) 1D Share Price - XDJP, Japan,0.09%,0.12%
-Vanguard Funds plc (VJPN) FTSE Japan Equity Share Price - VJPN, Japan,0.19%,0.08%
-HSBC ETFs Plc (HMJP) MSCI Japan UCITS Share Price - HMJP, Japan,0.19%,0.19%
-iShares III plc (IJPA) Core MSCI Japan IMI Acc Share Price - IJPA, Japan,0.2%,0.11%
-iShares III plc (SJPA) Core MSCI Japan IMI Acc USD (GBX) Share Price - SJPA, Japan,0.2%,0.12%
+Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.2%
+db X-trackers (XDJP) Nikkei 225 UCITS ETF (DR) 1D Share Price - XDJP, Japan,0.09%,0.09%
+HSBC ETFs Plc (HMJP) MSCI Japan UCITS Share Price - HMJP, Japan,0.19%,0.11%
+Vanguard Funds plc (VJPN) FTSE Japan Equity Share Price - VJPN, Japan,0.19%,0.12%
+iShares III plc (IJPA) Core MSCI Japan IMI Acc Share Price - IJPA, Japan,0.2%,0.07%
+iShares III plc (SJPA) Core MSCI Japan IMI Acc USD (GBX) Share Price - SJPA, Japan,0.2%,0.09%
 db X-trackers (XDNY) JPX-Nikkei 400 UCITS ETF DR Share Price - XDNY, Japan,0.2%,0.19%
-Multi Units Luxembourg (JPXG) Lyxor JPX Nikkei 400 (DR) Ucits ETF C EUR Share Price - JPXG, Japan,0.25%,0.16%
+Multi Units Luxembourg (JPXG) Lyxor JPX Nikkei 400 (DR) Ucits ETF C EUR Share Price - JPXG, Japan,0.25%,0.18%
 Source Markets plc (S400) JPX Nikkei 400 UCITS ETF Share Price - S400, Japan,0.25%,0.27%
-db X-trackers (XMJP) MSCI Japan Index UCITS ETF (DR) Share Price - XMJP, Japan,0.3%,0.12%
+db X-trackers (XMJP) MSCI Japan Index UCITS ETF (DR) Share Price - XMJP, Japan,0.3%,0.1%
 db X-trackers (XDNG) JPX-Nikkei 400 UCITS ETF DR GBP Share Price - XDNG, Japan,0.3%,0.15%
-UBS ETF SICAV (UB02) MSCI Japan Share Price - UB02, Japan,0.35%,0.16%
+UBS ETF SICAV (UB02) MSCI Japan Share Price - UB02, Japan,0.35%,0.14%
+iShares IV plc (SUJS) Sustainbale MSCI Japan SRI EUR Hedged UCITS ETF Share Price - SUJS, Japan,0.35%,0.17%
 Source Markets plc (JPEX) STOXX Japan Exporters UCITS ETF A Share Price - JPEX, Japan,0.35%,0.19%
+iShares (BlackRock Asset Management Ireland) MSCI EMU CHF Hedged UCITS ETF (Dist) Share Price, Japan,0.38%,0.36%
 db X-trackers (XMUJ) MSCI Japan Index UCITS ETF (DR) (USD) Share Price - XMUJ, Japan,0.4%,0.12%
-db X-trackers (XMJG) MSCI Japan Index UCITS ETF (DR) (GBP) Share Price - XMJG, Japan,0.4%,0.14%
-Source Markets plc (N4US) JPX-Nikkei 400 UCITS ETF USD Hedged Share Price - N4US, Japan,0.4%,0.62%
-Lyxor International Asset Management (JPNL) Japan Topix Share Price - JPNL, Japan,0.45%,0.14%
+db X-trackers (XMJG) MSCI Japan Index UCITS ETF (DR) (GBP) Share Price - XMJG, Japan,0.4%,0.16%
+Source Markets plc (N4US) JPX-Nikkei 400 UCITS ETF USD Hedged Share Price - N4US, Japan,0.4%,0.28%
+Lyxor International Asset Management (JPNL) Japan Topix Share Price - JPNL, Japan,0.45%,0.12%
 WisdomTree Issuer plc (DXJP) Japan Equity UCITS ETF Share Price - DXJP, Japan,0.45%,0.24%
 iShares VII plc (CNKY) Nikkei 225 UCITS ETF JPY Acc Share Price - CNKY, Japan,0.48%,0.1%
-iShares plc (IJPN) MSCI Japan UCITS ETF (Dist) Share Price - IJPN, Japan,0.59%,0.08%
-iShares III plc (ISJP) MSCI Japan SmallCap Share Price - ISJP, Japan,0.59%,0.12%
+iShares VII plc (CJPU) MSCI Japan USD Share Price - CJPU, Japan,0.48%,0.12%
+iShares (BlackRock Asset Management Deutschland) Nikkei 225 Share Price, Japan,0.51%,0.0%
+iShares III plc (ISJP) MSCI Japan SmallCap Share Price - ISJP, Japan,0.58%,0.15%
+iShares plc (IJPN) MSCI Japan UCITS ETF (Dist) Share Price - IJPN, Japan,0.59%,0.09%
 iShares V plc (IJPE) MSCI Japan Monthly EUR Hedged (EUR) Share Price - IJPE, Japan,0.64%,0.07%
-iShares V plc (IJPH) MSCI Japan Monthly GBP Hedged Share Price - IJPH, Japan,0.64%,0.08%
 iShares plc (IJPD) MSCI Japan USD Hedged UCITS ETF Share Price - IJPD, Japan,0.64%,0.1%
-Amundi Investment Solutions MSCI EM Latin American Share Price, Latin & South America,0.2%,0.23%
-HSBC ETFs plc (HMLA) MSCI Em Latin America UCITS ETF GBP Share Price - HMLA, Latin & South America,0.6%,0.18%
+iShares V plc (IJPH) MSCI Japan Monthly GBP Hedged Share Price - IJPH, Japan,0.64%,0.11%
+HSBC ETFs plc (HMLA) MSCI Em Latin America UCITS ETF GBP Share Price - HMLA, Latin & South America,0.6%,0.21%
+HSBC ETFS plc (HMEX) MSCI Mexico Capped ETF GBP Share Price - HMEX, Latin & South America,0.6%,0.25%
 HSBC ETFs Plc (HMBR) MSCI Brazil (USD) Share Price - HMBR, Latin & South America,0.6%,0.29%
-HSBC ETFS plc (HMEX) MSCI Mexico Capped ETF GBP Share Price - HMEX, Latin & South America,0.6%,0.36%
+db X-trackers (XMBR) MSCI Brazil Index UCITS ETF (DR) Share Price - XMBR, Latin & South America,0.65%,0.2%
 db X-trackers (XMES) MSCI Mexico Index UCITS ETF (DR) Share Price - XMES, Latin & South America,0.65%,0.21%
-db X-trackers (XMLA) MSCI EM LATAM INDEX UCITS ETF Share Price - XMLA, Latin & South America,0.65%,0.22%
-Lyxor International Asset Management Lyxor ETF Brazil Share Price, Latin & South America,0.65%,0.28%
-db X-trackers (XMBR) MSCI Brazil Index UCITS ETF (DR) Share Price - XMBR, Latin & South America,0.65%,0.28%
-iShares plc (IDBZ) MSCI Brazil (USD) UCITS ETF (Dist) Share Price - IDBZ, Latin & South America,0.74%,0.37%
-iShares II plc (LTAM) MSCI EM Latin America (GBP) UCITS ETF (Dist) Share Price - LTAM, Latin & South America,0.74%,0.46%
-Source Markets (SPXS) S&P 500 UCITS ETF A Share Price - SPXS, North America,0.05%,0.05%
-Source Markets plc (SPXP) S&P 500 UCITS ETF A GBP Share Price - SPXP, North America,0.05%,0.09%
+db X-trackers (XMLA) MSCI EM LATAM INDEX UCITS ETF Share Price - XMLA, Latin & South America,0.65%,0.28%
+Lyxor International Asset Management Lyxor ETF Brazil Share Price, Latin & South America,0.65%,0.33%
+iShares plc (IDBZ) MSCI Brazil (USD) UCITS ETF (Dist) Share Price - IDBZ, Latin & South America,0.74%,0.2%
+iShares II plc (LTAM) MSCI EM Latin America (GBP) UCITS ETF (Dist) Share Price - LTAM, Latin & South America,0.74%,0.39%
+Source Markets (SPXS) S&P 500 UCITS ETF A Share Price - SPXS, North America,0.05%,0.04%
+Source Markets plc (SPXP) S&P 500 UCITS ETF A GBP Share Price - SPXP, North America,0.05%,0.13%
+iShares VII plc (CSPX) Core S&P 500 B USD ACC Share Price - CSPX, North America,0.07%,0.02%
 iShares VII plc (CSP1) Core S&P 500 B GBP ACC Share Price - CSP1, North America,0.07%,0.03%
-Vanguard Funds plc (VUSA) S&P 500 UCITS ETF USD(GBP) Share Price - VUSA, North America,0.07%,0.03%
 iShares plc (IDUS) S&P 500 (USD) UCITS ETF (Dist) Share Price - IDUS, North America,0.07%,0.04%
-db X-trackers (XDUS) MSCI USA Index UCITS ETF (DR) 1C Share Price - XDUS, North America,0.07%,0.09%
-HSBC ETFs plc (HSPX) S&P 500 ETF USD Share Price - HSPX, North America,0.09%,0.04%
+Vanguard Funds plc (VUSA) S&P 500 UCITS ETF USD(GBP) Share Price - VUSA, North America,0.07%,0.05%
+db X-trackers (XDUS) MSCI USA Index UCITS ETF (DR) 1C Share Price - XDUS, North America,0.07%,0.07%
 SPDR ETFs Europe I plc (SPY5) S&P 500 USD Share Price - SPY5, North America,0.09%,0.04%
-Vanguard Funds plc (VNRT) FTSE North America UCITS ETF Share Price - VNRT, North America,0.1%,0.14%
+HSBC ETFs plc (HSPX) S&P 500 ETF USD Share Price - HSPX, North America,0.09%,0.05%
+Vanguard Funds plc (VNRT) FTSE North America UCITS ETF Share Price - VNRT, North America,0.1%,0.12%
 db X-trackers (XSPX) S&P 500 UCITS ETF Share Price - XSPX, North America,0.15%,0.06%
-Multi Units Luxembourg (LSPX) Lyxor ETF S&P 500 B (USD)GBX Share Price - LSPX, North America,0.15%,0.11%
+iShares V plc (IUCD) S&P500 Consumer Discr Sec UCITS ETF USD Share Price - IUCD, North America,0.15%,0.08%
+Multi Units Luxembourg (LSPX) Lyxor ETF S&P 500 B (USD)GBX Share Price - LSPX, North America,0.15%,0.1%
+iShares VI plc S&P 500 CHF Hedged Share Price, North America,0.2%,0.0%
+iShares V plc (IGUS) S&P 500 Monthly GBP Hedged (GBP) Share Price - IGUS, North America,0.2%,0.06%
+iShares IV Plc (IUMF) EDGE MSCI USA MOMENTUM FAC UCTS USD Share Price - IUMF, North America,0.2%,0.09%
+iShares IV Plc (IUQF) EDGE MSCI USA QUALITY FACT UCTS USD Share Price - IUQF, North America,0.2%,0.1%
+iShares IV Plc (IUVF) EDGE MSCI USA VALUE FACTOR UCTS USD Share Price - IUVF, North America,0.2%,0.1%
 iShares VI plc (MVUS) Edge S&P 500 Minimum Volatility GBP Share Price - MVUS, North America,0.2%,0.11%
+iShares IV Plc (IUSF) EDGE MSCI USA SIZE FACTOR UCTS USD Share Price - IUSF, North America,0.2%,0.11%
 db x-trackers (XDPG) S&P 500 UCITS ETF (DR) (GBP) Share Price - XDPG, North America,0.2%,0.11%
 UBS (Irl) ETF plc (UC07) MSCI USA Value UCITS Share Price - UC07, North America,0.2%,0.47%
-Amundi ETF (ANXU) Nasdaq-100 UCITS Share Price - ANXU, North America,0.23%,0.08%
-Lyxor International Asset Management MSCI USA D EUR (GBP) Share Price, North America,0.25%,0.1%
+Lyxor International Asset Management MSCI USA D EUR (GBP) Share Price, North America,0.25%,0.06%
 db x-trackers (XDWE) S&P 500 Equal Weight UCITS ETF (DR) Share Price - XDWE, North America,0.25%,0.13%
-SSGA SPDR ETFs Europe II plc (UVAL) MSCI USA Value Weighted UCITS Share Price - UVAL, North America,0.25%,0.27%
-UBS (Irl) ETF plc (UC99) MSCI USA Quality UCITS ETF Share Price - UC99, North America,0.25%,0.46%
+SSGA SPDR ETFs Europe II plc (UVAL) MSCI USA Value Weighted UCITS Share Price - UVAL, North America,0.25%,0.23%
+UBS (Irl) ETF plc (UC99) MSCI USA Quality UCITS ETF Share Price - UC99, North America,0.25%,0.49%
 WisdomTree Issuer plc (DHS) US Equity Income UCITS ETF Share Price - DHS, North America,0.29%,0.15%
 HSBC ETFs Plc (HMUS) MSCI USA Share Price - HMUS, North America,0.3%,0.05%
 Powershares Global Funds Ireland (EQQQ) Powershares EQQQ Fund Share Price - EQQQ, North America,0.3%,0.07%
 Powershares Global Funds Ireland (EQQU) EQQQ NASDAQ-100 UCITS USD Share Price - EQQU, North America,0.3%,0.07%
 db X-trackers (XMUS) MSCI USA Index UCITS ETF Share Price - XMUS, North America,0.3%,0.09%
 Source Markets Plc (XLYS) Consumer Disc S&P US Sel Sector Source UCITS ETF Share Price - XLYS, North America,0.3%,0.09%
-PowerShares Global Funds Ireland (HDLG) S&P 500 High Dividend Low Volatility Share Price - HDLG, North America,0.3%,0.1%
-SSGA SPDR ETFs Europe I plc (SPY4) S&P 400 US Mid Cap ETF Share Price - SPY4, North America,0.3%,0.14%
-db X-trackers (XRSG) Russell 2000 UCITS ETF (DR) Share Price - XRSG, North America,0.3%,0.14%
+PowerShares Global Funds Ireland (HDLG) S&P 500 High Dividend Low Volatility Share Price - HDLG, North America,0.3%,0.13%
+BMO UCITS ETF ICAV (ZWUS) Enhanced Inc USA Eqty UCITS ETF USD Share Price - ZWUS, North America,0.3%,0.15%
 Fidelity UCITS ICAV (FUSI) US Quality Income UCITS GBP INC Share Price - FUSI, North America,0.3%,0.16%
-Fidelity UCITS ICAV (FUSA) US Quality Income UCITS GBP ACC Share Price - FUSA, North America,0.3%,0.18%
-BMO UCITS ETF ICAV (ZWUS) Enhanced Inc USA Eqty UCITS ETF USD Share Price - ZWUS, North America,0.3%,0.2%
-SSGA SPDR ETFs Europe II plc (USSC) MSCI USA Small Cap Value Weighted UCITS Share Price - USSC, North America,0.3%,0.21%
-SSGA SPDR ETFs Europe II PLC (R2SC) Russell 2000 US Small Cap UCITS USD Share Price - R2SC, North America,0.3%,0.29%
+Fidelity UCITS ICAV (FUSA) US Quality Income UCITS GBP ACC Share Price - FUSA, North America,0.3%,0.16%
+db X-trackers (XRSG) Russell 2000 UCITS ETF (DR) Share Price - XRSG, North America,0.3%,0.16%
+SSGA SPDR ETFs Europe I plc (SPY4) S&P 400 US Mid Cap ETF Share Price - SPY4, North America,0.3%,0.23%
+SSGA SPDR ETFs Europe II PLC (R2SC) Russell 2000 US Small Cap UCITS USD Share Price - R2SC, North America,0.3%,0.25%
+Lyxor International Asset Management (UST) NASDAQ 100 USD Share Price - UST, North America,0.3%,0.3%
 Lyxor International Asset Management (USTL) NASDAQ 100 GBP Share Price - USTL, North America,0.3%,0.31%
-Lyxor International Asset Management (UST) NASDAQ 100 USD Share Price - UST, North America,0.3%,0.34%
+SSGA SPDR ETFs Europe II plc (USSC) MSCI USA Small Cap Value Weighted UCITS Share Price - USSC, North America,0.3%,0.32%
 iShares VII plc (CNX1) NASDAQ 100 UCITS ETF USD Acc Share Price - CNX1, North America,0.33%,0.04%
-iShares VII plc (CNDX) NASDAQ 100 USD ACC Share Price - CNDX, North America,0.33%,0.05%
+iShares VII plc (CNDX) NASDAQ 100 USD ACC Share Price - CNDX, North America,0.33%,0.04%
 iShares VII plc (CU1) MSCI USA USD Acc (GBP) Share Price - CU1, North America,0.33%,0.05%
 UBS ETF SICAV (UC46) MSCI USA Socially Responsible UCITS A USD Dis Share Price - UC46, North America,0.33%,0.49%
-UBS ETF SICAV (UB23) MSCI Canada Share Price - UB23, North America,0.34%,0.48%
-HSBC ETFs plc (HCAN) MSCI Canada UCITS ETF USD (GBP) Share Price - HCAN, North America,0.35%,0.07%
-SPDR ETFs Europe I plc (UDVD) S&P US Dividend Aristocrats USD Share Price - UDVD, North America,0.35%,0.08%
+UBS ETF SICAV (UB23) MSCI Canada Share Price - UB23, North America,0.34%,0.3%
+SSGA SPDR ETFs Europe I plc (USDV) S&P US Dividend Aristocrats Share Price - USDV, North America,0.35%,0.08%
+SSGA SPDR ETFs Europe I plc (LOWV) S&P 500 Low Volatility USD Share Price - LOWV, North America,0.35%,0.08%
 BMO ETF (ZILS) MSCI USA Income Leaders Index Share Price - ZILS, North America,0.35%,0.08%
-SSGA SPDR ETFs Europe I plc (USDV) S&P US Dividend Aristocrats Share Price - USDV, North America,0.35%,0.1%
+SPDR ETFs Europe I plc (UDVD) S&P US Dividend Aristocrats USD Share Price - UDVD, North America,0.35%,0.09%
+HSBC ETFs plc (HCAN) MSCI Canada UCITS ETF USD (GBP) Share Price - HCAN, North America,0.35%,0.11%
+iShares plc (HDIQ) MSCI USA Quality Dividend UCITS ETF Share Price - HDIQ, North America,0.35%,0.12%
+SSGA SPDR ETFs Europe I plc (USLV) S&P 500 Low Volatility GBP Share Price - USLV, North America,0.35%,0.14%
 db X-trackers (XCAD) MSCI Canada Index UCITS ETF (DR) Share Price - XCAD, North America,0.35%,0.16%
-SSGA SPDR ETFs Europe I plc (LOWV) S&P 500 Low Volatility USD Share Price - LOWV, North America,0.35%,0.17%
-SSGA SPDR ETFs Europe I plc (USLV) S&P 500 Low Volatility GBP Share Price - USLV, North America,0.35%,0.2%
 db X-trackers (XRSS) Russell Midcap UCITS ETF (DR) Share Price - XRSS, North America,0.35%,0.23%
-WisdomTree Issuer plc (DESE) US SmallCap Dividend UCITS ETF Share Price - DESE, North America,0.38%,0.25%
-Powershares Global Funds Ireland (SPVX) S&P 500 VEQTOR UCITS ETF Share Price - SPVX, North America,0.39%,0.23%
-db X-trackers (XDND) MSCI North America Hi Div Yield Index UCITS ETF DR Share Price - XDND, North America,0.39%,0.24%
+WisdomTree Issuer plc (DESE) US SmallCap Dividend UCITS ETF Share Price - DESE, North America,0.38%,0.26%
+Powershares Global Funds Ireland (SPVX) S&P 500 VEQTOR UCITS ETF Share Price - SPVX, North America,0.39%,0.22%
+db X-trackers (XDND) MSCI North America Hi Div Yield Index UCITS ETF DR Share Price - XDND, North America,0.39%,0.28%
 iShares plc (IDNA) MSCI North America (USD) Share Price - IDNA, North America,0.4%,0.06%
-BMO ETF (ZISG) MSCI USA Income Leaders GBP Hedged Share Price - ZISG, North America,0.4%,0.09%
-Multi Units Luxembourg (LCAN) Lyxor ETF Canada S&P TSX 60 B (USD)GBX Share Price - LCAN, North America,0.4%,0.65%
-iShares plc (CUS1) MSCI USA Small Cap UCITS ETF USD Acc Share Price - CUS1, North America,0.43%,0.14%
+BMO ETF (ZISG) MSCI USA Income Leaders GBP Hedged Share Price - ZISG, North America,0.4%,0.12%
+Multi Units Luxembourg (LCAN) Lyxor ETF Canada S&P TSX 60 B (USD)GBX Share Price - LCAN, North America,0.4%,0.66%
+iShares plc (CUS1) MSCI USA Small Cap UCITS ETF USD Acc Share Price - CUS1, North America,0.43%,0.15%
 UBS ETF SICAV (UC87) MSCI Canada UCITS ETF Hedged to GBP A Acc Share Price - UC87, North America,0.43%,0.88%
-iShares V plc (IGUS) S&P 500 Monthly GBP Hedged (GBP) Share Price - IGUS, North America,0.45%,0.06%
 Powershares Global Fund Ireland (PSRF) FTSE Rafi US 1000 Fd - USD Share Price - PSRF, North America,0.45%,0.14%
-Source Markets plc (RTYS) Russell 2000 UCITS Share Price - RTYS, North America,0.45%,0.19%
-GO UCITS ETF Solutions plc (RTWO) Russell 2000 Fund USD Share Price - RTWO, North America,0.45%,0.22%
+Source Markets plc (RTYS) Russell 2000 UCITS Share Price - RTYS, North America,0.45%,0.16%
+GO UCITS ETF Solutions plc (RTWO) Russell 2000 Fund USD Share Price - RTWO, North America,0.45%,0.21%
 GO UCITS ETF Solutions plc (RTWP) Russell 2000 US Small Cap Fund GBP Share Price - RTWP, North America,0.45%,0.23%
-GO UCITS ETF Solutions plc (MLPX) ETFS US Energy Infrastructure MLP GO UCITS ETF Share Price - MLPX, North America,0.45%,1.08%
+GO UCITS ETF Solutions plc (MLPX) ETFS US Energy Infrastructure MLP GO UCITS ETF Share Price - MLPX, North America,0.45%,1.09%
 VanEck Vectors ETF (MOAT) Morningstar US Wide Moat UCITS ETF Share Price - MOAT, North America,0.49%,0.19%
 db X-trackers (XSPS) S&P 500 Inverse Daily UCITS ETF Share Price - XSPS, North America,0.5%,0.09%
 iShares II plc (ISUS) MSCI USA Islamic Share Price - ISUS, North America,0.5%,0.12%
 Lyxor International Asset Management (DJEL) Dow Jones Industrial Average Share Price - DJEL, North America,0.5%,0.3%
-First Trust Global Funds (UINC) US Equity Income UCITS ETF Share Price - UINC, North America,0.55%,0.27%
-SSGA SPDR ETFs Europe I plc (EMSM) MSCI Emerging Markets Small Cap Share Price - EMSM, North America,0.55%,0.45%
+iShares (BlackRock Asset Management Deutschland) Dow Jones Industrial Average (DE) Share Price, North America,0.51%,0.0%
+First Trust Global Funds (UINC) US Equity Income UCITS ETF Share Price - UINC, North America,0.55%,0.24%
+SSGA SPDR ETFs Europe I plc (EMSM) MSCI Emerging Markets Small Cap Share Price - EMSM, North America,0.55%,0.43%
 db X-trackers (XS2D) S&P 500 2x Leveraged Daily UCITS ETF Share Price - XS2D, North America,0.6%,0.09%
-Ossiam (LUMV) US Minimum Variance NR UCITS ETF 1C GBP Share Price - LUMV, North America,0.65%,0.14%
+Ossiam (LUMV) US Minimum Variance NR UCITS ETF 1C GBP Share Price - LUMV, North America,0.65%,0.15%
 Ossiam ETF (USMV) MSCI USA Minimum Variance USD Share Price - USMV, North America,0.65%,0.15%
-First Trust Global Funds plc (FEX) US Large Cap Core AlphaDEX UCITS Share Price - FEX, North America,0.65%,0.18%
-Ossiam ETF (CAPU) Shiller Barclays Cape US Val Tr 1C (USD) Share Price - CAPU, North America,0.65%,0.25%
+Ossiam ETF (CAPU) Shiller Barclays Cape US Val Tr 1C (USD) Share Price - CAPU, North America,0.65%,0.24%
+First Trust Global Funds plc (FEX) US Large Cap Core AlphaDEX UCITS Share Price - FEX, North America,0.65%,0.26%
 db X-trackers (XT2D) S&P 500 2x Inverse Daily UCITS ETF Share Price - XT2D, North America,0.7%,0.0%
 iShares II plc (IPRV) S&P Listed Private Equity Share Price - IPRV, North America,0.75%,0.16%
 PowerShares ETF (PSWC) Dynamic US Market UCITS ETF Share Price - PSWC, North America,0.75%,0.22%
-Source Markets plc (MLPD) Morningstar US En Inf MLP UCITS ETF B USD Share Price - MLPD, North America,1.25%,0.1%
-Source Markets (MLPS) Morningstar US Energy Infrastructure MLP UCITS ETF Share Price - MLPS, North America,1.25%,0.3%
-UBS ETF SICAV SMI (CHF) A-dis Share Price, Other,0.22%,1.01%
-UBS ETF SICAV (UB39) MSCI Europe & Middle East Socially Resp UCITS ETF Share Price - UB39, Other,0.28%,0.12%
-iShares VII plc (CSCA) MSCI Canada USD (GBP) Share Price - CSCA, Other,0.48%,0.14%
-Lyxor International Asset Management (INDL) Lyxor ETF MSCI Indonesia Class C Share Price - INDL, Other,0.55%,2.08%
-iShares VII plc (CMX1) MSCI Mexico Capped USD (GBP) Share Price - CMX1, Other,0.65%,0.16%
+Source Markets plc (MLPD) Morningstar US En Inf MLP UCITS ETF B USD Share Price - MLPD, North America,1.25%,0.27%
+Source Markets (MLPS) Morningstar US Energy Infrastructure MLP UCITS ETF Share Price - MLPS, North America,1.25%,0.28%
+UBS ETF SICAV SMI (CHF) A-dis Share Price, Other,0.22%,0.13%
+UBS ETF SICAV (UB39) MSCI Europe & Middle East Socially Resp UCITS ETF Share Price - UB39, Other,0.28%,0.2%
+iShares VII plc (CCAU) MSCI Canada USD Share Price - CCAU, Other,0.48%,0.11%
+iShares VII plc (CSCA) MSCI Canada USD (GBP) Share Price - CSCA, Other,0.48%,0.15%
+Lyxor International Asset Management (INDL) Lyxor ETF MSCI Indonesia Class C Share Price - INDL, Other,0.55%,1.98%
+iShares VII plc (CMX1) MSCI Mexico Capped USD (GBP) Share Price - CMX1, Other,0.65%,0.25%
 HSBC ETFS Plc (HRUB) MSCI Russia Capped UCITS ETF GBP Share Price - HRUB, Russia,0.6%,0.27%
-db X-trackers (XMRC) MSCI Russia Capped Index Share Price - XMRC, Russia,0.65%,0.31%
-iShares VII plc (CSRU) MSCI Russia ADR/GDR UCITS ETF Share Price - CSRU, Russia,0.65%,0.34%
-Lyxor ETF Russia Dow Jones Russia GDR Share Price, Russia,0.65%,0.46%
-Lyxor Intl Asset Management (RUSL) Lyxor ETF Dow Jones Russia GDR Class D GBP Share Price - RUSL, Russia,0.65%,1.3%
-Source Markets Plc (RDXS) Source RDX UCITS ETF A SHS USD Share Price - RDXS, Russia,1.2%,0.42%
-Lyxor International Asset Management (DOSH) FTSE UK Quality Low Vol Dividend Share Price - DOSH, UK,0.19%,0.41%
-db X-trackers (XASX) FTSE All-Share UCITS ETF (DR) Share Price - XASX, UK,0.2%,0.23%
-SSGA SPDR ETFs Europe I plc (FTAL) FTSE UK All Share Share Price - FTAL, UK,0.2%,0.33%
-db X-trackers (XFEW) FTSE 100 Equal Weight UCITS ETF (DR) Share Price - XFEW, UK,0.25%,0.13%
-UBS (IRL) ETF plc (UKSR) MSCI UK IMI Socially Resp UCITS ETF GBP A Share Price - UKSR, UK,0.28%,0.42%
-WisdomTree Issuer plc (WUKD) UK Equity Income Share Price - WUKD, UK,0.29%,0.39%
-SSGA SPDR ETFs Europe I plc (UKDV) S&P UK Dividend Aristocrats GBP Share Price - UKDV, UK,0.3%,0.16%
+iShares VII plc (CRU1) MSCI Russia ADR/GDR UCITS ETF Share Price - CRU1, Russia,0.65%,0.17%
+iShares VII plc (CSRU) MSCI Russia ADR/GDR UCITS ETF Share Price - CSRU, Russia,0.65%,0.18%
+db X-trackers (XMRC) MSCI Russia Capped Index Share Price - XMRC, Russia,0.65%,0.21%
+Lyxor ETF Russia Dow Jones Russia GDR Share Price, Russia,0.65%,0.27%
+Lyxor Intl Asset Management (RUSL) Lyxor ETF Dow Jones Russia GDR Class D GBP Share Price - RUSL, Russia,0.65%,0.75%
+Source Markets Plc (RDXS) Source RDX UCITS ETF A SHS USD Share Price - RDXS, Russia,1.2%,0.29%
+Lyxor International Asset Management (DOSH) FTSE UK Quality Low Vol Dividend Share Price - DOSH, UK,0.19%,0.4%
+SSGA SPDR ETFs Europe I plc (FTAL) FTSE UK All Share Share Price - FTAL, UK,0.2%,0.04%
+db X-trackers (XASX) FTSE All-Share UCITS ETF (DR) Share Price - XASX, UK,0.2%,0.15%
+db X-trackers (XFEW) FTSE 100 Equal Weight UCITS ETF (DR) Share Price - XFEW, UK,0.25%,0.3%
+UBS (IRL) ETF plc (UKSR) MSCI UK IMI Socially Resp UCITS ETF GBP A Share Price - UKSR, UK,0.28%,0.46%
+WisdomTree Issuer plc (WUKD) UK Equity Income Share Price - WUKD, UK,0.29%,0.37%
 BMO UCITS ETF ICAV (ZWUK) Enhanced Inc UK Eqty UCITS ETF GBP Share Price - ZWUK, UK,0.3%,0.19%
-iShares VII plc (CSUK) MSCI UK UCITS ETF GBP Acc Share Price - CSUK, UK,0.33%,0.17%
+SSGA SPDR ETFs Europe I plc (UKDV) S&P UK Dividend Aristocrats GBP Share Price - UKDV, UK,0.3%,0.24%
+iShares VII plc (CSUK) MSCI UK UCITS ETF GBP Acc Share Price - CSUK, UK,0.33%,0.11%
 BMO ETF (ZILK) MSCI UK Income Leaders Index Share Price - ZILK, UK,0.35%,0.41%
-Powershares Global Funds Ireland (UKHD) FTSE UK High Div Low Vol UCITS GBP Share Price - UKHD, UK,0.39%,0.26%
-Multi Units France (LFAS) ETF FTSE ALL SHARE Share Price - LFAS, UK,0.4%,0.7%
+Powershares Global Funds Ireland (UKHD) FTSE UK High Div Low Vol UCITS GBP Share Price - UKHD, UK,0.39%,0.86%
+Multi Units France (LFAS) ETF FTSE ALL SHARE Share Price - LFAS, UK,0.4%,0.72%
 Ossiam ETF (UKMV) FTSE 100 Min Variance 1C A NR GBP Share Price - UKMV, UK,0.45%,0.99%
-Powershares Global Fund Ireland (PSRU) FTSE Rafi UK 100 Fd - Sterling Shs Share Price - PSRU, UK,0.5%,0.17%
-iShares VII plc (CUKS) MSCI UK Small CAP UCITS ETF Share Price - CUKS, UK,0.58%,0.18%
-First Trust Global Funds plc (FKU) United Kingdom AlphaDEX UCITS Share Price - FKU, UK,0.65%,0.81%
-HSBC ETFS Plc (HMWD) MSCI World ETF USD Share Price - HMWD, World,0.15%,0.09%
-HSBC ETFs Plc (HMWO) MSCI World ETF GBP Share Price - HMWO, World,0.15%,0.13%
-Vanguard Funds plc (VEVE) FTSE Developed World UCITS Share Price - VEVE, World,0.18%,0.15%
+Powershares Global Fund Ireland (PSRU) FTSE Rafi UK 100 Fd - Sterling Shs Share Price - PSRU, UK,0.5%,0.2%
+iShares VII plc (CUKS) MSCI UK Small CAP UCITS ETF Share Price - CUKS, UK,0.58%,0.23%
+First Trust Global Funds plc (FKU) United Kingdom AlphaDEX UCITS Share Price - FKU, UK,0.65%,0.58%
+HSBC ETFS Plc (HMWD) MSCI World ETF USD Share Price - HMWD, World,0.15%,0.05%
+HSBC ETFs Plc (HMWO) MSCI World ETF GBP Share Price - HMWO, World,0.15%,0.06%
+Vanguard Funds plc (VEVE) FTSE Developed World UCITS Share Price - VEVE, World,0.18%,0.17%
 db X-trackers (XWLD) MSCI World Index UCITS ETF (DR) 1C Share Price - XWLD, World,0.19%,0.09%
 Source Markets plc (MXWS) MSCI World UCITS Share Price - MXWS, World,0.19%,0.11%
 iShares III plc (SWDA) Core MSCI World (Acc) Share Price - SWDA, World,0.2%,0.05%
-Vanguard Funds plc (VMOM) Global Momentum Factor UCITS Share Price - VMOM, World,0.22%,0.2%
-Vanguard Funds plc (VMVL) Global Minimum Volatility UCITS Share Price - VMVL, World,0.22%,0.25%
+Vanguard Funds plc (VMVL) Global Minimum Volatility UCITS Share Price - VMVL, World,0.22%,0.21%
+Vanguard Funds plc (VMOM) Global Momentum Factor UCITS Share Price - VMOM, World,0.22%,0.24%
 Vanguard Funds plc (VVAL) Global Value Factor UCITS Share Price - VVAL, World,0.22%,0.26%
-Vanguard Funds plc (VLIQ) Global Liquidity Factor UCITS Share Price - VLIQ, World,0.22%,0.32%
+Vanguard Funds plc (VLIQ) Global Liquidity Factor UCITS Share Price - VLIQ, World,0.22%,0.31%
+HSBC ETFs plc (HWWA) Multi Factor Worldwide Equity Share Price - HWWA, World,0.25%,0.0%
 Vanguard Funds plc (VWRL) FTSE All-World UCITS ETF USD(GBP) Share Price - VWRL, World,0.25%,0.11%
-db X-trackers (XDEV) MSCI World Value Factor UCITS ETF (DR) Share Price - XDEV, World,0.25%,0.2%
+db X-trackers (XDEV) MSCI World Value Factor UCITS ETF (DR) Share Price - XDEV, World,0.25%,0.28%
 HSBC ETFs plc (HEWA) Economic Scale Worldwide EQ UCITS Share Price - HEWA, World,0.25%,0.29%
-HSBC ETFs plc (HWWA) Multi Factor Worldwide Equity Share Price - HWWA, World,0.25%,0.34%
 Vanguard Funds plc (VHYL) FTSE All World High Dividend Yield Share Price - VHYL, World,0.29%,0.2%
 iShares VI plc (MINV) Edge MSCI World Minimum Volatility GBP Share Price - MINV, World,0.3%,0.06%
+Ishares IV plc Edge MSCI World Value Factor ETF (IWVL) Ishares IV plc Edge MSCI World Value Factor ETF Share Price - IWVL, World,0.3%,0.09%
+iShares Edge IV plc (IWFQ) MSCI World Quality Factor Share Price - IWFQ, World,0.3%,0.12%
+iShares Edge IV plc (IWFS) MSCI World Size Factor Share Price - IWFS, World,0.3%,0.12%
+iShares IV plc (IWMO) MSCI World Momentum Factor UCITS ETF Share Price - IWMO, World,0.3%,0.13%
+iShares Edge IV plc (IWFM) World Momentum Factor UCITS Share Price - IWFM, World,0.3%,0.14%
+iShares Edge IV plc (IWFV) MSCI World Value Factor Share Price - IWFV, World,0.3%,0.14%
+iShares IV plc (SUWS) MSCI WORLD SRI UCITS ETF USD D (SUWS) Share Price - SUWS, World,0.3%,0.19%
 Lyxor International Asset Management (WLDL) MSCI World D EUR (GBP) Share Price - WLDL, World,0.3%,0.19%
-UBS ETF SICAV (UC55) MSCI World Share Price - UC55, World,0.3%,0.5%
+UBS ETF SICAV (UC55) MSCI World Share Price - UC55, World,0.3%,0.51%
+iShares II plc (WQDV) MSCI World Quality DIV UCITS USD(GB Share Price - WQDV, World,0.38%,0.25%
 WisdomTree Issuer plc (GGRP) Global Quality Div Growth UCITS ETF USD (GBP) Share Price - GGRP, World,0.38%,0.35%
 UBS ETF SICAV (UC44) MSCI World Socially Responsible Share Price - UC44, World,0.38%,0.49%
 PowerShares ETF (BUYB) Global Buyback Achievers UCITS ETF Share Price - BUYB, World,0.39%,0.22%
-SSGA SPDR ETFs Europe I plc (ACWI) SPDR MSCI ACWI USD (GBP) Share Price - ACWI, World,0.4%,0.11%
+SSGA SPDR ETFs Europe I plc (ACWI) SPDR MSCI ACWI USD (GBP) Share Price - ACWI, World,0.4%,0.08%
 SSGA SPDR ETFs Europe I plc (ACIM) SPDR MSCI ACWI IMI USD(GBP) Share Price - ACIM, World,0.4%,0.16%
-Lyxor International Asset Management Dow Jones Global Titans 50 Share Price, World,0.4%,0.21%
+Lyxor International Asset Management Dow Jones Global Titans 50 Share Price, World,0.4%,0.24%
 Fidelity UCITS ICAV (FGQD) Global Quality Income UCITS GBP INC Share Price - FGQD, World,0.4%,0.25%
 db x-trackers (XDEX) FTSE All-World EX UK UCITS ETF (DR) Share Price - XDEX, World,0.4%,0.28%
-Amundi ETF Global Equity Multi Smart Allocation Scientific Share Price, World,0.4%,0.4%
 Lyxor International Asset Management (SGVB) SG Global Value Beta UCITS ETF Share Price - SGVB, World,0.4%,0.6%
 SSGA SPDR ETFs Europe I plc (GBDV) S&P Global Dividend Aristocrats UCITS ETF Share Price - GBDV, World,0.45%,0.19%
-SSGA SPDR ETFs Europe I plc (WOSC) MSCI World Small Cap UCITS ETF Share Price - WOSC, World,0.45%,0.46%
-Multi Units Luxembourg (SGQL) SG Global Quality Income Share Price - SGQL, World,0.45%,0.49%
-Lyxor International Asset Management SG Global Quality Income NTR Share Price, World,0.45%,0.5%
-iShares plc (IWRD) MSCI World UCITS ETF (Dist) Share Price - IWRD, World,0.5%,0.09%
+Lyxor International Asset Management SG Global Quality Income NTR Share Price, World,0.45%,0.48%
+Multi Units Luxembourg (SGQL) SG Global Quality Income Share Price - SGQL, World,0.45%,0.5%
+SSGA SPDR ETFs Europe I plc (WOSC) MSCI World Small Cap UCITS ETF Share Price - WOSC, World,0.45%,0.51%
+iShares plc (IWRD) MSCI World UCITS ETF (Dist) Share Price - IWRD, World,0.5%,0.06%
+iShares IV Plc (FSWD) EDGE MSCI WORLD UCITS ETF(GBP) Share Price - FSWD, World,0.5%,0.09%
 db X-trackers (XGSD) Stoxx Global Select Dividend 100 UCITS ETF Share Price - XGSD, World,0.5%,0.23%
 Powershares Global Funds Ireland (PSRW) FTSE Rafi All-World 3000 Fund Share Price - PSRW, World,0.5%,0.26%
 iShares V plc (IGWD) MSCI World Monthly GBP Hedged (GBP) Share Price - IGWD, World,0.55%,0.07%
 iShares V plc (IWDE) MSCI World Monthly EUR UCITS ACC HDG Share Price - IWDE, World,0.55%,0.08%
-iShares II plc (IGSG) Dow Jones Global Sustainability Screened (GBP) Share Price - IGSG, World,0.6%,0.1%
-iShares II plc (ISWD) MSCI World Islamic Share Price - ISWD, World,0.6%,0.18%
+iShares VI plc MSCI World CHF Hedged Share Price, World,0.55%,0.28%
+iShares II plc (ISWD) MSCI World Islamic Share Price - ISWD, World,0.6%,0.04%
+iShares II plc (IGSG) Dow Jones Global Sustainability Screened (GBP) Share Price - IGSG, World,0.6%,0.13%
 Source Markets (EFIW) Goldman Sachs Equity Factor Index World Share Price - EFIW, World,0.65%,0.22%
-Lyxor International Asset Management Lyxor ETF Privex Share Price, World,0.7%,0.62%
-SSGA SPDR ETFs Europe II plc (SXLF) S&P US FINLS SEL SECT UCT USD Share Price - SXLF, Banks & Financials,0.15%,0.17%
-Amundi Investment Solutions (CB5) MSCI Europe Banks UCITS ETF Share Price - CB5, Banks & Financials,0.25%,0.31%
+Lyxor International Asset Management Lyxor ETF Privex Share Price, World,0.7%,1.12%
+iShares V plc (UIFS) S&P 500 Financials Sector UCITS ETF USD Acc Share Price - UIFS, Banks & Financials,0.15%,0.09%
+SSGA SPDR ETFs Europe II plc (SXLF) S&P US FINLS SEL SECT UCT USD Share Price - SXLF, Banks & Financials,0.15%,0.1%
+Lyxor International Asset Management DJ STOXX 600 Banks EUR Acc Nav Share Price, Banks & Financials,0.3%,0.08%
 db X-trackers (XS7R) Stoxx® Europe 600 Banks UCITS ETF Share Price - XS7R, Banks & Financials,0.3%,0.09%
-Source Markets Plc (XLFS) Financials S&P US Select Sector UCITS ETF Share Price - XLFS, Banks & Financials,0.3%,0.11%
-Lyxor International Asset Management DJ STOXX 600 Banks EUR Acc Nav Share Price, Banks & Financials,0.3%,0.13%
-Source Markets plc (S7XP) Euro STOXX Optimised Banks ETF Share Price - S7XP, Banks & Financials,0.3%,0.13%
-Lyxor International Asset Management UCITS ETF Eurostoxx Banks C-EUR Share Price, Banks & Financials,0.3%,0.14%
+Source Markets Plc (XLFS) Financials S&P US Select Sector UCITS ETF Share Price - XLFS, Banks & Financials,0.3%,0.13%
+Source Markets plc (S7XP) Euro STOXX Optimised Banks ETF Share Price - S7XP, Banks & Financials,0.3%,0.14%
 Source Markets (X7PS) Source STOXX Europe 600 Optimised Banks UCITS ETF Share Price - X7PS, Banks & Financials,0.3%,0.15%
-SSGA SPDR ETFs Europe II plc (WFIN) MSCI World Financials UCITS USD Share Price - WFIN, Banks & Financials,0.3%,0.29%
-Blackrock Asset Mngt Deutschland IShares STOXX Europe 600 Insurance UCITS ETF (DE) Share Price, Banks & Financials,0.49%,0.1%
-iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Banks (DE) Share Price, Banks & Financials,0.49%,0.11%
+Lyxor International Asset Management UCITS ETF Eurostoxx Banks C-EUR Share Price, Banks & Financials,0.3%,0.15%
+SSGA SPDR ETFs Europe II plc (WFIN) MSCI World Financials UCITS USD Share Price - WFIN, Banks & Financials,0.3%,0.27%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Banks (DE) Share Price, Banks & Financials,0.46%,0.1%
+Blackrock Asset Mngt Deutschland IShares STOXX Europe 600 Insurance UCITS ETF (DE) Share Price, Banks & Financials,0.46%,0.13%
 iShares (BlackRock Asset Management Deutschland) EURO STOXX Banks 30-15 UCITS ETF (DE) Share Price, Banks & Financials,0.51%,0.0%
 db X-trackers (XSPR) Stoxx® Europe 600 Basic Resources UCITS ETF Share Price - XSPR, Basic Materials,0.3%,0.11%
-Concept Fund Solutions plc (XDWM) DBX-TR MSCI Wrld Materials Index UCITS ETF (DR) Share Price - XDWM, Basic Materials,0.3%,0.26%
-SSGA SPDR ETFs Europe II plc (MTRL) MSCI Europe Materials UCITS(EUR) Share Price - MTRL, Basic Materials,0.3%,0.3%
+Concept Fund Solutions plc (XDWM) DBX-TR MSCI Wrld Materials Index UCITS ETF (DR) Share Price - XDWM, Basic Materials,0.3%,0.24%
+SSGA SPDR ETFs Europe II plc (MTRL) MSCI Europe Materials UCITS(EUR) Share Price - MTRL, Basic Materials,0.3%,0.32%
 Multi Units Luxembourg (MATG) Lyxor MSCI World Materials TR GBP Share Price - MATG, Basic Materials,0.3%,0.64%
-Lyxor International Asset Management (CRNL) ETF CRB Ex-Energy TR UCITS C EUR Share Price - CRNL, Basic Materials,0.35%,0.17%
-VanEck Vectors ETF (GDX) Gold Miners UCITS Share Price - GDX, Basic Materials,0.53%,0.2%
-VanEck Vectors ETF (GDXJ) Junior Gold Miners UCITS Share Price - GDXJ, Basic Materials,0.55%,0.11%
+Lyxor International Asset Management (CRNL) ETF CRB Ex-Energy TR UCITS C EUR Share Price - CRNL, Basic Materials,0.35%,0.2%
+VanEck Vectors ETF (GDX) Gold Miners UCITS Share Price - GDX, Basic Materials,0.53%,0.53%
 iShares V plc (SPGP) S&P Commodity Producers Gold ETF USD Acc (GBP) Share Price - SPGP, Basic Materials,0.55%,0.14%
+VanEck Vectors ETF (GDXJ) Junior Gold Miners UCITS Share Price - GDXJ, Basic Materials,0.55%,0.88%
+GO UCITS ETF Solutions plc (AUCO) DaxGlobal Gold Mining Fund (USD) Share Price - AUCO, Basic Materials,0.65%,0.97%
 GO UCITS ETF Solutions plc (AUCP) DaxGlobal Gold Mining Fund (USD) GBP Share Price - AUCP, Basic Materials,0.65%,0.97%
-GO UCITS ETF Solutions plc (AUCO) DaxGlobal Gold Mining Fund (USD) Share Price - AUCO, Basic Materials,0.65%,1.01%
-SSGA SPDR ETFS Europe II plc (SXLP) S&P US Consumer Staples Sel Sector Share Price - SXLP, Consumer goods,0.15%,0.12%
-Amundi Investment Solutions (CD6) MSCI Europe Consumer UCITS ETF Share Price - CD6, Consumer goods,0.25%,0.21%
-Amundi ETF S&P GLOBAL LUXURY UCITS Share Price, Consumer goods,0.25%,0.57%
-Source Markets Plc (XLPS) Consumer Staples S&P US Sel Sec Source UCITS ETF Share Price - XLPS, Consumer goods,0.3%,0.13%
-db X-trackers (XS3R) Stoxx® Europe 600 Food & Beverage UCITS ETF Share Price - XS3R, Consumer goods,0.3%,0.15%
-Multi Units Luxembourg (DISG) Lyxor MSCi World Consumer Discretny GBP Share Price - DISG, Consumer goods,0.3%,0.64%
-Multi Units Luxembourg (STAG) Lyxor MSCI World Consumer Staples TR GBP Share Price - STAG, Consumer goods,0.3%,0.64%
-iShares (BlackRock Asset Management Deutschland) STOXX 600 Food & Beverage (DE) Share Price, Consumer goods,0.49%,0.11%
-Amundi Investment Solutions (ANRJ) MSCI Europe Energy UCITS ETF Share Price - ANRJ, Energy,0.25%,0.34%
+SSGA SPDR ETFS Europe II plc (SXLP) S&P US Consumer Staples Sel Sector Share Price - SXLP, Consumer goods,0.15%,0.16%
+Source Markets Plc (XLPS) Consumer Staples S&P US Sel Sec Source UCITS ETF Share Price - XLPS, Consumer goods,0.3%,0.15%
+db X-trackers (XS3R) Stoxx® Europe 600 Food & Beverage UCITS ETF Share Price - XS3R, Consumer goods,0.3%,0.17%
+Multi Units Luxembourg (DISG) Lyxor MSCi World Consumer Discretny GBP Share Price - DISG, Consumer goods,0.3%,0.65%
+Multi Units Luxembourg (STAG) Lyxor MSCI World Consumer Staples TR GBP Share Price - STAG, Consumer goods,0.3%,0.65%
+iShares (BlackRock Asset Management Deutschland) Europe 600 Automobiles & Parts (DE) Share Price, Consumer goods,0.46%,0.0%
+iShares (BlackRock Asset Management Deutschland) STOXX 600 Food & Beverage (DE) Share Price, Consumer goods,0.46%,0.12%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Retail (DE) Share Price, Consumer goods,0.46%,0.34%
+iShares V plc (IESU) S&P 500 Energy Sector UCITS GBP ACC Share Price - IESU, Energy,0.15%,0.09%
 db X-trackers (XSER) Stoxx® Europe 600 Oil & Gas UCITS ETF Share Price - XSER, Energy,0.3%,0.11%
 Source Markets Plc (XLES) Energy S&P US Sel Sector Source UCITS ETF Share Price - XLES, Energy,0.3%,0.11%
-Source Markets plc (XLEP) Energy S&P US Select Sector UCITS ETF Share Price - XLEP, Energy,0.3%,0.18%
-SSGA SPDR ETFs Europe II plc (ENGY) MSCI Europe Energy 35/20 Cap UCITS ETF Share Price - ENGY, Energy,0.3%,0.18%
-SSGA SPDR ETFs Europe II plc (WNRG) MSCI World Energy UCITS USD Share Price - WNRG, Energy,0.3%,0.47%
+Source Markets plc (XLEP) Energy S&P US Select Sector UCITS ETF Share Price - XLEP, Energy,0.3%,0.12%
+SSGA SPDR ETFs Europe II plc (ENGY) MSCI Europe Energy 35/20 Cap UCITS ETF Share Price - ENGY, Energy,0.3%,0.3%
+SSGA SPDR ETFs Europe II plc (WNRG) MSCI World Energy UCITS USD Share Price - WNRG, Energy,0.3%,0.33%
 Multi Units Luxembourg (NRGG) Lyxor MSCI World Energy TR GBP Share Price - NRGG, Energy,0.3%,0.65%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Oil & Gas Share Price, Energy,0.46%,0.09%
 iShares V plc (SPOG) S&P Commodity Producers Oil & Gas UCITS ETF USD Ac Share Price - SPOG, Energy,0.55%,0.14%
-Lyxor International Asset Management New Energy A Share Price, Energy,0.6%,0.55%
+Lyxor International Asset Management New Energy A Share Price, Energy,0.6%,0.37%
 iShares II plc (INRG) S&P Global Clean Energy Share Price - INRG, Energy,0.65%,0.17%
+iShares V plc (IUHC) S&P 500 Health Care Sector UCITS ETF USD Acc Share Price - IUHC, Health,0.15%,0.0%
 Source Markets Plc (XLVS) Healthcare S&P US Sel Sector UCITS ETF Share Price - XLVS, Health,0.3%,0.11%
-db X-trackers (XSDR) Stoxx® Europe 600 Health Care UCITS ETF Share Price - XSDR, Health,0.3%,0.15%
-SSgA SPDR ETFs Europe II plc (HLTH) SSgA SPDR MSCI Europe Health Care UCITS ETF Share Price - HLTH, Health,0.3%,0.26%
-Multi Units Luxembourg (HLTG) Lyxor MSCI World Health Care TR GBP Share Price - HLTG, Health,0.3%,0.63%
-Source Markets plc (SBIO) NASDAQ Biotech UCITS ETF Share Price - SBIO, Health,0.4%,0.17%
-iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Health Care (DE) Share Price, Health,0.46%,0.07%
-SSGA SPDR ETFs Europe II plc (SXLI) S&P US INDLS SEL SECT UCT USD Share Price - SXLI, Industrials,0.15%,0.92%
-Amundi Investment Solutions (AIND) MSCI Europe Industrials UCITS ETF Share Price - AIND, Industrials,0.25%,0.34%
-Source Markets Plc (XLIS) Industrials S&P US Sel Sector ETF Share Price - XLIS, Industrials,0.3%,0.12%
-db X-trackers (XSNR) Stoxx® Europe 600 Industrial Goods UCITS ETF Share Price - XSNR, Industrials,0.3%,0.18%
+db X-trackers (XSDR) Stoxx® Europe 600 Health Care UCITS ETF Share Price - XSDR, Health,0.3%,0.16%
+SSgA SPDR ETFs Europe II plc (HLTH) SSgA SPDR MSCI Europe Health Care UCITS ETF Share Price - HLTH, Health,0.3%,0.3%
+Multi Units Luxembourg (HLTG) Lyxor MSCI World Health Care TR GBP Share Price - HLTG, Health,0.3%,0.64%
+iShares IV plc (AGES) Ageing Population UCITS ETF USD (GBP) Share Price - AGES, Health,0.4%,0.13%
+iShares IV plc (DRDR) Healthcare Innovation UCITS ETF USD Share Price - DRDR, Health,0.4%,0.13%
+Source Markets plc (SBIO) NASDAQ Biotech UCITS ETF Share Price - SBIO, Health,0.4%,0.2%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Health Care (DE) Share Price, Health,0.46%,0.1%
+SSGA SPDR ETFs Europe II plc (SXLI) S&P US INDLS SEL SECT UCT USD Share Price - SXLI, Industrials,0.15%,0.1%
+Source Markets Plc (XLIS) Industrials S&P US Sel Sector ETF Share Price - XLIS, Industrials,0.3%,0.11%
+db X-trackers (XSNR) Stoxx® Europe 600 Industrial Goods UCITS ETF Share Price - XSNR, Industrials,0.3%,0.22%
 Multi Units Luxembourg (INUG) Lyxor ETF MSCI World Industrals TR Share Price - INUG, Industrials,0.3%,0.65%
-iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Basic Resources Share Price, Industrials,0.49%,0.08%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Construction & Materials (DE) Share Price, Industrials,0.46%,0.19%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Basic Resources Share Price, Industrials,0.46%,0.2%
 iShares V plc (SPAG) S&P Commodity Producers Agribusiness USD Acc (GBP) Share Price - SPAG, Industrials,0.55%,0.11%
-db X-trackers (XSGI) S&P Global Infrastructure UCITS ETF Share Price - XSGI, Industrials,0.6%,0.27%
-iShares II plc (WOOD) S&P Global Timber & Forestry (USD) Share Price - WOOD, Industrials,0.65%,0.1%
-iShares II plc (INFR) FTSE/Macquarie Global Infrastructure 100 Share Price - INFR, Industrials,0.65%,0.13%
-iShares II plc (IEMI) S&P Emerging Market Infrastructure USD Share Price - IEMI, Industrials,0.74%,0.2%
-GO UCITS ETF Solutions plc (ROBG) ROBO Global Robotics & Automation Share Price - ROBG, Industrials,0.8%,0.28%
+db X-trackers (XSGI) S&P Global Infrastructure UCITS ETF Share Price - XSGI, Industrials,0.6%,0.33%
+iShares II plc (INFR) FTSE/Macquarie Global Infrastructure 100 Share Price - INFR, Industrials,0.65%,0.1%
+iShares II plc (WOOD) S&P Global Timber & Forestry (USD) Share Price - WOOD, Industrials,0.65%,0.13%
+iShares II plc (IEMI) S&P Emerging Market Infrastructure USD Share Price - IEMI, Industrials,0.74%,0.25%
+GO UCITS ETF Solutions plc (ROBG) ROBO Global Robotics & Automation Share Price - ROBG, Industrials,0.8%,0.24%
 iShares (BlackRock Asset Management Deutschland) STOXX Europe Large 200 (DE) Share Price, Large Mid Small and Micro Cap,0.2%,0.0%
 iShares (BlackRock Asset Management Deutschland) STOXX Europe Mid 200 (DE) Share Price, Large Mid Small and Micro Cap,0.2%,0.0%
 iShares (BlackRock Asset Management Deutschland) STOXX Europe Small 200 (DE) Share Price, Large Mid Small and Micro Cap,0.2%,0.0%
 iShares III plc (ISP6) S&P SmallCap 600 (GBP) Share Price - ISP6, Large Mid Small and Micro Cap,0.4%,0.13%
 iShares III plc (IDP6) S&P SmallCap 600 (USD) Share Price - IDP6, Large Mid Small and Micro Cap,0.4%,0.14%
-Multi Units Luxembourg (SGQP) Lyxor ETF SG Global Quality Income NTR D-GBP Share Price - SGQP, Large Mid Small and Micro Cap,0.45%,0.51%
-SSGA SPDR ETFs Europe I plc (EURL) FTSE EPRA Europe ex UK Real Estate UCITS Share Price - EURL, Property,0.3%,0.38%
-Amundi ETF (EPRE) FTSE EPRA Europe Real Estate UCITS ETF Share Price - EPRE, Property,0.35%,0.46%
-iShares plc (IPRP) FTSE/EPRA European Property Index Fund Share Price - IPRP, Property,0.4%,0.05%
-iShares II plc (IUKP) FTSE EPRA/NAREIT UK Property Fund Share Price - IUKP, Property,0.4%,0.11%
-iShares II plc (IUSP) FTSE EPRA/NAREIT US Property Yield Fund Share Price - IUSP, Property,0.4%,0.15%
-HSBC ETFS plc (HPRO) FTSE EPRA/NAREIT Developed Share Price - HPRO, Property,0.4%,0.2%
+Multi Units Luxembourg (SGQP) Lyxor ETF SG Global Quality Income NTR D-GBP Share Price - SGQP, Large Mid Small and Micro Cap,0.45%,0.5%
+SSGA SPDR ETFs Europe I plc (EURL) FTSE EPRA Europe ex UK Real Estate UCITS Share Price - EURL, Property,0.3%,0.34%
+iShares II plc (IUKP) FTSE EPRA/NAREIT UK Property Fund Share Price - IUKP, Property,0.4%,0.1%
+iShares plc (IPRP) FTSE/EPRA European Property Index Fund Share Price - IPRP, Property,0.4%,0.11%
+iShares II plc (IUSP) FTSE EPRA/NAREIT US Property Yield Fund Share Price - IUSP, Property,0.4%,0.12%
+HSBC ETFS plc (HPRO) FTSE EPRA/NAREIT Developed Share Price - HPRO, Property,0.4%,0.23%
 SPDR ETFs Europe I plc (GBRE) Dow Jones Global Real Estate Share Price - GBRE, Property,0.4%,0.3%
-Lyxor International Asset Management FTSE EPRA/NAREIT Developed Europe Share Price, Property,0.4%,0.63%
-iShares II plc (IWDP) FTSE EPRA/NAREIT Developed Markets Property Yield Share Price - IWDP, Property,0.59%,0.08%
-iShares II plc (IASP) FTSE EPRA/NAREIT Asia Property Yield Fund Share Price - IASP, Property,0.59%,0.19%
+iShares III plc (UKRE) MSCI Target UK Real Estate UCITS ETF Share Price - UKRE, Property,0.4%,0.34%
+Lyxor International Asset Management FTSE EPRA/NAREIT Developed Europe Share Price, Property,0.4%,0.38%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Real Estate UCITS ETF (DE) Share Price, Property,0.46%,0.0%
+iShares II plc (IWDP) FTSE EPRA/NAREIT Developed Markets Property Yield Share Price - IWDP, Property,0.59%,0.11%
+iShares II plc (IASP) FTSE EPRA/NAREIT Asia Property Yield Fund Share Price - IASP, Property,0.59%,0.24%
 iShares V plc (IITU) S&P 500 Information Technology Sector ETF USD Acc Share Price - IITU, Technology,0.15%,0.08%
 SSGA SPDR ETFs Europe II plc (SXLK) S&P US Tech Sel Sect UCT USD Share Price - SXLK, Technology,0.15%,0.12%
 Lyxor International Asset Management MSCI US Tech Master Unit Share Price, Technology,0.3%,0.0%
-Source Markets Plc (XLKS) Technology S&P US Sel Sector UCITS ETF Share Price - XLKS, Technology,0.3%,0.09%
 db X-trackers (XS8R) STOXX Europe 600 Technology Share Price - XS8R, Technology,0.3%,0.1%
-Multi Units Luxembourg (TNOG) MSCI World Information Technology Share Price - TNOG, Technology,0.3%,0.51%
-Source Markets plc (FTEK) KBW NASDAQ Fintech UCITS A USD Share Price - FTEK, Technology,0.59%,0.23%
-GO UCITS ETF Solutions plc (ISPY) ISE Cyber Security Go UCITS(GBP) Share Price - ISPY, Technology,0.75%,0.39%
-Amundi Investment Solutions (CT5) MSCI Europe Telecom Services UCITS ETF Share Price - CT5, Telecoms,0.25%,0.41%
+Source Markets Plc (XLKS) Technology S&P US Sel Sector UCITS ETF Share Price - XLKS, Technology,0.3%,0.12%
+Multi Units Luxembourg (TNOG) MSCI World Information Technology Share Price - TNOG, Technology,0.3%,0.35%
+iShares IV plc (DGIT) Digitalisation UCITS ETF USD (GBP) Share Price - DGIT, Technology,0.4%,0.11%
+iShares IV plc (RBTX) Automation & Robotics UCITS ETF USD Share Price - RBTX, Technology,0.4%,0.13%
+Blackrock Asset Mngt Deutschland IShares TecDAX UCITS ETF (DE) Share Price, Technology,0.51%,0.0%
+Source Markets plc (FTEK) KBW NASDAQ Fintech UCITS A USD Share Price - FTEK, Technology,0.59%,0.19%
+GO UCITS ETF Solutions plc (ISPY) ISE Cyber Security Go UCITS(GBP) Share Price - ISPY, Technology,0.75%,0.28%
 db X-trackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR, Telecoms,0.3%,0.1%
-SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.45%
-db X-trackers (XS6R) Stoxx® Europe 600 Utilities UCITS ETF Share Price - XS6R, Utilities,0.3%,0.1%
-Source Markets Plc (XLUS) Utilities S&P US Sel Sector UCITS ETF Share Price - XLUS, Utilities,0.3%,0.11%
-db x-trackers (XDWU) MSCI World Utilities Index UCITS ETF (DR) Share Price - XDWU, Utilities,0.3%,0.27%
+SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.42%
+db X-trackers (XS6R) Stoxx® Europe 600 Utilities UCITS ETF Share Price - XS6R, Utilities,0.3%,0.11%
+Source Markets Plc (XLUS) Utilities S&P US Sel Sector UCITS ETF Share Price - XLUS, Utilities,0.3%,0.12%
+db x-trackers (XDWU) MSCI World Utilities Index UCITS ETF (DR) Share Price - XDWU, Utilities,0.3%,0.22%
 Multi Units Luxembourg (UTIG) Lyxor MSCI World Utilities Tr GBP Share Price - UTIG, Utilities,0.3%,0.64%
-iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Utilities Share Price, Utilities,0.49%,0.0%
-Lyxor International Asset Management (WATL) World Water Share Price - WATL, Utilities,0.6%,0.27%
+iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Utilities Share Price, Utilities,0.46%,0.0%
+Lyxor International Asset Management (WATL) World Water Share Price - WATL, Utilities,0.6%,0.46%
 iShares II plc (IH2O) S&P Global Water Share Price - IH2O, Utilities,0.65%,0.13%
 iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price - MVOL, Volatility Index,0.3%,0.07%
