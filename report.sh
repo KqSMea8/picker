@@ -9,7 +9,7 @@
   join ./unfashionable_sectors.csv us on (isec.sector_desc = us.sector_desc)
   join ./invtrust_details.csv id on (isec.epic = id.epic)
   where id.charge < 2
-  group by isec.sector_desc order by us.avg" |head -7 |while read sector_desc
+  group by isec.sector_desc order by us.avg" |head -6 |while read sector_desc
 do
     num=$(./q -H -d',' "select count(*) from ./invtrust_details.csv id
            join ./invtrust_sectors.csv isec on id.epic = isec.epic \

@@ -33,19 +33,6 @@
 |[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-11.51%|1.28%|-0.51%|
 |[Standard Life Private Equity Trust plc (SLPE) Ordinary 0.002 Share Price - SLPE](http://www.hl.co.uk/shares/shares-search-results/3047468 "Link")|-9.33%|1.29%|2.91%|
 |[HG Capital Trust plc (HGT) Ordinary 25p Share Price - HGT](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-2.32%|1.66%|1.73%|
-# UK All Companies
-| Investment Trust | Discount | Charge | Spread |
-| ---------------- | --------:| ------:| ------:|
-|[Mercantile Investment Trust Plc (MRC) Ordinary 25p Shares Share Price - MRC](http://www.hl.co.uk/shares/shares-search-results/0579403 "Link")|-7.08%|0.5%|0.0%|
-|[Keystone Investment Trust plc (KIT) Ordinary 50p Shares Share Price - KIT](http://www.hl.co.uk/shares/shares-search-results/0491206 "Link")|-9.29%|0.62%|0.58%|
-|[Schroder UK Growth Fund (SDU) Ordinary 25p Share Price - SDU](http://www.hl.co.uk/shares/shares-search-results/0791348 "Link")|-11.62%|0.63%|1.78%|
-|[JPMorgan Mid Cap Investment Trust plc (JMF) Ordinary 25p Shares Share Price - JMF](http://www.hl.co.uk/shares/shares-search-results/0235761 "Link")|-7.1%|0.86%|0.0%|
-|[Artemis Alpha Trust plc (ATS) Ordinary 1p Share Price - ATS](http://www.hl.co.uk/shares/shares-search-results/0435594 "Link")|-15.92%|0.91%|4.39%|
-|[Schroder UK Mid Cap Fund (SCP) Ordinary 25p Share Price - SCP](http://www.hl.co.uk/shares/shares-search-results/0610841 "Link")|-15.2%|0.93%|0.0%|
-|[Henderson Opportunities Trust Plc (HOT) Ordinary 25p Share Price - HOT](http://www.hl.co.uk/shares/shares-search-results/0853657 "Link")|-15.99%|0.94%|-0.49%|
-|[Fidelity Special Values (FSV) Ordinary 5p Share Price - FSV](http://www.hl.co.uk/shares/shares-search-results/BWXC7Y9 "Link")|-2.5%|1.06%|0.83%|
-|[Hansa Trust plc (HANA) A Non Voting Ordinary 5p Share Price - HANA](http://www.hl.co.uk/shares/shares-search-results/0787983 "Link")|-26.78%|1.09%|3.0%|
-|[Hansa Trust plc (HAN) Ordinary 5p Share Price - HAN](http://www.hl.co.uk/shares/shares-search-results/0787972 "Link")|-26.05%|1.09%|1.04%|
 # ETFs
 | ETF | Sector | Charge | Spread |
 | --- | ------ | ------:| ------:|
