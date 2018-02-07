@@ -9,10 +9,6 @@
 | ---------------- | --------:| ------:| ------:|
 |[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-6.31%|1.11%|-2.05%|
 |[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-0.46%|1.57%|2.7%|
-# Hedge Funds
-| Investment Trust | Discount | Charge | Spread |
-| ---------------- | --------:| ------:| ------:|
-|[Highbridge Multi-Strategy Fund Limited (HMSF) Ordinary NPV GBP Share Price - HMSF](http://www.hl.co.uk/shares/shares-search-results/B13YVW4 "Link")|-0.63%|0.39%|0.23%|
 # Latin America
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|

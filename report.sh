@@ -13,7 +13,7 @@
 do
     num=$(./q -H -d',' "select count(*) from ./invtrust_details.csv id
            join ./invtrust_sectors.csv isec on id.epic = isec.epic \
-           where isec.sector_desc = '$sector_desc' and pd < 0 and charge < 2 and spread < 5")
+           where isec.sector_desc = '$sector_desc' and pd < -1 and charge < 2 and spread < 5")
     if [ $num -gt 0 ]
     then
         echo "# $sector_desc"
