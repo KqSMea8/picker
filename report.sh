@@ -21,7 +21,7 @@ do
         echo "| ---------------- | --------:| ------:| ------:|"
         ./q -H -d',' "select distinct substr('0000000'||id.epic, -7, 7) url,id.desc,pd||'%' discount,charge||'%', spread||'%' from ./invtrust_details.csv id
                join ./invtrust_sectors.csv isec on id.epic = isec.epic \
-               where isec.sector_desc = '$sector_desc' and pd < 0 and charge < 2 and spread < 5 order by charge,pd,spread" |while read rec
+               where isec.sector_desc = '$sector_desc' and pd < -1 and charge < 2 and spread < 5 order by charge,pd,spread" |while read rec
            do
                link="http://www.hl.co.uk/shares/shares-search-results/$(echo $rec |cut -f1 -d',')"
                desc=$(echo $rec |cut -f2 -d',' |sed 's/|/-/g')

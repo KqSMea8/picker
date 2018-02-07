@@ -2,13 +2,11 @@
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
 |[BlackRock World Mining Trust (BRWM) Ordinary 5p Share Price - BRWM](http://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|-9.95%|1.1%|0.0%|
-|[BlackRock Commodities Income Investment Trust (BRCI) Ordinary 1p Share Price - BRCI](http://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|-0.75%|1.39%|4.69%|
 |[City Natural Resources High Yield Trust plc (CYN) Ordinary 25p Shares Share Price - CYN](http://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|-19.57%|1.74%|0.88%|
 # Environmental
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
 |[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-6.31%|1.11%|-2.05%|
-|[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-0.46%|1.57%|2.7%|
 # Latin America
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
@@ -48,7 +46,6 @@
 |[Fidelity Special Values (FSV) Ordinary 5p Share Price - FSV](http://www.hl.co.uk/shares/shares-search-results/BWXC7Y9 "Link")|-2.5%|1.06%|0.83%|
 |[Hansa Trust plc (HANA) A Non Voting Ordinary 5p Share Price - HANA](http://www.hl.co.uk/shares/shares-search-results/0787983 "Link")|-26.78%|1.09%|3.0%|
 |[Hansa Trust plc (HAN) Ordinary 5p Share Price - HAN](http://www.hl.co.uk/shares/shares-search-results/0787972 "Link")|-26.05%|1.09%|1.04%|
-|[Invesco Perpetual Select Trust (IVPU) UK Equity Shares 1p Share Price - IVPU](http://www.hl.co.uk/shares/shares-search-results/B1DPVL6 "Link")|-0.55%|1.38%|3.3%|
 # ETFs
 | ETF | Sector | Charge | Spread |
 | --- | ------ | ------:| ------:|
