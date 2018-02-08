@@ -1,8 +1,17 @@
-Already up-to-date.
-Wed  7 Feb 00:00:05 GMT 2018 - Generating ./invtrust_sectors.csv
-Wed  7 Feb 00:03:23 GMT 2018 - Downloading Investment Trust Details
-Wed  7 Feb 00:07:50 GMT 2018 - Generating ./invtrust_details.csv
-Wed  7 Feb 00:08:03 GMT 2018 - Generating ./etf_sectors.csv
-Wed  7 Feb 00:11:48 GMT 2018 - Downloading ETF Details
-Wed  7 Feb 00:17:47 GMT 2018 - Generating ./etf_details.csv
-Wed  7 Feb 00:18:10 GMT 2018 - Finished
+From github.com:grepster10/picker
+   ec33c5b..745e850  master     -> origin/master
+Updating ec33c5b..745e850
+Fast-forward
+ etf_sectors_shortlist.csv |   8 +
+ etfs.csv                  | 561 --------------------------------------------
+ report.md                 | 581 ----------------------------------------------
+ report.sh                 |  10 +-
+ 4 files changed, 14 insertions(+), 1146 deletions(-)
+ create mode 100644 etf_sectors_shortlist.csv
+Thu  8 Feb 00:00:08 GMT 2018 - Generating ./invtrust_sectors.csv
+Thu  8 Feb 00:03:19 GMT 2018 - Downloading Investment Trust Details
+Thu  8 Feb 00:06:44 GMT 2018 - Generating ./invtrust_details.csv
+Thu  8 Feb 00:07:00 GMT 2018 - Generating ./etf_sectors.csv
+Thu  8 Feb 00:10:56 GMT 2018 - Downloading ETF Details
+Thu  8 Feb 00:16:54 GMT 2018 - Generating ./etf_details.csv
+Thu  8 Feb 00:17:11 GMT 2018 - Finished
