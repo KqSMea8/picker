@@ -1,14 +1,14 @@
 desc,sector,charge,spread
-Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.31%
-Source Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.27%
+Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.34%
+Source Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.3%
 Source Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV, Silver,0.39%,0.06%
-db ETC plc (XSIL) Physical Silver ETC Share Price - XSIL, Silver,0.4%,0.07%
+db ETC plc (XSIL) Physical Silver ETC Share Price - XSIL, Silver,0.4%,0.08%
 iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN, Silver,0.4%,0.09%
 iShares III plc (IWDG) Core MSCI World UCITS ETF GBP DIS H Share Price - IWDG, Developed Mkt,0.3%,0.14%
 iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP, Developed Mkt,0.59%,0.08%
-db X-trackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.12%
-Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.14%
-Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.27%
-db X-trackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR, Telecoms,0.3%,0.1%
-SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.45%
+db X-trackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.29%
+Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.52%
+Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.3%
+db X-trackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR, Telecoms,0.3%,0.32%
+SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.47%
 iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price - MVOL, Volatility Index,0.3%,0.07%
