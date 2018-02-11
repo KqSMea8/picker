@@ -1,7 +1,14 @@
 desc,sector,charge,spread
-db X-trackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.17%
-Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.16%
-Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.21%
-db X-trackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR, Telecoms,0.3%,0.43%
-SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.51%
-iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price - MVOL, Volatility Index,0.3%,0.07%
+, Energy,0.4%,0.3%
+, Precious Metals,0.39%,0.22%
+, Silver,0.39%,0.06%
+, Silver,0.4%,0.07%
+, Silver,0.4%,0.13%
+, Developed Mkt,0.3%,0.25%
+, Developed Mkt,0.59%,0.08%
+, FTSE 250,0.15%,0.17%
+, FTSE 250,0.25%,0.16%
+, FTSE 250,0.35%,0.21%
+, Telecoms,0.3%,0.43%
+, Telecoms,0.3%,0.51%
+, Volatility Index,0.3%,0.07%
