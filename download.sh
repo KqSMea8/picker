@@ -56,7 +56,7 @@ do
     epic=$(echo "$rec" |cut -f1 -d',')
     file=$tempdir/${epic}.html
     file_tidy=$tempdir/${epic}_tidy.html
-    title=$(grep '<title>' $file |cut -f6 -d'>' |cut -f1 -d"<")
+    title=$(grep '<title>' $file |cut -f2 -d'>' |cut -f1 -d"<")
     sell=$(grep '<span class="price-label">Sell:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
     buy=$(grep '<span class="price-label">Buy:</span>' $file |head -1 |cut -f4 -d'>' |cut -f1 -d'<' | sed 's/[^0-9]*//g')
     if [ -n "$sell" -a -n "$buy" ]

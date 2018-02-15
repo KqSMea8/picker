@@ -6,3 +6,5 @@ Thu 15 Feb 00:04:25 GMT 2018 - Generating ./etf_sectors.csv
 Thu 15 Feb 00:06:45 GMT 2018 - Downloading ETF Details
 Thu 15 Feb 00:11:28 GMT 2018 - Generating ./etf_details.csv
 Thu 15 Feb 00:11:46 GMT 2018 - Finished
+56.26user 46.65system 11:47.74elapsed 14%CPU (0avgtext+0avgdata 15948maxresident)k
+1112inputs+472outputs (20major+7172845minor)pagefaults 0swaps
