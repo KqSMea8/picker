@@ -1,14 +1,14 @@
 desc,sector,charge,spread
-, Energy,0.4%,0.3%
-, Precious Metals,0.39%,0.33%
+, Energy,0.4%,0.29%
+, Precious Metals,0.39%,0.35%
 , Silver,0.39%,0.06%
 , Silver,0.4%,0.07%
 , Silver,0.4%,0.09%
-, Developed Mkt,0.3%,0.05%
+, Developed Mkt,0.3%,0.14%
 , Developed Mkt,0.59%,0.08%
-, FTSE 250,0.15%,0.43%
-, FTSE 250,0.25%,0.15%
+, FTSE 250,0.15%,0.17%
+, FTSE 250,0.25%,0.16%
 , FTSE 250,0.35%,0.23%
-, Telecoms,0.3%,0.11%
-, Telecoms,0.3%,0.47%
+, Telecoms,0.3%,0.09%
+, Telecoms,0.3%,0.5%
 , Volatility Index,0.3%,0.07%
