@@ -1,15 +1,15 @@
 desc,sector,charge,spread
-Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.29%
-Source Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.34%
-Source Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV, Silver,0.39%,0.06%
+Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.31%
+Source Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.36%
+Source Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV, Silver,0.39%,0.0%
 Xtrackers (XSIL) Physical Silver ETC Share Price - XSIL, Silver,0.4%,0.08%
 iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN, Silver,0.4%,0.09%
 iShares III plc (IWDG) Core MSCI World UCITS ETF GBP DIS H Share Price - IWDG, Developed Mkt,0.3%,0.23%
 iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP, Developed Mkt,0.59%,0.08%
 Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.12%
-Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.16%
-Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.37%
+Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.14%
+Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.35%
 Xtrackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR, Telecoms,0.3%,0.1%
-db x-trackers (XWTS) MSCI World Telecommunication Services Index (DR) Share Price - XWTS, Telecoms,0.3%,0.24%
-SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.26%
-iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price - MVOL, Volatility Index,0.3%,0.07%
+SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.2%
+db x-trackers (XWTS) MSCI World Telecommunication Services Index (DR) Share Price - XWTS, Telecoms,0.3%,0.32%
+iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price - MVOL, Volatility Index,0.3%,0.05%
