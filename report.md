@@ -1,56 +1,55 @@
 # Environmental
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-6.58%|1.05%|1.59%|
-|[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-3.49%|1.57%|2.69%|
+|[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-6.58%|1.05%|1.19%|
+|[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-3.49%|1.57%|2.7%|
 # Commodities & Natural Resources
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[BlackRock World Mining Trust (BRWM) Ordinary 5p Share Price - BRWM](http://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|-11.92%|1.0%|0.55%|
-|[BlackRock Commodities Income Investment Trust (BRCI) Ordinary 1p Share Price - BRCI](http://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|-5.15%|1.36%|2.16%|
-|[City Natural Resources High Yield Trust plc (CYN) Ordinary 25p Shares Share Price - CYN](http://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|-18.24%|1.74%|1.78%|
+|[BlackRock World Mining Trust (BRWM) Ordinary 5p Share Price - BRWM](http://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|-11.92%|1.0%|0.41%|
+|[BlackRock Commodities Income Investment Trust (BRCI) Ordinary 1p Share Price - BRCI](http://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|-5.15%|1.36%|1.89%|
+|[City Natural Resources High Yield Trust plc (CYN) Ordinary 25p Shares Share Price - CYN](http://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|-18.24%|1.74%|2.21%|
 # Latin America
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[BlackRock Latin American Investment Trust (BRLA) Ordinary Shares $0.10 Share Price - BRLA](http://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|-14.56%|1.19%|2.29%|
+|[BlackRock Latin American Investment Trust (BRLA) Ordinary Shares $0.10 Share Price - BRLA](http://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|-14.56%|1.19%|0.85%|
 |[JPMorgan Brazil Investment Trust (JPB) Ordinary 1p Share Price - JPB](http://www.hl.co.uk/shares/shares-search-results/B602HS4 "Link")|-16.75%|1.99%|4.44%|
-|[Aberdeen Latin American Income Fund (ALAI) Ord NPV Share Price - ALAI](http://www.hl.co.uk/shares/shares-search-results/B44ZTP6 "Link")|-14.27%|1.99%|1.68%|
+|[Aberdeen Latin American Income Fund (ALAI) Ord NPV Share Price - ALAI](http://www.hl.co.uk/shares/shares-search-results/B44ZTP6 "Link")|-14.27%|1.99%|1.4%|
 # UK Smaller Companies
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
 |[Aberforth Smaller Companies Trust (ASL) Ordinary 1p Shares Share Price - ASL](http://www.hl.co.uk/shares/shares-search-results/0006655 "Link")|-11.31%|0.76%|0.15%|
 |[BlackRock Smaller Companies Trust (BRSC) Ordinary 25p Shares Share Price - BRSC](http://www.hl.co.uk/shares/shares-search-results/0643610 "Link")|-9.93%|0.97%|0.74%|
-|[Henderson Smaller Cos Investment Trust plc (HSL) Ordinary 25p Shares Share Price - HSL](http://www.hl.co.uk/shares/shares-search-results/0906506 "Link")|-10.85%|1.01%|0.93%|
-|[Standard Life UK Smaller Companies Trust plc (SLS) Ordinary 25p Shares Share Price - SLS](http://www.hl.co.uk/shares/shares-search-results/0295958 "Link")|-1.01%|1.08%|1.83%|
-|[JPMorgan Smaller Companies Investment Trust (JMI) Ordinary 25p Shares Share Price - JMI](http://www.hl.co.uk/shares/shares-search-results/0741600 "Link")|-15.68%|1.12%|0.45%|
-|[Montanaro UK Smaller Cos Inv Tst plc (MTU) Ordinary 10p Share Price - MTU](http://www.hl.co.uk/shares/shares-search-results/0600756 "Link")|-20.02%|1.24%|0.72%|
-|[SVM UK Emerging Fund plc (SVM) Ordinary 5p Share Price - SVM](http://www.hl.co.uk/shares/shares-search-results/0068417 "Link")|-18.56%|1.26%|4.35%|
+|[Henderson Smaller Cos Investment Trust plc (HSL) Ordinary 25p Shares Share Price - HSL](http://www.hl.co.uk/shares/shares-search-results/0906506 "Link")|-10.85%|1.01%|1.39%|
+|[Standard Life UK Smaller Companies Trust plc (SLS) Ordinary 25p Shares Share Price - SLS](http://www.hl.co.uk/shares/shares-search-results/0295958 "Link")|-1.01%|1.08%|0.82%|
+|[JPMorgan Smaller Companies Investment Trust (JMI) Ordinary 25p Shares Share Price - JMI](http://www.hl.co.uk/shares/shares-search-results/0741600 "Link")|-15.68%|1.12%|2.19%|
+|[Montanaro UK Smaller Cos Inv Tst plc (MTU) Ordinary 10p Share Price - MTU](http://www.hl.co.uk/shares/shares-search-results/0600756 "Link")|-20.02%|1.24%|0.36%|
 |[Invesco Perpetual UK Smaller Cos Inv Tst (IPU) Ord 20p Share Price - IPU](http://www.hl.co.uk/shares/shares-search-results/B1FL3C7 "Link")|-6.01%|1.27%|2.42%|
-|[Dunedin Smaller Companies Investment Trust (DNDL) Ordinary 5p Share Price - DNDL](http://www.hl.co.uk/shares/shares-search-results/B1GCL25 "Link")|-17.93%|1.36%|2.33%|
+|[Dunedin Smaller Companies Investment Trust (DNDL) Ordinary 5p Share Price - DNDL](http://www.hl.co.uk/shares/shares-search-results/B1GCL25 "Link")|-17.93%|1.36%|0.78%|
 |[Miton UK Microcap Trust plc (MINI) Ordinary Shares 0.1p Share Price - MINI](http://www.hl.co.uk/shares/shares-search-results/BWFGQ08 "Link")|-6.54%|1.58%|3.08%|
 # Private Equity
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
 |[Harbourvest Global Private Equity (HVPE) Ordinary Shares Share Price - HVPE](http://www.hl.co.uk/shares/shares-search-results/BR30MJ8 "Link")|-20.25%|0.34%|0.34%|
-|[HG Capital Trust plc (HGT) Ordinary 25p Share Price - HGT](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-6.11%|0.42%|1.12%|
+|[HG Capital Trust plc (HGT) Ordinary 25p Share Price - HGT](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-6.11%|0.42%|0.85%|
 |[Pantheon International (PIN) 67p Ordinary Shares Share Price - PIN](http://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|-13.13%|1.13%|0.26%|
-|[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-13.35%|1.28%|0.5%|
-|[Standard Life Private Equity Trust plc (SLPE) Ordinary 0.002 Share Price - SLPE](http://www.hl.co.uk/shares/shares-search-results/3047468 "Link")|-16.42%|1.29%|1.83%|
+|[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-13.35%|1.28%|0.75%|
+|[Standard Life Private Equity Trust plc (SLPE) Ordinary 0.002 Share Price - SLPE](http://www.hl.co.uk/shares/shares-search-results/3047468 "Link")|-16.42%|1.29%|0.91%|
 |[Oakley Capital Investments Ltd (OCI) Ordinary 1p Share Price - OCI](http://www.hl.co.uk/shares/shares-search-results/B23DL39 "Link")|-30.71%|1.34%|0.29%|
 # ETFs
 | ETF | Sector | Charge | Spread |
 | --- | ------ | ------:| ------:|
-|[Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF](http://www.hl.co.uk/shares/shares-search-results/B6TMFC5 "Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF")| Energy|0.4%|0.32%|
-|[Invesco Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL](http://www.hl.co.uk/shares/shares-search-results/B40K2X4 "Invesco Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL")| Precious Metals|0.39%|0.3%|
+|[Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF](http://www.hl.co.uk/shares/shares-search-results/B6TMFC5 "Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF")| Energy|0.4%|0.34%|
+|[Invesco Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL](http://www.hl.co.uk/shares/shares-search-results/B40K2X4 "Invesco Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL")| Precious Metals|0.39%|0.37%|
 |[Invesco Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV](http://www.hl.co.uk/shares/shares-search-results/B66SS94 "Invesco Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV")| Silver|0.39%|0.06%|
 |[Xtrackers (XSIL) Physical Silver ETC Share Price - XSIL](http://www.hl.co.uk/shares/shares-search-results/B57Y946 "Xtrackers (XSIL) Physical Silver ETC Share Price - XSIL")| Silver|0.4%|0.08%|
 |[iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN](http://www.hl.co.uk/shares/shares-search-results/B425ZM7 "iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN")| Silver|0.4%|0.09%|
-|[iShares III plc (IWDG) Core MSCI World UCITS ETF GBP DIS H Share Price - IWDG](http://www.hl.co.uk/shares/shares-search-results/BD45YS7 "iShares III plc (IWDG) Core MSCI World UCITS ETF GBP DIS H Share Price - IWDG")| Developed Mkt|0.3%|0.09%|
+|[iShares III plc (IWDG) Core MSCI World UCITS ETF GBP DIS H Share Price - IWDG](http://www.hl.co.uk/shares/shares-search-results/BD45YS7 "iShares III plc (IWDG) Core MSCI World UCITS ETF GBP DIS H Share Price - IWDG")| Developed Mkt|0.3%|0.23%|
 |[iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP](http://www.hl.co.uk/shares/shares-search-results/B1G53G2 "iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP")| Developed Mkt|0.59%|0.16%|
-|[Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX](http://www.hl.co.uk/shares/shares-search-results/B1WK0B5 "Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX")| FTSE 250|0.15%|0.12%|
+|[Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX](http://www.hl.co.uk/shares/shares-search-results/B1WK0B5 "Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX")| FTSE 250|0.15%|0.43%|
 |[Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250](http://www.hl.co.uk/shares/shares-search-results/B3X5BN2 "Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250")| FTSE 250|0.25%|0.14%|
-|[Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250](http://www.hl.co.uk/shares/shares-search-results/B1WMNV2 "Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250")| FTSE 250|0.35%|0.19%|
-|[Xtrackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR](http://www.hl.co.uk/shares/shares-search-results/B39DXF6 "Xtrackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR")| Telecoms|0.3%|0.23%|
+|[Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250](http://www.hl.co.uk/shares/shares-search-results/B1WMNV2 "Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250")| FTSE 250|0.35%|0.15%|
+|[Xtrackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR](http://www.hl.co.uk/shares/shares-search-results/B39DXF6 "Xtrackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR")| Telecoms|0.3%|0.12%|
 |[SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL](http://www.hl.co.uk/shares/shares-search-results/BYYW162 "SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL")| Telecoms|0.3%|0.27%|
 |[db x-trackers (XWTS) MSCI World Telecommunication Services Index (DR) Share Price - XWTS](http://www.hl.co.uk/shares/shares-search-results/BDGSVF0 "db x-trackers (XWTS) MSCI World Telecommunication Services Index (DR) Share Price - XWTS")| Telecoms|0.3%|0.33%|
 |[iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price - MVOL](http://www.hl.co.uk/shares/shares-search-results/B8FHGS1 "iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price - MVOL")| Volatility Index|0.3%|0.07%|
