@@ -1,41 +1,42 @@
 # Environmental
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-5.26%|1.05%|0.79%|
-|[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-4.28%|1.57%|2.7%|
+|[Impax Environmental Markets plc (IEM) Ordinary 10p Share Price - IEM](http://www.hl.co.uk/shares/shares-search-results/3123249 "Link")|-5.68%|1.05%|0.79%|
+|[Jupiter Green Investment Trust (JGC) Ord Shares GBP0.1 Share Price - JGC](http://www.hl.co.uk/shares/shares-search-results/B120GL7 "Link")|-4.11%|1.57%|2.7%|
 # Commodities & Natural Resources
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[BlackRock World Mining Trust (BRWM) Ordinary 5p Share Price - BRWM](http://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|-11.88%|1.0%|0.4%|
-|[BlackRock Commodities Income Investment Trust (BRCI) Ordinary 1p Share Price - BRCI](http://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|-4.27%|1.36%|4.27%|
-|[City Natural Resources High Yield Trust plc (CYN) Ordinary 25p Shares Share Price - CYN](http://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|-20.99%|1.74%|1.32%|
+|[BlackRock World Mining Trust (BRWM) Ordinary 5p Share Price - BRWM](http://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|-11.51%|1.0%|0.4%|
+|[BlackRock Commodities Income Investment Trust (BRCI) Ordinary 1p Share Price - BRCI](http://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|-4.49%|1.36%|4.27%|
+|[City Natural Resources High Yield Trust plc (CYN) Ordinary 25p Shares Share Price - CYN](http://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|-18.73%|1.74%|1.32%|
 # Latin America
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[BlackRock Latin American Investment Trust (BRLA) Ordinary Shares $0.10 Share Price - BRLA](http://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|-14.86%|1.19%|0.86%|
-|[JPMorgan Brazil Investment Trust (JPB) Ordinary 1p Share Price - JPB](http://www.hl.co.uk/shares/shares-search-results/B602HS4 "Link")|-13.83%|1.99%|4.44%|
-|[Aberdeen Latin American Income Fund (ALAI) Ord NPV Share Price - ALAI](http://www.hl.co.uk/shares/shares-search-results/B44ZTP6 "Link")|-12.67%|1.99%|1.42%|
+|[BlackRock Latin American Investment Trust (BRLA) Ordinary Shares $0.10 Share Price - BRLA](http://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|-13.99%|1.19%|0.86%|
+|[JPMorgan Brazil Investment Trust (JPB) Ordinary 1p Share Price - JPB](http://www.hl.co.uk/shares/shares-search-results/B602HS4 "Link")|-13.37%|1.99%|4.44%|
+|[Aberdeen Latin American Income Fund (ALAI) Ord NPV Share Price - ALAI](http://www.hl.co.uk/shares/shares-search-results/B44ZTP6 "Link")|-12.29%|1.99%|1.42%|
 # Private Equity
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[Harbourvest Global Private Equity (HVPE) Ordinary Shares Share Price - HVPE](http://www.hl.co.uk/shares/shares-search-results/BR30MJ8 "Link")|-20.12%|0.34%|0.34%|
-|[HG Capital Trust plc (HGT) Ordinary 25p Share Price - HGT](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-5.14%|0.42%|0.84%|
-|[Pantheon International (PIN) 67p Ordinary Shares Share Price - PIN](http://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|-13.14%|1.13%|0.27%|
-|[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-12.16%|1.28%|0.25%|
-|[Standard Life Private Equity Trust plc (SLPE) Ordinary 0.002 Share Price - SLPE](http://www.hl.co.uk/shares/shares-search-results/3047468 "Link")|-15.03%|1.29%|1.23%|
-|[Oakley Capital Investments Ltd (OCI) Ordinary 1p Share Price - OCI](http://www.hl.co.uk/shares/shares-search-results/B23DL39 "Link")|-30.11%|1.34%|1.76%|
+|[Harbourvest Global Private Equity (HVPE) Ordinary Shares Share Price - HVPE](http://www.hl.co.uk/shares/shares-search-results/BR30MJ8 "Link")|-19.9%|0.34%|0.34%|
+|[HG Capital Trust plc (HGT) Ordinary 25p Share Price - HGT](http://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|-5.49%|0.42%|0.84%|
+|[Pantheon International (PIN) 67p Ordinary Shares Share Price - PIN](http://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|-12.65%|1.13%|0.27%|
+|[ICG Enterprise Trust plc (ICGT) Ordinary 10p Shares Share Price - ICGT](http://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|-11.64%|1.28%|0.25%|
+|[Standard Life Private Equity Trust plc (SLPE) Ordinary 0.002 Share Price - SLPE](http://www.hl.co.uk/shares/shares-search-results/3047468 "Link")|-14.86%|1.29%|1.23%|
+|[Oakley Capital Investments Ltd (OCI) Ordinary 1p Share Price - OCI](http://www.hl.co.uk/shares/shares-search-results/B23DL39 "Link")|-30.62%|1.34%|1.76%|
 # UK Smaller Companies
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
-|[Aberforth Smaller Companies Trust (ASL) Ordinary 1p Shares Share Price - ASL](http://www.hl.co.uk/shares/shares-search-results/0006655 "Link")|-11.38%|0.76%|0.15%|
-|[BlackRock Smaller Companies Trust (BRSC) Ordinary 25p Shares Share Price - BRSC](http://www.hl.co.uk/shares/shares-search-results/0643610 "Link")|-10.12%|0.97%|0.37%|
-|[Henderson Smaller Cos Investment Trust plc (HSL) Ordinary 25p Shares Share Price - HSL](http://www.hl.co.uk/shares/shares-search-results/0906506 "Link")|-9.99%|1.01%|0.23%|
-|[JPMorgan Smaller Companies Investment Trust (JMI) Ordinary 25p Shares Share Price - JMI](http://www.hl.co.uk/shares/shares-search-results/0741600 "Link")|-14.12%|1.12%|3.07%|
-|[Montanaro UK Smaller Cos Inv Tst plc (MTU) Ordinary 10p Share Price - MTU](http://www.hl.co.uk/shares/shares-search-results/0600756 "Link")|-18.79%|1.24%|1.07%|
-|[SVM UK Emerging Fund plc (SVM) Ordinary 5p Share Price - SVM](http://www.hl.co.uk/shares/shares-search-results/0068417 "Link")|-19.19%|1.26%|4.26%|
-|[Invesco Perpetual UK Smaller Cos Inv Tst (IPU) Ord 20p Share Price - IPU](http://www.hl.co.uk/shares/shares-search-results/B1FL3C7 "Link")|-3.63%|1.27%|1.56%|
-|[Dunedin Smaller Companies Investment Trust (DNDL) Ordinary 5p Share Price - DNDL](http://www.hl.co.uk/shares/shares-search-results/B1GCL25 "Link")|-18.36%|1.36%|1.51%|
-|[Miton UK Microcap Trust plc (MINI) Ordinary Shares 0.1p Share Price - MINI](http://www.hl.co.uk/shares/shares-search-results/BWFGQ08 "Link")|-5.93%|1.58%|2.77%|
+|[Aberforth Smaller Companies Trust (ASL) Ordinary 1p Shares Share Price - ASL](http://www.hl.co.uk/shares/shares-search-results/0006655 "Link")|-10.82%|0.76%|0.15%|
+|[BlackRock Smaller Companies Trust (BRSC) Ordinary 25p Shares Share Price - BRSC](http://www.hl.co.uk/shares/shares-search-results/0643610 "Link")|-10.17%|0.97%|0.37%|
+|[Henderson Smaller Cos Investment Trust plc (HSL) Ordinary 25p Shares Share Price - HSL](http://www.hl.co.uk/shares/shares-search-results/0906506 "Link")|-11.02%|1.01%|0.23%|
+|[Standard Life UK Smaller Companies Trust plc (SLS) Ordinary 25p Shares Share Price - SLS](http://www.hl.co.uk/shares/shares-search-results/0295958 "Link")|-1.6%|1.08%|0.4%|
+|[JPMorgan Smaller Companies Investment Trust (JMI) Ordinary 25p Shares Share Price - JMI](http://www.hl.co.uk/shares/shares-search-results/0741600 "Link")|-14.98%|1.12%|3.07%|
+|[Montanaro UK Smaller Cos Inv Tst plc (MTU) Ordinary 10p Share Price - MTU](http://www.hl.co.uk/shares/shares-search-results/0600756 "Link")|-19.48%|1.24%|1.07%|
+|[SVM UK Emerging Fund plc (SVM) Ordinary 5p Share Price - SVM](http://www.hl.co.uk/shares/shares-search-results/0068417 "Link")|-18.24%|1.26%|4.26%|
+|[Invesco Perpetual UK Smaller Cos Inv Tst (IPU) Ord 20p Share Price - IPU](http://www.hl.co.uk/shares/shares-search-results/B1FL3C7 "Link")|-3.91%|1.27%|1.56%|
+|[Dunedin Smaller Companies Investment Trust (DNDL) Ordinary 5p Share Price - DNDL](http://www.hl.co.uk/shares/shares-search-results/B1GCL25 "Link")|-18.99%|1.36%|1.51%|
+|[Miton UK Microcap Trust plc (MINI) Ordinary Shares 0.1p Share Price - MINI](http://www.hl.co.uk/shares/shares-search-results/BWFGQ08 "Link")|-5.19%|1.58%|2.77%|
 # ETFs
 | ETF | Sector | Charge | Spread |
 | --- | ------ | ------:| ------:|
