@@ -23,7 +23,7 @@ B02KXL9,iShares plc (DJMC) EURO STOXX Mid Share Price | DJMC,0.40,0.25
 B02KXM0,iShares plc (DJSC) EURO STOXX Small Share Price | DJSC,0.40,0.13
 B04X7G9,Credit Suisse Asset Management IShares SMIM R (CH) Share Price,0.45,0.35
 B0791H3,iShares (BlackRock Asset Management Deutschland) DivDAX UCITS (DE) Share Price,0.31,0.11
-B0791S4,iShares (BlackRock Asset Management Deutschland) STOXX Europe Large 200 (DE) Share Price,0.20,0.19
+B0791S4,iShares (BlackRock Asset Management Deutschland) STOXX Europe Large 200 (DE) Share Price,0.20,0.00
 B079247,iShares (BlackRock Asset Management Deutschland) STOXX Europe Mid 200 (DE) Share Price,0.20,0.24
 B079258,iShares (BlackRock Asset Management Deutschland) STOXX Europe Small 200 (DE) Share Price,0.20,0.31
 B08TZF8,iShares (BlackRock Asset Management Deutschland) EURO STOXX Select Dividend 30 (DE) Share Price,0.31,0.10
@@ -209,7 +209,7 @@ B4MXM64,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Utilit
 B4NFRC0,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Personal & Household Goods Share Price,0.46,0.28
 B4NL5C4,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Construction & Materials (DE) Share Price,0.46,0.21
 B4P67F4,Ossiam (LUMV) US Minimum Variance NR UCITS ETF 1C GBP Share Price | LUMV,0.65,0.17
-B4PT173,db X-trackers MSCI Europe Value Factor UCITS ETF (DR) Share Price,0.25,0.32
+B4PT173,db X-trackers MSCI Europe Value Factor UCITS ETF (DR) Share Price,0.25,0.00
 B4QNHH6,GO UCITS ETF Solutions plc (DEL2) DAX 2X Long Fund Share Price | DEL2,0.40,0.28
 B4QNHZ4,GO UCITS ETF Solutions plc (DES2) DAX 2X Short Fund Share Price | DES2,0.60,0.43
 B4QNJJ2,GO UCITS ETF Solutions plc (LUK2) FTSE 100 Leveraged (2X) Fund Share Price | LUK2,0.50,0.09
@@ -547,7 +547,6 @@ BWWCJN3,Source Markets plc (JPEX) STOXX Japan Exporters UCITS ETF A Share Price 
 BWZMM31,WisdomTree Issuer plc (DXGP) Germany Equity UCITS ETF GBP Hedged Share Price | DXGP,0.35,0.15
 BWZMM42,WisdomTree Issuer plc (HEDJ) Europe Hedged Equity UCITS ETF Share Price | HEDJ,0.58,0.23
 BWZMM75,PowerShares Global Funds Ireland (HDLG) S&P 500 High Dividend Low Volatility Share Price | HDLG,0.30,0.14
-BXRTQQ8,UBS ETF SICAV (UC93) MSCI Switzerland 20/35 Hedged To GBP UCITS ETF A Share Price | UC93,0.30,0.42
 BXRTQS0,UBS ETF SICAV (UC94) MSCI Switzerland 20/35 Hedged To GBP UCITS A ETF Share Price | UC94,0.30,0.53
 BY9D8K3,db X-trackers (XDNY) JPX-Nikkei 400 UCITS ETF DR Share Price | XDNY,0.20,0.20
 BYMWWF0,Ossiam ETF (CAPU) Shiller Barclays Cape US Val Tr 1C (USD) Share Price | CAPU,0.65,0.15
