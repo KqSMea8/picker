@@ -850,7 +850,6 @@ B430TV8,Equity ETI by Area - Asia Pacific
 B43HR37,Equity ETI by Sector - Health
 B43LK29,Equity ETI by Area - UK
 B441G97,Equity ETI by Area - World
-B443HG7,Equity ETI by Area - Emerging Market
 B44BVG9,Equity ETI by Sector - Banks & Financials
 B44NX70,Equity ETI by Sector - Banks & Financials
 B44T3H8,Equity ETI by Area - Asia Pacific
@@ -1006,9 +1005,7 @@ B5W34K9,Equity ETI by Area - Latin & South America
 B5W4TY1,Equity ETI by Area - Asia Pacific
 B5WFQ43,Equity ETI by Area - North America
 B5WLZJ9,Equity ETI by Sector - Energy
-B5YSGQ2,Equity ETI by Area - Europe
 B5YSGR3,Equity ETI by Area - Europe
-B5YSGS4,Equity ETI by Area - Asia Pacific
 B5ZPRQ9,Equity ETI by Area - Emerging Market
 B60CDJ7,Equity ETI by Area - Emerging Market
 B614SD1,Equity ETI by Area - Europe
@@ -1065,7 +1062,6 @@ B64PTF0,Equity ETI by Sector - Volatility Index
 B653CR6,Equity ETI by Sector - Industrials
 B653D73,Equity ETI by Sector - Consumer goods
 B65CS86,Equity ETI by Sector - Technology
-B65KYS2,Equity ETI by Area - North America
 B66C6Q9,Equity ETI by Sector - Consumer goods
 B66SS94,Commodity ETI - Silver
 B66Y4S3,Equity ETI by Sector - Energy
@@ -1341,7 +1337,11 @@ BF2JSL6,Equity ETI by Sector - Consumer goods
 BF2JSR2,Equity ETI by Area - Europe
 BF2JSS3,Equity ETI by Area - Europe
 BF2JSV6,Equity ETI by Area - Europe
+BF2JSZ0,Equity ETI by Area - Asia Pacific
+BF2JT35,Equity ETI by Area - Europe
 BF2JTK2,Equity ETI by Sector - Banks & Financials
+BF2JTS0,Equity ETI by Area - North America
+BF2JTT1,Equity ETI by Area - North America
 BF2JTW4,Equity ETI by Sector - Property
 BF2JV40,Equity ETI by Area - Emerging Market
 BF2JV62,Equity ETI by Area - Europe
@@ -1355,6 +1355,7 @@ BF51WT5,Equity ETI by Area - World
 BF5S810,Equity ETI by Area - World
 BF7LBV8,Equity ETI by Area - Europe
 BFH5637,Equity ETI by Area - World
+BFX0573,Equity ETI by Area - World
 BGLCCZ5,Equity ETI by Area - Europe
 BH6X8R4,Equity ETI by Area - Asia Pacific
 BH89L04,Equity ETI by Sector - Banks & Financials
@@ -1476,6 +1477,7 @@ BSBNC96,Equity ETI by Sector - Utilities
 BSPLC29,Equity ETI by Area - Europe
 BSPLC30,Equity ETI by Area - Europe
 BSPLC41,Equity ETI by Area - North America
+BTJRMP3,Equity ETI by Area - Emerging Market
 BV7KJR9,Equity ETI by Area - Europe
 BV7KJS0,Equity ETI by Area - Europe
 BVC3MR4,Equity ETI by Area - North America
@@ -1555,6 +1557,7 @@ BZ0G2T5,Equity ETI by Area - Europe
 BZ0G790,Equity ETI by Area - North America
 BZ0XT17,Equity ETI by Area - World
 BZ0XT28,Equity ETI by Area - Europe
+BZ1BS79,Equity ETI by Area - World
 BZ1G5Y0,Equity ETI by Area - North America
 BZ30KH8,Equity ETI by Area - North America
 BZ30KT0,Equity ETI by Area - UK
