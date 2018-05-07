@@ -47,7 +47,7 @@
 |[Invesco Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV](http://www.hl.co.uk/shares/shares-search-results/B66SS94 "Invesco Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV")| Silver|0.39%|0.06%|
 |[iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN](http://www.hl.co.uk/shares/shares-search-results/B425ZM7 "iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN")| Silver|0.4%|0.08%|
 |[Xtrackers (XSIL) Physical Silver ETC Share Price - XSIL](http://www.hl.co.uk/shares/shares-search-results/B57Y946 "Xtrackers (XSIL) Physical Silver ETC Share Price - XSIL")| Silver|0.4%|0.09%|
-|[Sprott Physical Silver Trust Units Share Price](http://www.hl.co.uk/shares/shares-search-results/B5THDS5 "Sprott Physical Silver Trust Units Share Price")| Silver|0.7%|14.07%|
+|[Sprott Physical Silver Trust Units Share Price](http://www.hl.co.uk/shares/shares-search-results/B5THDS5 "Sprott Physical Silver Trust Units Share Price")| Silver|0.7%|2.09%|
 |[iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP](http://www.hl.co.uk/shares/shares-search-results/B1G53G2 "iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP")| Developed Mkt|0.59%|0.08%|
 |[Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX](http://www.hl.co.uk/shares/shares-search-results/B1WK0B5 "Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX")| FTSE 250|0.15%|0.12%|
 |[Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250](http://www.hl.co.uk/shares/shares-search-results/B3X5BN2 "Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250")| FTSE 250|0.25%|0.14%|
