@@ -1,20 +1,20 @@
 desc,sector,charge,spread
-Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.3%
+Source Markets (LGCF) LGIM Commodity Composite UCITS ETF Share Price - LGCF, Energy,0.4%,0.29%
 Invesco Physical Markets (SPPT) Invesco Platinum P-ETC 31/12/60 USD Share Price - SPPT, Precious Metals,0.39%,0.09%
-Invesco Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.13%
-iShares Physical Metals plc (SPDM) Physical Palladium ETC Share Price - SPDM, Precious Metals,0.4%,0.33%
+Invesco Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price - SPAL, Precious Metals,0.39%,0.14%
+iShares Physical Metals plc (SPDM) Physical Palladium ETC Share Price - SPDM, Precious Metals,0.4%,0.31%
+Xtrackers (XPAL) Physical Palladium ETC Share Price - XPAL, Precious Metals,0.45%,0.16%
 Xtrackers (XPLA) Physical Platinum ETC Share Price - XPLA, Precious Metals,0.45%,0.17%
-Xtrackers (XPAL) Physical Palladium ETC Share Price - XPAL, Precious Metals,0.45%,0.17%
-ETFS Metal Securities Ltd (PHPD) Physical Palladium Share Price - PHPD, Precious Metals,0.49%,0.25%
-Invesco Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV, Silver,0.39%,0.13%
+ETFS Metal Securities Ltd (PHPD) Physical Palladium Share Price - PHPD, Precious Metals,0.49%,0.23%
+Invesco Physical Markets (SSLV) Silver P-ETC 31/12/60 USD Share Price - SSLV, Silver,0.39%,0.06%
+iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN, Silver,0.4%,0.04%
 Xtrackers (XSIL) Physical Silver ETC Share Price - XSIL, Silver,0.4%,0.08%
-iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price - SSLN, Silver,0.4%,0.09%
-Sprott Physical Silver Trust Units Share Price, Silver,0.7%,2.09%
+Sprott Physical Silver Trust Units Share Price, Silver,0.7%,6.15%
 iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price - IDWP, Developed Mkt,0.59%,0.08%
-Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.1%
-Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.14%
-Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.26%
+Xtrackers (XMCX) FTSE 250 UCITS ETF (DR) Share Price - XMCX, FTSE 250,0.15%,0.12%
+Source Markets Plc (S250) FTSE 250 UCITS ETF Share Price - S250, FTSE 250,0.25%,0.15%
+Multi Units France (L250) Lyxor ETF FTSE 250 Share Price - L250, FTSE 250,0.35%,0.18%
 Xtrackers (XSKR) Stoxx® Europe 600 Telecommunications UCITS ETF Share Price - XSKR, Telecoms,0.3%,0.1%
-db x-trackers (XWTS) MSCI World Telecommunication Services Index (DR) Share Price - XWTS, Telecoms,0.3%,0.25%
 SSGA SPDR ETFs Europe II plc (WTEL) MSCI World Telecomms UCITS USD Share Price - WTEL, Telecoms,0.3%,0.27%
-Multi Units Luxembourg (TELG) Lyxor MSCI World Telecommunication Services TR Share Price - TELG, Telecoms,0.3%,0.6%
+db x-trackers (XWTS) MSCI World Telecommunication Services Index (DR) Share Price - XWTS, Telecoms,0.3%,0.34%
+Multi Units Luxembourg (TELG) Lyxor MSCI World Telecommunication Services TR Share Price - TELG, Telecoms,0.3%,0.65%
