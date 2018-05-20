@@ -182,11 +182,11 @@ B1N4H59,F&C UK High Income Trust (FHIB) Ordinary 0.1p B Shares Share Price | FHI
 B1N4H93,F&C UK High Income Trust (FHIU) Units (3 Ord 0.1p Shares and 1 Ord B Share) Share Price | FHIU,-10.09,-6.95,1.02,0.97
 B1NNWQ2,Cambium Global Timberland Ltd (TREE) Ord NPV Share Price | TREE,-42.67,-54.72,0.20,3.59
 B1NP514,BH Macro Ltd (GBP) (BHMG) Ord NPV Share Price | BHMG,-9.17,-8.71,4.75,0.51
-B1NPGV1,BH Macro Ltd (USD) (BHMU) Ordinary NPV Share Price | BHMU,-9.42,-6.40,4.75,2.97
+B1NPGV1,BH Macro Ltd (USD) (BHMU) Ordinary NPV Share Price | BHMU,-9.42,-6.39,4.75,2.97
 B1W59J1,Aberdeen Frontier Markets Investment Company Ltd (AFMC) Ordinary NPV Share Price | AFMC,-13.03,-8.06,2.01,1.74
 B1XH2B9,Dragon Ukrainian Properties & Development plc (DUPD) Ordinary 1p Share Price | DUPD,-55.27,-58.04,5.08,20.71
 B1YQ6R9,Third Point Offshore Investors Ltd (TPOG) Ordinary NPV GBP Share Price | TPOG,-13.82,-15.76,7.27,2.50
-B1YQ721,Third Point Offshore Investors Ltd (TPOU) Ordinary NPV USD Share Price | TPOU,-13.72,-12.00,7.27,0.30
+B1YQ721,Third Point Offshore Investors Ltd (TPOU) Ordinary NPV USD Share Price | TPOU,-13.72,-11.99,7.27,0.30
 B1YW440,3i Group Plc (III) Ordinary 73 19/22p Share Price | III,37.86,31.67,2.15,0.06
 B1Z2SL4,Crystal Amber Fund Ltd (CRS) Ordinary 1p Share Price | CRS,-7.77,-2.05,3.08,4.27
 B23DL39,Oakley Capital Investments Ltd (OCI) Ordinary 1p Share Price | OCI,-26.61,-30.51,1.34,1.39
@@ -196,7 +196,7 @@ B28ZZX8,NB Private Equity Partners Ltd (NBPE) Ordinary USD0.01 Share Price | NBP
 B29LSW5,Juridica Investments LD (JIL) Ord NPV Share Price | JIL,-20.28,-43.03,7.36,4.30
 B2PP252,F&C Managed Portfolio Trust plc (FMPG) Growth Shares 10p Share Price | FMPG,1.61,1.15,0.95,2.83
 B2PP3J3,F&C Managed Portfolio Trust Plc (FMPI) Income Shares 10p Share Price | FMPI,3.32,1.61,1.10,2.80
-B2QQPS8,BH Global Ltd (BHGU) Ordinary Shares USD NPV Share Price | BHGU,-6.88,-6.14,3.04,1.44
+B2QQPS8,BH Global Ltd (BHGU) Ordinary Shares USD NPV Share Price | BHGU,-6.88,-6.13,3.04,1.44
 B2QQPT9,BH Global Ltd (BHGG) Ord GBP NPV Share Price | BHGG,-6.80,-8.38,3.04,1.08
 B39VMM0,Boussard & Gavaudan Holding Ltd (BGHS) Ord Eur0.0001 (Stg) Share Price | BGHS,-17.14,-17.93,2.98,9.34
 B3BTVQ9,Oryx International Growth Fund (OIG) Ordinary 50p Share Price | OIG,-15.03,-17.14,1.65,3.03
@@ -239,7 +239,7 @@ B8SC6K5,Greencoat UK Wind plc (UKW) Ordinary 1p Share Price | UKW,7.23,8.87,1.94
 B90J5Z9,Twentyfour Income Fund Ltd (TFIF) Ordinary GBP 0.01 Share Price | TFIF,4.54,2.28,1.01,1.22
 B92LHN5,Doric Nimrod Air Three Ltd (DNA3) Ordinary Preference Shares NPV Share Price | DNA3,51.01,41.73,0.81,1.94
 B96SW59,JPMorgan Global Convertibles Income Fund Limited (JGCI) Ordinary NPV Share Price | JGCI,-2.09,-2.22,0.99,0.84
-B986V54,Adams Plc (ADA) Ordinary Eur0.01 Share Price | ADA,53.58,91.58,88.27,50.00
+B986V54,Adams Plc (ADA) Ordinary Eur0.01 Share Price | ADA,53.58,91.51,88.27,50.00
 B99R1Q7,Inland ZDP plc (INLZ) Zero Dividend Preference Shares 2019 10p Share Price | INLZ,0.00,0.00,7.41,3.27
 B9MRHZ5,CVC Credit Partners European Opportunities Ltd (CCPG) Ordinary NPV GBP Share Price | CCPG,0.65,0.90,0.59,0.44
 B9XQT11,Polar Capital Global Financials Trust (PCFT) Ordinary Shares Share Price | PCFT,-4.05,-4.95,1.00,1.06
@@ -257,13 +257,13 @@ BD5G638,,,,,1.20
 BD9PXH4,Aberdeen Standard European Logistics Income (ASLI) Ordinary Shares Share Price | ASLI,9.89,2.03,0.00,0.47
 BD9X204,Vietnam Enterprise Investments Ltd (VEIL) Ord USD0.01(DI) Share Price | VEIL,-20.18,-12.68,2.23,0.44
 BDG13K8,River & Mercantile UK Micro Cap Investment Company (RMMC) Redeemable Ord NPV (NOV 2017) Share Price | RMMC,-12.76,0.39,5.52,3.30
-BDGKMY2,BioPharma Credit Investments (BPCR) Ord Share Price | BPCR,3.54,8.25,0.00,0.97
+BDGKMY2,BioPharma Credit Investments (BPCR) Ord Share Price | BPCR,3.54,8.24,0.00,0.97
 BDHXP96,Polar Capital Global Healthcare Trust plc (PGHZ) ZDP Share Price | PGHZ,2.31,0.00,1.48,1.89
 BDR0575,Jupiter Emerging & Frontier Income Investment Tst (JEFI) Ord Share Price | JEFI,1.49,2.61,0.00,2.69
 BDZTXY7,UIL Finance Ltd ZDP 2024 (UTLG) RED ZDP 31/10/24 GBP(DI) Share Price | UTLG,3.39,4.23,1.94,1.85
 BF03YC3,Henderson Diversified Income (HDIV) GBP0.01 Share Price | HDIV,4.96,3.58,1.62,1.10
 BF0SCX5,Downing Strat Micro-Cap Investment Trust plc (DSM) Ord GBP0.001 Share Price | DSM,0.54,4.79,0.00,1.97
-BF1F1F0,JPEL Private Equity Ltd USD Equity Shares of NPV Share Price,-12.80,-12.47,1.86,2.68
+BF1F1F0,JPEL Private Equity Ltd USD Equity Shares of NPV Share Price,-12.80,-12.46,1.86,2.68
 BF5FX16,,,,,2.68
 BFD3V96,Jupiter UK Growth Investment Trust plc (JUKG) Ordinary 5p Share Price | JUKG,-2.28,-2.28,1.20,1.15
 BFWJJT1,JPMorgan Multi-Asset Trust (MATE) Ordinary Shares Share Price | MATE,-4.95,0.00,0.00,4.12
@@ -283,7 +283,7 @@ BNH7RK3,F&C Global Smaller Companies plc (FCSC) 3.5% Convertible Unsecured Loan 
 BP46PR0,JZ Capital Partners Limited (JZCC) 6% Convertible Unsecured Loan Stock 2021 Share Price | JZCC,,,,6.25
 BR30MJ8,Harbourvest Global Private Equity (HVPE) Ordinary Shares Share Price | HVPE,-21.65,-17.40,0.68,0.32
 BTLJYS4,Gabelli Value Plus + Trust plc (GVP) Ordinary 1p Share Price | GVP,-8.52,-4.86,1.33,1.59
-BVFCRP1,Catco Reinsurance Opportunities Fund (CAT) Ord USD0.00013716 (DI) Share Price | CAT,-24.32,0.40,3.20,3.77
+BVFCRP1,Catco Reinsurance Opportunities Fund (CAT) Ord USD0.00013716 (DI) Share Price | CAT,-24.32,0.39,3.20,3.77
 BVG1CF2,Woodford Patient Capital Trust PLC (WPCT) Ordinary Shares GBP 0.01 Share Price | WPCT,-9.63,-6.12,0.18,0.27
 BWFGQ08,Miton UK Microcap Trust plc (MINI) Ordinary Shares 0.1p Share Price | MINI,-6.34,-3.98,1.58,2.68
 BWXC7Y9,Fidelity Special Values (FSV) Ordinary 5p Share Price | FSV,-1.05,-3.69,1.06,1.08
