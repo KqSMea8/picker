@@ -3,30 +3,30 @@ epic,desc,charge,spread
 0847092,iShares II plc (EUN) STOXX Europe 50 Share Price | EUN,0.35,0.13
 0847100,iShares II plc (EUE) Euro STOXX 50 UCITS ETF (Dist) Share Price | EUE,0.16,0.08
 3097407,iShares plc (IEUT) FTSEurofirst 100 Share Price | IEUT,0.40,0.14
-7018910,iShares (BlackRock Asset Management Deutschland) EURO STOXX 50 (DE) Share Price,0.16,0.06
+7018910,iShares (BlackRock Asset Management Deutschland) EURO STOXX 50 (DE) Share Price,0.16,0.03
 7028704,Lyxor International Asset Management CAC 40 Master Unit Share Price,0.25,0.04
 7078055,iShares (BlackRock Asset Management Deutschland) Core Dax UCITS ETF (DE) Share Price,0.16,0.04
-7078066,Lyxor International Asset Management DJ Euro Stoxx 50 Master Unit Share Price,0.20,0.06
-7085044,CS ETF (CH) DIS NAV Share Price,0.35,-0.01
-7104604,Blackrock Asset Mngt Deutschland IShares TecDAX UCITS ETF (DE) Share Price,0.51,0.08
-7131323,iShares (BlackRock Asset Management Deutschland) EURO STOXX Banks 30-15 UCITS ETF (DE) Share Price,0.51,0.00
-7131419,iShares (BlackRock Asset Management Deutschland) MDAX (DE) Share Price,0.51,0.09
-7222744,iShares (BlackRock Asset Management Deutschland) Dow Jones Industrial Average (DE) Share Price,0.51,0.24
+7078066,Lyxor International Asset Management DJ Euro Stoxx 50 Master Unit Share Price,0.20,0.03
+7085044,CS ETF (CH) DIS NAV Share Price,0.35,0.09
+7104604,Blackrock Asset Mngt Deutschland IShares TecDAX UCITS ETF (DE) Share Price,0.51,0.27
+7131323,iShares (BlackRock Asset Management Deutschland) EURO STOXX Banks 30-15 UCITS ETF (DE) Share Price,0.51,0.09
+7131419,iShares (BlackRock Asset Management Deutschland) MDAX (DE) Share Price,0.51,0.20
+7222744,iShares (BlackRock Asset Management Deutschland) Dow Jones Industrial Average (DE) Share Price,0.51,0.19
 7224041,UBS Global Asset Management (UK) Euro STOXX 50 UCITS A-dis Share Price,0.15,0.08
 7270798,Lyxor International Asset Management MSCI US Tech Master Unit Share Price,0.30,0.04
-7633216,Lyxor International Asset Management Dow Jones Global Titans 50 Share Price,0.40,0.35
-7735877,UBS ETF SICAV SMI (CHF) A-dis Share Price,0.22,1.01
+7633216,Lyxor International Asset Management Dow Jones Global Titans 50 Share Price,0.40,0.29
+7735877,UBS ETF SICAV SMI (CHF) A-dis Share Price,0.22,1.00
 B00D611,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Share Price,0.20,0.05
 B02KXH5,iShares plc (IJPN) MSCI Japan UCITS ETF (Dist) Share Price | IJPN,0.59,0.13
 B02KXK8,iShares plc (FXC) Large Cap UCITS ETF Share Price | FXC,0.74,0.27
 B02KXL9,iShares plc (DJMC) EURO STOXX Mid Share Price | DJMC,0.40,0.09
 B02KXM0,iShares plc (DJSC) EURO STOXX Small Share Price | DJSC,0.40,0.14
-B04X7G9,Credit Suisse Asset Management IShares SMIM R (CH) Share Price,0.45,0.34
-B0791H3,iShares (BlackRock Asset Management Deutschland) DivDAX UCITS (DE) Share Price,0.31,0.27
-B0791S4,iShares (BlackRock Asset Management Deutschland) STOXX Europe Large 200 (DE) Share Price,0.20,0.15
-B079247,iShares (BlackRock Asset Management Deutschland) STOXX Europe Mid 200 (DE) Share Price,0.20,0.30
-B079258,iShares (BlackRock Asset Management Deutschland) STOXX Europe Small 200 (DE) Share Price,0.20,0.23
-B08TZF8,iShares (BlackRock Asset Management Deutschland) EURO STOXX Select Dividend 30 (DE) Share Price,0.31,0.15
+B04X7G9,Credit Suisse Asset Management IShares SMIM R (CH) Share Price,0.45,-3.50
+B0791H3,iShares (BlackRock Asset Management Deutschland) DivDAX UCITS (DE) Share Price,0.31,0.39
+B0791S4,iShares (BlackRock Asset Management Deutschland) STOXX Europe Large 200 (DE) Share Price,0.20,0.34
+B079247,iShares (BlackRock Asset Management Deutschland) STOXX Europe Mid 200 (DE) Share Price,0.20,0.34
+B079258,iShares (BlackRock Asset Management Deutschland) STOXX Europe Small 200 (DE) Share Price,0.20,0.34
+B08TZF8,iShares (BlackRock Asset Management Deutschland) EURO STOXX Select Dividend 30 (DE) Share Price,0.31,0.34
 B0GL4T3,Powershares Global Funds Ireland (EQQQ) Powershares EQQQ Fund Share Price | EQQQ,0.30,0.05
 B0M62Q5,iShares plc (IWRD) MSCI World UCITS ETF (Dist) Share Price | IWRD,0.50,0.09
 B0M62S7,iShares plc (IDVY) EURO STOXX Select Dividend 30 Share Price | IDVY,0.40,0.15
@@ -38,13 +38,13 @@ B0M6339,iShares plc (IKOR) MSCI Korea UCITS ETF (Dist) Share Price | IKOR,0.74,0
 B0M6362,iShares plc (ITWN) MSCI Taiwan Share Price | ITWN,0.74,0.23
 B0M6373,iShares plc (IFFF) MSCI AC Far East ex-Japan Share Price | IFFF,0.74,0.20
 B0M6395,iShares plc (IEER) MSCI Eastern Europe 10/40 Share Price | IEER,0.74,0.18
-B0XV6J0,Lyxor ETF Commodity CRB Fund Npv Share Price,0.35,0.06
-B1263G9,iShares (BlackRock Asset Management Deutschland) Dow Jones Asia Pacific Select Dividend 30 Share Price,0.31,0.10
+B0XV6J0,Lyxor ETF Commodity CRB Fund Npv Share Price,0.35,0.25
+B1263G9,iShares (BlackRock Asset Management Deutschland) Dow Jones Asia Pacific Select Dividend 30 Share Price,0.31,0.28
 B14X4N2,iShares plc (IEUX) MSCI Europe ex-UK Share Price | IEUX,0.40,0.11
 B14X4T8,iShares plc (IAPD) DJ Asia/Pacific Select Dividend 30 Share Price | IAPD,0.59,0.14
-B17NZ81,Lyxor ETF Russia Dow Jones Russia GDR Share Price,0.65,0.53
-B17Z877,Lyxor Master Fund Lyxor ETF Leverage DAX Share Price,0.40,0.14
-B18Q2H7,iShares (BlackRock Asset Management Deutschland) Nikkei 225 Share Price,0.51,0.11
+B17NZ81,Lyxor ETF Russia Dow Jones Russia GDR Share Price,0.65,1.09
+B17Z877,Lyxor Master Fund Lyxor ETF Leverage DAX Share Price,0.40,0.16
+B18Q2H7,iShares (BlackRock Asset Management Deutschland) Nikkei 225 Share Price,0.51,0.06
 B1CDG49,iShares plc (IDUS) S&P 500 (USD) UCITS ETF (Dist) Share Price | IDUS,0.07,0.04
 B1CDG61,iShares plc (IDNA) MSCI North America (USD) Share Price | IDNA,0.40,0.10
 B1CDGK5,iShares plc (IDEM) MSCI Emerging Markets (USD) UCITS ETD (Dist) Share Price | IDEM,0.75,0.09
@@ -54,7 +54,7 @@ B1CDJX9,iShares plc (IDFF) MSCI AC Far East ex-Japan (USD) Share Price | IDFF,0.
 B1CDJZ1,iShares plc (IDKO) MSCI Korea (USD) UCITS ETF (Dist) Share Price | IDKO,0.74,0.20
 B1CDK14,iShares plc (IDTW) MSCI Taiwan (USD) Share Price | IDTW,0.74,0.26
 B1DGRZ5,Lyxor ETF Commodities CRB Non Energy Eur Share Price,0.35,0.17
-B1G5179,Lyxor International Asset Management HSI Share Price,0.65,0.16
+B1G5179,Lyxor International Asset Management HSI Share Price,0.65,0.19
 B1G5328,iShares II plc (IASP) FTSE EPRA/NAREIT Asia Property Yield Fund Share Price | IASP,0.59,0.24
 B1G5340,iShares II plc (IUSP) FTSE EPRA/NAREIT US Property Yield Fund Share Price | IUSP,0.40,0.12
 B1G5362,iShares II plc (IWDP) FTSE EPRA/NAREIT Developed Markets Property Yield Share Price | IWDP,0.59,0.08
@@ -63,16 +63,16 @@ B1G5395,iShares II plc (ITKY) MSCI Turkey Share Price | ITKY,0.74,0.86
 B1G53G2,iShares II plc (IDWP) FTSE EPRA/NAREIT Developed Markets Prop Yield Fund Share Price | IDWP,0.59,0.08
 B1GJF02,iShares II plc (IDTK) MSCI Turkey (USD) Share Price | IDTK,0.74,0.65
 B1GK6W4,Lyxor International Asset Management MSCI India Share Price,0.85,0.13
-B1HPZ65,db X-trackers FTSE MIB UCITS ETF (DR) Share Price,0.30,0.13
-B1HPZL0,db X-trackers Swiss Large Cap UCITS ETF DR 1D Share Price,0.30,0.20
+B1HPZ65,db X-trackers FTSE MIB UCITS ETF (DR) Share Price,0.30,0.04
+B1HPZL0,db X-trackers Swiss Large Cap UCITS ETF DR 1D Share Price,0.30,0.19
 B1MFTR9,Lyxor International Asset Management Lyxor ETF Privex Share Price,0.70,0.75
 B1MFTS0,Lyxor International Asset Management ETF FTSE Athex 20 Share Price,0.45,1.06
 B1N97S7,Societe General Asset Management SA SGAM ETF XBEAR CAC40 Share Price,0.60,0.00
-B1PNBD0,Lyxor International Asset Management Lyxor ETF Brazil Share Price,0.65,0.24
+B1PNBD0,Lyxor International Asset Management Lyxor ETF Brazil Share Price,0.65,0.26
 B1TXHL6,iShares II plc (IPRV) S&P Listed Private Equity Share Price | IPRV,0.75,0.16
 B1TXK62,iShares II plc (IH2O) S&P Global Water Share Price | IH2O,0.65,0.10
 B1TXLS1,iShares II plc (IUKP) FTSE EPRA/NAREIT UK Property Fund Share Price | IUKP,0.40,0.19
-B1VFFN8,Lyxor International Asset Management DJ STOXX 600 Banks EUR Acc Nav Share Price,0.30,0.09
+B1VFFN8,Lyxor International Asset Management DJ STOXX 600 Banks EUR Acc Nav Share Price,0.30,0.05
 B1VS2W5,ETFS Metal Securities Ltd (PHPT) Physical Platinum Share Price | PHPT,0.49,0.15
 B1VS300,ETFS Metal Securities Ltd (PHPD) Physical Palladium Share Price | PHPD,0.49,0.36
 B1VS377,ETFS Metal Securities Ltd (PHAU) Physical Gold Share Price | PHAU,0.39,0.04
@@ -97,11 +97,11 @@ B1WMNV2,Multi Units France (L250) Lyxor ETF FTSE 250 Share Price | L250,0.35,0.2
 B1WMNY5,Multi Units France (LFAS) ETF FTSE ALL SHARE Share Price | LFAS,0.40,0.71
 B1Y9MY7,iShares II plc (IMIB) FTSE MIB UCITS ETF (Dist) Share Price | IMIB,0.35,0.13
 B1Y9MZ8,iShares II plc (INRG) S&P Global Clean Energy Share Price | INRG,0.65,0.17
-B1YMRM9,Lyxor International Asset Management EURO STOXX 50 Daily Leverage Share Price,0.40,0.11
-B1YMRQ3,Lyxor International Asset Management (AFSL) Lyxor ETF South Africa (FTSE/JSE TOP40) Share Price | AFSL,0.65,0.66
+B1YMRM9,Lyxor International Asset Management EURO STOXX 50 Daily Leverage Share Price,0.40,0.08
+B1YMRQ3,Lyxor International Asset Management (AFSL) Lyxor ETF South Africa (FTSE/JSE TOP40) Share Price | AFSL,0.65,0.79
 B1Z2TT9,iShares II plc (IMEU) MSCI Europe UCITS ETF (Dist) Share Price | IMEU,0.35,0.09
-B236VD8,DB X-trackers DBLCI - OY Balanced UCITS ETF (EUR) Share Price,0.55,0.15
-B23QLF0,iShares (BlackRock Asset Management Deutschland) Diversified Commodity Swap UCITS ETF (DE) Share Price,0.46,0.15
+B236VD8,DB X-trackers DBLCI - OY Balanced UCITS ETF (EUR) Share Price,0.55,0.51
+B23QLF0,iShares (BlackRock Asset Management Deutschland) Diversified Commodity Swap UCITS ETF (DE) Share Price,0.46,0.20
 B248JB7,Powershares Global Fund Ireland (PSRF) FTSE Rafi US 1000 Fd - USD Share Price | PSRF,0.45,0.21
 B248JV7,Powershares Global Fund Ireland (PSRE) FTSE Rafi Europe Fd - Euro shs Share Price | PSRE,0.39,0.19
 B248JW8,Powershares Global Funds Ireland (PSES) FTSE Rafi Dev Europe Mid-Small Fund Euro Share Price | PSES,0.75,0.27
@@ -116,7 +116,7 @@ B27YCF7,iShares II plc (WOOD) S&P Global Timber & Forestry (USD) Share Price | W
 B27YCK2,iShares II plc (LTAM) MSCI EM Latin America (GBP) UCITS ETF (Dist) Share Price | LTAM,0.74,0.42
 B27YCN5,iShares II plc (ISWD) MSCI World Islamic Share Price | ISWD,0.60,0.18
 B285ZX8,ETFS Metal Securities Ltd (PHPP) Physical PM Basket Share Price | PHPP,0.44,0.29
-B28MDV3,Lyxor International Asset Management New Energy A Share Price,0.60,0.81
+B28MDV3,Lyxor International Asset Management New Energy A Share Price,0.60,0.27
 B296QM6,iShares II plc (ISUS) MSCI USA Islamic Share Price | ISUS,0.50,0.13
 B2NPL13,iShares II plc (IEMI) S&P Emerging Market Infrastructure USD Share Price | IEMI,0.74,0.46
 B2PDCG7,Xtrackers (XESX) Euro STOXX® 50 UCITS ETF (DR) 1D Share Price | XESX,0.09,0.12
@@ -145,7 +145,7 @@ B39DXQ7,Xtrackers (XS3R) Stoxx® Europe 600 Food & Beverage UCITS ETF Share Pric
 B39DXT0,Xtrackers (XSNR) Stoxx® Europe 600 Industrial Goods UCITS ETF Share Price | XSNR,0.30,0.21
 B39VCQ4,Xtrackers (XEUM) MSCI Europe Mid Cap Index UCITS ETF (DR) Share Price | XEUM,0.25,0.22
 B39VCS6,Xtrackers (XXSC) MSCI Europe Small Cap Index UCITS ETF (DR) Share Price | XXSC,0.30,0.19
-B39YP97,Lyxor International Asset Management Leverage CAC 40 Share Price,0.40,0.10
+B39YP97,Lyxor International Asset Management Leverage CAC 40 Share Price,0.40,0.05
 B3BXXT8,Xtrackers (XAXJ) MSCI AC Asia ex Japan Index UCITS ETF Share Price | XAXJ,0.65,0.14
 B3BXXW1,Xtrackers (XPXJ) MSCI Pacific ex Japan Index UCITS ETF (DR) Share Price | XPXJ,0.45,0.20
 B3BXY06,Xtrackers (XSX6) Stoxx® Europe 600 UCITS ETF (DR) Share Price | XSX6,0.20,0.08
@@ -170,17 +170,17 @@ B3XPYQ6,Xtrackers (XMES) MSCI Mexico Index UCITS ETF (DR) Share Price | XMES,0.6
 B3Y8X56,iShares V plc (IGUS) S&P 500 Monthly GBP Hedged (GBP) Share Price | IGUS,0.20,0.06
 B3YLTY6,SSGA SPDR ETFs Europe I plc SPDR MSCI ACWI IMI USD Share Price,0.40,0.19
 B3ZJS08,Xtrackers (XCS4) MSCI Thailand Index UCITS ETF (DR) Share Price | XCS4,0.50,0.15
-B3ZPVL8,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Basic Resources Share Price,0.46,0.18
+B3ZPVL8,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Basic Resources Share Price,0.46,0.29
 B3ZW0K1,IShares V plc (IUSE) S&P 500 EUR HEDGED EUR UCITS ACC Share Price | IUSE,0.20,0.05
 B40BCN7,Xtrackers (XCX4) MSCI Thailand Index UCITS ETF (DR) Share Price | XCX4,0.50,0.17
 B40BG46,Xtrackers (XCS3) MSCI Malaysia Index UCITS ETF (DR) Share Price | XCS3,0.50,0.38
 B40K2X4,Invesco Physical Markets (SPAL) Palladium P-ETC 31/12/60 USD Share Price | SPAL,0.39,0.82
 B40Y0X2,HSBC ETFs plc (HIDR) MSCI Indonesia UCITS ETF GBP Share Price | HIDR,0.60,0.73
-B414978,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Travel & Leisure (DE) Share Price,0.46,0.27
-B415N24,iShares (BlackRock Asset Management Deutschland) Europe 600 Automobiles & Parts (DE) Share Price,0.46,0.15
+B414978,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Travel & Leisure (DE) Share Price,0.46,0.74
+B415N24,iShares (BlackRock Asset Management Deutschland) Europe 600 Automobiles & Parts (DE) Share Price,0.46,0.10
 B417C89,Invesco Physical Markets (SPPT) Invesco Platinum P-ETC 31/12/60 USD Share Price | SPPT,0.39,0.08
 B41JFV9,XTrackers (XCX5) MSCI India Index UCITS ETF Share Price | XCX5,0.75,0.23
-B425WB5,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Oil & Gas Share Price,0.46,0.09
+B425WB5,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Oil & Gas Share Price,0.46,0.15
 B425ZM7,iShares Physical Metals plc (SSLN) Physical Silver ETC Share Price | SSLN,0.40,0.08
 B42TW06,HSBC ETFs Plc (HUKX) FTSE 100 UCITS ETF Share Price | HUKX,0.07,0.09
 B42Y5M4,Xtrackers (XMEX) MSCI Mexico Index UCITS ETF (DR) Share Price | XMEX,0.65,0.39
@@ -189,17 +189,17 @@ B42Z5J4,iShares V plc (IJPE) MSCI Japan Monthly EUR Hedged (EUR) Share Price | I
 B430TV8,HSBC ETFS plc (HTWN) MSCI TAIWAN UCITS ETF GBP Share Price | HTWN,0.60,0.21
 B43HR37,iShares V plc (IUHC) S&P 500 Health Care Sector UCITS ETF USD Acc Share Price | IUHC,0.15,0.17
 B441G97,iShares V plc (IWDE) MSCI World Monthly EUR UCITS ACC HDG Share Price | IWDE,0.55,0.08
-B44BVG9,Blackrock Asset Mngt Deutschland IShares STOXX Europe 600 Insurance UCITS ETF (DE) Share Price,0.46,0.13
+B44BVG9,Blackrock Asset Mngt Deutschland IShares STOXX Europe 600 Insurance UCITS ETF (DE) Share Price,0.46,0.30
 B44NX70,iShares V plc (UIFS) S&P 500 Financials Sector UCITS ETF USD Acc Share Price | UIFS,0.15,0.09
 B44T3H8,HSBC ETFs plc (HMCH) MSCI China ETF (GBP) Share Price | HMCH,0.60,0.22
-B4553J7,iShares (BlackRock Asset Management Deutschland) STOXX 600 Food & Beverage (DE) Share Price,0.46,0.17
+B4553J7,iShares (BlackRock Asset Management Deutschland) STOXX 600 Food & Beverage (DE) Share Price,0.46,0.30
 B456TR0,iShares V plc (IITU) S&P 500 Information Technology Sector ETF USD Acc Share Price | IITU,0.15,0.08
 B45CJS9,iShares V plc (IESU) S&P 500 Energy Sector UCITS GBP ACC Share Price | IESU,0.15,0.09
 B4885P3,HSBC ETFs plc (HMYR) MSCI Malaysia UCITS ETF GBP Share Price | HMYR,0.60,0.41
 B4JV4D2,iShares Physical Metals plc (SPDM) Physical Palladium ETC Share Price | SPDM,0.40,0.70
 B4K6B02,HSBC ETFs Plc (H50E) Euro Stoxx 50 UCITS Share Price | H50E,0.05,0.15
 B4KK7T5,Xtrackers (XMAF) MSCI Africa TOP 50 Index UCITS ETF Share Price | XMAF,0.65,0.57
-B4L50M3,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Banks (DE) Share Price,0.46,0.12
+B4L50M3,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Banks (DE) Share Price,0.46,0.18
 B4L5YX2,iShares III plc (IJPA) Core MSCI Japan IMI Acc Share Price | IJPA,0.20,0.11
 B4L60K4,iShares III plc (SMEA) MSCI Europe (Acc) EUR Share Price | SMEA,0.33,0.10
 B4L60Z9,iShares III plc (SWDA) Core MSCI World (Acc) Share Price | SWDA,0.20,0.10
@@ -210,11 +210,11 @@ B4LV9V3,Xtrackers (XCX6) MSCI China Index UCITS ETF (DR) Share Price | XCX6,0.65
 B4LVDS8,iShares V plc (SPOL) MSCI Poland UCITS ETF USD Acc (GBP) Share Price | SPOL,0.74,0.36
 B4LZ6C5,Xtrackers (XCX3) xtrackers MSCI Malaysia Index UCITS ETF (DR) Share Price | XCX3,0.50,0.41
 B4M7GH5,iShares V plc (IPOL) MSCi Poland UCITS ETF Share Price | IPOL,0.74,0.34
-B4MXM64,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Utilities Share Price,0.46,0.14
-B4NFRC0,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Personal & Household Goods Share Price,0.46,0.21
-B4NL5C4,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Construction & Materials (DE) Share Price,0.46,0.17
+B4MXM64,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Utilities Share Price,0.46,0.24
+B4NFRC0,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Personal & Household Goods Share Price,0.46,0.47
+B4NL5C4,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Construction & Materials (DE) Share Price,0.46,0.43
 B4P67F4,Ossiam (LUMV) US Minimum Variance NR UCITS ETF 1C GBP Share Price | LUMV,0.65,0.19
-B4PT173,db X-trackers MSCI Europe Value Factor UCITS ETF (DR) Share Price,0.25,0.40
+B4PT173,db X-trackers MSCI Europe Value Factor UCITS ETF (DR) Share Price,0.25,0.36
 B4STTG5,Xtrackers (XESC) Euro STOXX 50 UCITS ETC (DR)1C Share Price | XESC,0.09,0.15
 B4VG929,iShares VII plc (CSCA) MSCI Canada USD (GBP) Share Price | CSCA,0.48,0.14
 B4WB860,iShares plc (CUS1) MSCI USA Small Cap UCITS ETF USD Acc Share Price | CUS1,0.43,0.13
@@ -223,7 +223,7 @@ B4WXJD0,iShares III plc (IPXJ) MSCI Pacific ex-Japan (USD) Share Price | IPXJ,0.
 B4WXJM9,iShares III plc (SPXJ) MSCI Pacific ex-Japan GBP Share Price | SPXJ,0.60,0.20
 B4X9L53,HSBC ETFS Plc (HMWD) MSCI World ETF USD Share Price | HMWD,0.15,0.09
 B4XKCN1,iShares VII plc (CMB1) FTSE MIB UCITS ETF Share Price | CMB1,0.33,0.14
-B4XQMC8,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Health Care (DE) Share Price,0.46,0.15
+B4XQMC8,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Health Care (DE) Share Price,0.46,0.12
 B4YBJ21,SSGA SPDR ETFs Europe I plc (SPY4) S&P 400 US Mid Cap ETF Share Price | SPY4,0.30,0.16
 B4Z6YS6,iShares VII plc (CUKS) MSCI UK Small CAP UCITS ETF Share Price | CUKS,0.58,0.46
 B4Z7940,iShares VII plc (CSX5) Core EURO STOXX 50 Share Price | CSX5,0.10,0.09
@@ -248,7 +248,7 @@ B53WKP2,iShares VII plc (CSUK) MSCI UK UCITS ETF GBP Acc Share Price | CSUK,0.33
 B540668,Source Markets (SPXS) S&P 500 UCITS ETF A Share Price | SPXS,0.05,0.06
 B542V81,iShares VII plc (CNDX) NASDAQ 100 USD ACC Share Price | CNDX,0.33,0.04
 B5497R3,iShares VII plc (CEU1) MSCI EMU UCITS ETF Share Price | CEU1,0.33,0.12
-B54DM92,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Retail (DE) Share Price,0.46,0.46
+B54DM92,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Retail (DE) Share Price,0.46,0.62
 B55LJY9,iShares VII plc (CRU1) MSCI Russia ADR/GDR UCITS ETF Share Price | CRU1,0.65,0.15
 B55Q955,iShares VII plc (CU1) MSCI USA USD Acc (GBP) Share Price | CU1,0.33,0.06
 B56T0F0,HSBC ETFs plc (HMLA) MSCI Em Latin America UCITS ETF GBP Share Price | HMLA,0.60,0.35
@@ -276,7 +276,7 @@ B5SZDQ8,Source Markets Plc (XLVS) Healthcare S&P US Sel Sector UCITS ETF Share P
 B5SZKJ0,Source Markets Plc (XLFS) Financials S&P US Select Sector UCITS ETF Share Price | XLFS,0.30,0.14
 B5SZKS9,Source Markets Plc (XLUS) Utilities S&P US Sel Sector UCITS ETF Share Price | XLUS,0.30,0.11
 B5TGZG4,Source Markets Plc (XLIS) Industrials S&P US Sel Sector ETF Share Price | XLIS,0.30,0.11
-B5THDS5,Sprott Physical Silver Trust Units Share Price,0.70,2.92
+B5THDS5,Sprott Physical Silver Trust Units Share Price,0.70,4.52
 B5TP7K9,Source Markets Plc (XLYS) Consumer Disc S&P US Sel Sector Source UCITS ETF Share Price | XLYS,0.30,0.14
 B5V4RV5,Xtrackers (XBCU) DBLCI - OY Balanced UCITS ETF Share Price | XBCU,0.55,0.15
 B5V8739,iShares VII plc (CSRU) MSCI Russia ADR/GDR UCITS ETF Share Price | CSRU,0.65,0.18
@@ -291,7 +291,7 @@ B5WLZJ9,Source Markets Plc (XLES) Energy S&P US Sel Sector Source UCITS ETF Shar
 B5ZPRQ9,HSBC ETFs plc (HMEF) MSCI Emerging Markets UCITS ETF GBP Share Price | HMEF,0.40,0.17
 B60CDJ7,iShares V plc (SEDY) Dow Jones Emerging Markets Select Div GBP Share Price | SEDY,0.65,0.41
 B614SD1,Xtrackers (XLDX) LevDAX Daily UCITS ETF Share Price | XLDX,0.35,0.28
-B6191M6,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Real Estate UCITS ETF (DE) Share Price,0.46,0.22
+B6191M6,iShares (BlackRock Asset Management Deutschland) STOXX Europe 600 Real Estate UCITS ETF (DE) Share Price,0.46,0.92
 B61BDZ9,Xtrackers (XSD2) ShortDAX X2 Daily UCITS ETF Share Price | XSD2,0.60,0.56
 B62NTH8,HSBC ETFS Plc (HRUB) MSCI Russia Capped UCITS ETF GBP Share Price | HRUB,0.60,0.13
 B62SW52,Lyxor International Asset Management FTSE EPRA/NAREIT Developed Europe Share Price,0.40,0.50
@@ -349,11 +349,11 @@ B7Z7TB8,First Trust Global Funds plc (FKU) United Kingdom AlphaDEX UCITS Share P
 B802KR8,SSGA SPDR ETFs Europe I plc (LOWV) S&P 500 Low Volatility USD Share Price | LOWV,0.35,0.34
 B842YH2,SSGA SPDR ETFs Europe I plc (USLV) S&P 500 Low Volatility GBP Share Price | USLV,0.35,0.31
 B88DGW0,SPDR ETFs Europe I plc (GBRE) Dow Jones Global Real Estate Share Price | GBRE,0.40,0.37
-B88DZ56,iShares VI plc S&P 500 CHF Hedged Share Price,0.20,0.29
+B88DZ56,iShares VI plc S&P 500 CHF Hedged Share Price,0.20,7.08
 B894QH7,iShares VI plc (MINV) Edge MSCI World Minimum Volatility GBP Share Price | MINV,0.30,0.06
 B89G2C0,Xtrackers (XCHA) CSI300 UCITS ETF Class 1C Share Price | XCHA,0.50,0.34
 B8BJ960,iShares VI plc (MVUS) Edge S&P 500 Minimum Volatility GBP Share Price | MVUS,0.20,0.05
-B8BVCK1,iShares VI plc MSCI World CHF Hedged Share Price,0.55,0.29
+B8BVCK1,iShares VI plc MSCI World CHF Hedged Share Price,0.55,1.78
 B8BZQM3,First Trust Global Funds plc (FEM) Emerging Markets AlphaDEX UCITS Share Price | FEM,0.80,0.65
 B8C0D37,Lyxor International Asset Management (WATL) World Water Share Price | WATL,0.60,0.35
 B8CJC04,Lyxor International Asset Management (LEML) Lyxor UCITS ETF MSCI Emerging Markets Index Share Price | LEML,0.55,0.13
@@ -361,7 +361,7 @@ B8DYP76,Lyxor International Asset Management (INRU) UCITS MSCI India (Part USD) 
 B8FH960,Lyxor International Asset Management (JPNL) Japan Topix Share Price | JPNL,0.45,0.12
 B8FHGS1,iShares VI plc (MVOL) MSCI Edge World Min Vol UCITS USD A Share Price | MVOL,0.30,0.07
 B8FJBB5,iShares VI plc (IMV) Edge MSCI Europe Minimum Volatility GBP Share Price | IMV,0.25,0.16
-B8FLKX6,UBS (Irl) ETF Plc MSCI WORLD UCITS A USD DIS Share Price,0.30,0.22
+B8FLKX6,UBS (Irl) ETF Plc MSCI WORLD UCITS A USD DIS Share Price,0.30,0.20
 B8FMT76,Xtrackers (XD5E) MSCI EMU INDEX UCITS ETF DR 1D Share Price | XD5E,0.15,0.10
 B8GG773,SSGA SPDR ETFs Europe I plc (EMUE) MSCI EMU Share Price | EMUE,0.18,0.14
 B8J4B50,Xtrackers (XBAK) MSCI Pakistan IM Index UCITS ETF Share Price | XBAK,0.85,1.15
@@ -370,7 +370,7 @@ B8J4BF0,Xtrackers (XMJG) MSCI Japan Index UCITS ETF (DR) (GBP) Share Price | XMJ
 B8KGV55,iShares VI plc (EMMV) Edge MSCI EM Minimum Volatility UCITS ETF USD Share Price | EMMV,0.40,0.39
 B8NBP66,Lyxor International Asset Management (CECL) Eastern Europe ETF Share Price | CECL,0.50,0.77
 B8NZ739,UBS ETF SICAV (UC44) MSCI World Socially Responsible Share Price | UC44,0.38,0.47
-B8T34W5,Lyxor International Asset Management SG Global Quality Income NTR Share Price,0.45,0.50
+B8T34W5,Lyxor International Asset Management SG Global Quality Income NTR Share Price,0.45,0.52
 B8XDC38,Ossiam ETF (LWMV) World Minimum Variance 1C USD Share Price | LWMV,0.65,0.38
 B8XDZV7,Lyxor International Asset Management (INRL) MSCI India B GBP Share Price | INRL,0.85,0.11
 B8XT9Q8,First Trust Global Funds plc (FEX) US Large Cap Core AlphaDEX UCITS Share Price | FEX,0.65,0.23
@@ -380,7 +380,7 @@ B921DR1,Xtrackers (XDUK) FTSE 100 UCITS ETF (DR) Share Price | XDUK,0.09,0.14
 B932CY3,Multi Units Luxembourg (SGQL) SG Global Quality Income Share Price | SGQL,0.45,0.38
 B951T81,SSGA SPDR ETFs Europe I plc (PADV) S&P Pan Asia Dividend Aristocrats UCITS ETF Share Price | PADV,0.55,0.27
 B98DR24,Xtrackers (XDJP) Nikkei 225 UCITS ETF (DR) 1D Share Price | XDJP,0.09,0.13
-B9C9R06,ETFS Hedged Metal Securities Ltd EUR Daily Hdgd Physical Gold Share Price,0.39,0.12
+B9C9R06,ETFS Hedged Metal Securities Ltd EUR Daily Hdgd Physical Gold Share Price,0.39,0.23
 B9CQXS7,SSgA SPDR ETFs Europe I Plc (GLDV) S&P GLOBAL DIV ARISTOCRATS UCITS US Share Price | GLDV,0.45,0.15
 B9DQ900,Source Markets (MLPS) Morningstar US Energy Infrastructure MLP UCITS ETF Share Price | MLPS,1.25,0.19
 B9FH310,Vanguard Funds plc (VHYL) FTSE All World High Dividend Yield Share Price | VHYL,0.29,0.21
@@ -405,7 +405,7 @@ BD4G929,iShares IV Plc (IUQF) EDGE MSCI USA QUALITY FACT UCTS USD Share Price | 
 BD4G930,iShares IV Plc (IUVF) EDGE MSCI USA VALUE FACTOR UCTS USD Share Price | IUVF,0.20,0.10
 BD4G974,iShares IV Plc (IUMF) EDGE MSCI USA MOMENTUM FAC UCTS USD Share Price | IUMF,0.20,0.09
 BDBBJ83,UBS (Irl) ETF Plc (UPSG) S&P 500 UCITS A DIS HDG TO GBP Share Price | UPSG,0.22,0.27
-BDCNSP8,Lyxor International Asset Management Pan Africa UCITS ETF Share Price,0.85,0.91
+BDCNSP8,Lyxor International Asset Management Pan Africa UCITS ETF Share Price,0.85,0.81
 BDD9Q40,WisdomTree Issuer plc (WCOB) Enhanced Commodity UCITS Share Price | WCOB,0.35,0.27
 BDDR9H8,Multi Units Luxembourg Lyxor (L100) FTSE 100 UCITS C GBP ETF Share Price | L100,0.15,0.08
 BDFCGG9,Powershares Global Funds Ireland (EQGB) EQQQ NASDAQ-100 UCITS GBP HDG Share Price | EQGB,0.35,0.06
@@ -447,11 +447,11 @@ BF51WP1,Lyxor International Asset Management (ASIL) China Enterprise C EUR (GBP)
 BF51WR3,Lyxor International Asset Management MSCI USA D EUR (GBP) Share Price,0.25,0.12
 BF51WT5,Lyxor International Asset Management (WLDL) MSCI World D EUR (GBP) Share Price | WLDL,0.30,0.22
 BF5S810,SSGA SPDR ETFs Europe I plc (WOSC) MSCI World Small Cap UCITS ETF Share Price | WOSC,0.45,0.55
-BF7LBV8,iShares VII plc FTSE Italia Mid-Small Cap UTS ETF EUR Share Price,0.33,6.92
+BF7LBV8,iShares VII plc FTSE Italia Mid-Small Cap UTS ETF EUR Share Price,0.33,3.12
 BFH5637,Source Markets (EFIW) Goldman Sachs Equity Factor Index World Share Price | EFIW,0.65,0.20
 BGLCCZ5,SSGA SPDR ETFs Europe II plc (LOWE) Euro Stoxx Low Volatility Share Price | LOWE,0.30,0.29
 BH6X8R4,Source CSOP Markets plc (CHNP) FTSE China A 50 ETF Share Price | CHNP,0.99,0.47
-BH89L04,Lyxor International Asset Management UCITS ETF Eurostoxx Banks C-EUR Share Price,0.30,0.06
+BH89L04,Lyxor International Asset Management UCITS ETF Eurostoxx Banks C-EUR Share Price,0.30,0.08
 BHCQCX1,Xtrackers (RQFI) Harvest CSI300 Index UCITS ETF (DR) Share Price | RQFI,0.65,0.43
 BJWHZC8,iShares VII plc (CJPU) MSCI Japan USD Share Price | CJPU,0.48,0.10
 BJWHZQ2,iShares VII plc (CCAU) MSCI Canada USD Share Price | CCAU,0.48,0.17
@@ -469,7 +469,7 @@ BKZG9Z0,HSBC ETFs plc (HEWA) Economic Scale Worldwide EQ UCITS Share Price | HEW
 BKZGB10,HSBC ETFs plc (HWWA) Multi Factor Worldwide Equity Share Price | HWWA,0.25,0.34
 BM4NQQ6,PowerShares ETF (BUYB) Global Buyback Achievers UCITS ETF Share Price | BUYB,0.39,0.18
 BM67HJ6,db x-trackers (XDEX) FTSE All-World EX UK UCITS ETF (DR) Share Price | XDEX,0.40,0.22
-BMN9L59,Lyxor International Asset Management FTSE Italian Mid Cap Share Price,0.40,2.88
+BMN9L59,Lyxor International Asset Management FTSE Italian Mid Cap Share Price,0.40,4.49
 BMP3HN9,UBS (IRL) ETF plc (UKSR) MSCI UK IMI Socially Resp UCITS ETF GBP A Share Price | UKSR,0.28,0.45
 BNB7CT3,db X-trackers (XDND) MSCI North America Hi Div Yield Index UCITS ETF DR Share Price | XDND,0.39,0.16
 BNGMZJ4,db X-trackers (XDUS) MSCI USA Index UCITS ETF (DR) 1C Share Price | XDUS,0.07,0.05
@@ -540,7 +540,7 @@ BWBXM94,SSGA SPDR ETFs Europe II plc (SXLK) S&P US Tech Sel Sect UCT USD Share P
 BWBXRR7,db X-trackers (XRSG) Russell 2000 UCITS ETF (DR) Share Price | XRSG,0.30,0.12
 BWBXSK7,db X-trackers (XRSS) Russell Midcap UCITS ETF (DR) Share Price | XRSS,0.35,0.17
 BWBXSQ3,db x-trackers (XDPG) S&P 500 UCITS ETF (DR) (GBP) Share Price | XDPG,0.20,0.09
-BWTNRN5,iShares (BlackRock Asset Management Ireland) MSCI EMU CHF Hedged UCITS ETF (Dist) Share Price,0.38,0.37
+BWTNRN5,iShares (BlackRock Asset Management Ireland) MSCI EMU CHF Hedged UCITS ETF (Dist) Share Price,0.38,0.18
 BWTW3C3,db X-trackers (XGLF) MSCI GCC Select Index UCITS ETF Share Price | XGLF,0.65,0.69
 BWTW3D4,Xtrackers (XEOU) MSCI Europe Index UCITS ETF (DR) (USD) Share Price | XEOU,0.30,0.10
 BWTW3V2,Xtrackers (XD5S) MSCI EMU INDEX UCITS ETF DR GBP Share Price | XD5S,0.25,0.12
@@ -569,7 +569,7 @@ BYVK5K1,iShares IV plc (SUJS) Sustainbale MSCI Japan SRI EUR Hedged UCITS ETF Sh
 BYW70C8,SSGA SPDR ETFs Europe I plc (EURL) FTSE EPRA Europe ex UK Real Estate UCITS Share Price | EURL,0.30,0.34
 BYWSG23,db X-trackers (XFEW) FTSE 100 Equal Weight UCITS ETF (DR) Share Price | XFEW,0.25,0.32
 BYX5678,Xtrackers (XDAX) DAX UCITS ETF (DR) 1C Share Price | XDAX,0.09,0.36
-BYX8LV6,Lyxor Index Fund SICAV MSCI EMU Value DR UCITS C EUR Share Price,0.40,0.31
+BYX8LV6,Lyxor Index Fund SICAV MSCI EMU Value DR UCITS C EUR Share Price,0.40,0.32
 BYX9528,Source Markets plc (CMOD) Bloomberg Commodity UCITS A USD Share Price | CMOD,0.34,0.11
 BYXZHC0,First Trust Global Funds (UINC) US Equity Income UCITS ETF Share Price | UINC,0.55,0.25
 BYXZTY6,Xtrackers (AH50) Harvest FTSE China A-H 50 Index UCITS ETF (DR) Share Price | AH50,0.65,0.88
