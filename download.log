@@ -1,8 +1,32 @@
-Already up-to-date.
-Sun 10 Jun 00:00:05 BST 2018 - Generating ./invtrust_sectors.csv
-Sun 10 Jun 00:01:45 BST 2018 - Downloading Investment Trust Details
-Sun 10 Jun 00:04:19 BST 2018 - Generating ./invtrust_details.csv
-Sun 10 Jun 00:04:33 BST 2018 - Generating ./etf_sectors.csv
-Sun 10 Jun 00:07:08 BST 2018 - Downloading ETF Details
-Sun 10 Jun 00:12:12 BST 2018 - Generating ./etf_details.csv
-Sun 10 Jun 00:12:28 BST 2018 - Finished
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Mon 11 Jun 00:00:01 BST 2018 - Generating ./invtrust_sectors.csv
+
+Looking up www.hl.co.uk
+Unable to locate remote host www.hl.co.uk.
+Alert!: Unable to connect to remote host.
+
+lynx: Can't access startfile http://www.hl.co.uk/shares/investment-trusts
+Mon 11 Jun 00:00:01 BST 2018 - Downloading Investment Trust Details
+Warning - data is empty
+Mon 11 Jun 00:00:01 BST 2018 - Generating ./invtrust_details.csv
+Warning - data is empty
+Mon 11 Jun 00:00:01 BST 2018 - Generating ./etf_sectors.csv
+
+Looking up www.hl.co.uk
+Unable to locate remote host www.hl.co.uk.
+Alert!: Unable to connect to remote host.
+
+lynx: Can't access startfile http://www.hl.co.uk/shares/exchange-traded-funds-etfs
+cat: /tmp/hldata/etf_sectors.tmp: No such file or directory
+Mon 11 Jun 00:00:01 BST 2018 - Downloading ETF Details
+Warning - data is empty
+Mon 11 Jun 00:00:01 BST 2018 - Generating ./etf_details.csv
+Warning - data is empty
+Warning - data is empty
+Warning - data is empty
+Warning - data is empty
+Mon 11 Jun 00:00:02 BST 2018 - Finished
