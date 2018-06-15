@@ -1,5 +1,4 @@
 epic,sector_desc
-0388728,AIM Listing
 B28Y104,AIM Listing
 0005997,Asia Pacific
 0010076,Asia Pacific
@@ -22,26 +21,21 @@ B0P6J83,Asia Pacific
 B0P8RJ6,Asia Pacific
 B1GXH75,Asia Pacific
 B62Z3C7,Asia Pacific
-B7VSCF0,Asia Pacific
 BBM56V2,Asia Pacific
 0038551,Biotechnology & Healthcare
 0338530,Biotechnology & Healthcare
 0455934,Biotechnology & Healthcare
 B6832P1,Biotechnology & Healthcare
-B986V54,Biotechnology & Healthcare
 BDHXP96,Biotechnology & Healthcare
 0035392,Commodities & Natural Resources
-0230852,Commodities & Natural Resources
 0577485,Commodities & Natural Resources
 B0N8MF9,Commodities & Natural Resources
 B15FW33,Commodities & Natural Resources
 B1G9T99,Commodities & Natural Resources
 B6686L2,Commodities & Natural Resources
-B6T0TM7,Commodities & Natural Resources
 BCKFVJ4,Commodities & Natural Resources
 BYXX8B0,Construction/Building
 B6YVTS1,Convertible Loan Stks
-BFZ0WT2,Convertible Loan Stks
 BNH7RK3,Convertible Loan Stks
 BP46PR0,Convertible Loan Stks
 B0HW536,Debt
@@ -58,15 +52,9 @@ BG0P0V7,Electricity
 B120GL7,Environmental
 BJ0JVY0,Environmental
 BJL5FH8,Environmental
-BYWWMM7,Environmental
 BZ0XWD0,Environmental
 BBHXCL3,Equity Investment Instruments
 BFWJJT1,Equity Investment Instruments
-BYWYZ46,Equity Investment Instruments
-BZ7MQD8,Equity Investment Instruments
-BBHXCL3,Equity Investment Instruments
-BFWJJT1,Equity Investment Instruments
-BYWYZ46,Equity Investment Instruments
 BZ7MQD8,Equity Investment Instruments
 0019772,Europe
 0329501,Europe
@@ -162,7 +150,6 @@ BYPBD51,Investment Trust
 BYT2554,Investment Trust
 BYXVT88,Investment Trust
 BYZV3G2,Investment Trust
-BZ3C3B9,Investment Trust
 0048583,Japan
 0174002,Japan
 0316581,Japan
@@ -184,39 +171,27 @@ B7W0XJ6,North America
 BDFGHW4,North America
 BJL5F34,North America
 BKZGVH6,North America
-BDGKMY2,Pharmaceuticals & Biotechnology
 0329200,Private Equity
 0392105,Private Equity
 0414850,Private Equity
 0577656,Private Equity
 0596286,Private Equity
 3047468,Private Equity
-B06CZD7,Private Equity
-B08N4M0,Private Equity
 B08S4K3,Private Equity
-B0XLRJ7,Private Equity
 B12MHD2,Private Equity
 B1YW440,Private Equity
 B23DL39,Private Equity
 B4N1RV7,Private Equity
 BD0FRW6,Private Equity
-BD96PR1,Private Equity
-BFNS016,Private Equity
 BJVDZ94,Private Equity
 BR30MJ8,Private Equity
 BYRH498,Private Equity
 BYXP9G8,Private Equity
 0906409,Property
-3369872,Property
-B06GJ37,Property
 B13VDP2,Property
 B1436N6,Property
 B19Z2J5,Property
-B1XH2B9,Property
-B4MFKH7,Property
 B4ZPCJ0,Property
-B6WC674,Property
-BCDP4K3,Property
 BY7R8K7,Real Estate
 BD9PXH4,Real Estate
 B1DVQL9,Real Estate Investment Trusts
@@ -224,9 +199,6 @@ B1DVQL9,Real Estate Investment Trusts
 3408009,Sector Specialist
 B1DQ670,Sector Specialist
 B29LSW5,Sector Specialist
-B3Z6252,Sector Specialist
-B4MF389,Sector Specialist
-B92LHN5,Sector Specialist
 BVFCRP1,Sector Specialist
 B9XQT11,Financials
 B1NNWQ2,Forestry & Timber
@@ -252,7 +224,6 @@ B0LCW20,Split Capital Trust
 B403HK5,Split Capital Trust
 BD2YGN5,Split Capital Trust
 BDZTXY7,Split Capital Trust
-BF1F1F0,Split Capital Trust
 BYMJ7X4,Split Capital Trust
 BYP98L6,Split Capital Trust
 BYZQ1C9,Split Capital Trust
@@ -321,4 +292,3 @@ B1FL3C7,UK Smaller Companies
 B1GCL25,UK Smaller Companies
 BDG13K8,UK Smaller Companies
 BWFGQ08,UK Smaller Companies
-B99R1Q7,Unclassified
