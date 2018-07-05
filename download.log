@@ -6,3 +6,5 @@ Thu  5 Jul 00:04:42 BST 2018 - Generating ./etf_sectors.csv
 Thu  5 Jul 00:07:33 BST 2018 - Downloading ETF Details
 Thu  5 Jul 00:12:53 BST 2018 - Generating ./etf_details.csv
 Thu  5 Jul 00:13:10 BST 2018 - Finished
+64.87user 69.87system 13:12.39elapsed 17%CPU (0avgtext+0avgdata 15912maxresident)k
+16152inputs+648outputs (78major+7311806minor)pagefaults 0swaps
