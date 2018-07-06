@@ -1,4 +1,14 @@
-./q -O -H -d ',' "select url, name, market_cap, total_liabilities1/(total_assets1 - total_liabilities1) debt_ratio, current_assets/current_liabilities current_ratio, net_income1/(total_assets1 - total_liabilities1) roe1, net_income2/(total_assets2 - total_liabilities2) roe2, net_income3/(total_assets3 - total_liabilities3) roe3, net_income4/(total_assets4 - total_liabilities4) roe4, net_income5/(total_assets5 - total_liabilities5) roe5, pe_ratio, price/(equity/volume) pb_ratio from ./stock_details.csv where debt_ratio < 0.5 and current_ratio > 1.5 and roe1 > 0.08 and roe2 > 0.08 and roe3 > 0.08 and roe4 > 0.08 and roe5 > 0.08 and pe_ratio > 15 and pb_ratio > 1.5 order by debt_ratio" >./stock_picks.csv
+./q -O -H -d ',' "select url, name, market_cap,
+round(total_liabilities1/(total_assets1 - total_liabilities1), 2) debt_ratio,
+round(current_assets/current_liabilities, 2) current_ratio,
+round(net_income1/(total_assets1 - total_liabilities1), 2) roe1, 
+round(net_income2/(total_assets2 - total_liabilities2), 2) roe2,
+round(net_income3/(total_assets3 - total_liabilities3), 2) roe3,
+round(net_income4/(total_assets4 - total_liabilities4), 2) roe4,
+round(net_income5/(total_assets5 - total_liabilities5), 2) roe5,
+pe_ratio,
+round(price/(equity/volume), 2) pb_ratio
+from ./stock_details.csv where debt_ratio < 0.5 and current_ratio > 1.5 and roe1 > 0.08 and roe2 > 0.08 and roe3 > 0.08 and roe4 > 0.08 and roe5 > 0.08 and pe_ratio > 15 and pb_ratio > 1.5 order by debt_ratio" >./stock_picks.csv
 
 echo " "
 echo "# Stock Picks"
