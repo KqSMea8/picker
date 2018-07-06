@@ -3,7 +3,7 @@
 echo " "
 echo "# Stock Picks"
 echo "| Stock | Debt Ratio | ROE | P/E | P/B |"
-echo "| --- | ------------:| ---:| ---:| ---:|"
+echo "| ----- | ------------:| ---:| ---:| ---:|"
 ./q -H -d ',' "select url, name, debt_ratio, roe1, pe_ratio, pb_ratio from ./stock_picks.csv" |while read rec
 do
     url=$(echo $rec |cut -f1 -d',')
@@ -12,7 +12,7 @@ do
     roe=$(echo $rec |cut -f4 -d',')
     pe=$(echo $rec |cut -f5 -d',')
     pb=$(echo $rec |cut -f6 -d',')
-    echo "|${name}](${url} \"URL\")|${debt_ratio}|${roe}|${pe}|${pb}|"
+    echo "[${name}](${url} \"URL\")|${debt_ratio}|${roe}|${pe}|${pb}|"
 done
 
 
