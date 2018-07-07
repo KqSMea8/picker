@@ -1,4 +1,4 @@
-./q -O -H -d ',' "select url, name, market_cap,
+./q -O -H -d '|' "select url, name, market_cap,
 round(total_liabilities1/(total_assets1 - total_liabilities1), 2) debt_ratio,
 round(current_assets/current_liabilities, 2) current_ratio,
 round(net_income1/(total_assets1 - total_liabilities1), 2) roe1,
@@ -9,30 +9,30 @@ round(net_income5/(total_assets5 - total_liabilities5), 2) roe5,
 pe_ratio,
 round(price/(equity/volume), 2) pb_ratio
 from ./stock_details.csv where
-debt_ratio < 0.5 and
-current_ratio > 1.5 and
-roe1 > 0.08 and
-roe2 > 0.08 and
-roe3 > 0.08 and
-roe4 > 0.08 and
-roe5 > 0.08 and
-pe_ratio > 15 and
-pb_ratio > 1.5
+debt_ratio < 0.5
+and current_ratio > 1.5
+and roe1 > 0.08
+and roe2 > 0.08
+and roe3 > 0.08
+and roe4 > 0.08
+and roe5 > 0.08
+and pe_ratio > 15
 order by debt_ratio" >./stock_picks.csv
+#and pb_ratio > 1.5
 
 echo " "
 echo "# Stock Picks"
 echo "| Stock | Market Cap | Debt Ratio | ROE | P/E | P/B |"
 echo "| ----- | ---------- | ----------:| ---:| ---:| ---:|"
-./q -H -d ',' "select url, name, market_cap, debt_ratio, roe1, pe_ratio, pb_ratio from ./stock_picks.csv" |while read rec
+./q -H -d '|' "select url, name, market_cap, debt_ratio, roe1, pe_ratio, pb_ratio from ./stock_picks.csv" |while read rec
 do
-    url=$(echo $rec |cut -f1 -d',')
-    name=$(echo $rec |cut -f2 -d',')
-    market_cap=$(echo $rec |cut -f3 -d',')
-    debt_ratio=$(echo $rec |cut -f4 -d',')
-    roe=$(echo $rec |cut -f5 -d',')
-    pe=$(echo $rec |cut -f6 -d',')
-    pb=$(echo $rec |cut -f7 -d',')
+    url=$(echo $rec |cut -f1 -d'|')
+    name=$(echo $rec |cut -f2 -d'|')
+    market_cap=$(echo $rec |cut -f3 -d'|')
+    debt_ratio=$(echo $rec |cut -f4 -d'|')
+    roe=$(echo $rec |cut -f5 -d'|')
+    pe=$(echo $rec |cut -f6 -d'|')
+    pb=$(echo $rec |cut -f7 -d'|')
     echo "[${name}](${url} \"URL\")|${market_cap}|${debt_ratio}|${roe}|${pe}|${pb}|"
 done
 

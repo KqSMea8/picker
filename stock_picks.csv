@@ -1,23 +1,21 @@
-url,name,market_cap,debt_ratio,current_ratio,roe1,roe2,roe3,roe4,roe5,pe_ratio,pb_ratio
-http://www.hl.co.uk/shares/shares-search-results/h/hutchison-china-meditech-ord-usd1,Hutchison China Meditech (HCM) Ord Usd1,£3.03 bn,-0.05,2.3,1.78,6.08,2.68,1.72,1.46,600.00p,1205.72
-http://www.hl.co.uk/shares/shares-search-results/e/elementis-plc-ordinary-5p,Elementis plc (ELM) Ordinary 5p,£1.13 bn,0.01,2.49,6.29,0.6,4.71,10.16,4.36,18.88,60.8
-http://www.hl.co.uk/shares/shares-search-results/a/accesso-technology-group-plc-ordinary-1p,Accesso Technology Group plc (ACSO) Ordinary 1p,£646.87 million,0.06,3.56,1.52,3.32,4.3,3.28,2.79,430.00p,1.83
-http://www.hl.co.uk/shares/shares-search-results/c/consort-medical-plc-ordinary-10p,Consort Medical plc (CSRT) Ordinary 10p,£586.53 million,0.07,5.7,3.23,2.32,1.98,1.94,1.84,200.00p,17.85
-http://www.hl.co.uk/shares/shares-search-results/f/first-derivatives-plc-ord-gbp0.05,First Derivatives Plc (FDP) Ord GBP0.05,£1.15 bn,0.08,2.57,6.59,2.37,2.23,2.38,2.14,460.00p,35.28
-http://www.hl.co.uk/shares/shares-search-results/v/vitec-group-plc-ordinary-20p,Vitec Group plc (VTC) Ordinary 20p,£593.11 million,0.08,1.82,3.61,2.24,1.9,1.95,1.94,320.00p,3.05
-http://www.hl.co.uk/shares/shares-search-results/c/clarkson-plc-ordinary-25p,Clarkson plc (CKN) Ordinary 25p,£704.43 million,0.09,2.42,0.1,4.72,3.49,2.88,2.71,335.00p,2.51
-http://www.hl.co.uk/shares/shares-search-results/g/gooch-and-housego-ordinary-20p,Gooch & Housego (GHH) Ordinary 20p,£371.13 million,0.1,4.06,3.35,3.38,4.0,5.74,5.47,500.00p,7.02
-http://www.hl.co.uk/shares/shares-search-results/e/euromoney-institutional-investor-ord-0.25p,Euromoney Institutional Investors plc (ERM) Ordinary 0.25p Shares,£1.50 bn,0.14,2.14,3.08,1.7,4.08,4.06,2.84,398.00p,10.35
-http://www.hl.co.uk/shares/shares-search-results/r/rotork-plc-ordinary-0.5p,Rotork plc (ROR) Ordinary 0.5p,£2.94 bn,0.14,3.17,2.25,3.45,2.91,3.68,5.74,33.40,2.35
-http://www.hl.co.uk/shares/shares-search-results/a/ab-dynamics-plc-ordinary-1p,AB Dynamics plc (ABDP) Ordinary 1p,£257.22 million,0.16,3.42,28.5,10.45,37.42,15.23,7.39,330.00p,3.31
-http://www.hl.co.uk/shares/shares-search-results/c/cranswick-plc-ordinary-10p,Cranswick plc (CWK) Ordinary 10p,£1.72 bn,0.17,2.93,1.39,5.98,4.35,5.06,4.19,362.00p,2.98
-http://www.hl.co.uk/shares/shares-search-results/j/james-fisher-and-sons-plc-ord-25p-shares,James Fisher & Sons plc (FSJ) Ordinary 25p,£882.63 million,0.17,1.85,3.06,2.1,2.17,2.06,2.28,756.00p,7.68
-http://www.hl.co.uk/shares/shares-search-results/p/portmeirion-group-plc-ordinary-5p-shares,Portmeirion Group Plc (PMP) Ordinary 5p Shares,£130.47 million,0.18,4.15,11.96,4.57,3.21,11.9,7.04,220.00p,1.53
-http://www.hl.co.uk/shares/shares-search-results/v/vp-plc-5-pence-ordinary-shares,Vp plc (VP.) 5 Pence Ordinary Shares,£467.80 million,0.19,1.97,3.48,1.7,2.03,2.05,2.08,165.00p,2.69
-http://www.hl.co.uk/shares/shares-search-results/b/boohoo.com-ordinary-1p,Boohoo.com (BOO) Ordinary 1p,£2.24 bn,0.2,1.52,5.38,3.65,2.48,3.87,8.0,89.25,2.67
-http://www.hl.co.uk/shares/shares-search-results/c/cropper-james-plc-ordinary-25p,Cropper (James) plc (CRPR) Ordinary 25p,£136.97 million,0.21,1.63,22.07,1.71,1.5,1.89,1.59,490.00p,4.37
-http://www.hl.co.uk/shares/shares-search-results/j/judges-scientific-plc-ord-shares,Judges Scientific plc (JDG) Ord Shares,£155.84 million,0.24,1.75,18.62,1.68,1.69,2.01,2.19,540.00p,9.91
-http://www.hl.co.uk/shares/shares-search-results/h/hill-and-smith-holdings-plc.-ord-25p-shares,Hill & Smith Holdings plc. (HILS) Ordinary 25p Shares,£1.17 bn,0.26,1.75,1.02,2.25,1.98,2.13,1.98,480.00p,4.51
-http://www.hl.co.uk/shares/shares-search-results/a/asos-plc-ordinary-3.5p,ASOS plc (ASC) Ordinary 3.5p,£5.22 bn,0.29,2.05,3.88,1.62,1.59,2.34,2.6,250.00p,1.77
-http://www.hl.co.uk/shares/shares-search-results/n/nichols-plc-ordinary-10p,Nichols plc (NICL) Ordinary 10p,£523.11 million,0.3,3.08,2.97,41.5,12.92,9.19,6.37,420.00p,2.73
-http://www.hl.co.uk/shares/shares-search-results/x/xp-power-limited-ordinary-1p,XP Power Limited (XPP) Ordinary 1p,£686.95 million,0.32,3.66,11.06,5.17,11.48,11.54,23.43,600.00p,31.79
+url|name|market_cap|debt_ratio|current_ratio|roe1|roe2|roe3|roe4|roe5|pe_ratio|pb_ratio
+http://www.hl.co.uk/shares/shares-search-results/a/advanced-medical-solutions-group-ord-5p|Advanced Medical Solutions Group plc (AMS) Ordinary 5p|£685.15 million|0.11|7.36|0.13|0.12|0.14|0.14|0.13|41.37|333085.8
+http://www.hl.co.uk/shares/shares-search-results/p/plus500-ltd-ordinary-ils0.01|Plus500 Ltd (PLUS) ILS0.01|£2.05 bn|0.2|5.85|0.88|0.86|0.82|0.93|0.74|22.86|2801.38
+http://www.hl.co.uk/shares/shares-search-results/a/anpario-plc-ord-23p|Anpario Plc (ANP) Ord 23p|£109.86 million|0.22|4.01|0.1|0.09|0.12|0.13|0.13|28.11|107761.47
+http://www.hl.co.uk/shares/shares-search-results/s/somero-enterprises-inc-com-stk-usd0.001|Somero Enterprises Inc (SOM) Com Stk USD0.001|£213.90 million|0.22|4.13|0.38|0.3|0.31|0.47|0.23|18.30|65118.5
+http://www.hl.co.uk/shares/shares-search-results/a/ab-dynamics-plc-ordinary-1p|AB Dynamics plc (ABDP) Ordinary 1p|£257.22 million|0.26|3.43|0.14|0.22|0.24|0.21|0.17|59.66|661.73
+http://www.hl.co.uk/shares/shares-search-results/c/cml-microsystems-plc-ordinary-5p|CML Microsystems plc (CML) Ordinary 5p|£90.43 million|0.28|3.61|0.1|0.1|0.09|0.09|0.17|22.95|35849.17
+http://www.hl.co.uk/shares/shares-search-results/n/nichols-plc-ordinary-10p|Nichols plc (NICL) Ordinary 10p|£523.11 million|0.28|3.21|0.23|0.29|0.3|0.24|0.26|21.83|82.83
+http://www.hl.co.uk/shares/shares-search-results/a/andrews-sykes-group-plc-ordinary-1p|Andrews Sykes Group plc (ASY) Ordinary 1p|£208.35 million|0.36|3.22|0.26|0.3|0.25|0.22|0.26|19.47|32722.93
+http://www.hl.co.uk/shares/shares-search-results/c/cranswick-plc-ordinary-10p|Cranswick plc (CWK) Ordinary 10p|£1.72 bn|0.36|1.62|0.15|0.15|0.13|0.12|0.14|27.84|178.59
+http://www.hl.co.uk/shares/shares-search-results/l/london-security-ordinary-1p|London Security (LSC) Ordinary 1p|£257.49 million|0.36|1.92|0.14|0.14|0.14|0.15|0.17|20.98|
+http://www.hl.co.uk/shares/shares-search-results/d/diploma-plc-ordinary-5p|Diploma plc (DPLM) Ordinary 5p|£1.47 bn|0.37|2.16|0.18|0.16|0.19|0.19|0.2|30.95|
+http://www.hl.co.uk/shares/shares-search-results/j/jupiter-fund-management-plc-ordinary-2p|Jupiter Fund Management PLC (JUP) Ordinary 2p|£2.01 bn|0.39|2.16|0.24|0.22|0.22|0.21|0.17|15.02|286984.26
+http://www.hl.co.uk/shares/shares-search-results/h/hormel-foods-corp-common-stock-usd0.0293|Hormel Foods Corp (HRL) Common Stock USD0.0293|$19.53 bn|0.41|1.92|0.17|0.2|0.17|0.17|0.16|19.00|
+http://www.hl.co.uk/shares/shares-search-results/b/barr-a.g.-ord-4-16-pence|Barr (A.G.) (BAG) Ordinary 4 1/6 pence|£787.75 million|0.43|1.54|0.18|0.2|0.19|0.19|0.18|22.64|426013.99
+http://www.hl.co.uk/shares/shares-search-results/b/bellway-plc-ordinary-12.5p|Bellway plc (BWY) Ordinary 12.5p|£3.56 bn|0.44|3.7|0.21|0.22|0.18|0.14|0.09|9.28|425.05
+http://www.hl.co.uk/shares/shares-search-results/s/solid-state-plc-ordinary-5p-shares|Solid State Plc (SOLI) Ordinary 5p Shares|£25.91 million|0.44|2.35|0.12|0.14|0.15|0.23|0.18|9.53|132980.02
+http://www.hl.co.uk/shares/shares-search-results/p/portmeirion-group-plc-ordinary-5p-shares|Portmeirion Group Plc (PMP) Ordinary 5p Shares|£130.47 million|0.46|3.0|0.15|0.17|0.19|0.18|0.18|19.88|300.49
+http://www.hl.co.uk/shares/shares-search-results/r/rws-holdings-plc-ordinary-1p|RWS Holdings plc (RWS) Ordinary 1p|£1.15 bn|0.46|1.57|0.15|0.18|0.18|0.19|0.22|38.76|915300.73
+http://www.hl.co.uk/shares/shares-search-results/i/impax-asset-managemet-group-ordinary-1p|Impax Asset Management Group Plc (IPX) Ordinary 1p|£264.09 million|0.47|2.95|0.22|0.16|0.14|0.13|0.13|56.77|255789.84
+http://www.hl.co.uk/shares/shares-search-results/p/polar-capital-holdings-plc-ord-2.5p|Polar Capital Holdings Plc (POLR) Ord 2.5p|£645.45 million|0.47|3.24|0.37|0.23|0.24|0.32|0.34|31.87|258614.24

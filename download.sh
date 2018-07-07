@@ -1,5 +1,8 @@
 useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1 L_y_n_x/2.7"
 tempdir=/tmp/hldata
+rm -fR $tempdir
+mkdir -p $tempdir/stocks
+
 cd $(dirname $0)
 git pull
 if [ ! -f ./q ]
@@ -20,53 +23,22 @@ then
     exit 1
 fi
 
-echo "$(date) - Generating ./stock_details.csv"
-echo "url,name,market_cap,price,pe_ratio,volume,equity,net_income1,total_assets1,total_liabilities1,net_income2,total_assets2,total_liabilities2,net_income3,total_assets3,total_liabilities3,net_income4,total_assets4,total_liabilities4,net_income5,total_assets5,total_liabilities5,current_assets,current_liabilities" >./stock_details.csv
-rm -fR $tempdir
-mkdir -p $tempdir/stocks
 for letter in a b c d e f g h i j k l m n o p q r s t u v w x y z '0-9'
 do
     lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/shares-search-results/$letter" |grep shares-search-results |grep title |cut -f2 -d'"' |while read url
     do
         stock=$(echo $url |cut -f7 -d/)
         echo "Getting $url"
+        urlfile=$tempdir/stocks/${stock}.url
         head=$tempdir/stocks/${stock}.head
         detl=$tempdir/stocks/${stock}.detl
         lynx -dump -width=200 -useragent="$useragent" "$url" |sed -n '/\Enter name or EPIC__ Search investments/,$p' |sed -n '/Open an easy to manage, low cost dealing account in less than 5 minutes/q;p' >$head
-        lynx -dump -width=200 -useragent="$useragent" "$url/financial-statements-and-reports" |sed -n '/Financial results for the last 5 years/,$p' |sed -n '/a. Includes discontinued activities/q;p' >$detl
-        if [ -s "$head" -a -s "$detl" ]
+        if [ -s "$head" -a -z "$(grep 'it cannot be purchased' $head)" ]
         then
-            market_cap=$(grep 'Market capitalisation:Market cap.:' $head |sed 's/ //g' |cut -f3 -d:)
-            price=$(grep Buy $head |tail -1 |cut -f2 -d:)
-            if [ -z "$market_cap" ]
-            then
-                market_cap=$(grep -A 3 'Market capitalisation' $head |tail -1 |xargs)
-            fi
-            name=$(head -3 $head |tail -1 )
-            pe_ratio=$(grep -A 1 'P/E ratio:' $head |tail -1 |xargs|sed 's|n/a||g')
-            volume=$(grep -A 1 'Volume:' $head |tail -1 |xargs|sed 's|n/a||g')
-            equity=$(grep 'Total Equity:' $detl |cut -f2 -d':' |awk '{ print $1 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            net_income1=$(grep 'Profit after tax from continuing operations:' $detl |cut -f2 -d':' |awk '{ print $1 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_assets1=$(grep 'Total Assets:' $detl |cut -f2 -d':' |awk '{ print $1 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_liabilities1=$(grep 'Total Liabilities:' $detl |cut -f2 -d':' |awk '{ print $1 }'|sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            net_income2=$(grep 'Profit after tax from continuing operations:' $detl |cut -f2 -d':' |awk '{ print $2 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_assets2=$(grep 'Total Assets:' $detl |cut -f2 -d':' |awk '{ print $2 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_liabilities2=$(grep 'Total Liabilities:' $detl |cut -f2 -d':' |awk '{ print $2 }'|sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            net_income3=$(grep 'Profit after tax from continuing operations:' $detl |cut -f2 -d':' |awk '{ print $3 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_assets3=$(grep 'Total Assets:' $detl |cut -f2 -d':' |awk '{ print $3 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_liabilities3=$(grep 'Total Liabilities:' $detl |cut -f2 -d':' |awk '{ print $3 }'|sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            net_income4=$(grep 'Profit after tax from continuing operations:' $detl |cut -f2 -d':' |awk '{ print $4 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_assets4=$(grep 'Total Assets:' $detl |cut -f2 -d':' |awk '{ print $4 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_liabilities4=$(grep 'Total Liabilities:' $detl |cut -f2 -d':' |awk '{ print $4 }'|sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            net_income5=$(grep 'Profit after tax from continuing operations:' $detl |cut -f2 -d':' |awk '{ print $5 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_assets5=$(grep 'Total Assets:' $detl |cut -f2 -d':' |awk '{ print $5 }' |sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            total_liabilities5=$(grep 'Total Liabilities:' $detl |cut -f2 -d':' |awk '{ print $5 }'|sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            current_assets=$(grep -A 1 'Other Current Assets:' $detl |cut -f2 -d':' |awk '{ print $1 }' |tail -1|sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            current_liabilities=$(grep -A 1 'Other Current Assets:' $detl |cut -f2 -d':' |awk '{ print $1 }' |tail -1|sed 's|n/a||g' |sed 's/(/-/g' |sed 's/)//g')
-            if [ -n "${total_assets1}" ]
-            then
-                echo "${url},${name},${market_cap},${price},${pe_ratio},${volume},${equity},${net_income1},${total_assets1},${total_liabilities1},${net_income2},${total_assets2},${total_liabilities2},${net_income3},${total_assets3},${total_liabilities3},${net_income4},${total_assets4},${total_liabilities4},${net_income5},${total_assets5},${total_liabilities5},${current_assets},${current_liabilities}" >>./stock_details.csv
-            fi
+            echo "$url" >$urlfile
+            lynx -dump -width=200 -useragent="$useragent" "$url/financial-statements-and-reports" |sed -n '/Financial results for the last 5 years/,$p' |sed -n '/a. Includes discontinued activities/q;p' >$detl
+        else
+            rm -f $head
         fi
     done
 done
