@@ -8,7 +8,7 @@ tonum()
 
 
 echo "$(date) - Generating ./stock_details.csv"
-echo "url|name|market_cap|price|pe_ratio|volume|equity|net_income1|total_assets1|total_liabilities1|net_income2|total_assets2|total_liabilities2|net_income3|total_assets3|total_liabilities3|net_income4|total_assets4|total_liabilities4|net_income5|total_assets5|total_liabilities5|current_assets|current_liabilities" >./stock_details.csv
+echo "url|name|market_cap|price|pe_ratio|pe_ratio_prev|volume|equity|net_income1|total_assets1|total_liabilities1|net_income2|total_assets2|total_liabilities2|net_income3|total_assets3|total_liabilities3|net_income4|total_assets4|total_liabilities4|net_income5|total_assets5|total_liabilities5|current_assets|current_liabilities" >./stock_details.csv
 ls $tempdir/stocks/*.url |while read urlfile
 do
     dir=$(dirname $urlfile)
@@ -29,10 +29,7 @@ do
             price="$(echo "scale=2; ${price::-1}/100" |bc -l)"
         fi
         pe_ratio=$(grep -A 1 'P/E ratio:' $head |tail -1 |xargs)
-        if [ -z "$pe_ratio" ]
-        then
-            pe_ratio=$(grep 'P/E ratio' $head |tail -1 |awk '{ print $3 }' |sed 's|n/a||g')
-        fi
+        pe_ratio_prev=$(grep 'P/E ratio' $head |tail -1 |awk '{ print $3 }' |sed 's|n/a||g')
         volume=$(grep -A 1 'Volume:' $head |tail -1 |xargs |sed 's|n/a||g' |sed 's/,//g')
         equity=$(grep 'Total Equity:' $detl |tonum |awk '{ print $1 }')
         net_income1=$(grep 'Profit after tax from continuing operations:' $detl |tonum |awk '{ print $1 }')
@@ -54,7 +51,7 @@ do
         current_liabilities=$(grep -A 1 'Other Current Liabilities:' $detl |tail -1 |tonum |awk '{ print $1 }')
         if [ -n "${total_assets1}" ]
         then
-            echo "${url}|${name}|${market_cap}|${price}|${pe_ratio}|${volume}|${equity}|${net_income1}|${total_assets1}|${total_liabilities1}|${net_income2}|${total_assets2}|${total_liabilities2}|${net_income3}|${total_assets3}|${total_liabilities3}|${net_income4}|${total_assets4}|${total_liabilities4}|${net_income5}|${total_assets5}|${total_liabilities5}|${current_assets}|${current_liabilities}" >>./stock_details.csv
+            echo "${url}|${name}|${market_cap}|${price}|${pe_ratio}|${pe_ratio_prev}|${volume}|${equity}|${net_income1}|${total_assets1}|${total_liabilities1}|${net_income2}|${total_assets2}|${total_liabilities2}|${net_income3}|${total_assets3}|${total_liabilities3}|${net_income4}|${total_assets4}|${total_liabilities4}|${net_income5}|${total_assets5}|${total_liabilities5}|${current_assets}|${current_liabilities}" >>./stock_details.csv
         fi
     fi
 done

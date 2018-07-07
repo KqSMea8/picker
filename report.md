@@ -2,10 +2,7 @@
 # Stock Picks
 | Stock | Market Cap | Debt Ratio | ROE | P/E | P/B |
 | ----- | ---------- | ----------:| ---:| ---:| ---:|
-[Record Plc (REC) Ord 0.25p](http://www.hl.co.uk/shares/shares-search-results/r/record-plc-ord-0.25p "URL")|£86.69 million|0.21|0.23|14.97|0.0|
-[XLMedia plc (XLM) Ordinary Shares](http://www.hl.co.uk/shares/shares-search-results/x/xlmedia-plc-ordinary-shares "URL")|£228.06 million|0.32|0.27|11.51|0.01|
 [Latham (James) Plc (LTHM) Ordinary 25p Shares](http://www.hl.co.uk/shares/shares-search-results/l/latham-james-plc-ordinary-25p-shares "URL")|£137.59 million|0.47|0.14|13.18|0.0|
-[Picton Property Income Limited (PCTN) Ord NPV](http://www.hl.co.uk/shares/shares-search-results/p/picton-property-income-limited-ord-npv "URL")|£498m|0.48|0.13||0.0|
 [Persimmon plc (PSN) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/p/persimmon-plc-ordinary-10p "URL")|£7.73 bn|0.49|0.25|12.04|0.01|
 # Commodities & Natural Resources
 | Investment Trust | Discount | Charge | Spread |
