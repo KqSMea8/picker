@@ -2,26 +2,11 @@
 # Stock Picks
 | Stock | Market Cap | Debt Ratio | ROE | P/E | P/B |
 | ----- | ---------- | ----------:| ---:| ---:| ---:|
-[Zytronic (ZYT) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/z/zytronic-ordinary-1p "URL")|£70.99 million|0.09|0.17|16.17|0.0|
-[Advanced Medical Solutions Group plc (AMS) Ordinary 5p](http://www.hl.co.uk/shares/shares-search-results/a/advanced-medical-solutions-group-ord-5p "URL")|£685.15 million|0.11|0.13|41.37|0.0|
-[Victrex (VCT) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/v/victrex-ordinary-1p "URL")|£2.52 bn|0.12|0.21|30.21|0.01|
-[Plus500 Ltd (PLUS) ILS0.01](http://www.hl.co.uk/shares/shares-search-results/p/plus500-ltd-ordinary-ils0.01 "URL")|£2.05 bn|0.2|0.88|22.86|0.05|
-[Somero Enterprises Inc (SOM) Com Stk USD0.001](http://www.hl.co.uk/shares/shares-search-results/s/somero-enterprises-inc-com-stk-usd0.001 "URL")|£213.90 million|0.22|0.38|18.3|0.0|
-[Anpario Plc (ANP) Ord 23p](http://www.hl.co.uk/shares/shares-search-results/a/anpario-plc-ord-23p "URL")|£109.86 million|0.22|0.1|28.11|0.0|
-[AB Dynamics plc (ABDP) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/a/ab-dynamics-plc-ordinary-1p "URL")|£257.22 million|0.26|0.14|59.66|0.01|
-[Nichols plc (NICL) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/n/nichols-plc-ordinary-10p "URL")|£523.11 million|0.28|0.23|21.83|0.0|
-[CML Microsystems plc (CML) Ordinary 5p](http://www.hl.co.uk/shares/shares-search-results/c/cml-microsystems-plc-ordinary-5p "URL")|£90.43 million|0.28|0.1|22.95|0.0|
-[Andrews Sykes Group plc (ASY) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/a/andrews-sykes-group-plc-ordinary-1p "URL")|£208.35 million|0.36|0.26|19.47|0.0|
-[Cranswick plc (CWK) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/c/cranswick-plc-ordinary-10p "URL")|£1.72 bn|0.36|0.15|27.84|0.0|
-[Jupiter Fund Management PLC (JUP) Ordinary 2p](http://www.hl.co.uk/shares/shares-search-results/j/jupiter-fund-management-plc-ordinary-2p "URL")|£2.01 bn|0.39|0.24|15.02|0.0|
-[Barr (A.G.) (BAG) Ordinary 4 1/6 pence](http://www.hl.co.uk/shares/shares-search-results/b/barr-a.g.-ord-4-16-pence "URL")|£787.75 million|0.43|0.18|22.64|0.0|
-[Bellway plc (BWY) Ordinary 12.5p](http://www.hl.co.uk/shares/shares-search-results/b/bellway-plc-ordinary-12.5p "URL")|£3.56 bn|0.44|0.21|9.28|0.01|
-[Solid State Plc (SOLI) Ordinary 5p Shares](http://www.hl.co.uk/shares/shares-search-results/s/solid-state-plc-ordinary-5p-shares "URL")|£25.91 million|0.44|0.12|9.53|0.0|
-[Portmeirion Group Plc (PMP) Ordinary 5p Shares](http://www.hl.co.uk/shares/shares-search-results/p/portmeirion-group-plc-ordinary-5p-shares "URL")|£130.47 million|0.46|0.15|19.88|0.0|
-[RWS Holdings plc (RWS) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/r/rws-holdings-plc-ordinary-1p "URL")|£1.15 bn|0.46|0.15|38.76|0.01|
-[XP Power Limited (XPP) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/x/xp-power-limited-ordinary-1p "URL")|£686.95 million|0.47|0.24|31.79|0.0|
-[Polar Capital Holdings Plc (POLR) Ord 2.5p](http://www.hl.co.uk/shares/shares-search-results/p/polar-capital-holdings-plc-ord-2.5p "URL")|£645.45 million|0.47|0.37|31.87|0.0|
-[Impax Asset Management Group Plc (IPX) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/i/impax-asset-managemet-group-ordinary-1p "URL")|£264.09 million|0.47|0.22|56.77|0.0|
+[Record Plc (REC) Ord 0.25p](http://www.hl.co.uk/shares/shares-search-results/r/record-plc-ord-0.25p "URL")|£86.69 million|0.21|0.23|14.97|0.0|
+[XLMedia plc (XLM) Ordinary Shares](http://www.hl.co.uk/shares/shares-search-results/x/xlmedia-plc-ordinary-shares "URL")|£228.06 million|0.32|0.27|11.51|0.01|
+[Latham (James) Plc (LTHM) Ordinary 25p Shares](http://www.hl.co.uk/shares/shares-search-results/l/latham-james-plc-ordinary-25p-shares "URL")|£137.59 million|0.47|0.14|13.18|0.0|
+[Picton Property Income Limited (PCTN) Ord NPV](http://www.hl.co.uk/shares/shares-search-results/p/picton-property-income-limited-ord-npv "URL")|£498m|0.48|0.13||0.0|
+[Persimmon plc (PSN) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/p/persimmon-plc-ordinary-10p "URL")|£7.73 bn|0.49|0.25|12.04|0.01|
 # Commodities & Natural Resources
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|

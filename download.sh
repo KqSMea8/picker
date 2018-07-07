@@ -152,6 +152,7 @@ do
 done
 
 #rm -fR $tempdir/
+./gen_csv.sh
 ./report.sh >./report.md
 echo "$(date) - Finished"
 git add --all >/dev/null 2>&1
