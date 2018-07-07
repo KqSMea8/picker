@@ -2,16 +2,18 @@
 # Stock Picks
 | Stock | Market Cap | Debt Ratio | ROE | P/E | P/B |
 | ----- | ---------- | ----------:| ---:| ---:| ---:|
+[Zytronic (ZYT) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/z/zytronic-ordinary-1p "URL")|£70.99 million|0.09|0.17|16.17|337432.79|
 [Advanced Medical Solutions Group plc (AMS) Ordinary 5p](http://www.hl.co.uk/shares/shares-search-results/a/advanced-medical-solutions-group-ord-5p "URL")|£685.15 million|0.11|0.13|41.37|333085.8|
+[Victrex (VCT) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/v/victrex-ordinary-1p "URL")|£2.52 bn|0.12|0.21|30.21|789.71|
 [Plus500 Ltd (PLUS) ILS0.01](http://www.hl.co.uk/shares/shares-search-results/p/plus500-ltd-ordinary-ils0.01 "URL")|£2.05 bn|0.2|0.88|22.86|2801.38|
-[Anpario Plc (ANP) Ord 23p](http://www.hl.co.uk/shares/shares-search-results/a/anpario-plc-ord-23p "URL")|£109.86 million|0.22|0.1|28.11|107761.47|
 [Somero Enterprises Inc (SOM) Com Stk USD0.001](http://www.hl.co.uk/shares/shares-search-results/s/somero-enterprises-inc-com-stk-usd0.001 "URL")|£213.90 million|0.22|0.38|18.3|65118.5|
+[Anpario Plc (ANP) Ord 23p](http://www.hl.co.uk/shares/shares-search-results/a/anpario-plc-ord-23p "URL")|£109.86 million|0.22|0.1|28.11|107761.47|
 [AB Dynamics plc (ABDP) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/a/ab-dynamics-plc-ordinary-1p "URL")|£257.22 million|0.26|0.14|59.66|661.73|
-[CML Microsystems plc (CML) Ordinary 5p](http://www.hl.co.uk/shares/shares-search-results/c/cml-microsystems-plc-ordinary-5p "URL")|£90.43 million|0.28|0.1|22.95|35849.17|
 [Nichols plc (NICL) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/n/nichols-plc-ordinary-10p "URL")|£523.11 million|0.28|0.23|21.83|82.83|
+[CML Microsystems plc (CML) Ordinary 5p](http://www.hl.co.uk/shares/shares-search-results/c/cml-microsystems-plc-ordinary-5p "URL")|£90.43 million|0.28|0.1|22.95|35849.17|
 [Andrews Sykes Group plc (ASY) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/a/andrews-sykes-group-plc-ordinary-1p "URL")|£208.35 million|0.36|0.26|19.47|32722.93|
-[Cranswick plc (CWK) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/c/cranswick-plc-ordinary-10p "URL")|£1.72 bn|0.36|0.15|27.84|178.59|
 [London Security (LSC) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/l/london-security-ordinary-1p "URL")|£257.49 million|0.36|0.14|20.98||
+[Cranswick plc (CWK) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/c/cranswick-plc-ordinary-10p "URL")|£1.72 bn|0.36|0.15|27.84|178.59|
 [Diploma plc (DPLM) Ordinary 5p](http://www.hl.co.uk/shares/shares-search-results/d/diploma-plc-ordinary-5p "URL")|£1.47 bn|0.37|0.18|30.95||
 [Jupiter Fund Management PLC (JUP) Ordinary 2p](http://www.hl.co.uk/shares/shares-search-results/j/jupiter-fund-management-plc-ordinary-2p "URL")|£2.01 bn|0.39|0.24|15.02|286984.26|
 [Hormel Foods Corp (HRL) Common Stock USD0.0293](http://www.hl.co.uk/shares/shares-search-results/h/hormel-foods-corp-common-stock-usd0.0293 "URL")|$19.53 bn|0.41|0.17|19.0||
@@ -20,8 +22,9 @@
 [Solid State Plc (SOLI) Ordinary 5p Shares](http://www.hl.co.uk/shares/shares-search-results/s/solid-state-plc-ordinary-5p-shares "URL")|£25.91 million|0.44|0.12|9.53|132980.02|
 [Portmeirion Group Plc (PMP) Ordinary 5p Shares](http://www.hl.co.uk/shares/shares-search-results/p/portmeirion-group-plc-ordinary-5p-shares "URL")|£130.47 million|0.46|0.15|19.88|300.49|
 [RWS Holdings plc (RWS) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/r/rws-holdings-plc-ordinary-1p "URL")|£1.15 bn|0.46|0.15|38.76|915300.73|
-[Impax Asset Management Group Plc (IPX) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/i/impax-asset-managemet-group-ordinary-1p "URL")|£264.09 million|0.47|0.22|56.77|255789.84|
+[XP Power Limited (XPP) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/x/xp-power-limited-ordinary-1p "URL")|£686.95 million|0.47|0.24|31.79|102.06|
 [Polar Capital Holdings Plc (POLR) Ord 2.5p](http://www.hl.co.uk/shares/shares-search-results/p/polar-capital-holdings-plc-ord-2.5p "URL")|£645.45 million|0.47|0.37|31.87|258614.24|
+[Impax Asset Management Group Plc (IPX) Ordinary 1p](http://www.hl.co.uk/shares/shares-search-results/i/impax-asset-managemet-group-ordinary-1p "URL")|£264.09 million|0.47|0.22|56.77|255789.84|
 # Commodities & Natural Resources
 | Investment Trust | Discount | Charge | Spread |
 | ---------------- | --------:| ------:| ------:|
