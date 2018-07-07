@@ -23,7 +23,11 @@ do
         then
             market_cap=$(grep -A 3 'Market capitalisation' $head |tail -1 |xargs)
         fi
-        price=$(grep Buy $head |tail -1 |cut -f2 -d:)
+        price=$(grep Buy $head |tail -1 |cut -f2 -d: |tr -d '£$€,')
+        if [ "$(echo -n "$price" |tail -c 1)" == 'p' ]
+        then
+            price="$(echo "scale=2; ${price::-1}/100" |bc -l)"
+        fi
         pe_ratio=$(grep -A 1 'P/E ratio:' $head |tail -1 |xargs)
         if [ -z "$pe_ratio" ]
         then

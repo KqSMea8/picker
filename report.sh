@@ -7,7 +7,7 @@ round(net_income3/(total_assets3 - total_liabilities3), 2) roe3,
 round(net_income4/(total_assets4 - total_liabilities4), 2) roe4,
 round(net_income5/(total_assets5 - total_liabilities5), 2) roe5,
 pe_ratio,
-round(price/(equity/volume), 2) pb_ratio
+round(price/((equity*1000000)/volume), 2) pb_ratio
 from ./stock_details.csv where
 debt_ratio < 0.5
 and current_ratio > 1.5
