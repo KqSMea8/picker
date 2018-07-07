@@ -17,8 +17,9 @@ and roe3 > 0.08
 and roe4 > 0.08
 and roe5 > 0.08
 and pe_ratio > 15
-and pb_ratio > 1.5
+and pb_ratio < 1.5
 order by debt_ratio, pe_ratio asc" >./stock_picks.csv
+
 
 echo " "
 echo "# Stock Picks"
