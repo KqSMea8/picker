@@ -23,12 +23,12 @@ do
         then
             market_cap=$(grep -A 3 'Market capitalisation' $head |tail -1 |xargs)
         fi
-        price=$(grep Buy $head |tail -1 |cut -f2 -d: |tr -d '£$€,')
+        price=$(grep 'Buy:' $head |tail -1 |cut -f2 -d: |cut -f1 -d' '|tr -d '£$€,')
         if [ "$(echo -n "$price" |tail -c 1)" == 'p' ]
         then
-            price="$(echo "scale=2; ${price::-1}/100" |bc -l)"
+            price="$(echo "scale=5; ${price::-1}/100" |bc -l)"
         fi
-        pe_ratio=$(grep -A 1 'P/E ratio:' $head |tail -1 |xargs)
+        pe_ratio=$(grep -A 1 'P/E ratio:' $head |tail -1 |xargs |sed 's|n/a||g')
         pe_ratio_prev=$(grep 'P/E ratio' $head |tail -1 |awk '{ print $3 }' |sed 's|n/a||g')
         volume=$(grep -A 1 'Volume:' $head |tail -1 |xargs |sed 's|n/a||g' |sed 's/,//g')
         equity=$(grep 'Total Equity:' $detl |tonum |awk '{ print $1 }')

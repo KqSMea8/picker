@@ -2,6 +2,8 @@
 # Stock Picks
 | Stock | Market Cap | Debt Ratio | ROE | P/E | P/B |
 | ----- | ---------- | ----------:| ---:| ---:| ---:|
+[Bellway plc (BWY) Ordinary 12.5p](http://www.hl.co.uk/shares/shares-search-results/b/bellway-plc-ordinary-12.5p "URL")|£3.56 bn|0.44|0.21|9.28|0.01|
+[Solid State Plc (SOLI) Ordinary 5p Shares](http://www.hl.co.uk/shares/shares-search-results/s/solid-state-plc-ordinary-5p-shares "URL")|£25.91 million|0.44|0.12|9.53|0.0|
 [Latham (James) Plc (LTHM) Ordinary 25p Shares](http://www.hl.co.uk/shares/shares-search-results/l/latham-james-plc-ordinary-25p-shares "URL")|£137.59 million|0.47|0.14|13.18|0.0|
 [Persimmon plc (PSN) Ordinary 10p](http://www.hl.co.uk/shares/shares-search-results/p/persimmon-plc-ordinary-10p "URL")|£7.73 bn|0.49|0.25|12.04|0.01|
 # Commodities & Natural Resources
