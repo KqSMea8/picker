@@ -12006,3 +12006,5 @@ Mon  9 Jul 23:36:41 BST 2018 - Downloading ETF Details
 Mon  9 Jul 23:42:29 BST 2018 - Generating ./etf_details.csv
 Mon  9 Jul 23:42:45 BST 2018 - Generating ./stock_details.csv
 Mon  9 Jul 23:59:22 BST 2018 - Finished
+2053.34user 1608.92system 23:59:25elapsed 4%CPU (0avgtext+0avgdata 23588maxresident)k
+236560inputs+27264outputs (302major+367785379minor)pagefaults 0swaps
