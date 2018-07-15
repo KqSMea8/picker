@@ -75,11 +75,17 @@ for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
                                         row = [i.text.replace('\t', '').replace('\r', '').replace('\n', '') for i in td]
                                         if len(row) == 6:
                                             if row[0] == 'Total Equity:':
-                                                for x in range(1, 5):
-                                                    equity.append(format_number(row[x]))
+                                                equity1 = format_number(row[1])
+                                                equity2 = format_number(row[2])
+                                                equity3 = format_number(row[3])
+                                                equity4 = format_number(row[4])
+                                                equity5 = format_number(row[5])
                                             if row[0] == 'Profit after tax from continuing operations:':
-                                                for x in range(1, 5):
-                                                    net_income.append(format_number(row[x]))
+                                                net_income1 = format_number(row[1])
+                                                net_income2 = format_number(row[2])
+                                                net_income3 = format_number(row[3])
+                                                net_income4 = format_number(row[4])
+                                                net_income5 = format_number(row[5])
                                             if row[0] == 'Total Liabilities:':
                                                 total_liabilities = format_number(row[1])
                                             if row[0] == 'Other Current Assets:':
@@ -96,14 +102,14 @@ for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
                                     if all([url, name, price, market_cap, pe_ratio, volume,total_liabilities,current_assets, current_liabilities]):
 
                                         try:
-                                            debt_ratio = round(float(total_liabilities)/(float(equity[0])), 2)
+                                            debt_ratio = round(float(total_liabilities)/(float(equity1)), 2)
                                             current_ratio = round(float(current_assets)/float(current_liabilities), 2)
-                                            roe1 = round(float(net_income[0])/float(equity[0]), 2)
-                                            roe2 = round(float(net_income[1])/float(equity[1]), 2)
-                                            roe3 = round(float(net_income[2])/float(equity[2]), 2)
-                                            roe4 = round(float(net_income[3])/float(equity[3]), 2)
-                                            roe5 = round(float(net_income[4])/float(equity[4]), 2)
-                                            pb_ratio = round(float(price)/((float(equity[0]) * 1000000) / int(volume)), 2)
+                                            roe1 = round(float(net_income1)/float(equity1), 2)
+                                            roe2 = round(float(net_income2)/float(equity2), 2)
+                                            roe3 = round(float(net_income3)/float(equity3), 2)
+                                            roe4 = round(float(net_income4)/float(equity4), 2)
+                                            roe5 = round(float(net_income5)/float(equity5), 2)
+                                            pb_ratio = round(float(price)/((float(equity1) * 1000000) / int(volume)), 2)
 
                                             if debt_ratio < 0.5 and current_ratio > 1.5 and roe1 > 0.08 and roe2 > 0.08 and roe3 > 0.08 and roe4 > 0.08 and roe5 > 0.08 and pe_ratio < 15 and pb_ratio < 1.5:
                                                 stocksfile.write("|[%s](%s \"Link\")|" % (name, url))
