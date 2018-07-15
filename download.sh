@@ -23,26 +23,6 @@ then
     exit 1
 fi
 
-for letter in a b c d e f g h i j k l m n o p q r s t u v w x y z '0-9'
-do
-    lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/shares-search-results/$letter" |grep shares-search-results |grep title |cut -f2 -d'"' |while read url
-    do
-        stock=$(echo $url |cut -f7 -d/)
-        echo "Getting $url"
-        urlfile=$tempdir/stocks/${stock}.url
-        head=$tempdir/stocks/${stock}.head
-        detl=$tempdir/stocks/${stock}.detl
-        lynx -dump -width=200 -useragent="$useragent" "$url" |sed -n '/\Enter name or EPIC__ Search investments/,$p' |sed -n '/Open an easy to manage, low cost dealing account in less than 5 minutes/q;p' >$head
-        if [ -s "$head" -a -z "$(grep 'it cannot be purchased' $head)" ]
-        then
-            echo "$url" >$urlfile
-            lynx -dump -width=200 -useragent="$useragent" "$url/financial-statements-and-reports" |sed -n '/Financial results for the last 5 years/,$p' |sed -n '/a. Includes discontinued activities/q;p' >$detl
-        else
-            rm -f $head
-        fi
-    done
-done
-
 echo "$(date) - Generating ./invtrust_sectors.csv"
 echo "epic,sector_desc" >./invtrust_sectors.csv
 lynx -source -useragent="$useragent" "http://www.hl.co.uk/shares/investment-trusts" |sed -n '/<select id="sectorid" name="sectorid"*/,/<\/select>/p' |grep 'option value' |grep -v '<option value="">Please select</option>' |grep -v VCT |while read rec
