@@ -6,11 +6,11 @@ from bs4 import BeautifulSoup
 def format_number(stringin):
     return stringin.replace('(', '-').replace(')', '').replace(',', '') if stringin != 'n/a' and stringin != 'cn/a' else None
 
-stocksfile = open('stocks.md', 'w')
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'}
 
-stocksfile.write("# Stocks")
-stocksfile.write("| Stock |")
+stocksfile = open('stocks.md', 'w')
+stocksfile.write("# Stocks\n")
+stocksfile.write("| Stock |\n")
 
 for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0-9']:
     req_letter = urllib.request.Request('http://www.hl.co.uk/shares/shares-search-results/' + l, data=None, headers=headers)
@@ -49,7 +49,7 @@ for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
                                     if detail_div.strong.text == 'n/a':
                                         pe_ratio = None
                                     else:
-                                        pe_ratio = float(detail_div.strong.text)
+                                        pe_ratio = float(format_number(detail_div.strong.text))
                             except AttributeError:
                                 pass
 
@@ -99,7 +99,15 @@ for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
                                                 current_liabilities_next='N'
                                                 current_liabilities = format_number(row[1])
 
-                                    if all([url, name, price, market_cap, pe_ratio, volume,total_liabilities,current_assets, current_liabilities]):
+                                    checkvars=[url, name, price, market_cap,
+                                        pe_ratio, volume, total_liabilities,
+                                        net_income1, equity1,
+                                        net_income2, equity2,
+                                        net_income3, equity3,
+                                        net_income4, equity4,
+                                        net_income5, equity5,
+                                        current_assets, current_liabilities]
+                                    if all(checkvars):
 
                                         try:
                                             debt_ratio = round(float(total_liabilities)/(float(equity1)), 2)
@@ -112,7 +120,7 @@ for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
                                             pb_ratio = round(float(price)/((float(equity1) * 1000000) / int(volume)), 2)
 
                                             if debt_ratio < 0.5 and current_ratio > 1.5 and roe1 > 0.08 and roe2 > 0.08 and roe3 > 0.08 and roe4 > 0.08 and roe5 > 0.08 and pe_ratio < 15 and pb_ratio < 1.5:
-                                                stocksfile.write("|[%s](%s \"Link\")|" % (name, url))
+                                                stocksfile.write("|[%s](%s \"Link\")|\n" % (name, url))
 
                                         except ValueError:
                                             print("Value error processing %s" % url)
@@ -120,4 +128,4 @@ for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
 
 
                 except urllib.error.HTTPError:
-                    print('ERROR: %s - %s' % (req_search.full_url, msg))
+                    print('ERROR: %s' % (url))
