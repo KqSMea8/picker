@@ -1,5 +1,6 @@
 # Stocks
 | Stock |
+| ----- |
 |[Bellway plc (BWY) Ordinary 12.5p Share Price ](http://www.hl.co.uk/shares/shares-search-results/b/bellway-plc-ordinary-12.5p "Link")|
 |[Jupiter Fund Management PLC (JUP) Ordinary 2p Share Price ](http://www.hl.co.uk/shares/shares-search-results/j/jupiter-fund-management-plc-ordinary-2p "Link")|
 |[Latham (James) Plc (LTHM) Ordinary 25p Shares Share Price ](http://www.hl.co.uk/shares/shares-search-results/l/latham-james-plc-ordinary-25p-shares "Link")|
