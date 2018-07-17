@@ -11,6 +11,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWe
 stocksfile = open('stocks.md', 'w')
 stocksfile.write("# Stocks\n")
 stocksfile.write("| Stock |\n")
+stocksfile.write("| ----- |\n")
 
 #for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']:
 for l in ['0']:
