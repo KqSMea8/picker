@@ -37,8 +37,9 @@ with urllib.request.urlopen(req_etf_header) as response_etf_header:
                                 soup_etf_detail = BeautifulSoup(page_etf_detail, "lxml")
                                 for tables in soup_etf_detail.find_all('table', attrs={'class': "factsheet-table top-10-table"}):
                                     for table in tables:
-                                        for tr in table.find_all('tr'):
-                                            td = tr.find_all('td')
-                                            row = [i.text for i in td]
-                                            print("1: %s 2: %s" % (row[0], row[1]))
+                                        print(type(table))
+                                        # for tr in table.find_all('tr'):
+                                        #     td = tr.find_all('td')
+                                        #     row = [i.text for i in td]
+                                        #     print("1: %s 2: %s" % (row[0], row[1]))
                                 # print("sector_id: %s sector desc: %s link: %s title %s" % (sector_id, sector_desc, etf_url, etf_desc))
