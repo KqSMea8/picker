@@ -13,8 +13,7 @@ stocksfile.write("# Stocks\n")
 stocksfile.write("| Stock |\n")
 stocksfile.write("| ----- |\n")
 
-#for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']:
-for l in ['0']:
+for l in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']:
     req_letter = urllib.request.Request('http://www.hl.co.uk/shares/shares-search-results/' + l, data=None, headers=headers)
     with urllib.request.urlopen(req_letter) as response_letter:
         page_letter = response_letter.read()
