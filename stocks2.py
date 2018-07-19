@@ -69,14 +69,22 @@ def get_stock_info(url):
         tables = fin_soup.find_all('table')
         if len(tables) > 0:
             table = tables[0]
-            equity = []
-            net_income = []
+            equity1 = None
+            equity2 = None
+            equity3 = None
+            equity4 = None
+            equity5 = None
+            net_income1 = None
+            net_income2 = None
+            net_income3 = None
+            net_income4 = None
+            net_income5 = None
             total_liabilities = None
             current_assets = None
             current_liabilities = None
-
             current_assets_next = 'N'
             current_liabilities_next = 'N'
+
             for tr in table.find_all('tr'):
                 td = tr.find_all('td')
                 row = [i.text.replace('\t', '').replace(
@@ -149,8 +157,7 @@ stocksfile.write("| ----- | ----------%| -------------%| -------%| ---------%| -
 
 pool = mp.Pool(processes=10)
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
-letter_urls = [
-    'http://www.hl.co.uk/shares/shares-search-results/' + l for l in letters]
+letter_urls = ['http://www.hl.co.uk/shares/shares-search-results/' + l for l in letters]
 
 stock_urls_list = pool.map(get_stock_urls, letter_urls)
 for stock_urls in stock_urls_list:
