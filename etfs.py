@@ -70,7 +70,8 @@ def get_etf_details(etf):
 
 etfsfile = open('etfs.md', 'w')
 etfsfile.write("# ETFs\n")
-etfsfile.write("| ETF |Charge|\n")
+etfsfile.write("| ETF | Charge |\n")
+etfsfile.write("| --- | ------:|\n")
 
 try:
     os.remove('etfs.db')

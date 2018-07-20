@@ -1,6 +1,6 @@
 # Stocks
 | Stock | Debt Ratio | Current Ratio | Ave ROE | P/E Ratio | P/B Ratio |
-| ----- | ----------%| -------------%| -------%| ---------%| ---------%|
+| ----- | ----------:| -------------:| -------:| ---------:| ---------:|
 |[Bellway plc (BWY) Ordinary 12.5p Share Price ](http://www.hl.co.uk/shares/shares-search-results/b/bellway-plc-ordinary-12.5p "Link")|0.44|3.7|0.16799999999999998|9.46|0.0|
 |[Latham (James) Plc (LTHM) Ordinary 25p Shares Share Price ](http://www.hl.co.uk/shares/shares-search-results/l/latham-james-plc-ordinary-25p-shares "Link")|0.47|3.21|0.14400000000000002|13.04|0.0|
 |[Persimmon plc (PSN) Ordinary 10p Share Price ](http://www.hl.co.uk/shares/shares-search-results/p/persimmon-plc-ordinary-10p "Link")|0.49|3.52|0.198|12.2|0.0|

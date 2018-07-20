@@ -1,5 +1,6 @@
 # ETFs
-| ETF |Charge|
+| ETF | Charge |
+| --- | ------:|
 |[LGIM Commodity Composite UCITS ETF](http://www.hl.co.uk/shares/shares-search-results/B6TMFC5 "Link")|0.4|
 |[Physical Platinum](http://www.hl.co.uk/shares/shares-search-results/B1VS2W5 "Link")|0.49|
 |[Physical Platinum ETC](http://www.hl.co.uk/shares/shares-search-results/B4LV388 "Link")|0.4|
