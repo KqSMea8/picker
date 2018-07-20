@@ -168,5 +168,5 @@ for stock_urls in stock_urls_list:
 
     for stock in stocks:
         if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5:
-            avg_roe = (stock["roe1"] + stock["roe2"] + stock["roe3"] + stock["roe4"] + stock["roe5"])/5
+            avg_roe = round((stock["roe1"] + stock["roe2"] + stock["roe3"] + stock["roe4"] + stock["roe5"])/5, 2)
             stocksfile.write("|[%s](%s \"Link\")|%s|%s|%s|%s|%s|\n" % (stock["name"], stock["url"], stock["debt_ratio"], stock["current_ratio"], avg_roe, stock["pe_ratio"], stock["pb_ratio"]))
