@@ -21,7 +21,6 @@ def get_soup(url):
         # print("Got: %s" % url)
         return BeautifulSoup(page, "lxml")
     except:
-        print("Error getting: %s" % url)
         return None
 
 
@@ -67,7 +66,7 @@ def get_stock_info(url):
         if all([price, pe_ratio, volume]):
             fin_url = url + '/financial-statements-and-reports'
             fin_soup = get_soup(fin_url)
-            tables = fin_soup.find_all('table')
+            tables = fin_soup.find_all('table', attrs={'class': "factsheet-table responsive"})
             if len(tables) > 0:
                 table = tables[0]
                 equity1 = None
@@ -150,6 +149,8 @@ def get_stock_info(url):
                         print("Price: %s Equity: %s Volume: %s" %
                               (price, equity1, volume))
 
+                else:
+                    return None
 
 stocksfile = open('stocks.md', 'w')
 stocksfile.write("# Stocks\n")
@@ -161,11 +162,11 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 letter_urls = ['http://www.hl.co.uk/shares/shares-search-results/' + l for l in letters]
 
 stock_urls_list = pool.map(get_stock_urls, letter_urls)
+
 for stock_urls in stock_urls_list:
     stocks = pool.map(get_stock_info, stock_urls)
 
-for stock in stocks:
-    print(stock)
-    if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5:
-        avg_roe = (stock["roe1"] + stock["roe2"] + stock["roe3"] + stock["roe4"] + stock["roe5"])/5
-        stocksfile.write("|[%s](%s \"Link\")|%s|%s|%s|%s|%s|\n" % (name, url, stock["debt_ratio"], stock["current_ratio"], avg_roe, stock["pe_ratio"], stock["pb_ratio"]))
+    for stock in stocks:
+        if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5:
+            avg_roe = (stock["roe1"] + stock["roe2"] + stock["roe3"] + stock["roe4"] + stock["roe5"])/5
+            stocksfile.write("|[%s](%s \"Link\")|%s|%s|%s|%s|%s|\n" % (stock["name"], stock["url"], stock["debt_ratio"], stock["current_ratio"], avg_roe, stock["pe_ratio"], stock["pb_ratio"]))

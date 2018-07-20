@@ -21,7 +21,6 @@ def get_soup(url):
         # print("Got: %s" % url)
         return BeautifulSoup(page, "lxml")
     except:
-        print("Error getting: %s" % url)
         return None
 
 def get_sector_urls(sector):
@@ -45,14 +44,19 @@ def get_etf_details(etf):
     etf_url = etf['etf_url']
     etf_desc = etf['etf_desc']
     soup = get_soup(etf_url)
-    if soup != None:
-        for tables in soup.find_all('table', attrs={'class': "factsheet-table table-no-border"}):
-            print("URL: %s tables: %s" % (etf_url, tables))
-            for table in tables:
-                for tr in table.find_all('tr'):
-                    td = tr.find_all('td')
-                    row = [i for i in td]
-                    print(row)
+    print("########################################################################################################")
+    print("########################################################################################################")
+    print("url: %s" % etf_url)
+    print("########################################################################################################")
+    print(soup)
+    # if soup != None:
+    #     for tables in soup.find_all('table', attrs={'class': "factsheet-table table-no-border"}):
+    #         for table in tables:
+    #             print("URL: %s table type: %s table: %s" % (etf_url, type(table), table))
+                # for tr in table.find_all('tr'):
+                #     td = tr.find_all('td')
+                #     row = [i for i in td]
+                #     print(row)
 
 
 etfsfile = open('etfs.md', 'w')
