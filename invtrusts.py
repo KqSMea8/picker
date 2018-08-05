@@ -135,4 +135,4 @@ for unf_sector_row in c_unf_sector.execute('select iss.sector_desc from inv_sear
     invsfile.write("| Trust | Charge | Discount |\n")
     invsfile.write("| ----- | ------:| --------:|\n")
     for inv_detail in c_sectors.execute('select inv_url, inv_desc, charge, pd from inv_details where inv_id in (select inv_id from inv_search_sectors where sector_desc = ?) and charge < 2 order by charge, pd', (unf_sector_desc,)):
-        invsfile.write("|[%s](%s \"Link\")|%s|%s|\n" % (row[1], row[0], row[2],row[3]))
+        invsfile.write("|[%s](%s \"Link\")|%s|%s|\n" % (inv_detail[1], inv_detail[0], inv_detail[2], inv_detail[3]))

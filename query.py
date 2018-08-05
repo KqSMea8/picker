@@ -12,7 +12,6 @@ for unf_sector_row in c_unf_sector.execute('select iss.sector_desc from inv_sear
   'where pd12 > -90 and pd12 < 100 ' +
   'group by iss.sector_desc having count(*) > 2 ' +
   'order by avg(pd12) limit 5'):
-  unf_sector_desc = unf_sector_row[0]
-  print(unf_sector_desc)
-  for inv_detail in c_sectors.execute('select inv_url, inv_desc, charge, pd from inv_details where inv_id in (select inv_id from inv_search_sectors where sector_desc = ?) and charge < 2 order by charge, pd', (unf_sector_desc,)):
-      print(inv_detail)
+    unf_sector_desc = unf_sector_row[0]
+    for inv_detail in c_sectors.execute('select inv_url, inv_desc, charge, pd from inv_details where inv_id in (select inv_id from inv_search_sectors where sector_desc = ?) and charge < 2 order by charge, pd', (unf_sector_desc,)):
+        print("|[%s](%s \"Link\")|%s|%s|\n" % (inv_detail[1], inv_detail[0], inv_detail[2], inv_detail[3]))
