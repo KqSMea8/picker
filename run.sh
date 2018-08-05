@@ -1,4 +1,4 @@
-
+./invtrusts.py
 ./stocks.py
 ./etfs.py
 git add --all >/dev/null 2>&1
