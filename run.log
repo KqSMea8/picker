@@ -1,5 +1,0 @@
-/home/bennetts/git/picker/run.sh: line 1: ./invtrusts.py: No such file or directory
-/home/bennetts/git/picker/run.sh: line 2: ./stocks.py: No such file or directory
-/home/bennetts/git/picker/run.sh: line 3: ./etfs.py: No such file or directory
-0.00user 0.00system 0:00.01elapsed 70%CPU (0avgtext+0avgdata 3456maxresident)k
-8inputs+8outputs (0major+893minor)pagefaults 0swaps
