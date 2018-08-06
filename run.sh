@@ -1,3 +1,4 @@
+cd /home/bennetts/git/picker/
 ./invtrusts.py
 ./stocks.py
 ./etfs.py
