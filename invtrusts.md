@@ -6,30 +6,30 @@
 # Commodities & Natural Resources
 | Trust | Charge | Discount |
 | ----- | ------:| --------:|
-|[BlackRock World Mining Trust Ordinary 5p](https://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|0.98|-13.31|
-|[BlackRock Commodities Income Investment Trust Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|1.36|-5.44|
-|[City Natural Resources High Yield Trust plc Ordinary 25p Shares](https://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|1.74|-16.34|
+|[BlackRock World Mining Trust Ordinary 5p](https://www.hl.co.uk/shares/shares-search-results/0577485 "Link")|0.98|-12.81|
+|[BlackRock Commodities Income Investment Trust Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/B0N8MF9 "Link")|1.36|-6.19|
+|[City Natural Resources High Yield Trust plc Ordinary 25p Shares](https://www.hl.co.uk/shares/shares-search-results/0035392 "Link")|1.74|-16.43|
 # Private Equity
 | Trust | Charge | Discount |
 | ----- | ------:| --------:|
-|[HG Capital Trust plc Ordinary 25p](https://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|0.42|-6.72|
+|[HG Capital Trust plc Ordinary 25p](https://www.hl.co.uk/shares/shares-search-results/0392105 "Link")|0.42|-6.8|
 |[Better Capital PCC Ltd Ordinary GBP1.00 (2012)](https://www.hl.co.uk/shares/shares-search-results/B4N1RV7 "Link")|0.43|-36.36|
 |[Dunedin Enterprise Investment Trust Ordinary 25p](https://www.hl.co.uk/shares/shares-search-results/0577656 "Link")|0.58|-12.42|
-|[Harbourvest Global Private Equity Ordinary Shares](https://www.hl.co.uk/shares/shares-search-results/BR30MJ8 "Link")|0.68|-22.0|
+|[Harbourvest Global Private Equity Ordinary Shares](https://www.hl.co.uk/shares/shares-search-results/BR30MJ8 "Link")|0.68|-22.53|
 |[Better Capital PCC Ltd ORD GBP1.00 (POST RED 2009)](https://www.hl.co.uk/shares/shares-search-results/BYXP9G8 "Link")|0.69|-45.04|
-|[Pantheon International 67p Ordinary Shares](https://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|1.13|-18.53|
-|[Standard Life Private Equity Trust plc Ordinary 0.002](https://www.hl.co.uk/shares/shares-search-results/3047468 "Link")|1.17|-15.42|
-|[TwentyFour Select Monthly Income Fund Limited Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/BJVDZ94 "Link")|1.2|4.41|
+|[Pantheon International 67p Ordinary Shares](https://www.hl.co.uk/shares/shares-search-results/0414850 "Link")|1.13|-18.86|
+|[Standard Life Private Equity Trust plc Ordinary 0.002](https://www.hl.co.uk/shares/shares-search-results/3047468 "Link")|1.17|-16.12|
+|[TwentyFour Select Monthly Income Fund Limited Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/BJVDZ94 "Link")|1.2|3.24|
 |[Oakley Capital Investments Ltd Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/B23DL39 "Link")|1.34|-23.24|
-|[ICG Enterprise Trust plc Ordinary 10p Shares](https://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|1.55|-12.88|
-|[3i Group Plc Ordinary 73 19/22p](https://www.hl.co.uk/shares/shares-search-results/B1YW440 "Link")|1.79|21.54|
+|[ICG Enterprise Trust plc Ordinary 10p Shares](https://www.hl.co.uk/shares/shares-search-results/0329200 "Link")|1.55|-12.52|
+|[3i Group Plc Ordinary 73 19/22p](https://www.hl.co.uk/shares/shares-search-results/B1YW440 "Link")|1.79|22.4|
 # Latin America
 | Trust | Charge | Discount |
 | ----- | ------:| --------:|
-|[BlackRock Latin American Investment Trust Ordinary Shares $0.10](https://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|1.11|-15.07|
-|[JPMorgan Brazil Investment Trust Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/B602HS4 "Link")|1.99|-16.74|
-|[Aberdeen Latin American Income Fund Ord NPV](https://www.hl.co.uk/shares/shares-search-results/B44ZTP6 "Link")|1.99|-14.69|
+|[BlackRock Latin American Investment Trust Ordinary Shares $0.10](https://www.hl.co.uk/shares/shares-search-results/0505840 "Link")|1.11|-15.54|
+|[JPMorgan Brazil Investment Trust Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/B602HS4 "Link")|1.99|-14.76|
+|[Aberdeen Latin American Income Fund Ord NPV](https://www.hl.co.uk/shares/shares-search-results/B44ZTP6 "Link")|1.99|-14.58|
 # Hedge Funds
 | Trust | Charge | Discount |
 | ----- | ------:| --------:|
-|[Highbridge Multi-Strategy Fund Limited Ordinary NPV GBP](https://www.hl.co.uk/shares/shares-search-results/B13YVW4 "Link")|0.31|0.79|
+|[Highbridge Multi-Strategy Fund Limited Ordinary NPV GBP](https://www.hl.co.uk/shares/shares-search-results/B13YVW4 "Link")|0.31|0.44|
