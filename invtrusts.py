@@ -23,7 +23,7 @@ def get_soup(url):
     except:
         return None
 
-def get_sector_urls(sector):
+def get_invtrust_urls(sector):
     urls = []
     soup = get_soup('https://www.hl.co.uk/shares/investment-trusts/search-for-investment-trusts?it_search_input=&sectorid=' + sector['id'])
 
@@ -92,7 +92,7 @@ for sector_select in header_soup.find_all('select', attrs={'id': "sectorid"}):
         if sector_id != '':
             sectors.append({'id': sector_id, 'desc': sector_desc})
 
-inv_list = pool.map(get_sector_urls, sectors)
+inv_list = pool.map(get_invtrust_urls, sectors)
 c_generic.execute('''CREATE TABLE inv_search_sectors (inv_id text, sector_desc text)''')
 inv_url_list = []
 for invs in inv_list:

@@ -23,7 +23,7 @@ def get_soup(url):
     except:
         return None
 
-def get_sector_urls(sector):
+def get_etf_urls(sector):
     urls = []
     soup = get_soup('http://www.hl.co.uk/shares/exchange-traded-funds-etfs/list-of-etfs?&etf_search_input=&companyid=&sectorid=' + sector['id'] + '&non_soph=1')
 
@@ -96,7 +96,7 @@ for sector_select in header_soup.find_all('select', attrs={'id': "sectorid"}):
 #                   VALUES(?,?)''', (sector_id, sector_desc))
 # db.commit()
 
-etf_list = pool.map(get_sector_urls, sectors)
+etf_list = pool.map(get_etf_urls, sectors)
 c.execute('''CREATE TABLE etf_search_sectors (etf_id text, sector_desc text)''')
 etf_url_list = []
 for etfs in etf_list:
