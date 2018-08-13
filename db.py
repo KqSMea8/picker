@@ -3,12 +3,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import multiprocessing as mp
 import sys
-sys.setrecursionlimit(50000)
 import sqlite3
-
-db = sqlite3.connect('picker.db')
-c = db.cursor()
-pool = mp.Pool(processes=10)
 
 def format_number(stringin):
     return stringin.replace('(', '-').replace(')', '').replace(',', '') if stringin != 'n/a' and stringin != 'cn/a' else None
@@ -241,3 +236,71 @@ def get_stock_details(url):
 
                 else:
                     return None
+
+if __name__ == '__main__':
+
+    sys.setrecursionlimit(50000)
+    db = sqlite3.connect('picker.db')
+    pool = mp.Pool(processes=10)
+
+    header_soup = get_soup('http://www.hl.co.uk/shares/investment-trusts')
+    sectors = []
+    for sector_select in header_soup.find_all('select', attrs={'id': "sectorid"}):
+        for sector_option in sector_select.find_all('option'):
+            sector_id = sector_option.get('value')
+            sector_desc = sector_option.text
+            if sector_id != '':
+                sectors.append({'id': sector_id, 'desc': sector_desc})
+
+    c_generic = db.cursor()
+
+    inv_list = pool.map(get_invtrust_urls, sectors)
+    try:
+        c_generic.execute('''DROP TABLE inv_search_sectors''')
+    except sqlite3.OperationalError:
+        pass
+    c_generic.execute('''CREATE TABLE inv_search_sectors (inv_id text, sector_desc text)''')
+
+
+    inv_url_list = []
+    for invs in inv_list:
+        for inv in invs:
+            c_generic.execute('''INSERT INTO inv_search_sectors(inv_id, sector_desc)
+                  VALUES(?,?)''', (inv['inv_url'].split('/')[5], inv['sector_desc']))
+            if {'inv_url': inv['inv_url'], 'inv_desc': inv['inv_desc']} not in inv_url_list:
+                inv_url_list.append({'inv_url': inv['inv_url'], 'inv_desc': inv['inv_desc']})
+    db.commit()
+
+    inv_details = pool.map(get_inv_details, inv_url_list)
+
+    try:
+        c_generic.execute('''DROP TABLE inv_details''')
+    except sqlite3.OperationalError:
+        pass
+    c_generic.execute('''CREATE TABLE inv_details (inv_id text, inv_url text, inv_desc text, charge real, pd real, pd12 real)''')
+    try:
+        c_generic.execute('''DROP TABLE inv_top_sectors''')
+    except sqlite3.OperationalError:
+        pass
+    c_generic.execute('''CREATE TABLE inv_top_sectors (inv_id text, sector_desc text, perc real)''')
+
+    for inv_detail in inv_details:
+       if inv_detail['charge'] != '' and inv_detail['charge'] != None:
+            c_generic.execute('''INSERT INTO inv_details(inv_id, inv_url, inv_desc, charge, pd, pd12)
+                  VALUES(?,?,?,?,?,?)''', (inv_detail['url'].split('/')[5], inv_detail['url'], inv_detail['inv_desc'], inv_detail['charge'], inv_detail['pd'], inv_detail['pd12']))
+            for inv_top_sector in inv_detail['top_sectors']:
+                c_generic.execute('''INSERT INTO inv_top_sectors(inv_id, sector_desc, perc)
+                      VALUES(?,?,?)''', (inv_detail['url'].split('/')[5], inv_top_sector['sector'], inv_top_sector['perc']))
+    db.commit()
+
+    try:
+        c_generic.execute('''DROP VIEW v_sector_averages''')
+    except sqlite3.OperationalError:
+        pass
+    c_generic.execute('create view v_sector_averages as ' +
+        'select iss.sector_desc, round(avg(pd12)) avg  ' +
+        'from inv_search_sectors iss  ' +
+        'join inv_details id on iss.inv_id = id.inv_id  ' +
+        'where pd12 > -90 and pd12 < 100 ' +
+        'group by iss.sector_desc having count(*) > 2 ')
+    db.commit()
