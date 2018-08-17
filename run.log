@@ -1,0 +1,22 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "./stocks.py", line 39, in get_stock_info
+    name = soup.title.text.split('|')[0]
+AttributeError: 'NoneType' object has no attribute 'text'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "./stocks.py", line 167, in <module>
+    stocks = pool.map(get_stock_info, stock_urls)
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 266, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+AttributeError: 'NoneType' object has no attribute 'text'
