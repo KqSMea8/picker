@@ -1,6 +1,6 @@
 # Stocks
-| Stock | Debt Ratio | Current Ratio | Ave ROE | P/E Ratio | P/B Ratio | Spread |
-| ----- | ----------:| -------------:| -------:| ---------:| ---------:| ------:|
+| Stock | Debt Ratio | Current Ratio | Ave ROE | P/E Ratio | P/B Ratio | Spread % |
+| ----- | ----------:| -------------:| -------:| ---------:| ---------:| --------:|
 |[IG Group Holdings Plc (IGG) Ord 0.005p Share Price ](https://www.hl.co.uk/shares/shares-search-results/i/ig-group-holdings-plc-ord-0.005p "Link")|0.26|3.53|0.25|14.38|0.01|0.11|
 |[Jupiter Fund Management PLC (JUP) Ordinary 2p Share Price ](https://www.hl.co.uk/shares/shares-search-results/j/jupiter-fund-management-plc-ordinary-2p "Link")|0.39|2.16|0.21|12.34|0.0|0.12|
 |[Latham (James) Plc (LTHM) Ordinary 25p Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/l/latham-james-plc-ordinary-25p-shares "Link")|0.47|3.21|0.14|10.6|0.0|3.65|
