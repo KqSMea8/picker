@@ -40,6 +40,7 @@ def get_etf_urls(sector):
 
 def get_etf_details(etf):
     charge = None
+    spread = None
     top_sectors=[]
     soup = get_soup(etf['etf_url'])
     if soup != None:
@@ -48,6 +49,19 @@ def get_etf_details(etf):
                 tr = tables.find('tr')
                 td = tr.find('td')
                 charge = td.text.strip().replace('%', '').replace('n/a', '')
+
+        sell=0
+        for price_span in soup.find_all('span', attrs={'class': "bid price-divide"}):
+            sell = price_span.text.replace('£', '').replace('$', '').replace('€', '').replace(',', '').replace('p', '').split(' ')[0]
+
+        buy=0
+        for price_span in soup.find_all('span', attrs={'class': "ask price-divide"}):
+            buy = price_span.text.replace('£', '').replace('$', '').replace('€', '').replace(',', '').replace('p', '').split(' ')[0]
+
+        spread = 100
+        if sell != 0 and buy != 0:
+            spread = round(((float(buy) - float(sell)) / float(buy))*100, 2)
+
         if charge != None and charge != '':
             for div in soup.find_all('div', attrs={'id': "top_10_sectors_data"}):
                 for tables in div.find_all('table', attrs={'class': "factsheet-table top-10-table"}):
@@ -56,6 +70,7 @@ def get_etf_details(etf):
                         row = [i for i in td]
                         if len(row) > 1:
                             top_sectors.append({'sector': row[0].text, 'perc': row[1].text.replace('%', '')})
+
         if charge != None and charge != '':
             for div in soup.find_all('div', attrs={'id': "top_10_countries_data"}):
                 for tables in div.find_all('table', attrs={'class': "factsheet-table top-10-table"}):
@@ -65,13 +80,13 @@ def get_etf_details(etf):
                         if len(row) > 1:
                             top_sectors.append({'sector': row[0].text, 'perc': row[1].text.replace('%', '')})
 
-    return {'url': etf['etf_url'], 'etf_desc': etf['etf_desc'], 'charge': charge, 'top_sectors': top_sectors}
+    return {'url': etf['etf_url'], 'etf_desc': etf['etf_desc'], 'charge': charge, 'spread': spread, 'top_sectors': top_sectors}
 
 
 etfsfile = open('etfs.md', 'w')
 etfsfile.write("# ETFs\n")
-etfsfile.write("| ETF | Charge |\n")
-etfsfile.write("| --- | ------:|\n")
+etfsfile.write("| ETF | Charge | Spread |\n")
+etfsfile.write("| --- | ------:| ------:|\n")
 
 try:
     os.remove('etfs.db')
@@ -108,16 +123,16 @@ for etfs in etf_list:
 db.commit()
 
 etf_details = pool.map(get_etf_details, etf_url_list)
-c.execute('''CREATE TABLE etf_details (etf_id text, etf_url text, etf_desc text, charge real)''')
+c.execute('''CREATE TABLE etf_details (etf_id text, etf_url text, etf_desc text, charge real, spread reall)''')
 c.execute('''CREATE TABLE etf_top_sectors (etf_id text, sector_desc text, perc real)''')
 for etf_detail in etf_details:
    if etf_detail['charge'] != '' and etf_detail['charge'] != None:
-        c.execute('''INSERT INTO etf_details(etf_id, etf_url, etf_desc, charge)
-              VALUES(?,?,?,?)''', (etf_detail['url'].split('/')[5], etf_detail['url'], etf_detail['etf_desc'], etf_detail['charge']))
+        c.execute('''INSERT INTO etf_details(etf_id, etf_url, etf_desc, charge, spread)
+              VALUES(?,?,?,?,?)''', (etf_detail['url'].split('/')[5], etf_detail['url'], etf_detail['etf_desc'], etf_detail['charge'], etf_detail['spread']))
         for etf_top_sector in etf_detail['top_sectors']:
             c.execute('''INSERT INTO etf_top_sectors(etf_id, sector_desc, perc)
                   VALUES(?,?,?)''', (etf_detail['url'].split('/')[5], etf_top_sector['sector'], etf_top_sector['perc']))
 db.commit()
 
-for row in c.execute('select * from etf_details where charge < 1 and etf_id in (select etf_id from etf_search_sectors where sector_desc in (SELECT sector_desc FROM etf_search_sectors group by sector_desc having count(*) < 5))'):
-        etfsfile.write("|[%s](%s \"Link\")|%s|\n" % (row[2], row[1], row[3]))
+for row in c.execute('select * from etf_details where charge < 1 and spread < 5 and etf_id in (select etf_id from etf_search_sectors where sector_desc in (SELECT sector_desc FROM etf_search_sectors group by sector_desc having count(*) < 5))'):
+        etfsfile.write("|[%s](%s \"Link\")|%s|%s|\n" % (row[2], row[1], row[3], row[4]))

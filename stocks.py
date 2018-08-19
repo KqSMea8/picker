@@ -35,7 +35,7 @@ def get_stock_urls(url):
 
 def get_stock_info(url):
     soup = get_soup(url)
-    if soup != None:
+    try:
         name = soup.title.text.split('|')[0]
         market_cap = None
         price = None
@@ -62,6 +62,20 @@ def get_stock_info(url):
                         pe_ratio = float(format_number(detail_div.strong.text))
             except AttributeError:
                 pass
+
+        sell=0
+        for price_span in soup.find_all('span', attrs={'class': "bid price-divide"}):
+            sell = price_span.text.replace('£', '').replace('$', '').replace('€', '').replace(',', '').replace('p', '').split(' ')[0]
+
+        buy=0
+        for price_span in soup.find_all('span', attrs={'class': "ask price-divide"}):
+            buy = price_span.text.replace('£', '').replace('$', '').replace('€', '').replace(',', '').replace('p', '').split(' ')[0]
+
+
+        try:
+            spread = round(((float(buy) - float(sell)) / float(buy))*100, 2)
+        except:
+            spread = 100
 
         if all([price, pe_ratio, volume]):
             fin_url = url + '/financial-statements-and-reports'
@@ -142,7 +156,7 @@ def get_stock_info(url):
                             'price': price, 'pe_ratio': pe_ratio, 'volume': volume,
                             'debt_ratio': debt_ratio, 'current_ratio': current_ratio,
                               'roe1': roe1, 'roe2': roe2, 'roe3': roe3, 'roe4': roe4, 'roe5': roe5,
-                              'pb_ratio': pb_ratio}
+                              'pb_ratio': pb_ratio, 'spread': spread}
 
                     except ValueError:
                         print("Value error processing %s" % url)
@@ -151,11 +165,13 @@ def get_stock_info(url):
 
                 else:
                     return None
+    except:
+        return None
 
 stocksfile = open('stocks.md', 'w')
 stocksfile.write("# Stocks\n")
-stocksfile.write("| Stock | Debt Ratio | Current Ratio | Ave ROE | P/E Ratio | P/B Ratio |\n")
-stocksfile.write("| ----- | ----------:| -------------:| -------:| ---------:| ---------:|\n")
+stocksfile.write("| Stock | Debt Ratio | Current Ratio | Ave ROE | P/E Ratio | P/B Ratio | Spread |\n")
+stocksfile.write("| ----- | ----------:| -------------:| -------:| ---------:| ---------:| ------:|\n")
 
 pool = mp.Pool(processes=20)
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
@@ -167,6 +183,6 @@ for stock_urls in stock_urls_list:
     stocks = pool.map(get_stock_info, stock_urls)
 
     for stock in stocks:
-        if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5:
+        if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5 and stock["spread"] < 5:
             avg_roe = round((stock["roe1"] + stock["roe2"] + stock["roe3"] + stock["roe4"] + stock["roe5"])/5, 2)
-            stocksfile.write("|[%s](%s \"Link\")|%s|%s|%s|%s|%s|\n" % (stock["name"], stock["url"], stock["debt_ratio"], stock["current_ratio"], avg_roe, stock["pe_ratio"], stock["pb_ratio"]))
+            stocksfile.write("|[%s](%s \"Link\")|%s|%s|%s|%s|%s||%s|\n" % (stock["name"], stock["url"], stock["debt_ratio"], stock["current_ratio"], avg_roe, stock["pe_ratio"], stock["pb_ratio"], stock["spread"]))
