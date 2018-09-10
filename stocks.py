@@ -170,8 +170,8 @@ def get_stock_info(url):
 
 stocksfile = open('stocks.md', 'w')
 stocksfile.write("# Stocks\n")
-stocksfile.write("| Stock | Debt Ratio | Current Ratio | Ave ROE | P/E Ratio | P/B Ratio | Spread % |\n")
-stocksfile.write("| ----- | ----------:| -------------:| -------:| ---------:| ---------:| --------:|\n")
+stocksfile.write("| Stock | Debt Ratio (<0.5) | Current Ratio (>15) | Ave ROE (>0.08)| P/E Ratio (<15)| P/B Ratio (<1.5)| Spread % |\n")
+stocksfile.write("| ----- | -----------------:| -------------------:| --------------:| --------------:| ---------------:| --------:|\n")
 
 pool = mp.Pool(processes=20)
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
