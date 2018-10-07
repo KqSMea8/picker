@@ -6,6 +6,6 @@
 |[IG Group Holdings Plc (IGG) Ord 0.005p Share Price ](https://www.hl.co.uk/shares/shares-search-results/i/ig-group-holdings-plc-ord-0.005p "Link")|0.26|3.53|0.25|10.56|0.02|0.15|
 |[Jupiter Fund Management PLC (JUP) Ordinary 2p Share Price ](https://www.hl.co.uk/shares/shares-search-results/j/jupiter-fund-management-plc-ordinary-2p "Link")|0.39|2.16|0.21|11.43|0.02|0.08|
 |[Persimmon plc (PSN) Ordinary 10p Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/persimmon-plc-ordinary-10p "Link")|0.49|3.52|0.2|8.91|0.01|0.04|
-|[Plus500 Ltd (PLUS) ILS0.01 Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/plus500-ltd-ordinary-ils0.01 "Link")|0.2|5.85|0.85|10.35|0.08|0.23|
+|[Plus500 Ltd (PLUS) ILS0.01 Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/plus500-ltd-ordinary-ils0.01 "Link")|0.2|5.85|0.85|10.43|0.08|0.23|
 |[Record Plc (REC) Ord 0.25p Share Price ](https://www.hl.co.uk/shares/shares-search-results/r/record-plc-ord-0.25p "Link")|0.21|5.38|0.17|13.53|0.0|3.99|
-|[XLMedia plc (XLM) Ordinary Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/x/xlmedia-plc-ordinary-shares "Link")|0.32|2.02|0.27|7.81|0.02|3.26|
+|[XLMedia plc (XLM) Ordinary Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/x/xlmedia-plc-ordinary-shares "Link")|0.32|2.02|0.27|7.87|0.02|3.26|
