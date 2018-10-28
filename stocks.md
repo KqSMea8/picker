@@ -11,5 +11,5 @@
 |[Polar Capital Holdings Plc (POLR) Ord 2.5p Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/polar-capital-holdings-plc-ord-2.5p "Link")|0.47|3.24|0.3|14.48|0.0|4.49|
 |[Portmeirion Group Plc (PMP) Ordinary 5p Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/portmeirion-group-plc-ordinary-5p-shares "Link")|0.46|3.0|0.17|14.98|0.0|3.03|
 |[Record Plc (REC) Ord 0.25p Share Price ](https://www.hl.co.uk/shares/shares-search-results/r/record-plc-ord-0.25p "Link")|0.21|5.38|0.17|9.88|0.0|3.58|
-|[Somero Enterprises Inc (SOM) Com Stk USD0.001 Share Price ](https://www.hl.co.uk/shares/shares-search-results/s/somero-enterprises-inc-com-stk-usd0.001 "Link")|0.22|4.13|0.34|12.82|0.01|3.08|
+|[Somero Enterprises Inc (SOM) Com Stk USD0.001 Share Price ](https://www.hl.co.uk/shares/shares-search-results/s/somero-enterprises-inc-com-stk-usd0.001 "Link")|0.22|4.13|0.34|12.83|0.01|3.08|
 |[XLMedia plc (XLM) Ordinary Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/x/xlmedia-plc-ordinary-shares "Link")|0.32|2.02|0.27|7.44|0.0|3.41|
