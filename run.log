@@ -1,0 +1,22 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "./invtrusts.py", line 65, in get_inv_details
+    spread = round(((float(buy) - float(sell)) / float(buy))*100, 2)
+UnboundLocalError: local variable 'buy' referenced before assignment
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "./invtrusts.py", line 114, in <module>
+    inv_details = pool.map(get_inv_details, inv_url_list)
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 266, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib64/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+UnboundLocalError: local variable 'buy' referenced before assignment
