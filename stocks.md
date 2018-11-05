@@ -8,8 +8,8 @@
 |[Jupiter Fund Management PLC (JUP) Ordinary 2p Share Price ](https://www.hl.co.uk/shares/shares-search-results/j/jupiter-fund-management-plc-ordinary-2p "Link")|0.39|2.16|0.21|9.84|0.01|0.21|
 |[Latham (James) Plc (LTHM) Ordinary 25p Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/l/latham-james-plc-ordinary-25p-shares "Link")|0.47|3.21|0.14|9.39|0.0|4.84|
 |[Persimmon plc (PSN) Ordinary 10p Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/persimmon-plc-ordinary-10p "Link")|0.49|3.52|0.2|9.14|0.01|0.08|
-|[Plus500 Ltd (PLUS) ILS0.01 Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/plus500-ltd-ordinary-ils0.01 "Link")|0.2|5.85|0.85|9.81|0.05|0.23|
+|[Plus500 Ltd (PLUS) ILS0.01 Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/plus500-ltd-ordinary-ils0.01 "Link")|0.2|5.85|0.85|9.83|0.05|0.23|
 |[Polar Capital Holdings Plc (POLR) Ord 2.5p Share Price ](https://www.hl.co.uk/shares/shares-search-results/p/polar-capital-holdings-plc-ord-2.5p "Link")|0.47|3.24|0.3|13.75|0.0|2.63|
 |[Record Plc (REC) Ord 0.25p Share Price ](https://www.hl.co.uk/shares/shares-search-results/r/record-plc-ord-0.25p "Link")|0.21|5.38|0.17|10.25|0.01|2.36|
-|[Somero Enterprises Inc (SOM) Com Stk USD0.001 Share Price ](https://www.hl.co.uk/shares/shares-search-results/s/somero-enterprises-inc-com-stk-usd0.001 "Link")|0.22|4.13|0.34|13.86|0.01|1.37|
-|[XLMedia plc (XLM) Ordinary Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/x/xlmedia-plc-ordinary-shares "Link")|0.32|2.02|0.27|7.7|0.0|3.19|
+|[Somero Enterprises Inc (SOM) Com Stk USD0.001 Share Price ](https://www.hl.co.uk/shares/shares-search-results/s/somero-enterprises-inc-com-stk-usd0.001 "Link")|0.22|4.13|0.34|13.89|0.01|1.37|
+|[XLMedia plc (XLM) Ordinary Shares Share Price ](https://www.hl.co.uk/shares/shares-search-results/x/xlmedia-plc-ordinary-shares "Link")|0.32|2.02|0.27|7.72|0.0|3.19|
