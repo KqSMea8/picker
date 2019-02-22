@@ -3,8 +3,11 @@ import urllib.request
 from bs4 import BeautifulSoup
 import multiprocessing as mp
 import sys
+import time
+import timeout_decorator
 sys.setrecursionlimit(50000)
 
+@timeout_decorator.timeout(10, use_signals=False)
 
 def format_number(stringin):
     return stringin.replace('(', '-').replace(')', '').replace(',', '') if stringin != 'n/a' and stringin != 'cn/a' else None
@@ -27,14 +30,20 @@ def get_soup(url):
 def get_stock_urls(url):
     soup = get_soup(url)
     urls = []
-    for link in soup.find_all('a'):
-        if link.get('class') == ['link-subtle'] and link.get('href').find('shares-search-results') > 1:
-            urls.append(link.get('href'))
-    return urls
+    try:
+        for link in soup.find_all('a'):
+            if link.get('class') == ['link-subtle'] and link.get('href').find('shares-search-results') > 1:
+                urls.append(link.get('href'))
+        return urls
+    except:
+        return None
 
 
 def get_stock_info(url):
+    start = time.time()
     soup = get_soup(url)
+    end = time.time()
+    print("Fetch time: {} - {}".format(end - start, url))
     try:
         name = soup.title.text.split('|')[0]
         market_cap = None
