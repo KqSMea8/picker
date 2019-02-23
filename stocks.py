@@ -43,7 +43,7 @@ def get_stock_info(url):
     start = time.time()
     soup = get_soup(url)
     end = time.time()
-    print("Fetch time: {} - {}".format(end - start, url))
+    # print("Fetch time: {} - {}".format(end - start, url))
     try:
         name = soup.title.text.split('|')[0]
         market_cap = None
