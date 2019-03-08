@@ -161,6 +161,8 @@ def get_stock_info(url):
                         pb_ratio = round(
                             float(price) / ((float(equity1) * 1000000) / int(volume)), 2)
 
+                        print("Name: {} - {}".format(name, market_cap))
+
                         return {'url': url, 'name': name, 'market_cap': market_cap,
                             'price': price, 'pe_ratio': pe_ratio, 'volume': volume,
                             'debt_ratio': debt_ratio, 'current_ratio': current_ratio,
