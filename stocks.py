@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
+# Using https://github.com/alpacahq/pylivetrader/blob/master/examples/graham-fundamentals/GrahamFundamentals.py
+
 import urllib.request
 from bs4 import BeautifulSoup
 import multiprocessing as mp
 import sys
 import time
 import timeout_decorator
-sys.setrecursionlimit(50000)
+from iexfinance.base import _IEXBase
+from iexfinance.stocks import Stock
+import sqlite3
+import os
 
+
+sys.setrecursionlimit(50000)
 @timeout_decorator.timeout(10, use_signals=False)
 
 def format_number(stringin):
@@ -28,7 +35,10 @@ def get_soup(url):
 
 
 def get_stock_urls(url):
+    start = time.time()
     soup = get_soup(url)
+    end = time.time()
+    # print("Fetch time: {} - {}".format(end - start, url))
     urls = []
     try:
         for link in soup.find_all('a'):
@@ -39,153 +49,107 @@ def get_stock_urls(url):
         return None
 
 
+def filter_fundamental_df(fundamental_df):
+    # This is where we remove stocks that don't meet our investment criteria.
+    return fundamental_df[
+        (fundamental_df.current_ratio > 1.5) &
+        (fundamental_df.debt_to_liq_ratio < 1.1) &
+        (fundamental_df.pe_ratio < 9) &
+        (fundamental_df.pb_ratio < 1.2) &
+        (fundamental_df.dividend_yield > 1.0)
+    ]
+
+
 def get_stock_info(url):
     start = time.time()
     soup = get_soup(url)
     end = time.time()
-    # print("Fetch time: {} - {}".format(end - start, url))
+    fundamentals_dict = {}
+    fundamentals_dict['url'] = url
+    fundamentals_dict['current_ratio'] = None
+    fundamentals_dict['debt_ratio'] = None
+    fundamentals_dict['debt_to_liq_ratio'] = None
+    fundamentals_dict['pb_ratio'] = None
+    fundamentals_dict['pe_ratio'] = None
+    fundamentals_dict['market_cap'] = None
+    fundamentals_dict['dividend_yield'] = None
+    fundamentals_dict['roe1'] = None
+    fundamentals_dict['roe2'] = None
+    fundamentals_dict['roe3'] = None
+    fundamentals_dict['roe4'] = None
+    fundamentals_dict['roe5'] = None
+
     try:
-        name = soup.title.text.split('|')[0]
-        market_cap = None
-        price = None
-        pe_ratio = None
-        volume = None
-        for head_span in soup.find_all('span', attrs={'class': "ask price-divide"}):
-            price = head_span.text.replace('£', '').replace(
-                '$', '').replace('€', '').replace(',', '').split(' ')[0]
-            if price.endswith('p'):
-                price = str(float(price[0:-1]) / 100)
-        for detail_div in soup.find_all('div', attrs={'class': "columns large-3 medium-4 small-6"}):
-            try:
-                if detail_div.span.text == 'Market capitalisation':
-                    market_cap = detail_div.strong.text
-                if detail_div.span.text == 'Volume':
-                    if detail_div.strong.text == 'n/a':
-                        volume = None
-                    else:
-                        volume = detail_div.strong.text.replace(',', '')
-                if detail_div.span.text == 'P/E ratio':
-                    if detail_div.strong.text == 'n/a':
-                        pe_ratio = None
-                    else:
-                        pe_ratio = float(format_number(detail_div.strong.text))
-            except AttributeError:
-                pass
-
-        sell=0
-        for price_span in soup.find_all('span', attrs={'class': "bid price-divide"}):
-            sell = price_span.text.replace('£', '').replace('$', '').replace('€', '').replace(',', '').replace('p', '').split(' ')[0]
-
-        buy=0
-        for price_span in soup.find_all('span', attrs={'class': "ask price-divide"}):
-            buy = price_span.text.replace('£', '').replace('$', '').replace('€', '').replace(',', '').replace('p', '').split(' ')[0]
-
-
-        try:
-            spread = round(((float(buy) - float(sell)) / float(buy))*100, 2)
-        except:
-            spread = 100
-
-        if all([price, pe_ratio, volume]):
-            fin_url = url + '/financial-statements-and-reports'
-            fin_soup = get_soup(fin_url)
-            tables = fin_soup.find_all('table', attrs={'class': "factsheet-table responsive"})
-            if len(tables) > 0:
-                table = tables[0]
-                equity1 = None
-                equity2 = None
-                equity3 = None
-                equity4 = None
-                equity5 = None
-                net_income1 = None
-                net_income2 = None
-                net_income3 = None
-                net_income4 = None
-                net_income5 = None
-                total_liabilities = None
-                current_assets = None
-                current_liabilities = None
-                current_assets_next = 'N'
-                current_liabilities_next = 'N'
-
-                for tr in table.find_all('tr'):
-                    td = tr.find_all('td')
-                    row = [i.text.replace('\t', '').replace(
-                        '\r', '').replace('\n', '') for i in td]
-                    if len(row) == 6:
-                        if row[0] == 'Total Equity:':
-                            equity1 = format_number(row[1])
-                            equity2 = format_number(row[2])
-                            equity3 = format_number(row[3])
-                            equity4 = format_number(row[4])
-                            equity5 = format_number(row[5])
-                        if row[0] == 'Profit after tax from continuing operations:':
-                            net_income1 = format_number(row[1])
-                            net_income2 = format_number(row[2])
-                            net_income3 = format_number(row[3])
-                            net_income4 = format_number(row[4])
-                            net_income5 = format_number(row[5])
-                        if row[0] == 'Total Liabilities:':
-                            total_liabilities = format_number(row[1])
-                        if row[0] == 'Other Current Assets:':
-                            current_assets_next = 'Y'
-                        if row[0] == 'Other Current Liabilities:':
-                            current_liabilities_next = 'Y'
-                        if row[0] == '\xa0' and current_assets_next == 'Y':
-                            current_assets_next = 'N'
-                            current_assets = format_number(row[1])
-                        if row[0] == '\xa0' and current_liabilities_next == 'Y':
-                            current_liabilities_next = 'N'
-                            current_liabilities = format_number(row[1])
-
-                checkvars = [url, name, price, market_cap,
-                             pe_ratio, volume, total_liabilities,
-                             net_income1, equity1,
-                             net_income2, equity2,
-                             net_income3, equity3,
-                             net_income4, equity4,
-                             net_income5, equity5,
-                             current_assets, current_liabilities]
-                if all(checkvars):
-
-                    try:
-                        debt_ratio = round(
-                            float(total_liabilities) / (float(equity1)), 2)
-                        current_ratio = round(
-                            float(current_assets) / float(current_liabilities), 2)
-                        roe1 = round(float(net_income1) / float(equity1), 2)
-                        roe2 = round(float(net_income2) / float(equity2), 2)
-                        roe3 = round(float(net_income3) / float(equity3), 2)
-                        roe4 = round(float(net_income4) / float(equity4), 2)
-                        roe5 = round(float(net_income5) / float(equity5), 2)
-                        pb_ratio = round(
-                            float(price) / ((float(equity1) * 1000000) / int(volume)), 2)
-
-                        print("Name: {} - {}".format(name, market_cap))
-
-                        return {'url': url, 'name': name, 'market_cap': market_cap,
-                            'price': price, 'pe_ratio': pe_ratio, 'volume': volume,
-                            'debt_ratio': debt_ratio, 'current_ratio': current_ratio,
-                              'roe1': roe1, 'roe2': roe2, 'roe3': roe3, 'roe4': roe4, 'roe5': roe5,
-                              'pb_ratio': pb_ratio, 'spread': spread}
-
-                    except ValueError:
-                        print("Value error processing %s" % url)
-                        print("Price: %s Equity: %s Volume: %s" %
-                              (price, equity1, volume))
-
-                else:
-                    return None
+        share_id = soup.find('h1').text.split('(')[1].split(')')[0]
+        stock = Stock(share_id)
+        financials_json = stock.get_financials()
+        quote_json = stock.get_quote()
+        stats_json = stock.get_key_stats()
     except:
-        return None
+        return fundamentals_dict
 
-stocksfile = open('stocks.md', 'w')
-stocksfile.write("# Stocks\n")
-stocksfile.write("| Stock | Debt Ratio (<0.5) | Current Ratio (>1.5) | Ave ROE (>0.08)| P/E Ratio (<15)| P/B Ratio (<1.5)| Spread % |\n")
-stocksfile.write("| ----- | -----------------:| -------------------:| --------------:| --------------:| ---------------:| --------:|\n")
+    try:
+        current_debt = financials_json[0]['currentDebt'] if financials_json[0]['currentDebt'] else 1
+        fundamentals_dict['current_ratio'] = financials_json[0]['currentAssets'] / current_debt
+    except:
+        pass
+
+    try:
+        total_liabilities = financials_json[0]['totalLiabilities'] if financials_json[0]['totalLiabilities'] else 0
+        fundamentals_dict['debt_ratio'] = total_liabilities / financials_json[0]['shareholderEquity']
+    except:
+        pass
+
+    try:
+        total_debt = financials_json[0]['totalDebt'] if financials_json[0]['totalDebt'] else 0
+        fundamentals_dict['debt_to_liq_ratio'] = total_debt / financials_json[0]['currentAssets']
+    except:
+        pass
+
+    try:
+        net_income1 = financials_json[0]['netIncome'] if financials_json[0]['netIncome'] else 0
+        fundamentals_dict['roe1'] = net_income1 / financials_json[0]['shareholderEquity']
+    except:
+        pass
+
+    try:
+        net_income2 = financials_json[1]['netIncome'] if financials_json[1]['netIncome'] else 0
+        fundamentals_dict['roe2'] = net_income2 / financials_json[1]['shareholderEquity']
+    except:
+        pass
+
+    try:
+        net_income3 = financials_json[2]['netIncome'] if financials_json[2]['netIncome'] else 0
+        fundamentals_dict['roe3'] = net_income3 / financials_json[2]['shareholderEquity']
+    except:
+        pass
+
+    try:
+        net_income4 = financials_json[3]['netIncome'] if financials_json[3]['netIncome'] else 0
+        fundamentals_dict['roe4'] = net_income1 / financials_json[3]['shareholderEquity']
+    except:
+        pass
+
+    try:
+        net_income5 = financials_json[4]['netIncome'] if financials_json[4]['netIncome'] else 0
+        fundamentals_dict['roe5'] = net_income1 / financials_json[4]['shareholderEquity']
+    except:
+        pass
+
+    fundamentals_dict['pb_ratio'] = stats_json['priceToBook']
+    fundamentals_dict['pe_ratio'] = quote_json['peRatio']
+    fundamentals_dict['market_cap'] = quote_json['marketCap']
+    fundamentals_dict['dividend_yield'] = stats_json['dividendYield']
+    return fundamentals_dict
+
+# stocksfile = open('stocks.md', 'w')
+# stocksfile.write("# Stocks\n")
+# stocksfile.write("| Stock | Debt Ratio (<0.5) | Current Ratio (>1.5) | Ave ROE (>0.08)| P/E Ratio (<15)| P/B Ratio (<1.5)| Spread % |\n")
+# stocksfile.write("| ----- | -----------------:| -------------------:| --------------:| --------------:| ---------------:| --------:|\n")
 
 pool = mp.Pool(processes=20)
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
+# letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
+letters = ['a']
 letter_urls = ['http://www.hl.co.uk/shares/shares-search-results/' + l for l in letters]
 
 stock_urls_list = pool.map(get_stock_urls, letter_urls)
@@ -193,7 +157,29 @@ stock_urls_list = pool.map(get_stock_urls, letter_urls)
 for stock_urls in stock_urls_list:
     stocks = pool.map(get_stock_info, stock_urls)
 
-    for stock in stocks:
-        if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5 and stock["spread"] < 5:
-            avg_roe = round((stock["roe1"] + stock["roe2"] + stock["roe3"] + stock["roe4"] + stock["roe5"])/5, 2)
-            stocksfile.write("|[%s](%s \"Link\")|%s|%s|%s|%s|%s|%s|\n" % (stock["name"], stock["url"], stock["debt_ratio"], stock["current_ratio"], avg_roe, stock["pe_ratio"], stock["pb_ratio"], stock["spread"]))
+try:
+    os.remove('stocks.db')
+except OSError:
+    pass
+
+db = sqlite3.connect('stocks.db')
+c = db.cursor()
+c.execute('''CREATE TABLE stocks (url text, current_ratio real,
+    debt_ratio real, debt_to_liq_ratio real, pb_ratio real, pe_ratio real,
+    market_cap real, dividend_yield real, roe1 real, roe2 real, roe3 real,
+    roe4 real, roe5 real)''')
+
+
+
+
+for stock in stocks:
+    c.execute('''INSERT INTO stocks (url, current_ratio,
+        debt_ratio, debt_to_liq_ratio, pb_ratio, pe_ratio,
+        market_cap, dividend_yield, roe1, roe2, roe3,
+        roe4, roe5)
+          VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)''', (stocks['url'], ))
+#
+#     for stock in stocks:
+#         if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5 and stock["spread"] < 5:
+#             avg_roe = round((stock["roe1"] + stock["roe2"] + stock["roe3"] + stock["roe4"] + stock["roe5"])/5, 2)
+#             stocksfile.write("|[%s](%s \"Link\")|%s|%s|%s|%s|%s|%s|\n" % (stock["name"], stock["url"], stock["debt_ratio"], stock["current_ratio"], avg_roe, stock["pe_ratio"], stock["pb_ratio"], stock["spread"]))
