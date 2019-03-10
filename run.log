@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./stocks.py", line 180, in <module>
+    VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)''', (stocks['url'], stocks['current_ratio'],
+TypeError: list indices must be integers or slices, not str

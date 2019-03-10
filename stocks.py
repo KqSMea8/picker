@@ -148,8 +148,8 @@ def get_stock_info(url):
 # stocksfile.write("| ----- | -----------------:| -------------------:| --------------:| --------------:| ---------------:| --------:|\n")
 
 pool = mp.Pool(processes=20)
-# letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
-letters = ['a']
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
+# letters = ['a']
 letter_urls = ['http://www.hl.co.uk/shares/shares-search-results/' + l for l in letters]
 
 stock_urls_list = pool.map(get_stock_urls, letter_urls)
@@ -174,10 +174,13 @@ c.execute('''CREATE TABLE stocks (url text, current_ratio real,
 
 for stock in stocks:
     c.execute('''INSERT INTO stocks (url, current_ratio,
-        debt_ratio, debt_to_liq_ratio, pb_ratio, pe_ratio,
-        market_cap, dividend_yield, roe1, roe2, roe3,
-        roe4, roe5)
-          VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)''', (stocks['url'], ))
+            debt_ratio, debt_to_liq_ratio, pb_ratio, pe_ratio,
+            market_cap, dividend_yield, roe1, roe2, roe3,
+            roe4, roe5)
+        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)''', (stocks['url'], stocks['current_ratio'],
+            stocks['debt_ratio'], stocks['debt_to_liq_ratio'], stocks['pb_ratio'], stocks['pe_ratio'],
+            stocks['market_cap'], stocks['dividend_yield'], stocks['roe1'], stocks['roe2'], stocks['roe3'],
+            stocks['roe4'], stocks['roe5'] ))
 #
 #     for stock in stocks:
 #         if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5 and stock["spread"] < 5:
