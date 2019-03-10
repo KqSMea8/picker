@@ -35,9 +35,9 @@ def get_soup(url):
 
 
 def get_stock_urls(url):
-    start = time.time()
+    # start = time.time()
     soup = get_soup(url)
-    end = time.time()
+    # end = time.time()
     # print("Fetch time: {} - {}".format(end - start, url))
     urls = []
     try:
@@ -61,11 +61,12 @@ def filter_fundamental_df(fundamental_df):
 
 
 def get_stock_info(url):
-    start = time.time()
+    # start = time.time()
     soup = get_soup(url)
-    end = time.time()
+    # end = time.time()
     fundamentals_dict = {}
     fundamentals_dict['url'] = url
+    fundamentals_dict['company_name'] = None
     fundamentals_dict['current_ratio'] = None
     fundamentals_dict['debt_ratio'] = None
     fundamentals_dict['debt_to_liq_ratio'] = None
@@ -77,12 +78,11 @@ def get_stock_info(url):
     fundamentals_dict['roe2'] = None
     fundamentals_dict['roe3'] = None
     fundamentals_dict['roe4'] = None
-    fundamentals_dict['roe5'] = None
 
     try:
         share_id = soup.find('h1').text.split('(')[1].split(')')[0]
         stock = Stock(share_id)
-        financials_json = stock.get_financials()
+        financials_json = stock.get_financials(period = 'annual')
         quote_json = stock.get_quote()
         stats_json = stock.get_key_stats()
     except:
@@ -130,12 +130,7 @@ def get_stock_info(url):
     except:
         pass
 
-    try:
-        net_income5 = financials_json[4]['netIncome'] if financials_json[4]['netIncome'] else 0
-        fundamentals_dict['roe5'] = net_income1 / financials_json[4]['shareholderEquity']
-    except:
-        pass
-
+    fundamentals_dict['company_name'] = quote_json['companyName']
     fundamentals_dict['pb_ratio'] = stats_json['priceToBook']
     fundamentals_dict['pe_ratio'] = quote_json['peRatio']
     fundamentals_dict['market_cap'] = quote_json['marketCap']
@@ -147,16 +142,6 @@ def get_stock_info(url):
 # stocksfile.write("| Stock | Debt Ratio (<0.5) | Current Ratio (>1.5) | Ave ROE (>0.08)| P/E Ratio (<15)| P/B Ratio (<1.5)| Spread % |\n")
 # stocksfile.write("| ----- | -----------------:| -------------------:| --------------:| --------------:| ---------------:| --------:|\n")
 
-pool = mp.Pool(processes=20)
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
-# letters = ['a']
-letter_urls = ['http://www.hl.co.uk/shares/shares-search-results/' + l for l in letters]
-
-stock_urls_list = pool.map(get_stock_urls, letter_urls)
-
-for stock_urls in stock_urls_list:
-    stocks = pool.map(get_stock_info, stock_urls)
-
 try:
     os.remove('stocks.db')
 except OSError:
@@ -164,23 +149,50 @@ except OSError:
 
 db = sqlite3.connect('stocks.db')
 c = db.cursor()
-c.execute('''CREATE TABLE stocks (url text, current_ratio real,
+c.execute('''CREATE TABLE stocks (url text, company_name text, current_ratio real,
     debt_ratio real, debt_to_liq_ratio real, pb_ratio real, pe_ratio real,
     market_cap real, dividend_yield real, roe1 real, roe2 real, roe3 real,
-    roe4 real, roe5 real)''')
+    roe4 real)''')
 
+pool = mp.Pool(processes=20)
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0']
+# letters = ['a']
+letter_urls = ['http://www.hl.co.uk/shares/shares-search-results/' + l for l in letters]
+stock_urls_list = pool.map(get_stock_urls, letter_urls)
 
+for stock_urls in stock_urls_list:
+    stocks = pool.map(get_stock_info, stock_urls)
+    for stock in stocks:
+        c.execute('''INSERT INTO stocks (
+                url,
+                company_name,
+                current_ratio,
+                debt_ratio,
+                debt_to_liq_ratio,
+                pb_ratio,
+                pe_ratio,
+                market_cap,
+                dividend_yield,
+                roe1,
+                roe2,
+                roe3,
+                roe4)
+            VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)''', (
+                stock['url'],
+                stock['company_name'],
+                stock['current_ratio'],
+                stock['debt_ratio'],
+                stock['debt_to_liq_ratio'],
+                stock['pb_ratio'],
+                stock['pe_ratio'],
+                stock['market_cap'],
+                stock['dividend_yield'],
+                stock['roe1'],
+                stock['roe2'],
+                stock['roe3'],
+                stock['roe4'] ))
 
-
-for stock in stocks:
-    c.execute('''INSERT INTO stocks (url, current_ratio,
-            debt_ratio, debt_to_liq_ratio, pb_ratio, pe_ratio,
-            market_cap, dividend_yield, roe1, roe2, roe3,
-            roe4, roe5)
-        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)''', (stocks['url'], stocks['current_ratio'],
-            stocks['debt_ratio'], stocks['debt_to_liq_ratio'], stocks['pb_ratio'], stocks['pe_ratio'],
-            stocks['market_cap'], stocks['dividend_yield'], stocks['roe1'], stocks['roe2'], stocks['roe3'],
-            stocks['roe4'], stocks['roe5'] ))
+        db.commit()
 #
 #     for stock in stocks:
 #         if stock != None and stock["debt_ratio"] < 0.5 and stock["current_ratio"] > 1.5 and stock["roe1"] > 0.08 and stock["roe2"] > 0.08 and stock["roe3"] > 0.08 and stock["roe4"] > 0.08 and stock["roe5"] > 0.08 and stock["pe_ratio"] < 15 and stock["pb_ratio"] < 1.5 and stock["spread"] < 5:
