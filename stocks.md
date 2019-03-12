@@ -1,12 +1,10 @@
 # Stocks
-| Company Name |
-| ------------ |
-|Shineco Inc.|
-|Yintech Investment Holdings Limited|
-|Culp Inc.|
-|Ethan Allen Interiors Inc.|
-|Industrias Bachoco S.A.B. de C.V.|
-|Janus Henderson Group plc|
-|Hollysys Automation Technologies Ltd.|
-|Hibbett Sports Inc.|
-|PDL BioPharma Inc.|
+| Company Name | D/E Ratio | P/E Ratio | P/B Ratio | Current Ratio | ROE1 | ROE2 | ROE3 | ROE4 | Dividend Yield | D/L Ratio | Market Cap |
+| ------------ | ---------:| ---------:| ---------:| -------------:| ----:| ----:| ----:| ----:| --------------:| ---------:| ----------:|
+|Shineco Inc.|0.14|1.58|0.2|24.25|0.11|0.14|0.16|0.16|0.0|None|15555092.0|
+|Yintech Investment Holdings Limited|0.16|-20.63|0.94|None|0.13|0.28|1.11|0.79|6.060606|None|463478070.0|
+|Culp Inc.|0.33|11.66|1.31|None|0.13|0.15|0.13|0.13|2.2727273|None|217676800.0|
+|Ethan Allen Interiors Inc.|0.38|14.51|1.39|367.17|0.09|0.09|0.14|0.1|3.8795304|0.01|520693267.0|
+|Industrias Bachoco S.A.B. de C.V.|0.38|11.35|1.15|8.49|0.09|0.14|0.12|0.14|1.9593015|0.17|2247500000.0|
+|Hollysys Automation Technologies Ltd.|0.44|11.89|1.39|311.32|0.13|0.1|0.18|0.17|0.8502598|0.02|1277442236.0|
+|Hibbett Sports Inc.|0.45|11.79|1.01|523.04|0.11|0.18|0.23|0.23|0.0|0.01|351268066.0|
