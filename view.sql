@@ -1,5 +1,5 @@
 select symbol, company_name, pb_ratio, pe_ratio, current_assets/current_debt current_ratio, dividend_yield, market_cap, total_debt/current_assets debt_to_liq_ratio,
-total_debt / total_assets debt_ratio, net_income1 / equity1 roe1, net_income2 / equity2 roe2, net_income3 / equity3 roe3, net_income4 / equity4 roe4
+  total_debt / total_assets debt_ratio, net_income1 / equity1 roe1, net_income2 / equity2 roe2, net_income3 / equity3 roe3, net_income4 / equity4 roe4
 from stocks
 where pb_ratio < 1.2
   and pe_ratio < 9

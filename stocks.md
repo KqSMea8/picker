@@ -1,3 +1,7 @@
 # Stocks
-| Stock | Debt Ratio (<0.5) | Current Ratio (>1.5) | Ave ROE (>0.08)| P/E Ratio (<15)| P/B Ratio (<1.5)| Spread % |
-| ----- | -----------------:| -------------------:| --------------:| --------------:| ---------------:| --------:|
+| Company Name | Debt Ratio |
+| ------------:| ----------:|
+|Signet Jewelers Limited|0.13|4.03|
+|Macy's Inc|0.25|6.25|
+|Acco Brands Corporation|0.32|7.77|
+|Toyota Motor Corporation|0.38|7.95|
