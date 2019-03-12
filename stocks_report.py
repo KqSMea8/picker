@@ -32,6 +32,6 @@ for row in c.execute('select company_name, '
   # + '  and current_ratio < 2.5 '
   + '  and roe1 > 0.08 and roe2 > 0.08 and roe3 > 0.08 and roe4 > 0.08 '
   # + '  and debt_to_liq_ratio < 1.1 '
-  # + '  and dividend_yield > 1.0 '
+  + '  and dividend_yield > 1.0 '
   + 'order by debt_equity_ratio'):
         stocksfile.write("|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|\n" % (row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], ))
