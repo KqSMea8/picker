@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 # Using https://pypi.org/project/yahoofinancials/
+# Symbols from http://investexcel.net/wp-content/uploads/2015/01/Yahoo-Ticker-Symbols-September-2017.zip
 from yahoofinancials import YahooFinancials
-from finsymbols import symbols
 
-pyEX.symbolsList()
 
-for stock in symbols.get_nasdaq_symbols():
 
 
 Stock = YahooFinancials(stock)
