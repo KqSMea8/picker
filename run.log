@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./stocks_report.py", line 36, in <module>
+    + 'order by debt_equity_ratio'):
+sqlite3.OperationalError: no such column: current_debt
