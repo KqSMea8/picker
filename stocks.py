@@ -20,7 +20,7 @@ def get_stock_data(chunk):
     financials_json = Stock.get_financial_stmts('annually', 'balance')
     stats_json = Stock.get_key_statistics_data()
     end = time.time()
-    print("length: % time: %" % len(chunk), end - start)
+    print("length: % time: %" % (len(chunk), end - start))
     return 'x'
     # return Stock.get_pe_ratio()
     # stock_data = {}
@@ -37,5 +37,5 @@ for line in symbols_file:
     symbol_list.append(line.split('|')[0])
 
 pool = mp.Pool(processes=10)
-for chunk in list(chunks(symbol_list, 50000)):
+for chunk in list(chunks(symbol_list, 10000)):
     list = pool.map(get_stock_data, chunk)
