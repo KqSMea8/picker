@@ -8,17 +8,21 @@
 
 import multiprocessing as mp
 from yahoofinancials import YahooFinancials
+import time
 
 def chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i + n]
 
 def get_stock_data(chunk):
-
+    start = time.time()
     Stock = YahooFinancials(chunk)
     financials_json = Stock.get_financial_stmts('annually', 'balance')
     stats_json = Stock.get_key_statistics_data()
-    return Stock.get_pe_ratio()
+    end = time.time()
+    print("length: % time: %" % len(chunk), end - start)
+    return 'x'
+    # return Stock.get_pe_ratio()
     # stock_data = {}
     #
     # stock_data['company_name'] = symbol['company_name']
@@ -32,11 +36,6 @@ symbols_file = open("symbols.lst", "r")
 for line in symbols_file:
     symbol_list.append(line.split('|')[0])
 
-Stock = YahooFinancials(symbol_list)
-financials_json = Stock.get_financial_stmts('annually', 'balance')
-stats_json = Stock.get_key_statistics_data()
-
-
-# pool = mp.Pool(processes=25)
-# for chunk in list(chunks(symbol_list, 2)):
-#     print(get_stock_data(chunk))
+pool = mp.Pool(processes=10)
+for chunk in list(chunks(symbol_list, 50000)):
+    list = pool.map(get_stock_data, chunk)
