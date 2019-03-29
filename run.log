@@ -1,3 +1,77 @@
+length: 106328
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/urllib/request.py", line 1757, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python3.6/urllib/request.py", line 1967, in open_https
+    return self._open_generic_http(self._https_connection, url, data)
+  File "/usr/lib64/python3.6/urllib/request.py", line 1916, in _open_generic_http
+    http_conn.request("GET", selector, headers=headers)
+  File "/usr/lib64/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib64/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/lib64/python3.6/http/client.py", line 1400, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib64/python3.6/ssl.py", line 365, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib64/python3.6/ssl.py", line 773, in __init__
+    self.do_handshake()
+  File "/usr/lib64/python3.6/ssl.py", line 1033, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib64/python3.6/ssl.py", line 645, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./stocks.py", line 42, in <module>
+    financials_json = Stock.get_financial_stmts('annually', 'balance')
+  File "/home/bennetts/.local/lib/python3.6/site-packages/yahoofinancials/__init__.py", line 592, in get_financial_stmts
+    data = self._run_financial_stmt(statement_type, report_num, reformat)
+  File "/home/bennetts/.local/lib/python3.6/site-packages/yahoofinancials/__init__.py", line 582, in _run_financial_stmt
+    raw_data = self.get_stock_data(statement_type, report_name=report_name)
+  File "/home/bennetts/.local/lib/python3.6/site-packages/yahoofinancials/__init__.py", line 478, in get_stock_data
+    dict_ent = self._create_dict_ent(tick, statement_type, tech_type, report_name, hist_obj)
+  File "/home/bennetts/.local/lib/python3.6/site-packages/yahoofinancials/__init__.py", line 399, in _create_dict_ent
+    re_data = self._scrape_data(YAHOO_URL, tech_type, statement_type)
+  File "/home/bennetts/.local/lib/python3.6/site-packages/yahoofinancials/__init__.py", line 144, in _scrape_data
+    response = urlopener.open(url)
+  File "/usr/lib64/python3.6/urllib/request.py", line 1763, in open
+    raise OSError('socket error', msg).with_traceback(sys.exc_info()[2])
+  File "/usr/lib64/python3.6/urllib/request.py", line 1757, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python3.6/urllib/request.py", line 1967, in open_https
+    return self._open_generic_http(self._https_connection, url, data)
+  File "/usr/lib64/python3.6/urllib/request.py", line 1916, in _open_generic_http
+    http_conn.request("GET", selector, headers=headers)
+  File "/usr/lib64/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib64/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/lib64/python3.6/http/client.py", line 1400, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib64/python3.6/ssl.py", line 365, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib64/python3.6/ssl.py", line 773, in __init__
+    self.do_handshake()
+  File "/usr/lib64/python3.6/ssl.py", line 1033, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib64/python3.6/ssl.py", line 645, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno socket error] [Errno 0] Error
 Traceback (most recent call last):
   File "./stocks_report.py", line 36, in <module>
     + 'order by debt_equity_ratio'):

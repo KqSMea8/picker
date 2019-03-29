@@ -36,6 +36,15 @@ symbols_file = open("symbols.lst", "r")
 for line in symbols_file:
     symbol_list.append(line.split('|')[0])
 
-pool = mp.Pool(processes=10)
-for chunk in list(chunks(symbol_list, 10000)):
-    list = pool.map(get_stock_data, chunk)
+print("length: {}".format(len(symbol_list)))
+start = time.time()
+Stock = YahooFinancials(symbol_list)
+financials_json = Stock.get_financial_stmts('annually', 'balance')
+stats_json = Stock.get_key_statistics_data()
+end = time.time()
+print("length: {} time: {}".format(len(financials_json),end - start))
+
+
+# pool = mp.Pool(processes=10)
+# for chunk in list(chunks(symbol_list, 10000)):
+#     list = pool.map(get_stock_data, chunk)
