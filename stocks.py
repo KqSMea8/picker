@@ -39,7 +39,8 @@ for line in symbols_file:
 
 symbol_count = len(symbol_list)
 procs = 10
-chunksize = math.ceil(symbol_count / procs)
+# chunksize = math.ceil(symbol_count / procs)
+chunksize = 15000
 pool = mp.Pool(processes=procs)
 chunk = list(chunks(symbol_list, chunksize))
 list = pool.map(get_stock_data, chunk)
