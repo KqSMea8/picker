@@ -1,4 +1,5 @@
 cd /home/bennetts/git/picker/
+git pull
 ./invtrusts.py
 ./etfs.py
 time ./stocks.py
