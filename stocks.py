@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Using https://pypi.org/project/yahoofinancials/
 # Symbols from http://investexcel.net/wp-content/uploads/2015/01/Yahoo-Ticker-Symbols-September-2017.zip
+#
 # debt_ratio = balanceSheetHistory.totalCurrentLiabilities/balanceSheetHistory.totalStockholderEquity <0.5
 # current_ratio = balanceSheetHistory.totalCurrentAssets/balanceSheetHistory.totalCurrentLiabilities >1.5
 # roe = balanceSheetHistory.netIncome / balanceSheetHistory.totalStockholderEquity >0.08
