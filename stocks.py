@@ -25,6 +25,6 @@ for symbol in symbols_list:
     if pe_ratios[symbol] != None and pe_ratios[symbol] < 15:
         symbols_filtered.append({'symbol': symbol, 'pe_ratio': pe_ratios[symbol]})
 
-print(symbols_filtered)
+print(len(symbols_filtered))
 # pool = mp.Pool(processes=10)
 # list = pool.map(get_pe_ratio, symbol_list)

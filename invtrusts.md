@@ -36,9 +36,6 @@
 |[JPMorgan Mid Cap Investment Trust plc Ordinary 25p Shares](https://www.hl.co.uk/shares/shares-search-results/0235761 "Link")|0.83|-7.65|0.96|
 |[Schroder UK Mid Cap Fund Ordinary 25p](https://www.hl.co.uk/shares/shares-search-results/0610841 "Link")|0.91|-9.83|0.74|
 |[Artemis Alpha Trust plc Ordinary 1p](https://www.hl.co.uk/shares/shares-search-results/0435594 "Link")|0.92|-15.34|1.74|
-# VCT Generalist
-| Trust | Charge | Discount | Spread |
-| ----- | ------:| --------:| ------:|
 # Europe
 | Trust | Charge | Discount | Spread |
 | ----- | ------:| --------:| ------:|
@@ -48,6 +45,9 @@
 |[TR European Growth Trust Ordinary 12.5p](https://www.hl.co.uk/shares/shares-search-results/0906692 "Link")|0.92|-11.74|0.36|
 |[Fidelity European Values plc Ordinary 2.5p](https://www.hl.co.uk/shares/shares-search-results/BK1PKQ9 "Link")|0.93|-10.83|0.23|
 |[JPMorgan European Investment Trust 3.97p Growth Shares](https://www.hl.co.uk/shares/shares-search-results/B18JK16 "Link")|0.98|-12.87|1.49|
+# VCT Generalist
+| Trust | Charge | Discount | Spread |
+| ----- | ------:| --------:| ------:|
 # Asia Pacific
 | Trust | Charge | Discount | Spread |
 | ----- | ------:| --------:| ------:|
