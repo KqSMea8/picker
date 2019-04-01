@@ -12,14 +12,18 @@ import multiprocessing as mp
 from yahoofinancials import YahooFinancials
 import time
 
-symbol_list = []
+symbols_list = []
 symbols_file = open("symbols.lst", "r")
 for line in symbols_file:
-    symbol_list.append(line.split('|')[0])
+    symbols_list.append(line.split('|')[0])
 
-Stock = YahooFinancials(symbol_list)
+symbols_filtered = []
+Stock = YahooFinancials(symbols_list)
 pe_ratios = Stock.get_pe_ratio()
-print(pe_ratios)
+for symbol in symbols_list:
+    if pe_ratios[symbol] != None and pe_ratios[symbol] < 15:
+        symbols_filtered.append({'symbol': symbol, 'pe_ratio': pe_ratios[symbol]})
 
+print(symbols_filtered)
 # pool = mp.Pool(processes=10)
 # list = pool.map(get_pe_ratio, symbol_list)
