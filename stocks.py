@@ -18,6 +18,7 @@ import sqlite3
 def get_stock_data(stock_data):
     start = time.time()
     symbol = stock_data['symbol']
+    print('start: {}'.format(symbol))
     Stock = YahooFinancials(symbol)
     stock_data['pe_ratio'] = Stock.get_pe_ratio()
     if stock_data['pe_ratio'] != None and stock_data['pe_ratio'] < 15:
@@ -65,7 +66,7 @@ for line in symbols_file:
     symbols_list.append({'symbol': line.split('|')[0], 'company_name': line.split('|')[1].rstrip()})
 
 start = time.time()
-pool = mp.Pool(processes=100)
+pool = mp.Pool(processes=10)
 stock_data = pool.map(get_stock_data, symbols_list)
 end = time.time()
 
