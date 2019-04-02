@@ -16,8 +16,8 @@ import math
 import sqlite3
 
 def get_stock_data(stock_data):
-    start = time.time()
     symbol = stock_data['symbol']
+    start = time.time()
     print('start: {}'.format(symbol))
     Stock = YahooFinancials(symbol)
     stock_data['pe_ratio'] = Stock.get_pe_ratio()
@@ -55,9 +55,45 @@ def get_stock_data(stock_data):
             stock_data['net_income3'] = inc3[inc3_key1]['netIncome']
             stock_data['net_income4'] = inc4[inc4_key1]['netIncome']
 
+            db = sqlite3.connect('stocks.db')
+            c = db.cursor()
+            c.execute('''INSERT INTO stocks (
+                    symbol,
+                    company_name,
+                    pb_ratio,
+                    pe_ratio,
+                    assets,
+                    liabilities,
+                    net_income1,
+                    net_income2,
+                    net_income3,
+                    net_income4,
+                    equity1,
+                    equity2,
+                    equity3,
+                    equity4
+                    )
+                VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)''', (
+                    stock_data['symbol'],
+                    stock_data['company_name'],
+                    stock_data['pb_ratio'],
+                    stock_data['pe_ratio'],
+                    stock_data['assets'],
+                    stock_data['liabilities'],
+                    stock_data['net_income1'],
+                    stock_data['net_income2'],
+                    stock_data['net_income3'],
+                    stock_data['net_income4'],
+                    stock_data['equity1'],
+                    stock_data['equity2'],
+                    stock_data['equity3'],
+                    stock_data['equity4']
+                    ))
+            db.commit()
+    del stock_data
     end = time.time()
     print('got: {} - {}'.format(symbol, round(end - start)))
-    return stock_data
+    return None
 
 
 symbols_list = []
@@ -65,15 +101,9 @@ symbols_file = open("symbols.lst", "r")
 for line in symbols_file:
     symbols_list.append({'symbol': line.split('|')[0], 'company_name': line.split('|')[1].rstrip()})
 
-start = time.time()
-pool = mp.Pool(processes=10)
-stock_data = pool.map(get_stock_data, symbols_list)
-end = time.time()
-
 db = sqlite3.connect('stocks.db')
 c = db.cursor()
-c.execute('''DROP TABLE stocks''')
-c.execute('''CREATE TABLE stocks (symbol text,
+c.execute('''CREATE TABLE IF NOT EXISTS stocks (symbol text,
     company_name text,
     pb_ratio real,
     pe_ratio real,
@@ -87,42 +117,13 @@ c.execute('''CREATE TABLE stocks (symbol text,
     equity2 real,
     equity3 real,
     equity4 real)''')
+c.execute('''DELETE FROM stocks''')
+db.commit()
 
-
-for stock in stock_data:
-    if 'liabilities' in stock:
-        c.execute('''INSERT INTO stocks (
-                symbol,
-                company_name,
-                pb_ratio,
-                pe_ratio,
-                assets,
-                liabilities,
-                net_income1,
-                net_income2,
-                net_income3,
-                net_income4,
-                equity1,
-                equity2,
-                equity3,
-                equity4
-                )
-            VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)''', (
-                stock['symbol'],
-                stock['company_name'],
-                stock['pb_ratio'],
-                stock['pe_ratio'],
-                stock['assets'],
-                stock['liabilities'],
-                stock['net_income1'],
-                stock['net_income2'],
-                stock['net_income3'],
-                stock['net_income4'],
-                stock['equity1'],
-                stock['equity2'],
-                stock['equity3'],
-                stock['equity4']
-                ))
-        db.commit()
-
+start = time.time()
+pool = mp.Pool(processes=200)
+x = pool.map(get_stock_data, symbols_list)
+end = time.time()
+# for stock in stock_data:
+#     if 'liabilities' in stock:
 print('Ave time: {}'.format(round((end - start) / len(symbols_list), 2)))
